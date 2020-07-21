@@ -1,0 +1,14 @@
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(100, 20, 100, 0.3);
+}
+
+html {
+    background-color: #c0c0c0;
+    background-image: url("/img/02.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

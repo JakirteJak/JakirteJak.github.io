@@ -1,50 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saját doksim.</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/pages/products.html">Poducts</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">Orders</a>
-        </li>
-        <li>
-            <a href="/about.html">About</a>
-        </li>        
-    </ul>
-    <h1>Fantastic Burger</h1>
-    <ul>
-        <li>Meat Lover
-        <ul>
-            <li>Beef</li>
-            <li>Pork</li>
-            <li>Turkey222</li>
-        </ul>    
-        </li>
-        <li>Vegetarian</li>
-        <li>Piedone</li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">Kategóriaválasztás</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <h2>Sep of order</h2>
-    <ol>
-        <li>Choose a burger</li>
-        <li>Buy it</li>
-        <li>Give your address</li>
-        <li>Eat it</li>
-    </ol>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link">Kapcsolások <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="elmelet.html">Elmélet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kepletek.html">Képletek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tetelek.html">Tételek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="elerhetoseg.html">Elérhetőségek</a>
+                </li>
 
-    <a href="http://www.index.hu">Index.hu</a>
-    <a target="blank" href="pages/orders.html">Pages</a>
-    <a href="http://www.index.hu"><img width="100" src="img/111.jpg" alt="tasty burger"></a>
-    
-    
+            </ul>
+        </div>
+    </nav>
+    <table class="centered">
+        <tr>
+            <td><div class="maxtextwidth01">3 fázisú motor közvetlen indítása mágneskapcsolóval</div></td>
+            <td><div class="maxtextwidth01">3 fázisú aszinkron motor irányváltó kapcsolása mágneskapcsolókkal</div></td>
+            <td><div class="maxtextwidth01">Egyfázisú motor irányváltó kapcsolás</div></td>
+            <td><div class="maxtextwidth01">3 fázisú motor irányváltó kapcsolás</div></td>
+        </tr>
+        <tr>
+            <td><img class="img300" src="img/01_3fazkozvetlen.jpg" alt=""></td>
+            <td><img class="img300" src="img/02_3fazforgirany.jpg" alt=""></td>
+            <td><img class="img300" src="img/03_Ir.valtas.egyfaz..jpg" alt=""></td>
+            <td><img class="img300" src="img/06_Uj.Ir.valtas.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td><div class="maxtextwidth01">3 fázisú pólusátkapcsolós motor indítása mágneskapcsolókkal</div></td>
+            <td><div class="maxtextwidth01">3 db szállítószalag sorrendi vezérlése késleltetve meghúzó relékkel (GIM)</div></td>
+            <td><div class="maxtextwidth01">Csillag - delta vezérlés vezérlőáramköre</div></td>
+            <td><div class="maxtextwidth01">Csillag - delta vezérlés főáramköre</div></td>
+
+        </tr>
+        <tr>
+            <td><img class="img300" src="img/04_Dalander.jpg" alt=""></td>
+            <td><img class="img300" src="img/05_Szalitoszalagvez.jpg" alt=""></td>
+            <td><img class="img300" src="img/07_Y-D vezerles.JPG" alt=""></td>
+            <td><img class="img300" src="img/08_Y-D_fő.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td><div class="maxtextwidth01">3 db szállítószalag sorrendi vezérlése késleltetve elengedő relékkel (GIF)</div></td>
+            <td><div class="maxtextwidth01">Szállítószalagok sorrendi indítása</div></td>
+            <td><div class="maxtextwidth01">Egyenáramú fékezésvezérlő (késleltetve elengedő / meghúzó)</div></td>
+            <td><div class="maxtextwidth01">Egyenáramú fékezésvezérlő (közvetlen fékezés)</div></td>
+        </tr>
+        <tr>
+            <td><img class="img300" src="img/09_uj.Sz.sz.2.GIF..jpg" alt=""></td>
+            <td><img class="img300" src="img/10_uj.Sz.sz.Ny.g..jpg" alt=""></td>
+            <td><img class="img300" src="img/11_uj.Egy.ar.fek.relevel.jpg" alt=""></td>
+            <td><img class="img300" src="img/12_uj.Egy.aramu.fek..jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td><div class="maxtextwidth01">Fojtótekercses ellenáramú fékezésvezérlő</div></td>            
+        </tr>
+        <tr>
+            <td><img class="img300" src="img/13_uj.F.tek.fek.jpg" alt=""></td>
+        </tr>
+    </table>
 </body>
+
 </html>
