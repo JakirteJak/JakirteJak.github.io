@@ -1,5 +1,5 @@
 .maxtextwidth01 {
-    max-width: 300px;
+    font-size: 100%;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
@@ -20,19 +20,28 @@ img2 {
     box-shadow: 3px 3px 10px black;
     margin: 5px;
     justify-content: center;
+
+    
 }
 
 .img300 {
-    width: 300px;
+    display: table-cell;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+    vertical-align: middle;
+    width: 90%;
     box-shadow: 3px 3px 10px black;
-    margin: 5px;
-    justify-content: center;
+    
 }
 
 .img300:hover {
-    margin-left: 2px;
-    
     box-shadow: 6px 6px 10px black;
+}
+
+.textred:hover {
+    color: red;
+    font-weight: lighter;
 }
 
 h1 {
@@ -51,16 +60,18 @@ td {
 }
 
 .maxwidth1000 {
-    width: 980px;
+    width: 100%;
     max-width: 1000px;
+    min-width: 200px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
 }
 
 .maxwidth550 {
-    width: 565px;
+    width: 100%;
     max-width: 565px;
+    min-width: 200px;
     margin-left: 10px;
     text-align: justify;
 }
@@ -70,9 +81,6 @@ td {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border: black;
-    border-width: 1px;
-    border-style: solid;
-    background-color: lightgrey;
 }
 
 .textbold {
