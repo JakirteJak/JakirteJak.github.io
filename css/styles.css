@@ -40,9 +40,7 @@ img2 {
 }
 
 .textred:hover {
-    color: red;
-    font-weight: lighter;
-    //blabla
+    color: red;    
 }
 
 h1 {
@@ -91,5 +89,4 @@ td {
 .bordered {
     border-width: 1px;
     border-style: solid;
-    background-color: lightgrey;
 }

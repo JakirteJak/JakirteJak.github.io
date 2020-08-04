@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered maintitle" style="width: 1000px;">Hurokimpedancia</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered">
+        <tbody class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000">A hurok-impedancia mérésének célja nem más, mint meghatározni a várható
+                        rövidrezárási áramot, és ennek birtokában kiválasztani a megfelelő védelmi eszköz(öke)t,
+                        amely(ek) a hálózaton történt meghibásodás esetén biztonságos feszültségmentesítést végeznek.
+                    </p>
+                    <p class="maxwidth1000">A védelmi eszköznek ki kell bírnia a hiba felléptekor előálló áramot és
+                        biztonságosan kell működnie. A várható rövidrezárási áram ismeretében meg lehet mondani, hogy az
+                        elegendően nagy lesz-e ahhoz, hogy a védelmi eszköz a hálózaton fellépő hiba esetén a
+                        feszültségmentesítést elvégezze, azaz az áramkört megszakítsa.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="maxwidth1000">A valós vezetőknek VAN</p>
+                    <p>
+                    <ul>
+                        <li>ellenállása</li>
+                        <li>indutivitása</li>
+                        <li>kapacitása</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">És ez a komplex rendszer "reagál" arra, hogy mekkora és milyen fajta
+                        terhelés éri. Ez az impedancia.</p>
+                    <p class="maxwidth1000"> Ismert paraméterű betáplálás és ismert paraméterű terhelés esetén
+                        SZÁMOLHATÓ a vezető impedanciája.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="maxwidth1000">A hurokimpedancia lényege, hogy ha valamelyik eszköz vagy áramkör hibája
+                        következtében zárlat keletkezik, akkor az áram a földelésen (PE vezető) keresztül folyik. Vagyis
+                        az áramkör a földön keresztül záródik.</p>
+                    <p class="maxwidth1000">Ezt úgy kell elképzelni, hogy az áramszolgáltató legközelebbi
+                        transzformátorától a fázisvezetőn (L) folyik az áram a házhoz, munkát végez a háztartásban, majd
+                        a nullavezetőn (N) angolosan távozik, visszamegy a trafóhoz. A hiba fellépésének pillanatától az
+                        áram nem a nullavezetőt használja, hanem a zöld/sárga vezetéken eljut a földelőszondáig és a
+                        földben folyik tovább az áramszolgáltató transzformátorának földelt csillagpontjáig. Ez a zárt
+                        áramkör az a hurok, aminek a váltakozó árammal szembeni ellenállására, a hurokimpedanciára
+                        kíváncsiak vagyunk. Ez azért fontos, mert ha ez az impedancia nagy, rossz a földelés, akkor itt
+                        relatíve kicsi áram folyik, ami nem elég ahhoz hogy a kismegszakító megszólaljon, tehát a hiba
+                        továbbra is megmarad, a zárlat következtében tűz üthet ki, stb.</p>
+                    <p class="maxwidth1000">Ha a hurokimpedancia mondjuk 0,75 ohm, akkor Ohm törvényével megkaphatjuk I
+                        = U/R = 230V/0,75ohm = 307A , vagyis a 10A-es kismegszakító tuti le fog oldani.</p>
+                    <p class="maxwidth1000">Ha rossz a földelés, és például 10 ohm az impedancia, akkor a fenti
+                        képlettel, 23A jön ki, ami már necces, mert a B10 kismegszakító a névleges áram 2,3-szeresét
+                        elég sokáig 10s-1 min elviseli, pedig azonnal le kéne oldani. Ilyenkor kisebb kismegszakító kell
+                        felszerelni, pl. egy B6-os 3×6 A = 18A-nál azonnal le kell oldjon, vagy ha ez nem megoldható,
+                        mert nyilván az áramkört használnánk, akkor FI-relét kell beépíteni. FI relé esetén a
+                        hurokimpedancia sokkal nagyobb is lehet, 30 mA hibaáramnál leold.</p>
+                    <p class="maxwidth1000">A hurokimpedanciát általában drága és bonyolult műszerrel mérik. Valójában
+                        lehet úgy is mérni, hogy egy nagy fogyasztóval terheled az áramkört, lakatfogókkal méred az
+                        áramot, meg feszültségesést, hiszen ilyenkor a fogyasztóddal az áramkör többi része sorba van
+                        kötve. Általában szerelői oldalról nézve a védővezető folytonosságának ellenőrzését várja el
+                        tőled a jogszabály, a mérés inkább érintésvédelmi szakember dolga.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <img src="img/hurokimp01.jpg" alt="">
+                                <p class="maxwidth1000 textbold">1. ábra</p>
+                            </td>
+                            <td>
+                                <img src="img/hurokimp02.jpg" alt="">
+                                <p class="maxwidth1000 textbold">2. ábra</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="maxwidth1000">
+                <td>
+                    <p class="maxwidth1000">A hálózaton többféle hurok-impedanciát mérhetünk. Az 1. ábrán látható
+                        elrendezés a védőföld és a fázis között fellépő, egy, a hálózatra csatlakoztatott elektromos
+                        berendezés meghibásodásából adódó helyzetet szimulál. A rövidzár helyét a mérőműszer foglalja
+                        el, azaz a mérőműszerrel a várható rövidzár helyén mérjük a hurokimpedancia értékét. Ezt a
+                        hurokimpedanciát a külföldi irodalom – utalva az elektromos eszköz meghibásodásából adódó
+                        szituációra – föld-hiba-hurok impedanciának nevezi, a hazai gyakorlatban egyszerűen csak
+                        hurok-impedancia néven szerepel.</p>
+                    <p class="maxwidth1000">Az ábrán láthatóan (1. ábra) a hurokimpedancia több részből tevődik össze.
+                        Ezek: a táptranszformátor szekunder tekercsének a várható rövidzár helyéig menő vezetékek és
+                        csatlakozások, valamint a transzformátor és a fogyasztó oldali földelések impedanciája. A
+                        mérésnél – ha azt nagy árammal végezzük – a beépített életvédelmi relék (RCD-k) működésbe
+                        lépnének, ezért azokat a mérés időtartamára rövidzárral át kell hidalni.</p>
+                    <p class="maxwidth1000">Ez veszéllyel jár, mivel könnyen megtörténhet, hogy a mérés befejeztével a
+                        rövidzárakat elfelejtik eltávolítani, és így a hálózat védelem nélkül marad. A műszergyártók
+                        ezért fejlesztettek ki olyan mérési módokat, ahol a mérőáram értéke 15 mA alatt marad. Így a
+                        méréshez az RCD-ket szükségtelen rövidrezárni, azok ekkora áramnál nem lépnek működésbe. További
+                        előny, hogy a mérés nem kíván semmilyen előkészítést.</p>
+                    <p class="maxwidth1000">A mérés időtartama legalább 5 s kell, hogy legyen. Az univerzális
+                        érintésvédelmi műszerek jelentős része ezt a mérést automatikusan végzi el, így a mérési idő
+                        betartására nem kell külön figyelmet fordítani. Megjegyzendő, hogy a hurokimpedancia max.
+                        megengedett értéke a beépített védelmi eszköz (pl. RCD) működtető áramából és a hálózati
+                        feszültségből a Z=Ufázis-föld/Iműködtető egyenletből határozható meg.</p>
+                    <p class="maxwidth1000">A várható rövidrezárási áram, és így a védelmi eszközök (biztosítók)
+                        szempontjából fontosabb érték a vonali impedancia (2. ábra) értéke, amely a fázis-semleges
+                        vezető rövidrezárásakor várható áram maximális értékét határozza meg. A beépített védelmi
+                        eszközöket erre az áramra kell tervezni, hogy azok rövidzár esetén a lekapcsolást biztonságosan
+                        elvégezzék. Természetesen ideális esetben a hiba-hurok és a vonali-hurok meghibásodásából adódó
+                        rövidrezárási áramok azonos értéket érhetnek el. Ebben az esetben a hurokimpedancia öszszetevői:
+                        a táptranszformátor impedanciája, a kábelezések és csatlakozások impedanciája, illetve a
+                        beépített védelmi eszközök impedanciája, melyek általában nullához közeli értékek.</p>
+                    <p class="maxwidth1000">A várható rövidrezárási áram ezen hálózati paraméterek ismeretében
+                        kiszámítható, de általában az egyes összetevők értéke nem ismert, ezért a mérés megbízhatóbb és
+                        gyorsabb eredményt szolgáltat. A mérés olyan paramétereket is figyelembe vesz, amelyek
+                        számítással nem, vagy csak nehezen vehetők figyelembe, pl. rossz, nagy átmeneti ellenállással
+                        rendelkező csatlakozások méréskor a hálózaton lévő terhelések stb.</p>
+                    <p class="maxwidth1000">Méréskor a mérőműszer egy adott, fél periódus vagy egy teljes periódus,
+                        illetve max. 2 periódus időtartamra egy megfelelően kis ellenállással terheli a hálózatot. A
+                        mért áramból és feszültségesésből a mérőműszer kiszámítja a várható rövidzár helyén látott
+                        hurokimpedanciát. Mivel a mérőellenállás általában igen kis értékű, így a létrejövő áram
+                        megfelelően nagy lesz, emiatt a mérés időtartamát a lehető legrövidebbre kell korlátozni.</p>
+                    <p class="maxwidth1000">Megjegyzendő, hogy mindkét fent ismertetett mérés hálózati feszültség alatt
+                        végzendő. Jóllehet hurok-impedanciamérő önmagában is kapható, azonban ez a funkció általában
+                        szerves részét képezi az univerzális érintésvédelmi műszereknek, mi több, a fali csatlakozóba a
+                        műszer csatlakozóval ellátott mérőkábellel csatlakoztatható és a mérés automatikusan
+                        végeztethető el.</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <img src="img/hurokimp03.jpg" alt="">
+                                <p class="maxwidth1000 textbold">3. ábra</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000">A 3. ábra a semleges vezető (N) és a védőföld vezető (PE) által alkotott
+                        hurok impedanciájának a várható rövidzár helyén történő mérését mutatja. Valójában ez földelési
+                        ellenállásmérés, amely most a földelések és a talaj ellenállásán kívül magába foglalja a mérés
+                        helyéig menő semleges vezető (és az esetleges csatlakozások) impedanciáját is. A mért eredmény
+                        természetesen nagyobb lesz a tényleges földelési ellenállásnál az N-vezetőnek a mérési pontig
+                        tartó szakaszának ellenállásával, de ha a mért érték a szabványos megengedett érték alatt marad,
+                        akkor a földelés biztonságos, jó, mert annak értéke biztosan a megengedett érték alatt van.</p>
+                    <p class="maxwidth1000">Ez a földelési ellenállásmérés nem helyettesíti a hagyományos mérést, de
+                        főleg városi környezetben, ahol a hagyományos mérés esetenként kivitelezhetetlen, jó
+                        felvilágosítással szolgál a védőföldelés állapotáról. Megjegyzendő, hogy a mérést a beépített
+                        védelmi eszközök működtető áramánál kisebb árammal kell végezni, vagy azokat a mérés
+                        időtartamára rövidre kell zárni. Az erre a mérésre alkalmas érintésvédelmi műszerek ezt a mérést
+                        általában 15 mA mérőárammal végzik, ezzel szükségtelenné téve a rövidrezárásokat.</p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="elmelet.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
