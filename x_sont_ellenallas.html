@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="JS/math.js"></script>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered maintitle" style="width: 1000px;">Sönt ellenállás</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000">A sönt ellenállás egy párhuzamosan kapcsolt ellenállást jelent. Ez egy
+                        "mellék utat" ad, a főágban folyó áram egy részének.
+                        Egy hasonlat: egy városon keresztül vezető út forgalmát úgy lehet legegyszerűbben lecsökkenteni,
+                        ha építünk egy széles. gyorsforgalmú, elterelő utat a városon kívül. Ekkor a forgalom nagyrésze
+                        erre terelődik át, mert itt sokkal gyorsabban, könyebben lehet haladni, így a járművek nagyrésze
+                        inkább ezt választja.
+                        Elektrotechnikában a leggyakoribb példa a műszerek méréshatárának kiterjesztése. Ha csak 0.1 A
+                        áram folyhat át a műszeren, pedig a főágban 1 A áram folyik, akkor olyan "mellékágat", söntöt
+                        kell csinálni, hogy 0.9 A azt válassza. Mikor lesz ez? Ha ott kilencszer "könnyebben" lehet
+                        haladni.</p>
+                    <p class="maxwidth1000 subtitle">Ampermérő söntellenállás számítás:</p>
+                    <table class="centered">
+                        <td>
+                            <figure>
+                                <img src="img/sontellenallas01.gif" alt=""
+                                    title="">
+                                <figcaption class="centered" style="font-style: italic;">
+                                    Három értéket kell megadni, a negyediket számolja a program.
+                                </figcaption>
+                            </figure>
+                        </td>
+                    </table>
+                    <table class="centered">
+                        <tbody>
+                            <tr>
+                                <td width="69%" style="text-align: right;">
+                                    <p style="margin-top: 12px;">Az ampermérő méréshatára sönt nélkül (I<span style="font-size: 11px;">b</span>):</p>
+                                </td>
+                                <td>
+                                    <input type="text" id="Iminput" id="" size="14"><span class="textbold"> A</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="69%" style="text-align: right;">
+                                    <p style="margin-top: 12px;">Szükséges méréshatár a sönttel (I):</p>
+                                </td>
+                                <td>
+                                    <input type="text" id="Itinput" id="" size="14"><span class="textbold"> A</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="69%" style="text-align: right;">
+                                    <p style="margin-top: 12px;">Műszer belső ellenállása (R<span style="font-size: 11px;">b</span>):</p>
+                                </td>
+                                <td>
+                                    <input type="text" id="Rminput" id="" size="14"><span class="textbold"> Ω</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="69%" style="text-align: right;">
+                                    <p style="margin-top: 12px;">Sönt ellenállás értéke (R<span style="font-size: 11px;">s</span>):</p>
+                                </td>
+                                <td>
+                                    <input id="Rsinput" type="text" id="" size="14"><span class="textbold"> Ω</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: right;">
+                                    <input type="button" value="Törlés" name="reset" onclick="sont_dataclear()">
+                                </td>
+                                <td>
+                                    <input type="button" value="Számítás" name="szamit" onclick="sont_szamitas()" id="">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="elmelet.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
