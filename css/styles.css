@@ -35,6 +35,10 @@ img2 {
     
 }
 
+.inpHoverGrey:focus {
+    background-color:lightgray;
+}
+
 .img300:hover {
     box-shadow: 6px 6px 10px black;
 }

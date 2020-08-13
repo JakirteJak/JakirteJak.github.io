@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered maintitle" style="width: 1000px;">Kirchhoff-törvények</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000">Egy tetszőlegesen bonyolult villamos hálózat (áramkör) elemeire egyenként
+                        alkalmazható az <span class="textbold">Ohm-törvény</span>, hiszen az összetartozó áram,
+                        feszültség és ellenállás mennyiségek
+                        közötti kapcsolatot mutatja. Viszont a több elemből álló hálózatnál a <span
+                            class="textbold">Kirchhoff-törvények</span>
+                        nyújtanak segítséget, amelyek leegyszerűsíthetik a számítási műveleteket. Bonyolultabb áramkörök
+                        esetén a Kirchhoff egyenletrendszerek megoldása rendkívül hosszadalmas, ezért célszerűbb a
+                        <span class="textbold">Norton-tétel</span> , <span class="textbold">Thévenin-tétel</span>,<span
+                            class="textbold"> Millman-téte</span>l, vagy a <span class="textbold">szuperpozíció</span>
+                        tételének alkalmazása.</p>
+                    <p class="maxwidth1000 subtitle">A csomóponti törvény:</p>
+                    <table>
+                        <tr>
+                            <td style="width: 60%;">
+                                <p class="maxwidth1000"><span class="textbold">Kirchhoff I. törvénye</span></p>
+                                <p class="maxwidth1000">A csomóponti törvény párhuzamos (elágazó) áramkörökre
+                                    vonatkozik. Az elágazásnál csomópont
+                                    keletkezik. <span class="textbold">A törvény értelmében a csomópontba befolyó áramok
+                                        összege megegyezik az onnan
+                                        elfolyó áramok összegével.</span> A törvény alapja az, hogy egy villamos hálózat
+                                    csomópontjaiban nincs
+                                    töltésfelhalmozódás (forrásmentes hely).</p>
+                                <p class="maxwidth1000">Az ábrán a csomópontot egy befeketített kör jelöli. A csomópont
+                                    egyben az elektromos kötés helyét is jelöli.</p>
+                                <p class="maxwidth1000">A csomópontnak létezik még egy fontos jellemzője, az, hogy
+                                    elektromos
+                                    potenciállal rendelkezik. Ez a potenciál egy másik csomóponthoz képest mérhető,
+                                    nagysága függ az
+                                    összekötő elem(ek) ellenállás-értékétől, és az átfolyó áram nagyságától. A
+                                    potenciálkülönbség
+                                    átfolyó áramot hoz létre egy ellenálláson, de azt is mondhatjuk, hogy az átfolyó
+                                    áram hatására
+                                    jön létre az ellenállás két végpontja között potenciálkülönbség.</p>
+
+                            </td>
+                            <td>
+                                <table>
+                                    <tr class="centered">
+                                        <td>
+                                            <img style="margin-left: 15px;" class="bordered" src="img/Kirshhoff01.png"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center; padding-left: 20px;">
+                                            Bármely csomópontba befolyó és onnan elfolyó áramok előjelhelyesen vett
+                                            összege
+                                            nulla. Ha a befolyó áramot pozitívnak, az elfolyót negatívnak vesszük,
+                                            akkor:
+                                            -i1 + i2 - i4 + i3 = 0
+                                            Ebből következik, hogy
+                                            i1 + i4 = i2 + i3
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000 subtitle">A huroktörvény:</p>
+                    <p class="maxwidth1000 textbold">Kirchhoff II. törvénye</p>
+                    <p class="maxwidth1000">Sorosan kapcsolt áramköri elemekre vonatkozik. A törvény értelmében bármely
+                        zárt hurokban a feszültségek előjeles összege nulla.</p>
+                    <p class="maxwidth1000">Az előjel megállapítása úgy történik, hogy egy tetszőleges irányítású
+                        "körüljárási irányt" veszünk fel. A körüljárási irányt egy be nem záródó körvonal végén a nyíl
+                        jelzi. Ha az áramkör csak egy hurokból áll, a kör középpontjába írt "+" mutatja, hogy az ilyen
+                        irányú feszültségeket tekintjük pozitív előjelűnek (azok a feszültségek pedig, melyek iránya a
+                        körüljárási iránnyal ellentétes, negatív előjelűek). Ha az áramkör több hurokból áll, a kör
+                        középpontjába a hurok sorszáma kerül (az ábrán I.). Zárt hurokban a feszültségforrások összege
+                        megegyezik a feszültségesések összegével.</p>
+                    <p class="maxwidth1000 subtitle">Az egyesített Kirchhoff-törvény</p>
+                    <table>
+                        <tr>
+                            <td style="width: 60%;">
+                                <p class="maxwidth1000">Mivel mindkét törvény mindenféle hálózatra igaz, bátran lehet
+                                    alkalmazni őket ismeretlen feszültségek és/vagy áramok kiszámítására. A most
+                                    megismertetett két módszerrel bármilyen, tetszőlegesen bonyolult villamos hálózatot
+                                    ki tudunk számítani, feltéve, ha adottak a megfelelő számú adatok (adatok alatt
+                                    feszültségek, áramok, ellenállások értékei értendők).</p>
+                                <p class="maxwidth1000">Csak annyit kell tennünk, hogy minden hurokra és minden
+                                    csomópontra felírjuk a
+                                    törvényszerűségeket, majd az „ahány ismeretlen, annyi egyenlet” módszerrel az összes
+                                    ismeretlen feszültséget és áramot ki tudjuk számolni.</p>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr class="centered">
+                                        <td>
+                                            <img style="margin-left: 15px;" class="bordered" src="img/Kirchoff_II.jpg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center; padding-left: 20px;">
+                                            A körüljárási irányt az óramutató járásával megegyezőnek választottuk. Az
+                                            ezzel megegyező irányú részfeszültségek pozitívak:
+                                            – Ug + U1 + U2 = 0
+                                            Ebből következik, hogy
+                                            Ug = U1 + U2
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="elmelet.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
