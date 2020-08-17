@@ -20,8 +20,6 @@ img2 {
     box-shadow: 3px 3px 10px black;
     margin: 5px;
     justify-content: center;
-
-    
 }
 
 .img300 {
@@ -31,8 +29,7 @@ img2 {
     margin-right: auto;    
     vertical-align: middle;
     width: 90%;
-    box-shadow: 3px 3px 10px black;
-    
+    box-shadow: 3px 3px 10px black;   
 }
 
 .inpHoverGrey:focus {
@@ -63,9 +60,8 @@ td {
 }
 
 .maxwidth1000 {
-    width: 100%;
-    max-width: 960px;
-    min-width: 200px;
+    width: 98%;
+    max-width: 960px;    
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
@@ -73,8 +69,7 @@ td {
 
 .maxwidth550 {
     width: 100%;
-    max-width: 540px;
-    min-width: 200px;
+    max-width: 540px;    
     margin-left: 10px;
     text-align: justify;
 }
@@ -86,10 +81,10 @@ td {
     border: black;
 }
 
-.subtitle {
+.subtitle { 
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .textbold {
