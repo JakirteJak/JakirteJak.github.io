@@ -7,6 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
 </head>
 
 <body>
@@ -941,28 +946,21 @@
                         szükséges egyszeri hajlításra megengedett legkisebb hajlítási sugarat- egyéb előírás (pl.
                         gyártmányismertető) hiányában - az alábbi táblázat tartalmazza.</p>
                     <div class="container">
-                        <table style="width: 600px; border: 1px solid black;">
+                        <table class="table-bordered" style="width: 100%; font-family: 'Times New Roman', Times, serif;
+                            border: black solid 1px;">
                             <tr>
                                 <th rowspan="2">A kábel szigetelése</th>
                                 <th rowspan="2">A kábel szerkezete</th>
                                 <th rowspan="2">A dob magátmérője</th>
-                                <th style="border: 1px black solid;" colspan="2">A legkisebb hajlítási sugár</th>
+                                <th colspan="2" style="text-align: center;">A legkisebb hajlítási sugár</th>
                             </tr>
                             <tr>
-                                <td>
-                                    fektetéskor, átcsévéléskor
-                                </td>
-                                <td>
-                                    egyszeri hajlításkor, végleges elhelyezésnél
-                                </td>
+                                <td>fektetéskor, átcsévéléskor</td>
+                                <td>egyszeri hajlításkor, végleges elhelyezésnél</td>
                             </tr>
                             <tr>
-                                <td rowspan="2">
-                                    Telített papír szigetelésű
-                                </td>
-                                <td>
-                                    közös ólomköpenyű, övszigetelésű
-                                </td>
+                                <td rowspan="2">Telített papír szigetelésű</td>
+                                <td>közös ólomköpenyű, övszigetelésű</td>
                                 <td>25d</td>
                                 <td>12,5d</td>
                                 <td>10d</td>
@@ -973,18 +971,220 @@
                                 <td>15d</td>
                                 <td>12,5d</td>
                             </tr>
+                            <tr>
+                                <td rowspan="2">Múanyag szigetelésű</td>
+                                <td>egyerű</td>
+                                <td>25d</td>
+                                <td>15d</td>
+                                <td>10d</td>
+                            </tr>
+                            <tr>
+                                <td>többerű</td>
+                                <td>15d</td>
+                                <td>10d</td>
+                                <td>7,5d</td>
+                            </tr>
+
                         </table>
                     </div>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000" style="padding-top: 20px;">A kábelnek a kábeldobról vagy a kábelkarikáról
+                        való lecsévélésekor a húzási
+                        sebességet lassan és folyamatosan kell növelni. Géppel való húzásnál a húzási sebesség - egyéb
+                        előírás hiányában
+                        - legfeljebb 20 m/perc lehet. A húzás iránya a dob tengelyére merőleges legyen.
+                        A lecsévélés és a továbbítás során ügyelni kell arra, hogy a kábel hossztengelye körül ne
+                        csavarodjon. A kábel elcsavarodásának megakadályozására csavarodásgátló csatlakozót (pl. forgó
+                        összekötőt) kell alkalmazni.</p>
+                    <p class="maxwidth1000">A lecsévélés és a továbbítás során biztosítani kell a kábel burkolatának
+                        sértetlenségét. Ennek érdekében nem szabad a kábelt földön vagy tartószerkezeten húzni, görgőkön
+                        kell haladnia. A görgők, illetve az alátámasztások távolságát a kábel merevsége és tömege
+                        figyelembevételével kell meghatározni. Kézi hordozás esetén megfelelő hordozóeszközökkel kell
+                        alátámasztani. A görgők távolsága általában 2-5 m legyen.</p>
+                    <p class="maxwidth1000">A kábel védőcsőbe, tömbcsatornába, zártszelvényű kábelcsatornába való
+                        behúzása
+                        esetén a burkolat védelmére a megfelelő terelőgörgőkön kívül védőtölcsért kell alkalmazni.
+                        Talajba fektetett kábelnél a talaj visszatöltése előtt a kábel burkolatát szemrevételezéssel
+                        ellenőrizni kell; sérülés esetén a burkolaton lévő hibát ki kell javítani.
+                        A kábel függőleges elhelyezését - ha a szintkülönbségnek megfelelő hosszúságú kábel tömege
+                        meghaladja a kábelre megengedett húzó igénybevételt - tartókötél és csörlő segítségével kell
+                        végrehajtani. A kábelt megfelelő távolságokban a tartókötélhez kell rögzíteni.</p>
+                    <p class="maxwidth1000"><span class="textbold">A kábelek jelölése:</span><br>
+                        A kábelre a kábelvonal azonosítása céljából kábeljelzőt kell rögzíteni.
+                        A kábeljelző a környezet (talaj, szabadtér, belsőtér) hatásainak tartósan ellenálló anyagból
+                        készüljön.
+                        A kábeljelzőn a következő adatokat kell feltüntetni:<br>
+                    <ul>
+                        <li>a kábelvonal azonosítási jelét (betűk, számok vagy azok kombinációja)</li>
+                        <li>a kábelvonal (hálózat) névleges feszültségét</li>
+                        A kábeljelzőket oly módon és olyan sűrűn kell elhelyezni, hogy a kábelvonal a nyomvonal bármely
+                        részén azonosítható legyen.
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Talajban fekvő kábelekre kábeljelzőt kell rögzíteni:<br>
+                    <ul>
+                        <li>általában legalább 10 m-enként</li>
+                        <li>ötnél több párhuzamosan fekvő kábel esetén legalább 5 m-enként</li>
+                        <li>épületekbe való bevezetésnél a fal síkjától 0,5 m távolságon belül</li>
+                        <li>keresztezések előtt és után 0,5 m távolságon belül</li>
+                        <li>összekötő, illetve elágazó mindkét (három) végén 0,2 m távolságon belül</li>
+                        <li>kábelvédőcső mindkét végén 0,5 m távolságon belül</li>
+                        <li>kábelvégelzárók alatt jól látható helyen</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Kábelcsatornában, kábelhelyiségben stb. fektetett kábelekre kábeljelzőt kell
+                        elhelyezni:<br>
+                    <ul>
+                        <li>a kábel szemmel követhető távolságán belül, de legalább 30 méterenként</li>
+                        <li>keresztezések, kábelszerelvények előtt és után 0,5 m távolságon belül</li>
+                        <li>födém-, faláttörések, tűzgátló falak mindkét oldalán 2 m távolságon belül</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000 textbold">Kábelfektetés talajba</p>
+                    <p class="maxwidth1000">Fektetési mélység: Szabályozott terepen a kábelárokba fektetett kábel
+                        fektetési mélysége legalább 0,7 m legyen.
+                        Szabályozatlan terepen a kábelárokba fektetett kábel fektetési mélysége legalább 1,0 m legyen.
+                    </p>
+                    <p class="maxwidth1000 textbold">A kábelárok kialakítása</p>
+                    <p class="maxwidth1000">A kábelárok kiásása során ügyelni kell a föld feletti és a földalatti
+                        építmények, nyomvonalas létesítmények (vezetékek) biztonságára.
+                        Szennyezett, agresszív kémhatású vagy nagy fajlagos hőellenállású talaj esetén a kiásott földet
+                        el kell távolítani és semleges kémhatású, illetve kisebb fajlagos hőellenállású talajjal kell
+                        kicserélni.
+                        A kiásott kábelárok alján darabos és éles tárgyak (kő-, beton-, téglatörmelék, üveg- és porcelán
+                        cserepek), amelyek a kábel sérülését okozhatják, ne maradjanak.</p>
+                    <p class="maxwidth1000">A kábeleket a kábelárok aljára legalább 5 cm vastagságú, semleges kémhatású
+                        ágyazórétegre kell fektetni és a kábelt legalább 5 cm vastag ágyazóréteggel kell lefedni. Az
+                        ágyazóréteg a kábelek közötti hézagokat töltse ki (a kábelt üregmentesen vegye körül).</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <figure class="centered">
+                                    <img style="width: 100%;" src="img_tetel/kabelfektetes01.png" title="" alt="">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="centered">
+                                    <img style="width: 100%;" src="img_tetel/kabelfektetes02.jpg" title="" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000"><span class="textbold">Kábelek, kábelrendszerek elrendezése a kábelárokban,
+                            elválasztás</span><br>A kábeleket a kábelárokban lehetőleg azonos fektetési mélységben kell
+                        fektetni. A szélső kábel és a kábelárok fala közötti távolság legalább 0,1 m legyen.
+                        Ha a helyi körülmények nem teszik lehetővé a kábelek azonos fektetési mélységben való
+                        elhelyezését, az egymás fölötti rétegek között legalább 0,2 m vastag ágyazóréteget kell jól
+                        tömörítve elhelyezni.
+                        Az egy síkban fektetett kábeleket egymástól legalább 0,07 m távolságra kell fektetni.</p>
+                    <p class="maxwidth1000"><span class="textbold">A kábelek elrendezése, levágása és
+                            szerelése</span><br>
+                        A kábelszerelvények szereléséig a kábelvégeket úgy kell lezárni, hogy a kábelbe víz, nedvesség,
+                        szennyeződés ne hatolhasson be.
+                        A kábelszerelvények helyénél a szereléshez, a végleges elhelyezéshez és a tartalékképzéshez
+                        megfelelő kábeltöbbletet kell biztosítani.
+                        A folyamatosan alátámasztott kábeleket (pl. kábelárokban) kismértékben hullámosán kell fektetni.
+                        A kábeleket fektetés után rendezni kell.</p>
+                    <p class="maxwidth1000">A kábelt úgy kell elhelyezni, hogy sehol se feküdjön fel éleken. Ahol az
+                        éleken való felfekvés lehetősége fennáll (pl. faláttörésnél, védőcső végeinél, nyílásoknál),
+                        időálló anyagból (pl. üveggyapotból, gumiból, műanyagból) alátétet, párnát kell kiképezni.
+                        A kábelszerelvények szerelését csak megfelelő kábelszerelői vizsgával rendelkező személy
+                        végezheti, amely tényt a kivitelezőnek igazolnia kell.
+                        Szabadtéren történő szereléskor szélben, esőben, bármilyen hulló szennyeződés esetén, valamint
+                        0,6/1 kV-nál nagyobb névleges feszültségű kábeleknél minden esetben szerelősátrat kell
+                        alkalmazni.</p>
+                    <p class="maxwidth1000 textbold">Kábelek elhelyezése szabadtéren</p>
+                    <p class="maxwidth1000">Szabadtéren a kábeleket meglévő vagy erre a célra létesített
+                        tartószerkezeten vagy megfelelő szilárdságú, korrózió ellen védett acélsodronyra függesztve kell
+                        elhelyezni.
+                        A kábeleket a várható mechanikai behatások ellen<br>
+                    <ul>
+                        <li>közterületen a talajszinttől számított legalább 2,5 m magasságig</li>
+                        <li>nem közterületeken (pl. ipartelepeken) legalább 1,8 m, közlekedési útvonalak mentén legalább
+                            2,5 m magasságig</li>
+                        <li>a lehulló szilárd tárgyak ellen (rakodóterek, szállítószalagok, kemencék, kohók
+                            anyagtápvonalai mentén, daruk közelében stb.) védeni kell.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"> A kábeleket védeni kell a várható hőhatások ellen (pl. kemencék, kohók,
+                        meleghengersorok, izzó
+                        salak-szállító vonalak környezetében elhelyezett kábelek).
+                        A kábeleket védeni kell a várható káros vegyi behatásoktól (maró gázok, por, gőzök, vegyi
+                        anyagok).
+                        Ha a kábel burkolatának anyaga olyan, amely a tartós napsugárzás roncsoló hatásának elviselésére
+                        nem
+                        alkalmas, akkor a kábelt e káros hatás csökkentése érdekében (pl. a kábel északi oldalon való
+                        elhelyezésével, ernyőzéssel) védeni kell.
+                        Szabadtéren elhelyezett kábelek szabadvezetékhez vagy szabadtéri berendezéshez való
+                        csatlakoztatása
+                        olyan módon történjék, amely a nedvesség kábelszerkezetbe való behatolását megakadályozza.
+                    </p>
+                    <p class="maxwidth1000 textbold">Kábelek dokumentációja</p>
+                    <p class="maxwidth1000">A kábelvonalról a mindenkori tényleges állapotot tükröző<br>
+                    <ul>
+                        <li>Fektetési rajzot és</li>
+                        <li>Kábelleltárt</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">kell készíteni. A fektetési rajz tartalmazza a kábel nyomvonalának,
+                        szerelvényeinek és a védő műtárgyaknak a pontos helyzetét a maradandó föld feletti
+                        létesítményekhez, azok hiányában pedig sokszögelési pontokhoz mértezve. A kebelleltár a
+                        következő adatokat tartalmazza:<br>
+                    <ul>
+                        <li>Kábelvonal azonossági jelölését</li>
+                        <li>Kábel szabvány szerinti megnevezését</li>
+                        <li>Kábelvonal szerelvényeinek típusát és darabszámát</li>
+                        <li>Kábelfektetést és a szerelést végző kivitelező nevét</li>
+                        <li>Fektetés és szerelés időpontját</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000 textbold">A kábelvonalak vizsgálata, általános előírások</p>
+                    <p class="maxwidth1000">A kábel szerelésének megkezdése előtt kábelszakaszonként<br>
+                    <ul>
+                        <li>szemrevételezéssel ellenőrizni kell a burkolat épségét,</li>
+                        <li>meg kell mérni az erek szigetelési ellenállását,</li>
+                        <li>el kell végezni a burkolat feszültségpróbáját.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A kábel szerelési munkáinak befejezése után, a teljes kábelvonalon az üzembe
+                        helyezést megelőzően el kell végezni a következő vizsgálatokat:</p>
+                    <p class="maxwidth1000 textbold">A folytonosság ellenőrzése és az azonosítás</p>
+                    <p class="maxwidth1000">A kábelvonal minden egyes vezetőjének és árnyékolásának folytonosságát
+                        ellenőrizni kell, ezt követően az erek azonosítását el kell végezni, majd az ereket azonosító
+                        jelöléssel kell ellátni.</p>
+                    <p class="maxwidth1000 textbold">A szigetelési ellenállás ellenőrzése</p>
+                    <p class="maxwidth1000">A kábelvonal minden egyes erének szigetelési ellenállását meg kell
+                        mérni:<br>
+                    <ul>
+                        <li>erenként árnyékolt (radiális igénybevételű) kábel esetén a vezető és az árnyékolás között,
+                        </li>
+                        <li>egyéb (nem radiális igénybevételű) kábel esetén a vizsgált ér vezetője és a köpenyszerkezet
+                            fém szerkezeti elemeivel összekötött többi vezető között;</li>
+                        <li>árnyékolás nélküli kábeleknél a vizsgált ér vezetője és többi ér egymással összekötött
+                            vezetője között.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000 textbold">A szigetelés feszültségpróbája</p>
+                    <p class="maxwidth1000">3,6/6 kV és annál nagyobb névleges feszültségű kábelvonal villamos
+                        szilárdságát feszültség-próbával kell ellenőrizni. A feszültségpróba alatt folyamatosan mérni
+                        kell a kábelvonal áramfelvételét is.
+                        A feszültségpróba egyenfeszültséggel vagy váltakozó feszültséggel végezhető el.
+                        A próbafeszültség értéke <br>
+                        - egyenfeszültség esetén: 4,2 U0 <br>
+                        - váltakozó feszültség esetén: 2,0 U0</p>
+                    <p class="maxwidth1000 textbold">A burkolat feszültségpróbája</p>
+                    <p class="maxwidth1000">Közvetlenül a talajba fektetett műanyag burkolatú 6/10 kV és ennél nagyobb
+                        névleges feszültségű kábellel létesített kábelvonal burkolatának épségét 2 kV nagyságú
+                        egyenfeszültséggel, 5 percig végzett feszültségpróbával kell ellenőrizni.
+                        A próbafeszültséget a burkolat alatti fémszerkezet (árnyékolás, koncentrikus vezető, fémköpeny,
+                        páncélzat) és a föld közé kell kapcsolni. A feszültségpróba alatt nem szabad átütésnek
+                        bekövetkeznie.</p>
                     <p class="maxwidth1000"></p>
                     <p class="maxwidth1000"></p>
                     <p class="maxwidth1000"></p>
                 </td>
+            </tr>
+            <tr>
+
             </tr>
         </tbody>
     </table>
