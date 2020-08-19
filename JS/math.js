@@ -1,8 +1,9 @@
 function sont_dataclear() { // Törli a szövegmezőket
     document.getElementById("Iminput").value = ""; document.getElementById("Itinput").value = "";
-    document.getElementById("Rminput").value = ""; document.getElementById("Rsinput").value = ""; }
+    document.getElementById("Rminput").value = ""; document.getElementById("Rsinput").value = ""; 
+}
 
-function sont_szamitas() { // Kiszámolja három mezőből a negyediket
+function sont_szamitas() { // Kiszámolja három mezőből a negyediket. Egy mezőnek üresnek kell lennie.
     let Im = parseFloat(document.getElementById("Iminput").value); // Ampermérő méréshatára
     let It = parseFloat(document.getElementById("Itinput").value); // Szükséges méréshatár a sönttel
     let Rm = parseFloat(document.getElementById("Rminput").value); // Műszer belső ellenállása
@@ -28,7 +29,7 @@ function sont_szamitas() { // Kiszámolja három mezőből a negyediket
     if (Rm.toString() == "NaN") { numofnan++; RmOK = false; }
     if (Rs.toString() == "NaN") { numofnan++; RsOK = false; }
     if (numofnan > 1) { // Ha számok helyett más karakterek vannak megadva, hiba.
-                        // Legalább egy mezőt hibásnak lát, amelyiket üresen hagyott a felhasználó.
+                        // Legalább egy mezőt hibásnak láthat, amelyiket üresen hagyott a felhasználó.
         alert("Hibás értékmegadás!")
         return; }
 

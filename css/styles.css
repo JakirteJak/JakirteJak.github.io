@@ -1,25 +1,7 @@
-.maxtextwidth01 {
-    font-size: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-}
-
 .centered {
     align-items: center;
     justify-content: center;    
     display: flex;
-}
-
-img2 {
-    width: 300px;
-    box-shadow: 3px 3px 10px black;
-    margin: 5px;
-    justify-content: center;
 }
 
 .img300 {
