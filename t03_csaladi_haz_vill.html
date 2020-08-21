@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered maintitle">3. tétel: Családi ház villamos áramköreinek kialakítása</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 textbold">Mutassa be a családi ház villamos áramköreinek kialakítási
+                        szempontjait!
+                        Ismertesse a felhasználói mért főelosztó (fogyasztói elosztó) feladatát, kialakítását,
+                        típusait!<br>Mutassa be az érintésvédelem kialakításának módját, eszközeit!</p>
+                    <p class="maxwidth1000">A tételhez használható segédeszköz:<br>
+                        <a class="linker01" href="x_villrendszerek.html">TN-C, TN-C-S, TN-S hálózatkép vázlata</a></p>
+                    <p class="maxwidth1000 textbold">Kulcsszavak, fogalmak:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>Főbb szempontok: logikai, villamos teljesítmény szerinti, elhelyezkedés szerinti,
+                            karbantarthatóság szerinti szétválasztás</li>
+                        <li>Világítási és dugaszolóaljzat áramkörök</li>
+                        <li>Több világítási áramkör indokoltsága</li>
+                        <li>Nagy teljesítményű fogyasztók: villamos tűzhely, bojler, klíma önálló áramkörei</li>
+                        <li>Önálló konyhai és fürdőszobai áramkörök</li>
+                        <li>Épületgépészeti áramkörök: kazán, szellőzés, szivattyú, stb.</li>
+                        <li>Kommunikációs és biztonsági áramkörök: modem, router-tápellátás, kaputelefon, kapumozgatás,
+                            behatolásjelző-, videorendszer</li>
+                        <li>Felhasználói mért főelosztó (fogyasztói elosztó) feladata</li>
+                        <li>Falon kívüli és süllyesztett kivitel</li>
+                        <li>Beépíthető eszközök: áram-védőkapcsoló, kismegszakító, lépcsőház-világítási időkapcsoló,
+                            impulzuskapcsoló, csengőtranszformátor, jelzőcsengő, stb</li>
+                        <li>Felhasználói főelosztó méretének meghatározása</li>
+                        <li>TN-C, TN-C-S hálózatkép</li>
+                        <li>Földelés kialakítása, földelővezető elvezetése a mérőhelyhez</li>
+                        <li>EPH kialakítása</li>
+                        <li>N és PE csatlakozó a felhasználói mért főelosztóban</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Kisfeszültségű áramkörök:</span> Egy fogyasztási
+                        helyen érdemes több áramkört kialakítani. Áramkör a villamos berendezés villamos szerkezeteinek
+                        azon együttese, amelynek táplálása ugyanazon táppontból, és túláramvédelme ugyanazon
+                        védőeszközzel van megoldva. Villamos berendezés (épületé) Összehangolt jellemtőjű villamos
+                        szerkezetek meghatározott célra vagy célokra egymással összekötött együttese. A lényeg itt az
+                        összekötött szón van, tehát a villamos berendezés felszerelt, működőképes együttest (vezeték,
+                        kapcsoló, biztosító, stb,. összeszerelt együttese) jelent. A gyártók gyakran a több szerkezeti
+                        elemből álló gyártmányokat is berendezésnek nevezik. A szabvány az ilyen gyártmányokat villamos
+                        szerkezetnek tekinti és NEM berendezésnek. Berendezésnek mindig a helyszínen összeszerelt,
+                        villamos betáplálásra rákötött együttest érti.</p>
+                    <p class="maxwidth1000">független áramkörök mérséklik a hiba hatását az egész berendezésre nézve,
+                        valamint könnyebb a hiba helyének, okának feltárása. Karbantartás alkalmával nem kell az egész
+                        berendezést kikapcsolni. Általában az alábbi áramköri csoportokat szokták létrehozni:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>Világítási áramkörök</li>
+                        <li>Dugaszoló aljzatokat ellátó áramkörök</li>
+                        <li>Fűtés, légkondicionáló áramkörök</li>
+                        <li>Állandó beépítésű készülékek áramkörei</li>
+                        <li>Szabályozástechnikai áramkörök</li>
+                        <li>Tartalék ellátások áramkörei</li>
+                        <li>Biztonsági rendszerek áramkörei</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Természetesen ezeket az áramköröket lehet és célszerű is még helyiségenként
+                        is különválasztani. Az így csoportosított áramkörök szerelése történhet falban elhelyezett
+                        védőcsőben, vagy falon kívül. Lakásokban sokkal esztétikusabb a falban történő vezetés.<br>A
+                        világítási áramkörök túláramvédelmét B 10-es, a csatlakozó aljzatok áramköreit C 16-os
+                        kismegszakítóval érdemes védeni.</p>
+                    <p class="maxwidth1000">Minden általános célú felhasználásra készített rögzítetten szerelt dugaszoló
+                        aljzatot egy 30 mA érzékenységű áram-védőkapcsolóval kell védeni.
+                        Az általános célú felhasználás esetén alapesetben a mai tervezőmérnöki gyakorlat szerint
+                        általában következő módon alakítják ki az áram-védőkapcsolóval védett áramköröket:<br>
+                    <ul>
+                        <li>egyfázisú áramkörök esetén:1 db (2 pólusú) áram-védőkapcsoló legfeljebb 9,</li>
+                        <li>háromfázisú áramkörök esetén 1 db (4 pólusú) áram-védőkapcsoló legfeljebb 6 végáramkört
+                            véd.(Természetesen ezek csak irányszámok, a fogyasztókészülékek üzembiztonsága nagymértékben
+                            befolyásolhatja a darabszámot.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Kapcsolók, csengőnyomók, ipari dugaszolóaljzatok, a helyiségekben padlószint
+                        fölött 1,4 m magasságban kerülnek elhelyezésre. A rögzítetten felszerelt kapcsolók esetében
+                        billenőtestes vagy két nyomógombos kapcsolónál a felső benyomott állapot jelezze a bekapcsolást,
+                        az alsó benyomott állapot a kikapcsolást. Vízszintes elhelyezés esetén lehetőleg a jobb szélső
+                        benyomott állapot jelezze a bekapcsolást, a bal szélső benyomott állapot a kikapcsolást. Nem
+                        vonatkozik ez az előírás az egy-nyomógombos kapcsolóra, valamint a váltó- és
+                        keresztkapcsolókra.<br>Hordozható fogyasztókészülék csatlakozóvezetékébe csak akkor szabad
+                        kapcsolni, iktatni, ha a készülék
+                        névleges áramerőssége 6 A-nél nem nagyobb. Nyomógombos működtetésnél a nyomógombon vagy annak
+                        közelében feliratot vagy jelképet: kell alkalmazni a nyomógomb szerepének megjelölésére.
+                        A be-, ill. ki-nyomógomb jelölésére a “BE” ill. “KI” felirat vagy a “O” ill. “I” jelkép
+                        alkalmazható. Lehetőleg a felső vagy a jobb szélső gomb legyen a “be”, az alsó vagy a bal szélső
+                        gomb legyen a “ki”
+                        működtetés gombja.
+                    </p>
+                    <p class="maxwidth1000">Dugós csatlakozót kapcsoló céljára is alkalmazni csak olyan hordozható
+                        készülék esetében szabad, amelynek névleges áramerőssége 10 A-nál nem
+                        nagyobb.<br>Dugaszolóaljzatok az irodákban padlószint fölött 0,4 m. A szerelvényezhető
+                        kábelcsatornák és kiegészítőik megtestesítik mindazokat az előnyöket és újításokat, amelyek
+                        segítségével gyorsan, hatékonyan ki lehet alakítani egy irodában az igényeknek megfelelő
+                        hálózatot. A kialakított rendszer a megváltozott igények szerint bármikor rugalmasan alakítható.
+                        A csatornán belül a erős és gyengeáramú rendszer elválasztható.</p>
+                    <p class="maxwidth1000">Törekedni kell arra, hogy a szerelvény- és a kötődobozok közötti
+                        védőcső-nyomvonal a lehető legrövidebb legyen, figyelembe véve, hogy védőcsövek csak
+                        vízszintesen és függőlegesen fektethetők. Mennyezetet megvésni csak akkor szabad, ha a terv
+                        egyértelműen előírja, vagy van rá a statikusoktól előzetes engedély. A kötődobozok takarékos
+                        kiosztása és jó elhelyezése - a kisebb kötésszám miatt - csökkenti a hibahelyek számát. A jó
+                        elhelyezésen azt értjük, hogy lakószobákban, irodákban, állandó tartózkodási helyiségekben minél
+                        kevesebb dobozfedő legyen látható, vagyis a szerelés minél rejtettebb legyen. Kötődobozok helye
+                        mennyezettől kb. 0,3 m, mindenhol azonos magasságban.</p>
+                    <p class="maxwidth1000"><span class="textbold">Helyhezkötött: </span>az a berendezés (gyártmány),
+                        amely vagy rögzítve van, vagy nem vihető át könnyen az egyik helyről a másikra, vagy feszültség
+                        alatti áthelyezését használati utasítás, ill. más előírás tiltja.
+                        Helyhez kötött készülék a lakásokban általában villamos tűzhely, villamos forróvíztároló,
+                        hőtárolós fűtőtest.<br>A berendezéseket úgy kell elhelyezni, szerelni, létesíteni, hogy csak a
+                        berendezések kezeléséhez tartozó
+                        részek legyenek a nem szakképzett egyének által könnyen hozzáférhetők, de az üzemszerűen vezető
+                        részek a környezetben rendszeresen használt segédeszközökkel véletlenül segédeszköz nélkül pedig
+                        szándékosan se legyenek érinthetők.<br>Minden helyhezkötött villamosgép és fogyasztókészülék (a
+                        világítási berendezések kivételével) hálózatról való leválasztásához megfelelő
+                        leválasztókapcsolót, kapcsolókészüléket kell felszerelni. Ezeket úgy kell kialakítani, hogy
+                        leválasztás esetén a teljes gép, ill. fogyasztókészülék (a csatlakozókapcsokat is beleértve) le
+                        legyen választva a hálózatról.</p>
+                    <p class="maxwidth1000"><span class="textbold">Szerelése: </span>A fogyasztói főelosztó táblától a
+                        legnagyobb terhelésnek megfelelő keresztmetszetű vezetéket kell kiépíteni a fogyasztókészülék
+                        közelében elhelyezett 100 x 100 -as csatlakozódobozig. A csatlakozó doboztól a fogyasztóig
+                        műanyag tömlővezetékkel csatlakozunk a készülék kapcsaira. A tömör H 07V-U és az
+                        érvéghüvelyezett flexibilis H 07 VV-F tömlőkábel csatlakoztatását sorkapoccsal oldjuk meg. A
+                        leválasztó kapcsolót vagy a fogyasztói főelosztó táblára a kalapos sínre szereljük, vagy a 100 x
+                        100 -as csatlakozódoboz elé kell tenni. Leválasztáskor minden üzemi vezetőt megszakítunk. A
+                        védővezetőt soha sem szabad megszakítani.</p>
+                    <p class="maxwidth1000"><span class="textbold">Fürdőszoba: </span>villamos berendezésének
+                        kialakítását az MSZ HD 60364-701:2007 Helyiségek fürdőkáddal vagy zuhannyal szerint kell
+                        megvalósítani. Az előre gyártott fürdő- vagy zuhanykabinok belső kialakítására az MSZ EN
+                        60335-2-105 termékszabvány előírásai vonatkoznak. A helyiséget az idézett szabvány sávokra
+                        osztja.</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>„0” sáv: a fürdőkád vagy a zuhanytálca belseje (víztere)</li>
+                        <li>„1” sáv: a fürdőkád vagy a zuhanytálca alatti és feletti tér 225 cm magasságig</li>
+                        <li>„2” sáv: a fürdőkád vagy a zuhanytálca körüli 60 cm-es tér 225 cm magasságig</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Kiegészítő védelemként e helyiségekben minden áramkört egy 30 mA
+                        érzékenységű áram-védőkapcsolóval kell védeni. Nem kell áram-védőkapcsoló a bojlerekhez és az
+                        egy fogyasztókészüléket tápláló villamos elválasztással, a SELV- és PELV törpefeszültséggel
+                        védett áramkörökhöz. Helyi egyenpotenciálú összeköttetést kell létrehozni a testek és
+                        megérinthető idegen fémes részek védővezetővel történő összekötésével.</p>
+                    <p class="maxwidth1000">A 0-s sávban semmilyen szerelvény sem alkalmazható.<br>A 1-es sávban
+                        legfeljebb 25V névleges feszültségű váltakozó áramú, vagy 60 V névleges feszültségű egyenáramú
+                        SELV vagy PELV áramkörök szerelvényei és csatlakozó aljzatai lehetnek, úgy, hogy tápforrásuk a
+                        0-s és 1-es sávon kívül kerülnek elhelyezésre.<br>A 2-es sávban SELV vagy PELV áramkörök
+                        szerelvényei és csatlakozó aljzatai lehetnek, úgy, hogy tápforrásuk a 0-s és 1-es sávon kívül
+                        kerülnek elhelyezésre.</p>
+                    <p class="maxwidth1000"><span class="textbold">Épületinformatika: </span>az intelligens épületek
+                        elektronikai (tűzvédelmi, biztonságtechnikai) és automatizálási (épületgépészet, fűtés, klíma)
+                        feladatinak optimális ellátását megvalósító irányító és irányított rendszer.<br>Irányított
+                        rendszerbe az épület következő főbb rendszerei tartózhatnak bele:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>Villamos energiaellátó rendszer (szükség és szünetmentes áramellátás, tartalék és
+                            szükségvilágítás, fényerő-szabályozás, redőnymozgatás, közös helyiségek, közlekedők szükség
+                            szerinti megvilágítása)</li>
+                        <li>Épületgépészeti rendszer (hőmérséklet, nyomás, páratartalom, kazánautomatika,
+                            légkondicionálás)</li>
+                        <li>Vagyonvédelmi rendszer</li>
+                        <li>Tűz- és gázvédelmi rendszer</li>
+                        <li>Beléptető rendszer</li>
+                        <li>Megfigyelő kamerás rendszer</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Informatika (gyengeáramú) áramkörök lehetnek:<br>
+                    <ul>
+                        <li>Számítógép LAN áramkörök</li>
+                        <li>Tűzjelzők</li>
+                        <li>Vagyonvédelmi áramkörök</li>
+                        <li>Antenna kábelek</li>
+                        <li>Kamera kábelek</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Ezen egyéb informatikai kábelek és vezetékek nem lehetnek egy védőcsőben a
+                        kisfeszültségű vezetékekkel.<br>Irányító rendszerbe az épület következő főbb rendszerei
+                        tartózhatnak bele:
+                    <ul>
+                        <li>Mérőberendezések (árammérő, feszültségfigyelő, megvilágításmérő, stb)</li>
+                        <li>Megfigyelő rendszerek (mozgásérzékelők, nyitási kontaktusok, kamerák)</li>
+                        <li>Érzékelők (füst, gáz, CO, stb)</li>
+                        <li>Vezérlő- és</li>
+                        <li>Szabályozó berendezések</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az erősáramú és gyengeáramú, valamint a váltakozóáramú és egyenáramú
+                        berendezések, ill. rendszerek között megfelelő módon védekezni kell a helytelen kapcsolásból,
+                        átütésből, sérülésből, valamint téves összekötésekből eredő áthatolás ellen.
+                        A különböző fajta rendszerekhez tartozó vezetékek keresztezésénél a téves összekötések elleni
+                        védelemként arról kell gondoskodni, hogy a különböző rendszerek kötései és kötések céljára
+                        alkalmas
+                        szerelvényei egymástól legalább 50 mm távolságban legyenek. <br>Az átütés, sérülés következtében
+                        előállható áthatolás elleni védelemként vagy legalább 20 mm távolságot kell a két
+                        vezetékrendszer között tartani, vagy a két rendszer között legalább 1 mm vastag,
+                        szigetelőanyagból készült járulékos szigetelést kell elhelyezni. Az egyik rendszer védőcsövének
+                        fala e célra elegendő (akkor is, ha falvastagsága 1 mm-nél kisebb). A járulékos szigetelésnek
+                        (védőcsőnek) a keresztezés helyén legalább 20-20 mm-el túl kell nyúlnia.<br>A különböző fajta
+                        rendszerekhez tartozó vezetékek párhuzamos (közel párhuzamos) vezetésénél nincs szükség külön
+                        védőintézedésre, ha a különböző fajta vezetékek távolsága egymástól legalább 5 cm, vagy ha a
+                        párhuzamos szakaszon páronként legalább az egyik rendszer külön védőcsőben, ill.
+                        vezetékcsatornában van, és kötéseik céljára alkalmas szerelvényeik (pl. dobozaik) nincsenek
+                        egymáshoz
+                        5 cm-nél közelebb. Ha ezek a követelmények nincsenek kielégítve, akkor - a távbeszélő
+                        berendezésekre fémesen csatlakoztatható vezetékek kivételével - a következő védőintézkedéseket
+                        kell egyidejűleg megtenni:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>- mindegyik rendszer vezetéke legalább 1000 V névleges feszültségű, erősáramú vezeték
+                            legyen; vagy ha gyengeáramú rendszer vezetéke gyengeáramú szabvány szerint készült, akkor
+                            próbafeszültsége legalább 2 kV legyen;</li>
+                        <li>a különböző rendszerek összetévesztésének kizárására vezetéktípusuk vagy színük egymástól
+                            feltűnően különbözzék, közös kábelben való vezetés esetén e helyett a sorkapocsra való
+                            kifejtés az alábbiak szerint történjék;</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Ha a különböző fajta rendszerek kötései közös szerelvénybe (pl. szekrénybe
+                        vagy közös készülékre) kerülnek, akkor a következő védőintézkedéseket kell megtenni (dobozban e
+                        követelmények teljesítésére nincs szükség, ha egy dobozon belül csak az egyik fajta rendszeren
+                        van kötés):</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>kötések csak számozott kapcsokon (sorozatkapcsokon) készülhetnek, a kapcsolási rajzon
+                            rögzíteni kell az egyes kapcsokra kötött vezetékek szerepét és jellegét;</li>
+                        <li>ha kötéseik nincsenek külön szerelvényben, akkor elégítsék ki a fenti szakasz előírásait;
+                        </li>
+                        <li>közös, (egy- vagy többrekeszes) levehető fedelű vezetékcsatornában való elhelyezés esetén az
+                            egyeres vezetékekből álló e vezetékrendszerek vezetékeit rendszerenként szigetelő
+                            szalagokkal vagy más hasonló módon legalább 1,5 m-enként egymáshoz kell erősíteni,
+                            többrekeszes vezeték csatornában ezen túlmenően a különböző fajta vezetékrendszereket külön
+                            rekeszben kell elhelyezni.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000 subtitle">Fogyasztói főelosztótábla</p>
+                    <p class="maxwidth1000"><span class="textbold">A fogyasztói főelosztótábla elhelyezése: </span>Ha a
+                        fogyasztói főelosztótábla a lakáson, illetve bérleményen belül van, akkor a bejárat közelében
+                        kell elhelyezni.</p>
+                    <p class="maxwidth1000"><span class="textbold">A fogyasztói főelosztótábla kialakítása: </span>Ha a
+                        fogyasztásmérő berendezés több, különböző árszabású fogyasztásmérőt tartalmaz (mert a
+                        fogyasztókészülékek elszámolási árszabása nem azonos), akkor ezen fogyasztókészülékek hálózatát
+                        egymástól elkülönítetten kell létesíteni.<br>Ha a fogyasztásmérő vagy az időprogram-kapcsoló
+                        csak egyetlen fogyasztókészüléket táplál, akkor a fogyasztói főelosztótábla helyett megengedett
+                        leválasztókapcsoló elhelyezésére szolgáló tábla felszerelése.<br>Megjegyzések:<br>1. Ebben az
+                        esetben az áramszolgáltató kezelésében lévő kismegszakító elegendő a túláramvédelemre.<br>2.
+                        Ebben az esetben nincs mért fővezeték. Ezért az e tábla előtti vezeték 6 mm2-nél kisebb
+                        keresztmetszetű is lehet.</p>
+                    <p class="maxwidth1000"><span class="textbold">A fogyasztói főelosztótábláról táplált vezetékek:
+                        </span>A fogyasztói főelosztótábla utáni vezetékhálózat vezetékeit nem szabad más fogyasztási
+                        hely (más lakás) helyiségein keresztül vezetni. Ha ez elkerülhetetlen, akkor a más fogyasztási
+                        hely helyiségeiben vezetett szakaszt csak falba süllyesztett védőcsőben szabad vezetni, és e
+                        védőcsőszakaszon nem szabad az idegen fogyasztási helyről nyitható dobozt alkalmazni.</p>
+                    <p class="maxwidth1000"><span class="textbold">A fogyasztói főelosztótábla méretezése: </span>Az
+                        elosztótábla lehet falon kivűli vagy falba süllyesztett. Az elosztó táblában megtalálható a 35
+                        mm-es kalapsín, amire a moduláris sorolható készülékeket pattintjuk, valamint PE és N sín. Az
+                        elosztótábla anyaga ütésálló polisztirol vagy acéllemez. Védettsége beltéren IP 44, kültéren IP
+                        55. Jellemző méretek 4M, 8M, 12M, 2x 8M, 2 x 12M, 3 x 12M, 4 x 12M. A méretet úgy célszerű
+                        megválasztani, hogy a későbbi bővítés érdekében 10 – 30 % tartalék hely maradjon. Beszerelésnél
+                        a leggyakoribb moduláris eszközök az alábbiak:</p>
+                    <div class="centered">
+                        <table>
+                            <tr>
+                                <td style="width: 50%;">
+                                    <ul>
+                                        <li>kismegszakító</li>
+                                        <li>áram-védőkapcsoló</li>
+                                        <li>leválasztó kapcsoló</li>
+                                        <li>mágneskapcsoló</li>
+                                        <li>erősáramú relé</li>
+                                        <li>impulzusrelé</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>dimmer</li>
+                                        <li>csengőtranszformátor</li>
+                                        <li>csengő</li>
+                                        <li>lépcsőházi automata</li>
+                                        <li>időzítő relé</li>
+                                        <li>túlfeszültség levezető</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="maxwidth1000 subtitle">Földelés</p>
+                    <p class="maxwidth1000"><span class="textbold">Földelés: </span>valamely testnek, vezetőanyagú
+                        tárgynak vagy vezetőnek a földdel való közvetlen vagy közvetett összeköttetése. A földelés
+                        magában foglalja a földelőket vagy azok rendszerét és a földelővezetőt, illetve a
+                        földelővezetőket.</p>
+                    <p class="maxwidth1000"><span class="textbold">Föld: </span>A talaj vezetőképes tömege, amelynek
+                        villamos potenciálját minden egyes pontjában egyezményesen nullának tekintik.</p>
+                    <p class="maxwidth1000"><span class="textbold">Földelő: </span>A talajjal közvetlen érintkezésben
+                        lévő és azzal villamos összeköttetést létesítő vezetőképes rész vagy vezetőképes részek
+                        együttese. A földelő lehet természetes vagy mesterséges.
+                        A földelőt vagy annak egy részét a talaj fagyhatár alatti rétegébe kell lemélyíteni. Amennyiben
+                        a földelőnek csak egy része van fagyhatár alatti mélységben, a földelő méretezésekor csak ezt a
+                        részt szabad figyelembe venni.<br>A hazai éghajlati és talajviszonyok mellett - külön egyedi
+                        vizsgálat nélkül - a talajfelszíntől számított 70 cm mélység tekinthető fagyhatárnak.</p>
+                    <p class="maxwidth1000"><span class="textbold">Földelő típusok:</span>
+                    <ul>
+                        <li>rúd- vagy csőföldelők (függőleges földelők);</li>
+                        <li>szalag- vagy huzalföldelők (vízszintes földelők);</li>
+                        <li>lemezföldelők (függőlegesen a földbe ásva);</li>
+                        <li>földbeásott vörösrézsodronyok;</li>
+                        <li>a talajjal közvetlenül érintkező vasbeton szerkezetek (az ME-04 124 szerint);</li>
+                        <li>más, a talajjal közvetlenül érintkező, földbe süllyesztett, alkalmas fémszerkezetek amelyek
+                            kielégítik az önállóan is számottevő földelés kritériumait.</li>
+                    </ul>
+                    </p>
+                    <div class="centered">
+                        <table class="table-bordered" style="width: 85%; font-family: 'Times New Roman', Times, serif;
+                    border: black solid 1px;">
+                            <tr class="textbold">
+                                <td>Acél és réz anyagú elektródák legkisebb méretei</td>
+                                <td style="text-align: center;">Acél</td>
+                                <td style="text-align: center;">Réz</td>
+                            </tr>
+                            <tr>
+                                <td>Szalag, vagy más nem kör keresztmetszetű elektróda keresztmetszete</td>
+                                <td style="text-align: center;">90 mm<sup>2</sup></td>
+                                <td style="text-align: center;">50 mm<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td>Szalag, vagy más nem kör keresztmetszetű legkisebb vastagsága</td>
+                                <td style="text-align: center;">3 mm</td>
+                                <td style="text-align: center;">2 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Csőelektróda átmérője</td>
+                                <td style="text-align: center;">Ø25 mm</td>
+                                <td style="text-align: center;">Ø20 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Csőelektróda legkisebb falvastagsága</td>
+                                <td style="text-align: center;">2 mm</td>
+                                <td style="text-align: center;">2 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Tömör kör keresztmetszetű elektródák a kiviteltől és elhelyezéstől függetlenül</td>
+                                <td style="text-align: center;">Ø10..16mm</td>
+                                <td style="text-align: center;">25 mm<sup>2</sup></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p style="padding-top: 20px;" class="maxwidth1000"><span class="textbold">Földelővezető: </span>Az a
+                        védővezető, amely a fő
+                        földelőkapcsot vagy –sínt köti össze a földelővel.<br>A földben fekvő vagy a falon kívül,
+                        levegőben szerelt földelővezető keresztmetszete:</p>
+                    <div class="centered">
+                        <table class="table-bordered" style="width: 85%; font-family: 'Times New Roman', Times, serif;
+                        border: black solid 1px;">
+                            <tr>
+                                <td>Korrózió ellen védett réz-vagy acélvezetö esetén</td>
+                                <td style="text-align: center;">legalább 16 mm<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td>Mechanikusan védett helyen rézvezető esetén</td>
+                                <td style="text-align: center;">legalább 2,5 mm<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td>Mechanikusan védett helyen acélvezető esetén</td>
+                                <td style="text-align: center;">legalább 10 mm<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td>Korrózió ellen nem védett rézvezető esetén</td>
+                                <td style="text-align: center;">legalább 25 mm<sup>2</sup></td>
+                            </tr>
+                            <tr>
+                                <td>Korrózió ellen nem védett rézvezető esetén</td>
+                                <td style="text-align: center;">legalább 50 mm<sup>2</sup></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p style="padding-top: 20px;" class="maxwidth1000">Ha a földelővezető korrózió ellen és mechanikai
+                        behatások ellen is védett,
+                        és a földelőrendszerhez csak 16 mm2-nél kisebb keresztmetszetű védővezető csatlakozik, akkor a
+                        földelővezető falon kívül, levegőben szerelt részének a keresztmetszetét nem kell nagyobbra
+                        választani, mint a legnagyobb védővezetőkeresztmetszet, de a tömör acélvezető vastagsága vagy az
+                        acélcső falvastagsága leg-alább 3 mm legyen.</p>
+                    <p class="maxwidth1000"><span class="textbold">Fő földelőkapocs: </span>Az a kapocs vagy sín, amely
+                        a védővezetőnek, ideértve az egyenpotenciálra hozó vezetéket is, és – ha van – az üzemi földelés
+                        vezetőinek a földeléshez való csatlakoztatására szolgál.
+                        Valamennyi villamos berendezés részére ki kell alakítani egy központi földelőkapcsot, illetve
+                        földelő- sínt. Ebbe bonthatóan be kell kötni a következő vezetőket:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a földelővezetőket,</li>
+                        <li>a védővezetőket,</li>
+                        <li>az EPH-gerincvezetőket,</li>
+                        <li>az üzemi földelések földelővezetőit (ha ilyenek vannak, és az összekötést előírás nem
+                            tiltja).</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Megjegyzések:<br>
+                    <ol>
+                        <li>A központi földelőkapocs vagy földelősín épületenként vagy elosztónként is kialakítható.
+                        </li>
+                        <li>A központi földelőkapocs vagy földelősín és az egyes földelők közötti, valamint a több
+                            földelősínt összekötő vezetők földelővezetőnek, a központi földelőkapcsot, illetve
+                            földelősínt a testekkel összekötő vezetők védővezetőnek minősülnek. Ennek megfelelően kell
+                            alkalmazni rájuk a földelő-, illetve a védővezetőkre vonatkozó előírásokat.</li>
+                    </ol>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">PE, N síneket </span>tartalmazza a fogyasztói
+                        főelosztó tábla. Ebbe kell bekötni a bejövő N és PE vezetéket. Amennyiben PEN vezetékes a
+                        betáplálás, itt kell szétválasztani a PEN vezetékek külön N és PE vezetékre. A bejövő PEN
+                        vezetéket minden esetben a PE sínre kell kötni és onnan kell leágazni az N sínre.</p>
+                    <p class="maxwidth1000"><span class="textbold">EPH:</span><a href="t01.html#EPHt01"> Ugrás az 1. tétel EPH részéhez</a></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
