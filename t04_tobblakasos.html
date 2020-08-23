@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p style="max-width: 980px;" class="bordered centered maintitle">4. tétel: Többlakásos épület villamos áramköreinek kialakítása</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 textbold">Mutassa be a többlakásos épület villamos áramköreinek kialakítási
+                        szempontjait,
+                        és az ehhez szükséges eszközöket!<br>
+                        Ismertesse a csatlakozó főelosztó feladatát, kialakítását, típusait!<br>
+                        Mutassa be az érintésvédelem kialakításának módját, eszközeit!</p>
+                    <p class="maxwidth1000">A tételhez használható segédeszköz: <a href="x_villrendszerek.html">TN-C,
+                            TN-C-S, TN-S hálózatkép vázlata</a></p>
+                    <p class="maxwidth1000">Kulcsszavak, fogalmak:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>Csatlakozó főelosztó: tűzvédelmi főkapcsoló, főbiztosító, szakaszbiztosítók</li>
+                        <li>Főbb szempontok: logikai, villamos teljesítmény szerinti, elhelyezkedés szerinti,
+                            karbantarthatóság szerinti szétválasztás</li>
+                        <li>Önálló áramkört igényel a közösségi fogyasztás (felvonó, házvilágítás)</li>
+                        <li>A felszálló fővezetékre csatlakozik a leágazó fővezeték, melyről a lakás csatlakozóvezetéke
+                            (méretlen fővezeték) ágazik le</li>
+                        <li>Egyéni és csoportos mérőhely</li>
+                        <li>Csatlakozó főelosztó és összekötő berendezés hálózati engedélyes (áramszolgáltató) által
+                            jóváhagyott terv alapján létesíthető</li>
+                        <li><a href="x_villrendszerek.html">TN-C,
+                                TN-C-S, TN-S hálózatkép</a></li>
+                        <li>EPH csomópont kialakítása: <a href="t01.html#T01_EPH"> (lásd: 1. tétel)</a></li>
+                        <li>TN-C-S hálózatkép esetén az N és PE vezetők távolabbi pontokon való összekötésének tilalma
+                        </li>
+                        <li>Kábeles, szigetelt szabadvezetékes
+                            csatlakozás:
+                            <a href="t01.html#T01_SZABADVEZETEK"> (lásd: 1. tétel)</a>
+                            <a href="t02_fogyasztasmerohely.html#T02_SZABADVEZETEK"> (lásd: 2. tétel)</a></li>
+                        <li>Csatlakozási pont: <a href="t02_fogyasztasmerohely.html#T02_CSHAZ_FOGYASZTASMERO">(lásd: 2.
+                                tétel)</a></li>
+                        <li>Összekötő berendezés (méretlen fővezeték-hálózat) felosztása felszálló fővezetékekre.</li>
+                        <li>Főbb szempontok: logikai, villamos teljesítmény szerinti, elhelyezkedés szerinti,
+                            karbantarthatóság szerinti szétválasztás: <a
+                                href="t02_fogyasztasmerohely.html#T02_FOGYMERO_SZEMPONTOK">(lásd: 2. tétel)</a></li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Az első túláramvédelmi készülék, a tűzvédelmi
+                            főkapcsolók és a csatlakozó főelosztó elhelyezése</span><br>Az első túláramvédelmi
+                        készüléket a következők szerint kell elhelyezni:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a fogyasztásmérőnél, azzal közös szekrényben vagy táblán, ha a 2.3.3. szakasz feltételeinek
+                            bármelyike teljesül</li>
+                        <li>csatlakozó főelosztóban, ha ilyen van</li>
+                        <li>a transzformátorállomás gyűjtősínénél, ha a csatlakozóvezeték onnan indul</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Csatlakozási pont: </span>A rendszerhasználó
+                        csatlakozási pontjai csatlakozásának módjára, számára és elhelyezkedésére, valamint ezek
+                        módosítására a rendszerhasználó igényei alapján, a műszaki előírások, a gazdasági optimum és az
+                        egyéb adottságok figyelembe vételével az áramszolgáltató javaslatot tesz. A csatlakozó
+                        berendezés meghatározása a hálózati csatlakozási szerződés része.<br>A csatlakozó berendezés
+                        létesítési és bővítési munkáinak tervezése és kivitelezése a rendszerhasználó igénybejelentése
+                        alapján az áramszolgáltató feladata. Az összekötő berendezés és a fogyasztásmérő hely létesítése
+                        a rendszerhasználó feladata.</p>
+                    <p class="maxwidth1000"><span class="textbold">Csatlakozó főelosztó: </span>A kivitelezési
+                        dokumentáció egyik része az épületvillamossági terv, amely tartalmazza:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>villamos vezetékek nyomvonalait</li>
+                        <li>fővezeték tervet, az elosztó berendezések elhelyezését, a teljesítményeket, feszültségeket,
+                            érintésvédelmi módokat</li>
+                        <li>elosztó berendezések egyvonalas rajzát, a beépített készülékek jellemzőinek (névleges áram,
+                            zárlati szilárdság stb) feltüntetésével.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Villamos tervdokumentációt csak a szakmai kamara által nyilvántartásba vett
+                        szakember készíthet. A nyílvántartásba vétel feltételi, a szakmai feltételek megléte (általában
+                        villamosmérnöki végzettség, szakmai gyakorlat), valamint a jogosultsági vizsga letétele.<br>A
+                        csatlakozó főelosztó teremt kapcsolatot az áramszolgáltató oldal (lehet ez a közcélú
+                        kisfeszültségű hálózat - felfűzés esetén -, vagy a csatlakozó vezeték) és az épület belső
+                        (méretlen) fogyasztói hálózata között. Innen indulnak a fogyasztási helyek felé a méretlen
+                        fővezetékek, itt célszerű kialakítani az EPH csomópontot is. Ennek közelében célszerű elhelyezni
+                        a közösségi fogyasztásmérő készüléket is.
+                        A csatlakozó főelosztót jól megközelíthető, hozzáférhető helyen kell elhelyezni. Előtte legalább
+                        1 m mélységű szabad területet kell a kezelés céljára kialakítani.</p>
+                    <p class="maxwidth1000">Amennyiben a csatlakozó főelosztó külön helyiségben kerül elhelyezésre, a
+                        helyiségen belül víz-, gőz-, központifűtés- és csatornacsövek leeresztő csapjait és bontható
+                        kötéseit nem szabad elhelyezni.
+                        Épületgépészeti csövek ne kerüljenek a helyiségen belül a csatlakozó főelosztó berendezés fölé.
+                        A csatlakozó főelosztó alagsori vagy pinceszinten lévő helyiségben csak akkor helyezhető el, ha:
+                    </p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a helyiségnek szellőző ablaka van;</li>
+                        <li>a helyiség szintje nincs a környezet helyiségeinek padlószintjénél mélyebben;</li>
+                        <li>a helyiség belmagassága legalább 2,0 m.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A csatlakozó főelosztó helyét a főbejáratnál tartós felirattal kell
+                        megjelölni. Ha az első túláramvédelmi készülék olvadóbiztosító, akkor ennek részei a padozat
+                        szintje felett legalább 0,6 m, legfeljebb 1,5 m magasságban legyenek, ha nem olvadóbiztosító,
+                        akkor a padozat szintjéről kezelhető legyen. Megengedett egy épület csatlakozási pontjáról (az
+                        első túláramvédelmi készülék előtti részről) indított betápláló fővezetékkel táplálni a
+                        következő fogyasztókat:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>közterületen elhelyezett, legfeljebb 2 fogyasztási helyet tartalmazó építményt (pl.
+                            pavilont);</li>
+                        <li>ideiglenes fogyasztási helyet (pl. építkezést, alkalmi mutatványos bódét).</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Megengedett az egy telken vagy egy összefüggő telekcsoporton épült több,
+                        egyenként legfeljebb 6 lakást tartalmazó épületet egy közös csatlakozási pontról táplálni.
+                        Ebben az esetben az egyik épület külső falán, a környezet talajszintjéről kezelhető módon kell a
+                        csatlakozási pont részére elosztószekrényt létesíteni. Ebben a szekrényben kell a
+                        csatlakozóvezetéket vagy a felfűzött rendszerű táplálás kábeleit az egyes épületek betápláló
+                        fővezetékével egyenként bontható módon összekötni.
+                        Az egyes betápláló fővezetékek elé nem kell biztosítót szerelni.<br>Megjegyzések:</p>
+                    <p class="maxwidth1000">
+                    <ol>
+                        <li>E szakasz szempontjából csak az a telekcsoport tekinthető összefüggőnek, ahol az egyes
+                            telkeket egymástól sem közúttal,
+                            sem kerítéssel, sem más olyan módon nem választották el, amely az egyik telekről a másik
+                            telekre való átjutást akadályozná.</li>
+                        <li>E szakasz előírásai csoportos garázsok épületére is alkalmazhatók.</li>
+                    </ol>
+                    </p>
+                    <p class="maxwidth1000">Az első túláramvédelmi készülék előtti szakaszról, a fenti szakaszban
+                        foglaltakon túlmenően, csak akkor szabad vezetéket leágaztatni, ha az áramszolgáltató
+                        tulajdonában vagy kezelésében lévő készülék működtetésére szolgál.
+                        A csatlakozó főelosztó feleljen meg a következő követelményeknek:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>A várható igénybevételnek megfelelő mechanikai szilárdságú legyen. Anyaga fém vagy az MSZ
+                            595-2 szerinti, legalább nehezen éghető anyag (pl. megfelelő műanyag, megfelelően kezelt fa)
+                            legyen.</li>
+                        <li>A csatlakozó főelosztóban a fázis- és a nullavezetők, valamint TN-rendszer esetén a
+                            védővezetők csatlakozására szolgáló szerelvények kialakítása olyan legyen, hogy minden
+                            vezető egyenként – más
+                            vezető megbolygatása nélkül – beköthető legyen.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Nullázásos (TN) érintésvédelem esetén megengedett a házi fémhálózat fémes
+                        csatlakoztatása (EPH) kábelsaruval vagy sínnel a nullabontó fogyasztói vezetékhálózathoz kötött
+                        sarkára.
+                        Ha van csatlakozó főelosztó, akkor a készülékeket és szerelvényeket a következők szerint kell
+                        elhelyezni:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>
+                            Ennek nem zárópecsételhető részében kell elhelyezni:
+                            <ul>
+                                <li>az első túláramvédelmi készüléket (ha az nem a transzformátorállomásban van);</li>
+                                <li>a villámáram-levezető leágazópontját;</li>
+                                <li>a felszálló fővezetékek biztosítóit, illetve kapcsolóit;</li>
+                                <li>a fővezetékek bekötésére szolgáló, rögzített felszerelésű kötőelemeket
+                                    (sorozatkapcsokat);</li>
+                                <li>az egyenpotenciálrahozó (EPH) vezetéknek a nullavezetővel való összekötésére
+                                    szolgáló (TN-rendszer esetén bekötött, nem nullázott berendezésben csak bekötésre
+                                    előkészített) szerelvényt;</li>
+                                <li>a védővezetők csatlakozókapcsát.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Ennek zárópecsételhető részeiben kell elhelyezni:
+                            <ul>
+                                <li>a különböző fogyasztásmérő berendezéseket és ezek tartozékait;</li>
+                                <li>a központi vezérlés (áramszolgáltatói tulajdonban lévő) időprogram-kapcsolóját.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Amennyiben itt helyezik el a közösségi célú fogyasztásmérőket, akkor az
+                        időprogram-kapcsolókat kötelező itt elhelyezni. A csatlakozó főelosztóban a
+                        fogyasztásmérőhelyeket úgy kell kialakítani, hogy a fogyasztásmérőt leolvasó (nem szakképzett)
+                        személy a csupasz aktív részek véletlen érintése ellen védett legyen.</p>
+                    <p class="maxwidth1000">Nullázás esetén a csatlakozóvezeték, illetve betápláló fővezeték
+                        PEN-vezetőjét közbenső kötés nélkül a védővezető kapcsára kell csatlakoztatni, s a csatlakozó
+                        főelosztó üzemi (N) nullavezetőjét (nullasínjét)
+                        innen kell bekötővezetékkel tovább táplálni.</p>
+                    <p style="color: red;" class="maxwidth1000 textbold">A PEN vezető N és PE vezetőre történő
+                        szétválasztása után, az N és
+                        PE vezető összekötése TILOS!</p>
+                    <p class="maxwidth1000"><span class="textbold">Tűzvédelmi főkapcsoló: </span>A tűzvédelmi
+                        főkapcsolók – azokon a helyeken, ahol ezek alkalmazását jogszabály előírja – elhelyezhetők a
+                        kapualjban vagy a csatlakozó főelosztóban. Villamos kapcsolás szempontjából beiktathatók a
+                        méretlen fővezeték bármely szakaszába.<br>Ez a főkapcsoló a tűzoltók részére szolgál, hogy tűz
+                        esetén ők az oltás előtt az épület villamos hálózatát ki tudják kapcsolni. Ezért erről az OTSZ
+                        intézkedik, a 390. §-ában.</p>
+                    <p class="maxwidth1000"><span class="textbold">390. §</span>
+                    <ol>
+                        <li>Az „A”-„B” tűzveszélyességi osztályba tartozó veszélyességi övezetben, helyiségben,
+                            szabadtéren, építményben robbanást nem okozó, a „C”-„E” tűzveszélyességi osztályba tartozó
+                            veszélyességi övezetben, helyiségben, szabadtéren, építményben a környezetére gyújtási
+                            veszélyt nem jelentő világítást kell használni.</li>
+                        <li>A világító berendezést, eszközt úgy kell elhelyezni, rögzíteni és használni, hogy az
+                            környezetére tűzveszélyt ne jelentsen.</li>
+                        <li>A létesítmény, építmény villamos berendezéseit a vonatkozó műszaki követelménynek
+                            megfelelően, vagy azzal legalább azonos biztonságot nyújtó műszaki megoldás szerint kell
+                            létesíteni, használni és felülvizsgálni.</li>
+                        <li>Az építmény villamos berendezését - beleértve a központi szünetmentes energiaforrásokat -
+                            központilag és szakaszosan, tűzszakaszonként is leválaszthatóan kell kialakítani. A
+                            leválasztás kialakítása nem vonatkozik a tűzszakaszon szerelvény nélkül átmenő vezetékekre.
+                            Lakóépületben megengedett a főkapcsoló nélküli kialakítás, ha egy helyen csoportosítottan
+                            minden áramkör külön leválasztó kapcsolóval lekapcsolható.</li>
+                        <li>A tűzvédelmi célú villamos berendezéshez és világításhoz, továbbá a térvilágításhoz külön,
+                            egy helyről működtethető leválasztó főkapcsolót kell létesíteni.</li>
+                        <li>A 391. §-ban felsorolt, tűzvédelmi szempontból jelentős fogyasztók működését tűz esetén
+                            legalább az ott meghatározott ideig biztosítani kell.</li>
+                        <li>A tűzvédelmi célú villamos berendezések táplálását a főkapcsoló előtti külön kapcsolható
+                            leágazásról kell kialakítani.</li>
+                        <li>A csoportosan elhelyezett villamos kapcsolók és olvadóbiztosítók rendeltetését, továbbá e
+                            kapcsolók ki- és bekapcsolt helyzetét meg kell jelölni.</li>
+                    </ol>
+                    </p>
+                    <p class="maxwidth1000">Az MSZ 1600-1:1977 3.251 szakasza annak idején egyértelműen kimondta, hogy
+                        "A tűzvédelmi szempontból létesített fő- és szakaszkapcsolók céljára csak leválasztókapcsoló
+                        (kapcsolókészülék) vagy az áramszolgáltató kezelésében lévő (a fogyasztásmérőhöz felszerelt)
+                        egysarkú kismegszakító használható." Ez a szabvány ugyan ma már nem hatályos, de az MSZ
+                        2364-460:2002 461.2. előírásai értelmében, TN-C rendszerekben és a TN-C-S rendszerek TN-C
+                        részében a PEN vezetőt nem szabad leválasztani, lekapcsolni.</p>
+                    <p class="maxwidth1000"><span class="textbold">Fogyasztásmérőhely: </span>A fogyasztásmérők
+                        elhelyezéséhez szükséges helyet vagy az áramszolgáltatói tájékoztatás alapján, vagy az
+                        áramszolgáltatóval történő előzetes megegyezés szerint kell biztosítani.
+                        A fogyasztásmérő helyét függőleges falon vagy szerkezeten kell kialakítani, és úgy kell
+                        megválasztani, hogy az bármikor hozzáférhető, adattáblája és állása bármikor leolvasható legyen.
+                        A fogyasztásmérő berendezést úgy kell elhelyezni, hogy azt ne érhessék káros mechanikai és
+                        légköri behatások (rázkódás, nedvesség, por, egyéb szennyezés, a helyiség rendeltetésszerű
+                        használatánál várható sérülés). Tokozat alkalmazása esetén, az legyen ellenálló a környezeti
+                        behatásoknak. A tokozat burkolati kialakítása olyan legyen, hogy a méretlen fővezetékek
+                        vezetékei illetéktelenek által ne legyenek hozzáférhetők. A tokozatban az egyazon
+                        fogyasztásmérőhöz tartozó vezetékek a többiektől jól
+                        megkülönböztethető módon legyenek vezetve.</p>
+                    <p class="maxwidth1000">Több fogyasztási helyet tartalmazó épület (épületszekció) esetén vagy
+                        épületenként (épületszekciónként) vagy szintenként (ezen belül szekciónként) összegyűjtve az
+                        épület mindenki által hozzáférhető közlekedő tereiben. A pince fogyasztási helyeinek mérőit a
+                        földszinten vagy az alagsorban, a padlás fogyasztási helyeiét a legfelső emeleten, kétszintes
+                        lakásokét azok bejárati szintjén kell elhelyezni. Csoportos elhelyezés esetén az egyes
+                        fogyasztásmérő berendezéseken tartósan és egyértelműen meg kell jelölni, hogy azok mely
+                        fogyasztási hely fogyasztását mérik.
+                        Bármilyen mérőelhelyezés esetén minden irányban 50-50 mm szabad helyet kell biztosítani.</p>
+                    <p class="maxwidth1000">A fogyasztásmérő mellett vagy alatt, 60 cm-nél közelebb fémhálózat (víz-,
+                        gáz- fűtő csövek stb.), illetve gázfogyasztásmérő ne legyen. Ha ez elkerülhetetlen, akkor a
+                        fémcsövet járulékos szigeteléssel kell ellátni, pl. a fémcsőre hosszában hasított műanyag
+                        védőcsövet kell erősíteni, vagy a fémcsövet villamos szigetelőanyaggal átlapoltan körül kell
+                        tekercselni, vagy a fogyasztásmérő és a fémcső, illetve a fogyasztásmérő és a gázmérő közé
+                        szigetelőlapot kell helyezni. A járulékos szigetelés 30-30 cm hosszban nyúljon túl a
+                        fogyasztásmérőkön, az alátéttábla szélétől mérve. A közös fogyasztásmérő- és gázmérőszekrény
+                        megfelelő szellőzéséről gondoskodni kell.
+                        Ha a fogyasztásmérő (más hely hiányában) az ajtó nyíló szárnya mögé kerül, akkor az ajtónyílás
+                        behatárolására ütközőt kell elhelyezni.</p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>

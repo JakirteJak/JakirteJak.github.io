@@ -1,3 +1,14 @@
+.maxtextwidth01 {	
+    font-size: 100%;	
+    margin-left: 10px;	
+    margin-right: 10px;	
+    margin-top: 15px;	
+    font-family: 'Times New Roman', Times, serif;	
+    text-align: center;	
+    font-size: large;	
+    font-weight: bold;	
+}	
+
 .centered {
     align-items: center;
     justify-content: center;    
@@ -57,12 +68,13 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border: black;
+    padding: 20px;
 }
 
 .subtitle { 
     font-size: 25px;
     font-weight: bold;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .textbold {
