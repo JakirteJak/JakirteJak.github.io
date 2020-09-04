@@ -35,7 +35,39 @@
                         alt="">ahol az <span class="textbold">R</span> egy állandó érték, az adott vezetékszakaszra
                     jellemző elektromos
                     ellenállás.
-                    <p class="maxwidth1000">(A törvény nem csak vezetékszakaszra, hanem általában bármilyen villamos
+                    <p style="padding-top: 25px; font-style: italic;" class="maxwidth1000">Az alábbi három értékből bármelyik kettő megadása esetén a harmadik kiszámítható:<br>
+                    (Megjegyzés: tizedes értéknél vessző (,) helyett <span style="text-decoration: underline; font-weight: bold;">pontot</span> (.) használj!)</p>
+                    <div style="background-color: lightgray;" class="bordered centered">
+                        <table style="font-family: 'Courier New', Courier, monospace;">
+                            <tr>
+                                <td style="padding-left: 25px;" rowspan="2">
+                                    <span class="textbold">R = </span>
+                                    <input id="tb_OhmR" class="inpHoverGrey" type="text" size="10">
+                                    <span class="textbold"> Ω</span>
+                                </td>
+                                <td style="padding-left: 25px;">
+                                    <span class="textbold">U = </span>
+                                    <input id="tb_OhmU" class="inpHoverGrey" type="text" size="10">
+                                    <span class="textbold">V</span>
+                                </td>
+                                <td style="padding-left: 35px;">
+                                    <input id="btn_OhmCalc" style="padding-left: 30px; padding-right: 30px;" type="button" value="Számítás">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 25px;">
+                                    <span class="textbold">I = </span>
+                                    <input id="tb_OhmI" class="inpHoverGrey" type="text" size="10">
+                                    <span class="textbold">A</span>
+                                </td>
+                                <td style="padding-left: 35px;">
+                                    <input id="btn_OhmDataClear" type="button" value="Mezők törlése" size="14">
+                                </td>
+                            </tr>
+                        </table>
+                        <p></p>
+                    </div>
+                    <p style="padding-top: 25px;" class="maxwidth1000">(A törvény nem csak vezetékszakaszra, hanem általában bármilyen villamos
                         ellenállást tanúsító fogyasztóra érvényes: a fogyasztó ellenállása megegyezik a sarkai közt
                         mérhető feszültség és a rajta átfolyó áram hányadosával.)</p>
                     <p class="maxwidth1000">Az ellenállás mértékegysége az <span class="textbold">ohm</span>:</p>
@@ -75,6 +107,7 @@
         </td>
     </table>
 
+    <script src="JS/math_ohm.js"></script>
 </body>
 
 </html>

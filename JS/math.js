@@ -1,3 +1,6 @@
+document.getElementById("btn_sontclear").onclick = sont_dataclear; // Törlés gombra klikkelve törli a szövegmezőket
+document.querySelector("input[name='szamit']").onclick = sont_szamitas; // Számítás gombra kattintva kiszámolja a sönt ellenállást
+
 function sont_dataclear() { // Törli a szövegmezőket
     document.getElementById("Iminput").value = ""; document.getElementById("Itinput").value = "";
     document.getElementById("Rminput").value = ""; document.getElementById("Rsinput").value = ""; 
@@ -29,7 +32,7 @@ function sont_szamitas() { // Kiszámolja három mezőből a negyediket. Egy mez
     if (Rm.toString() == "NaN") { numofnan++; RmOK = false; }
     if (Rs.toString() == "NaN") { numofnan++; RsOK = false; }
     if (numofnan > 1) { // Ha számok helyett más karakterek vannak megadva, hiba.
-                        // Legalább egy mezőt hibásnak láthat, amelyiket üresen hagyott a felhasználó.
+                        // Legalább egy mezőt hibásnak láthat, amelyiket üresen kell hagynia a felhasználónak.
         alert("Hibás értékmegadás!")
         return; }
 

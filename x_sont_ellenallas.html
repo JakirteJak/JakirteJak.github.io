@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="JS/math.js"></script>
 </head>
 
 <body>
@@ -85,10 +84,10 @@
                             </tr>
                             <tr>
                                 <td style="text-align: right;">
-                                    <input type="button" value="Törlés" name="reset" onclick="sont_dataclear()">
+                                    <input id="btn_sontclear" type="button" value="Törlés" name="reset">
                                 </td>
                                 <td>
-                                    <input type="button" value="Számítás" name="szamit" onclick="sont_szamitas()" id="">
+                                    <input id="btn_sontcalc" type="button" value="Számítás" name="szamit">
                                 </td>                             
                             </tr>
                         </tbody>
@@ -104,7 +103,7 @@
             <tr><a class="linker01 centered" href="elmelet.html">vissza az előző oldalra</a></tr>
         </td>
     </table>
-
+    <script src="JS/math.js"></script>
 </body>
 
 </html>
