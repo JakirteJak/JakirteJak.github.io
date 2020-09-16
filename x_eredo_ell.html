@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p style="max-width: 980px;" class="centered bordered maintitle">Eredő ellenállás számítása</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 subtitle">Ellenálláshálózatok</p>
+                    <p class="maxwidth1000">Az ellanállások összekapcsolásának két alapvető formája létezik: a soros és
+                        a párhuzamos kapcsolás. A gyakorlatban az ellenállásokat általában egymással vagy más
+                        elemekkel összekapcsolva alkalmazzuk.</p>
+                    <table class="centered">
+                        <td>
+                            <figure>
+                                <img style="width: 90%; padding-left: 45px;" src="img/eredo_soros01.gif" title=""
+                                    alt="">
+                                <figcaption class="centered" style="font-style: italic;">
+
+                                </figcaption>
+                            </figure>
+                        </td>
+                    </table>
+                    <p class="maxwidth1000 subtitle">Sorosan kapcsolt ellenállások</p>
+                    <p class="maxwidth1000">Ha két ellenállásnak csak az egyik vége van összekötve, és közéjük semmi más
+                        nem kapcsolódik, akkor a két elem sorba van kapcsolva. Az első elem kezdetére és az utolsó
+                        ellenállás végére kapcsolódik a tápfeszültség.<br>Ha egy áramerősség-mérőt iktatunk be bárhová
+                        az áramkörbe, akkor az mindenhol ugyanazt az értéket fogja mutatni.</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img style="width: 90%; padding-left: 45px;" src="img/eredo_soros02.gif" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000">Mivel minden ellenálláson ugyanaz az áram folyik keresztül, így az elemeken
+                        létrejövő feszültségesés az Ohm-törvény segítségével könnyen meghatározható.</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img style="width: 90%; padding-left: 45px;" src="img/eredo_soros03.gif" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000">A teljes tápfeszültség az áramkör eredő ellenállásával áll kapcsolatban:
+                        <span class="textbold">U = R * I</span><br>Az ellenállásokon eső feszültésgek összege a
+                        tápfeszültséggel egyezik meg: <span class="textbold">U = U<sub>1</sub> + U<sub>2</sub> +
+                            U<sub>3</sub> + U<sub>4</sub> + ...</span><br><a href="x_ohm_torvenye.html">Ohm
+                            törvénybe</a> behelyettesítve: <span class="textbold">R * I = R<sub>1</sub> * I +
+                            R<sub>2</sub> * I + R<sub>3</sub> * I + R<sub>4</sub> * I + ...</span></p>
+                    <p class="maxwidth1000">Az áramerősség (I) mindenhol egyenlő, tehát kiemelés után egyszerűsíthetünk
+                        vele. Így kapjuk meg a sorosan kapcsolt ellenállások eredőjének kiszámítási módját:</p>
+                    <p style="background-color: lightgray;" class="maxwidth1000 centered bordered"><span
+                            class="textbold subtitle">R = R<sub>1</sub> +
+                            R<sub>2</sub> + R<sub>3</sub> + R<sub>4</sub> + ...</span></p>
+                    <p class="maxwidth1000">A sorosan kapcsolt
+                        ellenállások összege egyenlő az eredő elenállással.</p>
+                    <div class="bordered">
+                        <p class="maxwidth1000"><span class="textbold">Példa: </span>három, egyenként 500 Ω-os, 1 kΩ-os
+                            és
+                            1,5 kΩ-os ellenállást kapcsolunk sorba és 6 V feszültséget adunk rájuk. Mekkora az eredő
+                            ellenállás, az áramerősség és az egyes ellenállásokra eső feszültség?</p>
+                        <p class="maxwidth1000">Adott tehát: R1 = 500 ohm = 0,5 kΩ, R2 = 1 kΩ, R3 = 1,5 kΩ, U = 6 V.
+                            Keressük a következőket:</p>
+                        <p class="maxwidth1000">
+                        <ul>
+                            <li>a) eredő ellenállás (R)</li>
+                            <li>b) áramerősség (I)</li>
+                            <li>c) feszültség az ellenállásokon (U1, U2, U3)</li>
+                        </ul>
+                        </p>
+                        <p class="maxwidth1000"><span class="textbold">a)</span> R = R<sub>1</sub> +
+                            R<sub>2</sub> + R<sub>3</sub><br>R = 0,5 kΩ + 1 kΩ + 1,5 kΩ
+                            <br>R = 3 kΩ</p>
+                        <p class="maxwidth1000"><span class="textbold">b)</span> I = U / R = 6V / 3kΩ<br>I = 2mA</p>
+                        <p class="maxwidth1000"><span class="textbold">c)</span> U1 = R1 * I = 0,5 kΩ * 2 mA = 1 V<br>U2
+                            = R2 * I = 1 kΩ * 2 mA = 2 V<br>U3 = R3 * I = 1,5 kΩ * 2 mA = 3 V</p>
+                        <p class="maxwidth1000">Ellenőrzésképpen: 1 V + 2 V + 3 V = 6 V<br><span class="textbold">Az ellenállásokon eső
+                            feszültségek összege a kapcsolásra jutó teljes feszültséget adja ki.</span></p>
+                    </div>
+                    <p style="padding-top: 25px;" class="maxwidth1000 subtitle">A feszültségosztó</p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="elmelet.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
