@@ -29,7 +29,7 @@
                             <a title="Kidolgozott tételek" style="margin-left: 20px; margin-right: 20px;"
                                 href="tetelek.html">Tételek</a>
                             <span style="color: white;">|</span>
-                            <a title="Tesztkérdések az írásbeli vizsgára" style="margin-left: 20px; margin-right: 20px;"
+                            <a title="Tesztkérdések az írásbeli vizsgára" style="margin-left: 20px; margin-right: 20px; color: green;"
                                 href="teszt.html">Tesztkérdések</a>
                         </div>
                     </div>
@@ -88,6 +88,24 @@
                     </p>
                     <input style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Következő kérdés"
                         id="btnNextQ">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="tablePercent" class="centered" style="font-family: 'Times New Roman', Times, serif; padding-top: 3px;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 subtitle">Teszt kiértékelése:</p>
+                    <p id="txtEndNumOfQ" class="maxwidth1000">Feltett kérdések száma:</p>
+                    <p id="txtEndNumOfGA" class="maxwidth1000">Jó válaszok száma:</p>
+                    <p id="txtEndPercent" class="maxwidth1000">Százalékos eredmény:</p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000">Ha érdekel melyik válaszod volt helyes, klikkelj a <span
+                        class="textbold">Részletek</span> gombra. Egy új ablakban fel lesz sorolva az összes feltett
+                    kérdés, a lehetséges válaszokkal. A helyes válaszok <span style="color: green;">zölddel</span> lesznek jelölve, a helytelenek
+                    <span style="color: red;">pirossal</span>. Az uóbbi esetben a helyes válasz szintén <span style="color: green;">zölddel</span> lesz kiemelve.</p>
+                    <input style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Részletek">
                 </td>
             </tr>
         </tbody>
