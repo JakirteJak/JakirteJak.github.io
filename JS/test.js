@@ -1,9 +1,9 @@
 document.getElementById("tablePercent").style.visibility = "hidden";
 let myAnswers = [];       // A kérdésekre adott válaszok tömbje
 let maxQuestionsNum = 5;  // Maximális kérdésszám
-let dataBaseSize = 6;     // Adatbázisban található kérdések száma
+let dataBaseSize    = 6;  // Adatbázisban található kérdések száma
 let actQNum = 0;          // Az aktuális kérdés sorszáma az adatbázisban
-let numOfQ = 0;           // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
+let numOfQ  = 0;          // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
 
 document.getElementById("btnStartTest").onclick = startTest; // Teszt indítása gomb klikk esemény
 document.getElementById("btnNextQ").onclick = nextQuestion;  // Következő kérdés gomb klikk esemény
@@ -73,11 +73,10 @@ function saveActAnswers() { // Elmenti a válasz sorszámát, a jó válasz sors
     if (document.getElementById("firstA").checked)  { selectedAnswerNum = 1 } else
     if (document.getElementById("secondA").checked) { selectedAnswerNum = 2 } else
     if (document.getElementById("thirdA").checked)  { selectedAnswerNum = 3 };
-    
     myAnswers.push({selectedAnswerNum: selectedAnswerNum, goodAnswerNum: questions[actQNum].gA, answerInDB: actQNum});
 }
 
-function endTest() {
+function endTest() { // A teszt vége, kiértékelés
     tdQ.style.visibility = "hidden"; // A tesztet tartalmazó td elrejtése
     document.getElementById("tablePercent").style.visibility = "visible"; // A tesz kiértékelése táblázat felfedése
     document.getElementById("txtEndNumOfQ").innerHTML = ("Feltett kérdések száma: " + '<span class="textbold">' + maxQuestionsNum.toString() + '</span>');
@@ -86,7 +85,6 @@ function endTest() {
 
     document.getElementById("txtEndNumOfGA").innerHTML = ("Jó válaszok száma: " + '<span class="textbold">' + numOfGoodA.toString() + '</span>');
     document.getElementById("txtEndPercent").innerHTML = ("Százalékos eredmény: " + '<span class="textbold">' + (numOfGoodA / maxQuestionsNum * 100).toString() + ' %</span>');
-    for (let ci=0; ci < maxQuestionsNum; ci++) myAnswers.pop();
 }
 
 // "Adatbázis"
