@@ -1,7 +1,7 @@
 document.getElementById("tablePercent").style.visibility = "hidden";
 let myAnswers = [];       // A kérdésekre adott válaszok tömbje
-let maxQuestionsNum = 5;  // Maximális kérdésszám
-let dataBaseSize    = 6;  // Adatbázisban található kérdések száma
+let maxQuestionsNum = 8;  // Maximális kérdésszám
+let dataBaseSize    = 12; // Adatbázisban található kérdések száma
 let actQNum = 0;          // Az aktuális kérdés sorszáma az adatbázisban
 let numOfQ  = 0;          // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
 
@@ -19,7 +19,7 @@ let tdQ = document.getElementById("tdQ"); // Az egész teszt egy táblázatoszlo
 tdQ.style.visibility = "hidden";          // Ennek elrejtése, csak akkor lesz látható, ha a teszt elindul
 
 function startTest() { // Teszt indítása
-    document.getElementById("tablePercent").style.visibility = "hidden";
+    document.getElementById("tablePercent").style.visibility = "hidden"; // Az eredmények táblázat elrejtése
     let lengthDB = myAnswers.length;
     if (myAnswers.length > 0) { // Megszakított teszt esetén törli a már feldolgozott válaszokat
         for (let ci = 1; ci <= lengthDB; ci++ ) myAnswers.pop();
@@ -89,10 +89,24 @@ function endTest() { // A teszt vége, kiértékelés
 
 // "Adatbázis"
 let questions = [
+    // 00 - 10:
     {q: "Mi az áramerősség jele?", a1: "V", a2: "A", a3: "J", a4: "I", gA: 4},
     {q: "Mi az feszültség jele?", a1: "A", a2: "W", a3: "V", a4: "U", gA: 4},
     {q: "Mi az feszültség mértékegysége?", a1: "W", a2: "V", a3: "A", a4: "km", gA: 2},
     {q: "Mi az áramerősség mértékegysége?", a1: "V", a2: "A", a3: "J", a4: "I", gA: 2},
     {q: "Mi az ellenállás jele?", a1: "R", a2: "A", a3: "U", a4: "I", gA: 1},
-    {q: "Mi az ellenállás mértékegysége?", a1: "R", a2: "Ω", a3: "W", a4: "E", gA: 2}
+    {q: "Mi az ellenállás mértékegysége?", a1: "R", a2: "Ω", a3: "W", a4: "E", gA: 2},
+    {q: "Mi az az áramköri elem, amelynek feladata az induktív jellegből adódó fázistényező javítása?",
+        a1: "ellenállás", a2: "kondenzátor", a3: "dióda", a4: "relé", gA: 2},
+    {q: "Melyik az a vezető, amelynek a betűjele PE?", a1: "fáisvezető", a2: "nullavezető", a3: "védővezető", a4: "PEN vezető", gA: 3},
+    {q: "Hogyan változik meg a transzformátor áttétele, ha a primer oldal menetszáma csökken?", 
+        a1: "csökken", a2: "növekszik", a3: "nem változik", a4: "zárlat kelezkezik", gA: 1},
+    {q: "Melyik az a kiegészítő érintésvédelmi eszköz, amely a védővezetőn keresztül elfolyó áram egy meghatározott értékénél lekapcsol?", 
+        a1: "kismegszakító", a2: "olvadó biztosíték", a3: "áramvédő kapcsoló", a4: "túlfeszültség levezető", gA: 3},
+    // 11 - :
+    {q: "Mi a neve annak a félvezetőnek, amelyet egyenirányításra is használnak?", 
+        a1: "kondenzátor", a2: "ellenállás", a3: "triák", a4: "dióda", gA: 4},
+    {q: "Mi a betűjele annak az érintésvédelmi módnak, amelynél a védővezető és a nullavezető együtt fut?", 
+        a1: "TN-C-S", a2: "TN-S", a3: "IT", a4: "TN-C", gA: 4}
 ];
+// {q: "", a1: "", a2: "", a3: "", a4: "", gA: }

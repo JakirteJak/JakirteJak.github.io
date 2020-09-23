@@ -7,66 +7,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="bordered" style="background-color: lightgray;">
-        <div>
-            <h1 class="centered">Villanyszereléssel kapcsolatos kapcsolások, elmélet, tételek</h1>
-        </div>
-        <div>
-            <a title="Vezérléssel kapcsolatos kapcsolások" style="margin-left: 20px; margin-right: 20px;"
-                href="index.html">Kapcsolások</a>
-            <span style="color: white;">|</span>
-            <a title="Elméleti témakörök" style="margin-left: 20px; margin-right: 20px;" href="elmelet.html">Elmélet</a>
-            <span style="color: white;">|</span>
-            <a title="Kidolgozott tételek" style="margin-left: 20px; margin-right: 20px;"
-                href="tetelek.html">Tételek</a>
-            <span style="color: white;">|</span>
-            <a title="Tesztkérdések az írásbeli vizsgára" style="margin-left: 20px; margin-right: 20px;"
-                href="teszt.html">Tesztkérdések</a>
-        </div>
-    </div>
+    <table class="centered">
+        <tbody style="max-width: 980px;">
+            <tr>
+                <td>
+                    <div class="bordered" style="background-color: lightgray; padding-right: 7px;">
+                        <div>
+                            <h1 class="centered">Villanyszereléssel kapcsolatos kapcsolások, elmélet, tételek, teszt
+                            </h1>
+                        </div>
+                        <div class="centered">
+                            <a title="Vezérléssel kapcsolatos kapcsolások"
+                                style="margin-left: 20px; margin-right: 20px;" href="index.html">Kapcsolások</a>
+                            <span style="color: white;">|</span>
+                            <a title="Elméleti témakörök" style="margin-left: 20px; margin-right: 20px; color: green;"
+                                href="elmelet.html">Elmélet</a>
+                            <span style="color: white;">|</span>
+                            <a title="Kidolgozott tételek" style="margin-left: 20px; margin-right: 20px;"
+                                href="tetelek.html">Tételek</a>
+                            <span style="color: white;">|</span>
+                            <a title="Tesztkérdések az írásbeli vizsgára" style="margin-left: 20px; margin-right: 20px;"
+                                href="teszt.html">Tesztkérdések</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
     <p style="font-size: 35px; font-family: 'Times New Roman', Times, serif; font-weight: bold;" class="centered ">
         Gyakran felmerült kérdések, témakörök:</p>
 
-    <div class="container">
-        <table class="table table-striped table-bordered table-hover table-l">
-            <tr>
-                <td><a class="linker01" href="x_eredo_ell.html">Eredő ellenállás számítása</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_erintesvedeli_o.html">Érintésvédelmi osztályok</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_hurokimpedancia.html">Hurokimpedancia</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_ipvedettseg.html">IP védettség</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_kirchoff.html">Kirchhoff-törvények</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_kismegszakito.html">Kismegszakítók működése, beazonosítása és
-                        bekötése</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_ohm_torvenye.html">Ohm törvénye</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_sont_ellenallas.html">Sönt ellenállás</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_szigetelesi_ell.html">Szigetelési ellenállás</a></td>
-            </tr>
-            <tr>
-                <td><a class="linker01" href="x_villrendszerek.html">Villamos rendszerek TT, IT, TN-C, TN-S, TN-C-S</a>
-                </td>
-            </tr>
-        </table>
-    </div>
-
+    <table class="centered">
+        <tbody id="tableElmelet" class="table-bordered"></tbody>
+    </table>
+    <script src="JS/elmelet.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered bordered maintitle">Mértékegységek neve, jelölése</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000">
+                    <div class="centered">
+                        <table class="table-bordered">
+                            <thead>
+                                <tr>
+                                    <td colspan="2" class="tdc" style="background-color: black; color: white;">Mennyiség
+                                    </td>
+                                    <td colspan="2" class="tdc" style="background-color: black; color: white;">
+                                        Mértékegység</td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: black; color: white; padding-left: 5px;">Neve:</td>
+                                    <td class="tdc" style="background-color: black; color: white;">Jele:</td>
+                                    <td style="background-color: black; color: white; padding-left: 5px;">Neve:</td>
+                                    <td class="tdc" style="background-color: black; color: white;">Jele:</td>
+                                </tr>
+                            </thead>
+                            <tbody id="tableSigns">
+                            </tbody>
+                        </table>
+                    </div>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <td>
+            <tr><a class="linker01 centered" href="elmelet.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+    <script src="JS/tablesign.js"></script>
+</body>
+
+</html>

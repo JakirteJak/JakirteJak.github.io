@@ -1,0 +1,23 @@
+div.dig, div.hour, div.min, div.sec {
+    position:absolute;
+}
+
+div.dig {
+    width:30px;
+    height:30px;
+    font-family:arial,verdana,sans-serif;
+    font-size:10px;
+    color:#000000;
+    text-align:center;
+    padding-top:10px
+}
+
+div.min {
+    background:#0000FF;
+}
+div.hour {
+    background:#000000;
+}
+div.sec {
+    background:#FF0000;
+}
