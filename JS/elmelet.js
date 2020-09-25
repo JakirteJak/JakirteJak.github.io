@@ -14,6 +14,8 @@ function add_elmTR(cim, url) {
 
 add_elmTR("Eredő ellenállás számítása", "x_eredo_ell.html");
 add_elmTR("Érintésvédelmi osztályok", "x_erintesvedelmi_o.html");
+add_elmTR("Feszültségmentesítés lépései", "x_feszmentesites.html");
+add_elmTR("Fénycső elektromos bekötése (6. Tétel)", "t06_lakasvilagitas.html#T06_fenycso");
 add_elmTR("Hurokimpedancia", "x_hurokimpedancia.html");
 add_elmTR("IP védettség", "x_ipvedettseg.html");
 add_elmTR("Kirchhoff-törvények", "x_kirchoff.html");

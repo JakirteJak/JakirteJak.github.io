@@ -1,7 +1,7 @@
 document.getElementById("tablePercent").style.visibility = "hidden";
 let myAnswers = [];       // A kérdésekre adott válaszok tömbje
-let maxQuestionsNum = 8;  // Maximális kérdésszám
-let dataBaseSize    = 12; // Adatbázisban található kérdések száma
+let maxQuestionsNum = 10;  // Maximális kérdésszám
+let dataBaseSize    = 18; // Adatbázisban található kérdések száma
 let actQNum = 0;          // Az aktuális kérdés sorszáma az adatbázisban
 let numOfQ  = 0;          // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
 
@@ -107,6 +107,13 @@ let questions = [
     {q: "Mi a neve annak a félvezetőnek, amelyet egyenirányításra is használnak?", 
         a1: "kondenzátor", a2: "ellenállás", a3: "triák", a4: "dióda", gA: 4},
     {q: "Mi a betűjele annak az érintésvédelmi módnak, amelynél a védővezető és a nullavezető együtt fut?", 
-        a1: "TN-C-S", a2: "TN-S", a3: "IT", a4: "TN-C", gA: 4}
+        a1: "TN-C-S", a2: "TN-S", a3: "IT", a4: "TN-C", gA: 4},
+    {q: "Általánosságban melyik típusú fényforrás energiafogyasztása a legalacsonyabb?", a1: "izzós", a2: "led", a3: "fénycsöves", a4: "halogén", gA: 2},
+    {q: "Milyen feszültségű a közvetlenül földelt csillagpontú, 3 x 1000/600 V-os hálózat?", a1: "törpefeszültségű", a2: "kisfeszültségű", a3: "nagyfeszültségű", a4: "középfeszültségű", gA: 2},
+    {q: "Fürdőkádat tartalmazó helyiségben milyen, áramütés elleni védelmi módok alkalmazhatók?", a1: "védőakadály", a2: "környezet elszigetelése", a3: "TN érintésvédelmi mód 30 mA-es áramvédő-védőkapcsolóval", a4: "figyelmeztető felirat", gA: 3},
+    {q: "Az alábbiak közül melyik nyújt védelmet közvetett és közvetlen érintés ellen is?", a1: "A helyi egyenpotenciálra hozás.", a2: "A TN-rendszer.", a3: "A készülék elszigetelése.", a4: "A SELV, illetve PELV törpefeszültség.", gA: 4},
+    {q: "Kötelező-e a közvetlen érintés elleni védelemről gondoskodni a 25 V névleges feszültségű, érintésvédelmi törpefeszültségű (SELV) berendezés esetén?", a1: "Igen, minden esetben.", a2: "Nem.", a3: "Csak jól vezető környezetben.", a4: "Csak egyenáram esetén.", gA: 2},
+    {q: "Mekkora lehet a fázisvezetővel azonos anyagú védővezető legkisebb megengedett keresztmetszete 16 mm<sup>2</sup> vagy ennél kisebb keresztmetszetű fázisvezető esetén?", 
+        a1: "Minimum 4 mm<sup>2</sup> réz, illetve 6 mm<sup>2</sup> alumínium.", a2: "A fázisvezető keresztmetszetének legalább a fele.", a3: "Azonos a fázisvezetővel.", a4: "A legnagyobb testzárlati áramra méretezett.", gA: 3}
 ];
 // {q: "", a1: "", a2: "", a3: "", a4: "", gA: }

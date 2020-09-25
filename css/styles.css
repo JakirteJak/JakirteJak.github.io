@@ -25,6 +25,11 @@
     background-color: darkgray;
 }
 
+.tdp {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .img300 {
     display: table-cell;
     text-align: center;
