@@ -15,22 +15,42 @@ let clockSizeMin = 2.0;    // Méretminimum méretszorzó
 let clockSizeMax = 2.5;    // Méretmaximum méretszorzó
 let clockScale = 0.05;     // Méretszorzó változása cilusonként
 let actHour = 0;           // Hányadik számnál (1-12) jár a cirkálás
-let numberDIVs = [];       // 1-12 számok DIV tömbje
-let numberCoord = [];          // 1-12 számok koordinátái
+let numberDIVs =  [];      // 1-12 számok DIV tömbje
+let numberCoord = [];      // 1-12 számok koordinátái
 let clockSpeed = [33, 30, 27, 24, 21, 18, 15, 12, 10, 9, 8, 7]; // 1-12 számok mozgási sebessége
 let pointSpeed = [5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ,20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34];
-let secDIVs = [];  secCoord = [];  // Másodpermutató
-let minDIVs = [];  minCoord = [];  // Percmutató
+let secDIVs =  [];  secCoord = []; // Másodpermutató
+let minDIVs =  [];  minCoord = []; // Percmutató
 let hourDIVs = []; hourCoord = []; // Óramutató
-let timerNumSize = setInterval(setNumSize, 100);      // Számok fontméret változtatása
+
+let timerNumSize   = setInterval(setNumSize, 100);    // Számok fontméret változtatása
 let timerClockMove = setInterval(setMoveCoord, 10);   // Pozíció koordináták számolása
-let timerTime = setInterval(setTimeAndCoord, 100);    // Mutatók alapkoordinátáinak számolása
+let timerTime = setInterval(setTimeAndCoord, 10);    // Mutatók alapkoordinátáinak számolása
 let timerClockPulse = setInterval(setClockPulse, 50); // Pulzálás változtatása
 let timerMouseCoordChange = setInterval(setMouseCoordNum, 50);
+
 document.getElementById("id_html").addEventListener("mousemove", function (event) { mouseXY(event) }); // Egérmozgás esemény
 document.getElementById("cbPulse").checked = true;           // Pulzálás alapbeállítás
 document.getElementById("cbCircle").checked = true;          // Cirkálás alapbeállítás
 document.getElementById("cbCircle").onclick = cbCircleClick; // Cirkálás checkbox klikk
+document.getElementById("id_html").addEventListener("keypress", function (event) { keypress(event)}); // Vezérlés billentyűzettel
+document.getElementById("rangeClockSizeMin").value = "18";
+
+function keypress(event) { // Vezérlés billentyűzettel
+    let minValue = parseInt(document.getElementById("rangeClockSizeMin").value);
+    let maxValue = parseInt(document.getElementById("rangeClockSizeMax").value);
+
+    switch (event.charCode) {
+        case 49: document.getElementById("cbPulse").checked = !document.getElementById("cbPulse").checked; break;
+        case 50: document.getElementById("cbCircle").checked = !document.getElementById("cbCircle").checked; cbCircleClick(); break;
+        case 51: minValue -= 1; break;
+        case 52: minValue += 1; break;
+        case 53: maxValue -= 1; break;
+        case 54: maxValue += 1; break;
+    }    11
+    document.getElementById("rangeClockSizeMin").value = minValue;
+    document.getElementById("rangeClockSizeMax").value = maxValue;
+}
 
 function cbCircleClick() { 
 // Cirkálás checkbox klikk. Ha nincs kipipálva, azonos méretűre van állítva a három fő karakterméret.
@@ -41,15 +61,17 @@ function cbCircleClick() {
         baseMaxFontSize = 60;
     }
     else {
-        baseMinFontSize = 40;
-        baseMidFontSize = 40;
-        baseMaxFontSize = 40;
+        baseMinFontSize = 20;
+        baseMidFontSize = 20;
+        baseMaxFontSize = 20;
     }
 }
 
 function setClockPulse() { 
 // Pulzálás változtatása. Ha eléri a max méretet, átvált csökkentésre. Ha a min méretet, akkor vissza növelésre.
     if (!document.getElementById("cbPulse").checked) return; // Ha a Pulzálás checkbox nincs kipipálva, kilép.
+    clockSizeMin = document.getElementById("rangeClockSizeMin").value / 10;
+    clockSizeMax = document.getElementById("rangeClockSizeMax").value / 10;
     if (clockSize > clockSizeMax)
         clockIncrement = false;
     if (clockSize < clockSizeMin)
@@ -81,7 +103,8 @@ function mouseCoordZero() { // Egérkoordináták tömbjének inicializálása
 
 function setTimeAndCoord() { 
 // Mutatók alapkoordinátáinak számolása. Valójában azt számolja ki, és helyezi el egy tömbben, hogy az aktuális óraméret alapján
-// mik lennének a mutatók DIV -jeinek a koordinátái a nullához képest.
+// mik lennének a mutatók DIV -jeinek a koordinátái a nullához képest. Később ez lesz eltolva az egér pozíviójához, és a mozgási
+// sebességhez képest.
     let myTime = new Date(); // Aktuális idő lekérdezése
     let sec = myTime.getSeconds();
     let min = myTime.getMinutes();
@@ -134,7 +157,7 @@ function setY(oldY, newY, arraySpeed, arrayDiv, ci) {
 
 function setMoveCoord() { 
 // Pozíció koordináták számolása. A ciklus végigmegy a tömbön, és kiszámolja az egérkoordináta tömb aktuális értéke alapján
-// hol kellene lennie a DIV -nek. Ezt, és a jelenlegi kkordinátát átadva a függvény beállítja az új koordinátát,
+// hol kellene lennie a DIV -nek. Ezt, és a jelenlegi koordinátát átadva a függvény beállítja az új koordinátát,
 // figyelembe véve az elmozdulási sebességet.
     for (let ci in numberDIVs) { // Óralap számai DIV tömb
         newX = parseFloat(clockSize * numberCoord[ci].x + mXY[act_mC].X - (parseFloat(numberDIVs[ci].style.fontSize) / 2));
@@ -229,6 +252,7 @@ function addDiv(d_HTML, d_id, d_class, d_x, d_y, array, parent) { // Divek hozz�
     div.id = d_id;
     div.classList = d_class;
     div.style.fontSize = minFontSize + "px";
+    div.style.fontFamily = "Times New Roman";
     div.style.top = (clockSize * d_y + "px");
     div.style.left = (clockSize * d_x + "px");
 

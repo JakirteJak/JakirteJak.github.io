@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered bordered maintitle">7. tétel: Túláramvédelem</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000"><span class="textbold">Üzemi áram (áramköré):</span> Az az áram, amelynek
+                        üzemszerű szállítására az áramkört szánták.</p>
+                    <p class="maxwidth1000"><span class="textbold">Megengedett áram (vezetőé):</span>Az a legnagyobb
+                        áram, amelyet a vezető adott feltételek mellett tartósan vezetni képes anélkül, hogy állandósult
+                        hőmérséklete a megengedett értéket meghaladná.</p>
+                    <p class="maxwidth1000"><span class="textbold">Túláram:</span> Minden olyan áram, amely a megadott
+                        értéket meghaladja. Vezetők esetén ez a megadott érték a (tartósan) megengedett áram.</p>
+                    <p class="maxwidth1000"><span class="textbold">Túlterhelési áram (áramköré):</span> Az áramkörben
+                        villamos hiba nélkül fellépő túláram.</p>
+                    <p class="maxwidth1000"><span class="textbold">Zárlati áram:</span> Normál üzemi feltételek mellett
+                        különböző potenciálon lévő aktív vezetők között létrejövő elhanyagolható értékű impedanciájú
+                        hiba hatására folyó túláram.</p>
+                    <p class="maxwidth1000"><span class="textbold">Egyezményes kioldóáram (egy védelmi eszközé):</span>
+                        Az a meghatározott áramerősség, amely a védelmi eszközt a megadott – egyezményes időnek nevezett
+                        – időn belül működésbe hozza.</p>
+                    <p class="maxwidth1000"><span class="textbold">Túláram érzékelés:</span> Annak megállapítása, hogy
+                        egy áramkörben folyó áram értéke meghatározott ideig meghaladja-e az előre meghatározott
+                        értéket.</p>
+                    <p class="maxwidth1000"><span class="textbold"><a
+                                href="x_kismegszakito.html">Kismegszakító:</a></span> Kábelek és vezetékek védelmére
+                        szolgálnak túlterhelés és rövidzárlat esetén.
+                        Két különböző kioldóval rendelkeznek:
+                    <ul>
+                        <li>egy időkésleltetett termikus kioldó túlterhelés-védelemre</li>
+                        <li>egy elektromágnes-kioldó rövidzárlat-védelemre</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A túlterhelés következtében kialakuló, túl nagymértékű melegedés elleni
+                        védelem akkor biztosított, ha az alábbi
+                        feltételek teljesülnek:<br>
+                        <span class="textbold">I<sub>b</sub> &#8804 I<sub>n</sub> &#8804 I<sub>z</sub></span><br>
+                        <span class="textbold">I<sub>2</sub> &#8804 1,45 I<sub>z</sub></span><br>
+                        I<sub>b</sub> az áramkör üzemi árama, terhelés<br>
+                        I<sub>z</sub> a vezeték ill. kábel megengedett terhelhetősége<br>
+                        I<sub>n</sub> a túláram-védelem névleges vagy beállított árama<br>
+                        I<sub>2</sub> a túláram-védelem megszólalási árama (legnagyobb vizsgáló áram)</p>
+                    <p class="maxwidth1000"><span class="textbold">Alkalmazások:</span>
+                    <ul>
+                        <li><span class="textbold">B jelleggörbe:</span> Főként vezeték- és kábelvédelem lakóépületeknél
+                            (világítási és dugaszoló aljzat áramkörök)</li>
+                        <li><span class="textbold">C jelleggörbe:</span> Nagy bekapcsolási áramfelvételű berendezések
+                            kábel- és vezetékvédelmére (lámpacsoportok, motorok, stb.)</li>
+                        <li><span class="textbold">C jelleggörbe:</span> Igen nagy bekapcsolási áramfelvételű
+                            berendezések kábel- és vezetékvédelmére (hegesztő-transzformátorok, motorok, stb.)</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Vezetékvédő kismegszakítók kioldási
+                            tulajdonságai</span> (beállítva 30 <sup>o</sup>C környezeti hőmérsékletre)</p>
+                    <div class="centered">
+                        <table class="table-bordered" style="border: 1px solid black;">
+                            <thead>
+                                <tr>
+                                    <td class="tdc" style="background-color: black; color: white;">
+                                        Jelleggörbe</td>
+                                    <td class="tdc" colspan="3" class="tdp"
+                                        style="background-color: black; color: white;">
+                                        Termikus kioldó</td>
+                                    <td class="tdc" colspan="3" class="tdp"
+                                        style="background-color: black; color: white;">
+                                        Elektromágneses kioldó</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc tdp">kisebb vizsgáló áram I1</td>
+                                    <td style="max-width: 80px;" class="tdc tdp">nagyobb vizsgáló áram I2</td>
+                                    <td style="max-width: 80px;" class="tdc tdp">kioldási idő</td>
+                                    <td style="max-width: 80px;" class="tdc tdp">tartás</td>
+                                    <td style="max-width: 80px;" class="tdc tdp">kioldás</td>
+                                    <td style="max-width: 80px;" class="tdc tdp">kioldási idő</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" style="max-width: 80px; font-size: 30px;" class="tdc textbold">B
+                                    </td>
+                                    <td style="max-width: 80px;" class="tdc">1,13 x I<sub>n</sub></td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">> 1 h</td>
+                                    <td style="max-width: 80px;" class="tdc">3 x I<sub>n</sub></td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">> 0,1 s</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">1,45 x I<sub>n</sub></td>
+                                    <td style="max-width: 80px;" class="tdc">&lt 1 h</td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc textbold">5 x I<sub>n</sub></td>
+                                    <td style="max-width: 80px;" class="tdc">&lt 0,1 s</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" style="max-width: 80px; font-size: 30px;" class="tdc textbold">C
+                                    </td>
+                                    <td style="max-width: 80px;" class="tdc">1,13 x I<sub>n</sub></td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">> 1 h</td>
+                                    <td style="max-width: 80px;" class="tdc">5 x I<sub>n</sub></td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">> 0,1 s</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">1,45 x I<sub>n</sub></td>
+                                    <td style="max-width: 80px;" class="tdc">&lt 1 h</td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc textbold">10 x I<sub>n</sub></td>
+                                    <td style="max-width: 80px;" class="tdc">&lt 0,1 s</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" style="max-width: 80px; font-size: 30px;" class="tdc textbold">D
+                                    </td>
+                                    <td style="max-width: 80px;" class="tdc">1,13 x I<sub>n</sub></td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">> 1 h</td>
+                                    <td style="max-width: 80px;" class="tdc">10 x I<sub>n</sub></td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">> 0,1 s</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc">1,45 x I<sub>n</sub></td>
+                                    <td style="max-width: 80px;" class="tdc">&lt 1 h</td>
+                                    <td></td>
+                                    <td style="max-width: 80px;" class="tdc textbold">20 x I<sub>n</sub></td>
+                                    <td style="max-width: 80px;" class="tdc">&lt 0,1 s</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p></p>
+                    <p class="maxwidth1000"><span class="textbold">Szelektivitás:</span> Túláramvédelmi berendezések
+                        szelektív működése akkor áll fenn, ha a hibához legközelebbi védőkészülék előbb old ki anélkül,
+                        hogy az előtte levő védőkészülék kioldana.
+                        A túláramvédelmi készülékek egymás közötti szelektivitásának határára a kismegszakítók I2t
+                        átengedett energiaértéke mértékadó.</p>
+                    <p class="maxwidth1000 textbold">A C60N kismegszakítók műszaki adatai:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>névleges feszültség:<span class="textbold"> 440 V AC</span></li>
+                        <li>megszakítóképesség:<span class="textbold"> IEC 947-2</span></li>
+                        <li>Icu zárlati határmegszakítóképesség:<span class="textbold"> 10 kA</span></li>
+                        <li>áramkorlátozási osztály (IEC 898):<span class="textbold"> 3</span></li>
+                        <li>villamos és mechanikai élettartam:<span class="textbold">20 000 kapcsolási ciklus (névleges
+                                áramon)</span></li>
+                        <li>klímaállóság:<span class="textbold"> 2. kivitel (relatív páratartalom 95% 55 °C-on)</span>
+                        </li>
+                        <li>üzemi hômérséklettartomány:<span class="textbold"> -30 °C...+60 °C</span></li>
+                        <li>külsô hatások elleni védettség:<ul>
+                                <li>csatlakozókapcsok:<span class="textbold"> IP20</span></li>
+                                <li>kapcsolószerkezet:<span class="textbold"> IP40</span></li>
+                            </ul>
+                        </li>
+                        <li>csatlakozás: <ul>
+                                <li>25 mm2 vezeték-keresztmetszet 25 A-ig</li>
+                                <li>35 mm2 vezeték-keresztmetszet 32...63 A-ig</li>
+                            </ul>
+                        </li>
+                        <li>szerelési mód: felületre és 35 mm-es szerelôsínre is szerelhetô</li>
+                        <li>csatlakozókapcsok kiképzése: kengyeles szorítókapcsok mellső becsatlakozással
+                            a kapcsok véletlen érintés ellen védettek
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az <span class="textbold">olvadóbiztosító</span> olyan készülék,
+                        melynek elsődleges feladata az áramköri elemek (vezetékek, villamos motorok, elektronikai
+                        berendezések) védelme a túláramok és zárlati áramok káros hatása ellen, vagyis az áramkör
+                        megszakítása az erre a célra méretezett, vékony huzal kiolvadásával. Másodlagos feladatuk a
+                        névleges elektromos áramerősségüknél nem nagyobb áramok üzembiztos vezetése. Az áramkörbe
+                        sorosan kötve egy meghatározott áramerősségnél túlmelegedik, megolvad és megszakítja az
+                        áramkört.</p>
+                    <p class="maxwidth1000 textbold">Fajtái:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>Névleges feszültségük szerint:<ul>
+                                <li>nagyfeszültségű (középfeszültségű)</li>
+                                <li>isfeszültségű</li>
+                            </ul>
+                        </li>
+                        <li>Kiolvadási jelleggörbéjük szerint:<ul>
+                                <li>gyors (hirtelen)</li>
+                                <li>késleltetett (lomha)</li>
+                                <li>normál</li>
+                                <li>mérsékelten lomha</li>
+                                <li>igen gyors (ultragyors)</li>
+                                <li>kombinált (lomha-gyors)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Diazed rendszerű D rendszerű olvadóbetétek:</span> A
+                        diazed háztartásokban való használatra kifejlesztett, érintésvédett, csavarós biztosító
+                        rendszer. Az aljzatba szerelt illesztőgyűrű mérete megakadályozza, hogy nagyobb értékű betétet
+                        helyezzenek bele. A betét kiolvadását egy rugóra erősített színes gomb előugrása jelzi. A színek
+                        4-200 amper erősségig jelzik a betét névleges áramerősségét. Elterjedt áramértékek: 2, 4, 6, 10,
+                        16, 25, 35, 50, 63, 80, 100, 125, 160, 200 A</p>
+                    <p class="maxwidth1000"><span class="textbold">NH-rendszer:</span> a villamos kisfeszültségű
+                        hálózatok és berendezések
+                        vonatkozásában az „NH” biztosítórendszerrel a következő feladatok láthatók el: védelem,
+                        leválasztás, földelés és rövidzár, kapcsolás. Az NH biztosítóbetét egy olyan szándékos
+                        leválasztási pont, amely a védett berendezés számára biztosítja a termikus és
+                        elektrodinamikus túlterhelés elleni védelmet. A meglehetősen nagy energiák kikapcsolását a
+                        biztosítóbetét a méretezett olvadóvezetővel éri el. Utóbbit speciális kvarchomok közegbe
+                        helyezik, amely a hűtést és a kiolvadáskor keletkező ív megszüntetését segíti elő. Azokban a
+                        villamos berendezésekben, amelyeket „NH” biztosítóbetét véd és kiold, ott csak a biztosítóbetét
+                        cseréjével állítható vissza az üzemi állapot. Az NH szakaszoló kapcsoló-biztosítót eseti, nem
+                        gyakori ki-be kapcsolásra
+                        tervezték. Az NH betétek „hibás impulzusokkal” szemben (pl: feszültséglökések) érzéketlenek,
+                        ami folytonosságot biztosít, és nem vezet téves kikapcsoláshoz.
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Motorvédelem:</span> A motorok általában egy hosszabb
+                        ideig fennálló meghibásodás, vagy többször, de rövid ideig történő túlmelegedés következtében
+                        válhatnak üzemképtelenné. A gyakori, de rövid ideig fellépő túlmelegedések okozta kiesések a
+                        veszélyesebbek, mert a szigetelőanyagok idő előtti öregedésének okát
+                        nem ismerjük fel, és ezért látszólag biztonságban érezzük magunkat a motorok üzembiztonságát
+                        illetően.<br>
+                        A motorokban alkalmazott szigetelőanyagokat hőmérséklet- tűrésük alapján osztályozzák. A
+                        szigetelőanyagok szigetelési és mechanikai tulajdonságainak az osztályba sorolásnak megfelelő
+                        hőmérsékleten meghatározott ideig meg kell maradniuk. Ha a hőmérsékletet 10 K-nel túllépik,
+                        akkor a szigetelőanyagok élettartama 50%-kal csökken. 20 K-es hőmérsékletnövekedés esetén az
+                        élettartam a névleges érték 25%-ára csökken. A szigetelőanyagok élettartam- rövidülését
+                        szigetelési tulajdonságaik romlása okozza, amely fokozott anyagkopással jár. Ez mechanikailag a
+                        szigetelés lazulását okozza, ami csak növeli a szigetelőanyag fogyását, és végül meghibásodáshoz
+                        vezet.<br>
+                        A motor túlmelegedés elleni védelmének leghatásosabb és legeredményesebb módja a motorba
+                        beépített PTC érzékelős termisztoros kiértékelő relével való védelem. Különböző
+                        határhőmérsékletű PTC érzékelők léteznek, amelyek jelleggörbéje nem az abszolút hőmérséklethez,
+                        hanem az alkalmazott szigetelőanyagok szabványosított határhőmérsékletéhez – amely megegyezik a
+                        PTC névleges megszólalási hőmérsékletével (TNF) – igazodik. Ennek megfelelően a felhasználó
+                        szempontjából a termisztoros felügyeleti relé kiválasztásakor nincs annak jelentősége, hogy
+                        a motor milyen szigetelési osztályba tartozik, mert a motor gyártója a PTC ellenállást az
+                        alkalmazott anyagok szigetelési határhőmérsékletének megfelelően választja ki. A termisztorrelé
+                        kiválasztásakor arra kell ügyelni, hogy a motor automatikus újraindítását megengedje
+                        vagy sem.<br>
+                        A motor túlmelegedés elleni védelmének leghatásosabb módja a motor tekercsfejébe épített PTC
+                        érzékelős termisztor használata – kereskedelemben kapható – külső PTC-relével. A külső PTC-relé
+                        a megadott ellenállás érték változást érzékelve lekapcsolja a motort a hálózatról, és így
+                        megvédi a
+                        kritikus túlmelegedéstől.
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Hőrelék:</span> A háromfázisú termobimetállos hőrelék
+                        különféle villamos fogyasztó-készülékek - elsősorban motorok – túlterhelés elleni védelmére
+                        szolgálnak. A széles környezeti hőmérséklet-határok közötti - 20 °C nak megfelelő - működést
+                        hőkompenzáló bimetáll biztosítja. Az automatikus vagy kézi visszaállítási mód
+                        választható. A kikapcsoló szerkezetet működtető differenciál vagy kettős tolókarendszer
+                        fáziskimaradás esetén gyorsított (a szabvány szerint 1,15 Ie terhelés hatására 2 órán belüli, a
+                        gyakorlatban néhány perc alatt bekövetkező) kioldást valósít meg. A működés ellenőrzésére TEST
+                        gomb szolgál.
+                        Az érintkező rendszer egy-egy villamosan független záró és nyitó érintkezőt tartalmaz.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>

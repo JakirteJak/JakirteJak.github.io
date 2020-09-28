@@ -18,4 +18,5 @@ add_elmTR("3. Családi ház villamos áramköreinek kialakítása", "t03_csaladi
 add_elmTR("4. Többlakásos épület villamos áramköreinek kialakítása", "t04_tobblakasos.html");
 add_elmTR("5. Villamos áramkörök kialakításánál használt anyagok falon kívüli és süllyesztett szerelési technológiák esetén",
     "t05_anyagok.html");
-add_elmTR("6. tétel: Lakásvilágítási áramkörök", "t06_lakasvilagitas.html");
+add_elmTR("6. Lakásvilágítási áramkörök", "t06_lakasvilagitas.html");
+add_elmTR("7. Túláramvédelem", "t07_tularamvedelem.html");
