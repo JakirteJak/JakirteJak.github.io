@@ -20,3 +20,4 @@ add_elmTR("5. Villamos áramkörök kialakításánál használt anyagok falon k
     "t05_anyagok.html");
 add_elmTR("6. Lakásvilágítási áramkörök", "t06_lakasvilagitas.html");
 add_elmTR("7. Túláramvédelem", "t07_tularamvedelem.html");
+add_elmTR("8. Hibavédelem (Érintésvédelem)", "t08_hibavedelem.html")
