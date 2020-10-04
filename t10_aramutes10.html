@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered bordered maintitle">10. tétel: Áramütés elleni védelem földelt vagy szigetelt
+                    csillagpontú hálózat esetén</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 textbold">Ismertesse a közvetlenül földelt védőföldeléses hálózat jellemzőit
+                        (TT).
+                        Határozza meg a földelési ellenállás értékét. Mutassa be, hogyan változik a földelési ellenállás
+                        értékétől a kioldó hibaáram nagysága. Milyen szerepe van, és milyen hatással van az
+                        áram-védőkapcsoló a hibavédelmi rendszerben?
+                        Jellemezze a földeletlen vagy nem közvetlenül földelt (IT) hálózatot. Mi befolyásolja a
+                        hibaáramot (Id)?</p>
+                    <p class="maxwidth1000">A tételhez használható segédeszköz: elvi rajzok TT és IT rendszer
+                        kialakítási lehetőségeiről.</p>
+                    <p class="maxwidth1000">A közműhálozati kisfeszültségű rendszereket (Európában mindenütt) a tápláló
+                        transzformátor csillagponti kivezetésénél - üzemi okokból – közvetlenül (impedancia beiktatása
+                        nélkül) leföldelik. Ezt mutatja a kétbetűs rendszerjelölés első T betűje (T=terra, földelés). Ha
+                        a fogyasztó-berendezések testjeit védővezetőn át ugyancsak földelik, akkor ezt a földelest
+                        mutatja a jelölés második T betűje.<br>Ha a készülék testzárlatos lesz, akkor a fázisvezetőn, a
+                        hibahelyen, az RA védőföldelésen, es a rendszer Rcs csillagponti földelésen át testzárlati áram
+                        lep fel. Ha ennek a testzárlatnak az áramerőssége kicsi, akkor ez a védőföldelés RA ellenálláson
+                        aránylag kis (a megengedhető UL= 50 V-nal kisebb) feszültségemelkedést okoz. Ha az áramerősség
+                        nagy, úgy – az előirt rövid időn belül - kioldja a túlaramvédelmet (az ehhez tartozó
+                        áramerősséget jelöljük Ia-val).
+                        A méretezési képlet: RA*Ia ≤ 50 V Ha a túláramvédelem kioldóárama - a rajta keresztül folyó
+                        üzemi áram miatt – nem választható az előző összefüggést kielégítő kis értekre, akkor az
+                        érintésvédelmi kioldást áram-vedőkapcsolóval lehet megoldani.</p>
+                    <p class="maxwidth1000">Túláramvédelmi eszköz alkalmazásakor:</p>
+                    <p class="maxwidth1000 centered textbold">Z<sub>s</sub> &#8804 U<sub>0</sub> / I<sub>a</sub></p>
+                    <p class="maxwidth1000">Áram-védőkapcsoló alkalmazásánál:</p>
+                    <p class="maxwidth1000 centered textbold">R<sub>A</sub> &#8804 50V / I<sub>Δ𝑛</sub></p>
+                    <p class="maxwidth1000">ahol:<br>R<sub>A</sub> a földelő és a testek védővezetője ellenállásának
+                        összege<br>I<sub>Δn</sub> az áram-védőkapcsoló névleges kioldóárama<br>Z<sub>s</sub> a hibahely
+                        hurokimpedanciája (a
+                        hurok összetevői: tápforrás, fázisvezető a hibahelyig, a testek védővezetője, földelővezető, a
+                        berendezés földelője és a tápforrás földelője)<br>I<sub>a</sub> a túláramvédelmi eszközt
+                        működtető áram
+                        (I<sub>a</sub> = α I<sub>n</sub>)<br>U<sub>0</sub> a névleges feszültség</p>
+                    <p class="maxwidth1000">Látható, hogy túláramvédelmi eszköz alkalmazásakor a földhurokimpedancia
+                        értékétől függ a túláramvédelmi eszköz névleges értékének kiválasztása.</p>
+                    <p class="maxwidth1000"><span class="textbold">Védőföldelés földeletlen és közvetve földelt
+                            rendszerben (IT-rendszer):</span> az érintésvédelemnek az a megoldása, amelynél a
+                        tápláló rendszernek nincs közvetlenül földelt pontja (a rendszer a földtől szigetelve van, vagy
+                        csak számottevő impedancián - ellenálláson és/vagy reaktancián - keresztül van földelve), és az
+                        érintésvédelemmel ellátott villamos szerkezetek teste védőföldeléshez van kötve.</p>
+                    <p class="maxwidth1000"><span class="textbold">Állandó szigetelés-ellenőrző berendezés:</span> az
+                        IT-rendszer kikapcsoló szerveként alkalmazott olyan megoldás, amely egy nagy belső ellenállású,
+                        törpefeszültségű (általában egyenáramú) segédáram forrást kapcsol az IT-rendszer egy üzemszerűen
+                        vezető része és a föld közé, s ennek az árama - amely a védett rendszer szigetelésén keresztül
+                        folyik, így erőssége a szigetelési ellenállás értékére jellemző - vezérli a kikapcsolást.</p>
+                    <p class="maxwidth1000"><span class="textbold">Szivárgóáram:</span> egy fémesen összefüggő rendszer
+                        egy meghatározott részén (pl. egy adott villamos szerkezetben), annak hibátlan állapotában a
+                        föld, illetve a test felé folyó áram.
+                        Megjegyzés: Váltakozóáramú táplálás esetén ennek legnagyobb része kapacitív áram, csak kisebb
+                        összetevője a szigetelési ellenálláson át folyó, hatásos áram.
+                        Az IT rendszerben az üzemszerűen vezető részeknek a földtől szigetelteknek kell lenniük.</p>
+                    <p class="maxwidth1000">Földelést elsősorban a rendszer csillagpontjánál, középpontjánál, szükség
+                        esetén bármely üzemi vezetőjénél, csak elegendően nagy impedancián keresztül szabad létesíteni.
+                        Az IT rendszerben az üzemszerűen vezető részek közvetlen földelése tilos! Az IT-rendszerben a
+                        védendő testeket - egyenként, csoportosan vagy együttesen - le kell földelni. A földelés
+                        ellenállása elégítse ki a következő feltételt:</p>
+                    <p class="maxwidth1000 centered textbold">R<sub>A</sub> * I<sub>s</sub> &#8804 U<sub>L</sub></p>
+                    <p class="maxwidth1000">ahol:<br>R<sub>A</sub> a védett testek földelési ellenállása,
+                        &#x2126<br>I<sub>a</sub> a fémes (átmeneti ellenállás nélküli) testzárlat áramerőssége, A (ez a
+                        rendszer szivárgóáramainak és a közvetett földelésen felépő földzárlati áramnak az
+                        összege)<br>U<sub>L</sub> az érintési feszültség tartósan megengedett határértéke, V
+                    </p>
+                    <p class="maxwidth1000">Az IT-rendszerek olyan szakaszaiban, amelyeket áram-védőkapcsolás -
+                        testzárlat esetén - önműködően kikapcsol, a számításakor a földzárlati áram helyett az alkalmazott áram-védőkapcsolás I<sub>Δn</sub> névleges kioldóáramával szabad
+                        számolni. Ennek feltétele, hogy az önműködő kioldás működési ideje kielégítse a t<0,2 s
+                            előírást. Ha az első föld-, illetve testzárlatjelzésére kikapcsolást nem végző állandó
+                            szigetelés-ellenőrző vagy földzárlatjelző berendezés van beépítve, ennek állandó kezelési
+                            helyen érzékelhető hang- vagy fényjelzést kell adnia. Az IT-rendszerben érintésvédelmi
+                            kikapcsolásra állandó szigetelés-ellenőrző berendezést, túláramvédelmet, vagy
+                            áram-védőkapcsolást kell alkalmazni. </p>
+                            <p class="maxwidth1000">Az áram-védőkapcsolás érzékelőszervét az IT-rendszer olyan helyére
+                                szabad csak beépíteni, ahol a földzárlati áramnak az érzékelőt megkerülve záródó része
+                                elegendő annak üzembiztos kioldására.
+                                Az áram-védőkapcsolás névleges kioldóáramát (IΔn) úgy kell megválasztani, hogy nagyobb
+                                legyen az általa kapcsolt rész kapacitásából számítható Ic földzárlati áram
+                                kétszeresénél, továbbá kisebb legyen, mint az TT-rendszer teljes Id földzárlati áramának
+                                és az általa kapcsolt rész kapacitásából számítható Ic földzárlati áramnak a különbsége:
+                            </p>
+                            <p class="maxwidth1000 centered textbold"> 2 * Ic< IΔn< Id−lc
+                            </p>
+                        <p class="maxwidth1000">Ha az az áram-védőkapcsolás érzékenyebb lenne az e szakasz szerint megengedett értéknél,
+                            akkor nem lenne szelektív (a hibátlan szakaszokat is kikapcsolná). Ha pedig érzéketlenebb,
+                            akkor az önműködő kikapcsolás nem lenne megbízható.
+                            </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>

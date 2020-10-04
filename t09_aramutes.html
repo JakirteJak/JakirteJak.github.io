@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered bordered maintitle">9. tétel: Áramütés elleni védelem nullázott (TN) rendszerű
+                    hálózaton.</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 textbold">Mutassa be az áram élettani hatásait! Az áram milyen jellemzőitől
+                        függ az áramütés mértéke? Határozza meg a limitfeszültség (UL) értékét!
+                        Ismertesse a TN rendszer kialakítási lehetőségeit, azok jellemzőit!
+                        Hogyan határozza meg a hibahely megengedett hurokimpedanciáját (Zs) áramvédőkapcsoló alkalmazása
+                        esetén?</p>
+                    <p class="maxwidth1000">A tételhez használható segédeszköz: elvi rajzok TN rendszer kialakítási
+                        lehetőségeiről.
+                        <a href="x_villrendszerek.html">(TN-S, TN-C, TN-C-S)</a></p>
+                    <p class="maxwidth1000"><span class="textbold">A villamos áram élettani hatásai:</span> Köztudott,
+                        hogy az ember életfunkcióit, mozgásait belső, ún. bioáramok vezérlik. Ha ebbe a jól szervezett,
+                        összehangolt rendszerbe valamilyen külső hatás következtében idegen áramingerek, impulzusok
+                        hatolnak be, akkor az életműködésben zavarok keletkeznek és nem kívánt, sokszor
+                        szabályozhatatlan funkciók jönnek létre. Ezek igen gyakran súlyos baleseteket eredményezhetnek.
+                        Igen sok, élő és elhalt emberen, valamint állatokon végzett vizsgálatok alapján az emberi
+                        szervezetnek a villamos árammal szembeni érzékenységére, férfiak esetében, 50 Hz-es frekvencia
+                        esetén az alábbi átlagos értékeket állapították meg:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>érzetküszöb: 0,5 – 1 mA</li>
+                        <li>erős rázásérzet: 6 – 14 mA</li>
+                        <li>izomgörcs: 20 – 25 mA</li>
+                        <li>szabálytalan szívműködés: 25 – 80 mA</li>
+                        <li>szívkamralebegés: 80 – 100 mA</li>
+                        <li>pillanatos halál: 100 mA felett</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A közölt adatok átlagértékek és csak 50 – 100 Hz frekvencia esetén,
+                        egészséges férfiakra vonatkoztathatók. Beteg, gyengébb fizikumú férfiakra, nőkre, gyermekekre
+                        ennél kisebb értékek érvényesek.<br>100 – 1000 Hz frekvencia értékhatárok között az áramütés
+                        biológiai hatásai enyhébbek és 1000 Hz felett egyre inkább érvényesül az ún. skin hatás,
+                        amelynek következtében az áram útja a szervezetben a bőrfelület közelében alakul ki, elkerülve a
+                        létfontosságú szerveket. A vizsgálatok szerint a fent felsorolt biológiai hatásokat egyenáram
+                        alkalmazása esetén az 50 Hz – re megadott áramértékek 4 – 5–szörös értékével lehet csak
+                        előidézni. Az egyenáram tehát veszélytelenebbnek tűnik a váltakozó áramnál, azonban a
+                        sejtbomlasztó elektrolízis, valamint az ívképzésre való hajlam miatt szintén veszélyes.<br>Egyes
+                        kutatók szerint nemcsak az emberi szervezeten áthaladó áram nagysága a jellemző a veszélyesség
+                        mértékének meghatározásában, hanem az áthaladó töltésmennyiség is. Tehát a veszélyességet az
+                        árambehatás időtartama is befolyásolja. Ezt azonban igen nehéz meghatározni, ezért a
+                        töltésmennyiség helyett az emberi szervezetet érő energiát szokták megadni.<br>Hogyha a behatás
+                        időtartama igen rövid, akkor viszonylag nagyobb áramok sem okoznak veszélyes balesetet.
+                        Kellemetlen érzést okoz, ha az emberi szervezetet kb. 0,25 Ws, és halálos kimenetelű, ha 50 Ws
+                        energia éri.</p>
+                    <p class="maxwidth1000"><span class="textbold">Az emberi test ellenállása:</span> Számos mérési
+                        sorozat eredményeképpen tudjuk, hogy az emberi test tisztán ohmos jellegű és nagyságát
+                        tulajdonképpen két fő részből állónak tekinthetjük. Az első rész a belső, testnedvekkel
+                        átitatott szövetekből álló, amelynek villamos ellenállása 200-300 ohm, vagy még kevesebb. A
+                        másik részt, a külső bőrfelületet alkotja, amelynek ellenállása függ a bőr pillanatnyi
+                        állapotától (száraz, nedves, izzadt, vékony, vastag stb.) valamint a mérésnél alkalmazott
+                        feszültségtől.<br>A test ellenállásának feszültségfüggése azzal magyarázható, hogy a testre jutó
+                        feszültség megoszlik a be és a kilépésnél lévő bőrfelületek, valamint a belső részek soros
+                        ellenállásán. A soros feszültségosztás következtében a bőrfelületekre jut a feszültség nagyobb
+                        része, amely növekvő feszültség esetén egyre nagyobb számú helyen ég át. Miután a nagy
+                        ellenállást jelentő bőrfelület nagyobb feszültség esetén sok helyen ég át, az eredő érték
+                        közelíteni fog a belső részek által meghatározott ellenállás értékhez.<br>Az érintésvédelmi
+                        számításoknál az emberi test sokféle, előre nem látható állapotait nem szoktuk figyelembe venni,
+                        hanem a legkedvezőtlenebb esetet vesszük alapul. Így az ember ellenállását egységesen Re=1000
+                        ohm-mal vesszük számításban. Orvosi kezelőhelyeken, műtőkben ennél lényegesen kisebb értékkel.
+                    </p>
+                    <p class="maxwidth1000 textbold">A villamos áram élettani hatását befolyásoló tényezők</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>az emberi szervezeten átfolyó áram nagysága</li>
+                        <li>a behatás időtartama</li>
+                        <li>az áram útja</li>
+                        <li>az áram frekvenciája</li>
+                        <li>az emberi test ellenállása</li>
+                        <li>az egyén testi és lelki állapota</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A felsorolt tényezőket már többé-kevésbé mindenki ismeri, szerepük könnyen
+                        belátható. Kérdés, hogyan befolyásolhatja a baleset súlyosságát, a balesetet szenvedett testi és
+                        lelki állapota. Könnyen belátható, hogy fáradt, kimerült, esetleg ittas személy reakcióképessége
+                        hosszabb, mint egy egészségesé, ezért az áramütés által kiváltott menekülési reflex is lassúbb
+                        lesz, vagyis a behatás időtartama meghosszabbodik. A nem egészséges ember viszont hajlamos az
+                        izzadásra, ezért a bőrének ellenállása lényegesen kisebb lesz, aminek következtében nagyobb áram
+                        fog kialakulni benne.</p>
+                    <p class="maxwidth1000"><span class="textbold">Az érintés-feszültség meghatározása:</span> A
+                        villamos áramütés veszélyességét az emberi testen átfolyó áramerősség nagysága határozza meg.
+                        Egy balesetveszélyes helyen azonban nem lehet megmondani előre az emberen átfolyó
+                        áram nagyságát, sőt utólag sem lehet egy bekövetkezett baleset után rekonstruálni, hogy mekkora
+                        áram haladt át a balesetet szenvedett ember testén, olyan sok és bizonytalan tényező
+                        befolyásolhatja. Ezért inkább abból indulnak ki, hogy az emberi test ellenállását a
+                        legkedvezőtlenebb 1000 ohm-mal számítva mekkora feszültséget kell rákapcsolni, hogy bizonyos
+                        fiziológiai hatások jöjjenek létre. Az emberi testre jutó feszültség tehát az <span
+                            class="textbold"> U<sub>e</sub> = I<sub>e</sub> * R<sub>e</sub></span> szorzatból
+                        meghatározható. Ha a baleset súlyosságának megítéléséhez az így kiszámítható feszültséget
+                        rendeljük, akkor minden szituációban előre számíthatóvá, illetve utólag rekonstruálhatóvá válik
+                        egy-egy baleset körülménye. Most már csak az áramérték megadása szükséges.</p>
+                    <p class="maxwidth1000">A magyar előírások, amelyek megegyeznek a nemzetközi előírásokkal, alapját
+                        az képezi, hogy az áramütéses baleset semmiképpen ne okozzon halált. Ezért az emberi testet
+                        tartósan érő áramerősség legnagyobb értékét jóval a szívkamralebegést kiváltó határ alatt
+                        választotta meg. Ez pedig 50 mA.</p>
+                    <p style="background-color: lightgray;" class="maxwidth1000 textbold centered bordered">𝑈𝑒 = 𝐼𝑒
+                        ∗ 𝑅𝑒 = 50 ∗ 10<sup>-3</sup> ∗ 10<sup>3</sup> = 50𝑉</p>
+                    <p class="maxwidth1000">Ezt a feszültséget <span class="textbold">limitfeszültségnek
+                            (U<sub>L</sub>)</span> nevezik és ez az érintési
+                        feszültség tartósan megengedett határértéke 100 Hz-nél nem nagyobb frekvenciájú, szinuszos
+                        váltakozó áram esetén, amelyet az embernek tartósan (súlyosabb károsodás nélkül) el kell
+                        viselni. Állandó egyen feszültség esetén – az egyenáram már tárgyalt okok miatt - U<sub>L</sub>
+                        = 120 V.
+                        100-1000 Hz frekvenciájú váltakozó áram, valamint szaggatott egyenáram esetén az U<sub>L</sub>
+                        értékét a
+                        szabvány nem írja elő pontosan, csak azt, hogy kísérleti vagy irodalom adatok alapján 50 és 120
+                        V között kell meghatározni.</p>
+                    <p class="maxwidth1000">A limitfeszültség értékének megadásával így sikerült kiküszöbölni azt a
+                        nehézséget, amit az áramértékkel való számítás okozott. Ezzel el lehetett érni, hogy egy-egy
+                        szituáció veszélyességének mértékét feszültséggel fejezhetjük ki, sőt ezt a feszültséget mindig
+                        meg lehet mérni. Így az érintésvédelem műszaki problémává vált, amelynek kezelése könnyű, csupán
+                        a megfelelő feltételeket kell biztosítani.</p>
+                    <p class="maxwidth1000"><span class="textbold">Hogyan jöhet létre az áramütés:</span> Ha az emberi
+                        test két, vagy több pontja különböző feszültségeket hidal át, akkor az Ohm-törvénynek megfelelő
+                        áramerősség jön létre a test egyes szakaszain. A belépő áramot a feszültség és az előzőekben
+                        leírt testellenállás határozza meg, amely mint láttuk tág határok között változhat, de az
+                        előírás értelmében mindig csak 1000 Ω-mal vesszük figyelembe. Ez esetenként igen nagy
+                        biztonságot hoz a
+                        számításban, de kiküszöbölni, vagy eltekinteni tőle nem lehet, mivel az emberi test ellenállását
+                        igen sok külső és belső, előre nem számítható tényező befolyásolja.
+                        Az emberi testnek az áramkörbe kerülése alapvetően négy esetre vezethető vissza:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>fázis-föld érintés</li>
+                        <li>fázis-fázis érintés</li>
+                        <li>hibafeszültség áthidalása</li>
+                        <li>lépésfeszültség áthidalása</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Fázis-föld érintés:</span> Villamos
+                        energiarendszerünknek az a része, amely az ipari, háztartási, világítási fogyasztókat
+                        közvetlenül látja el (3x400/230 V-os háromfázisú rendszer) mereven földelt csillagponttal
+                        rendelkezik. Ez azt jelenti, hogy a háromfázisú rendszer csillagpontja minden közbeiktatott
+                        impedancia nélkül csatlakozik egy viszonylag nagykiterjedésű földelő rendszerhez.
+                        A villamos energiarendszerek döntő többségében a kisfeszültségű hálózatok mereven földelt
+                        csillagponttal rendelkeznek és csak igen kis számban – különleges esetekben – találhatók nem
+                        földelt, szigetelt csillagpontú hálózati rendszerek.<br>Itt kell megemlíteni azt, hogy a 400/230
+                        V-os háromfázisú elosztórendszereket tápláló transzformátorok nagyobb feszültségű tekercselése
+                        (3kV – 35kV) kivétel nélkül delta (háromszög) kapcsolásúak.
+                        A kisfeszültségű tekercsrendszer csillagpontjának leföldelése azt eredményezi, hogy a földet,
+                        mint referencia pontot kezelhetjük és a rendszerben lévő feszültségeket – kivéve a soros
+                        feszültségeséseket, valamint a vonali feszültségeket – a földhöz, mint nullpotenciához
+                        viszonyíthatjuk.<br>Ha a talajt végtelen nagy keresztmetszete miatt igen jó vezetőnek tekintjük,
+                        akkor be lehet látni, hogy a talaj és bármelyik fázisvezető között a fázisfeszültség (230 V)
+                        jelenik meg, sőt terhelve sem fog lényegesen különbözni tőle. Egy ilyen rendszerben tehát, ha
+                        valaki valamilyen módon érintkezésbe kerül a talajjal és az egyik fázisvezetővel, akkor az
+                        érintkezési pontok között a fázisfeszültség hatására létrejön az áramütés.</p>
+                    <p class="maxwidth1000"><span class="textbold">Fázis-fázis érintés:</span> Ez a típusú áramütés a
+                        következő módon jöhet létre. A földtől teljesen elszigetelt személy egyszerre érint meg két
+                        fázisvezetőt. Ekkor az áramütés nem a fázis feszültségtől, hanem vonalfeszültségtől fog létre
+                        jönni, ezért rendszerint súlyosabb balesetet okoz.<br>E két esetnek az a közös tulajdonsága,
+                        hogy az üzemszerűen feszültség alatt álló alkatrész (vezető, villamosgép, vagy készülék
+                        csatlakozó kapcsa stb.) megérintését tételezi fel. Az ilyen jellegű balesetek megelőzése,
+                        illetve az ellenük való védekezés az érintésvédelmen belül az alapvédelem. Azokat a villamos
+                        berendezéseket, amelyek áramütéses balesetet okozhatnak, úgy kell szerelni, hogy abban az
+                        üzemszerűen feszültség alatt álló alkatrészeket véletlenül se lehessen megérinteni sem kézzel,
+                        sem valamilyen eszközzel. A szándékos érintés ellen egyébként úgysem lehet védekezni.</p>
+                    <p class="maxwidth1000"><span class="textbold">Hibafeszültség áthidalása:</span> A villamos gépek,
+                        készülékek, szerszámok burkolatait, kezelőfogantyúit használat közben alkalmanként vagy
+                        állandóan fogni kell. Normális körülmények között ezek megfogása veszélytelen, mert jól el
+                        vannak szigetelve az üzemszerűen feszültség alatt álló alkatrészektől. Ezek a burkolatok,
+                        fogantyúk stb. üzemszerűen nem állnak feszültség alatt, tehát áramütés veszélye nélkül meg
+                        lehet, sőt a munkavégzés érdekében meg is kell őket fogni. Ha azonban a szigetelés sérülése
+                        következtében a burkolat érintkezésbe kerül a feszültség alatt lévő alkatrésszel, akkor annak
+                        érintése áramütést okozhat.<br>Sajnos nincs érzékszervünk arra, hogy meg tudjuk állapítani egy
+                        fém tárgyról, hogy a környezetéhez képest milyen potenciálon van, ezért az ilyen, a meghibásodás
+                        következtében feszültség alá került tárgyat gyanútlanul érintünk, fogunk meg. Az ebből származó
+                        balesetek megelőzésével, ill. az ellene való védekezéssel foglalkozik az érintésvédelmen belül a
+                        hibavédelem.<br>Vizsgáljuk meg azt, hogy egy meghibásodás miatt feszültség alá került berendezés
+                        megérintése esetén mekkora feszültség jut az emberre. A kérdés tisztázása érdekében az
+                        érintésvédelem klasszikus módszeréből indulunk ki. Adva van egy táptranszformátor, amelynek
+                        mereven földelt csillagpontja van és egy fogyasztót lát el. A fogyasztó érintésvédelmét úgy
+                        biztosítjuk, hogy az üzemszerűen feszültség alatt nem álló, de megérinthető fém alkatrészeit egy
+                        védőföldeléshez (Rv) kötjük. Ezzel biztosítani lehet, hogy a
+                        megérinthető alkatrészek hibátlan állapotban a környezetükhöz képest nem lesznek potenciálon,
+                        így a géppel biztonságosan lehet dolgozni.<br>Megváltoznak a viszonyok, ha a gép egyik fázisának
+                        meghibásodik a szigetelése és a fázisvezető hozzá ér a megérinthető, de a leföldelt
+                        alkatrészhez. Az így kialakult zárt körben a fogyasztó névleges áramánál jóval nagyobb – zárlati
+                        áram jön létre. A létrejövő áramot a fázisfeszültség és a kör ohmos ellenállásainak viszonya
+                        fogja meghatározni. (a kör reaktanciáit ez esetben el lehet hanyagolni). Milyen ellenállásokat
+                        lehet ebben az áramkörben figyelembe venni:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a hozzávezetés ellenállását R<sub>F</sub>,</li>
+                        <li>a védőföldelés szétterjedési ellenállását R<sub>V</sub>,</li>
+                        <li>a transzformátor csillagponti földelésének, az üzemi földelésnek a szétterjedési
+                            ellenállását R<sub>Ü</sub>,</li>
+                        <li>a talaj és egyéb, nem ismert ellenállásokat R<sub>egyéb</sub></li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Ezekkel az ellenállásokkal fel lehet már a testzárlatos kör helyettesítő
+                        vázlatát rajzolni.
+                        Ránézéssel könnyen belátható, hogy a védőföldelés két sarka között fellépő feszültség különbség,
+                        a hibafeszültség, UH az alábbi összefüggés segítségével határozható meg:</p>
+                    <p class="maxwidth1000 centered textbold">𝑈<sub>H</sub> = 𝐼<sub>z</sub> ∗ 𝑅 <sub>v</sub> =
+                        𝑈<sub>f </sub> * (𝑅 /
+                        Σ𝑅)</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>U<sub>f</sub> a fázisfeszültség</li>
+                        <li>U<sub>H</sub> a hibafeszültség, amely a meghibásodás folytán feszültség alá került test és a
+                            végtelen távoli földpotenciálú hely között fellépő feszültség.</li>
+                        <li>ΣR a körben lévő valamennyi soros ellenállás</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Ha ezt a testzárlatos gépet megérinti, vagy megfogja valaki, akkor testével
+                        tulajdonképpen a védőföldelésen létrejött feszültséget hidalja át.
+                        Az emberi test ellenállását jelképező R<sub>e</sub> ellenállással sorba van kötve egy
+                        úgynevezett talpponti
+                        ellenállás, amely az emberi test és a környezet közötti ellenállást veszi figyelembe
+                        (R<sub>1</sub>). A
+                        talpponti ellenállást több tényező - a talaj fajlagos ellenállása, a padozat minősége (száraz,
+                        nedves, vezető, nem vezető stb.) lábbeli, stb. - befolyásolja. De ez az ellenállás lehet például
+                        egy gumi védőkesztyű ellenállása is vagy bármi, ami az emberi testet a földtől
+                        elszigeteli.<br>Az emberi testen átfolyó áram értékét a következő módon lehet meghatározni,
+                        azzal a mindig fennálló feltétellel, hogy I<sub>z</sub> >> I<sub>e</sub></p>
+                    <p class="maxwidth1000 centered textbold">I<sub>e</sub> = U<sub>H</sub> / (R<sub>e</sub> +
+                        R<sub>1</sub>)</p>
+                    <p class="maxwidth1000">azaz az emberi testen átfolyó áram nagyságát a hibafeszültség és az emberi
+                        test ellenállása a talpponti ellenállással együtt határozza meg.
+                        Az előzőekben kifejtett okok miatt nem az áramot, hanem a feszültséget kell meghatározni, ez
+                        pedig így írható fel</p>
+                    <p class="maxwidth1000 centered textbold">U<sub>e</sub> = I<sub>e</sub> * R<sub>e</sub> =
+                        U<sub>H</sub> * (R<sub>e</sub> / (R<sub>e</sub> + R<sub>1</sub>))</p>
+                    <p class="maxwidth1000">ahol U<sub>e</sub> a testzárlatos gép megérintése esetén az emberre jutó
+                        feszültség, U<sub>H</sub>
+                        a védőföldelésen lévő feszültségesés, vagy hibafeszültség. Látható, hogy ha R1 ≠ 0, vagyis az
+                        ember nincs közvetlen kapcsolatban a földpotenciálú hellyel, akkor Ue < UH, vagyis a talpponti
+                            ellenállás csökkenti az emberi testre jutó feszültség nagyságát. Ez a csökkentés igen nagy
+                            talpponti ellenállás esetén olyan mértékű lehet, hogy az emberre elhanyagolhatóan kicsi
+                            feszültség jut. Ezt a hatást az érintésvédelem bizonyos módszereinél tudatosan ki is
+                            használjuk és élünk a lehetőséggel. Más esetben azonban a talpponti ellenállás értéke
+                            rendkívül bizonytalan és változó lehet (pl. egy száraz padozatú helyiség takarítás
+                            következtében átnedvesedik, vagy a géphez nyúló személy átázott cipőben van stb.) Ezért az
+                            érintésvédelem a talpponti ellenállás értékét a biztonság irányában való eltérés érdekében
+                            mindig R1=0 értékkel veszi figyelembe. Kivéve, ha az érintésvédelmet éppen a nagy talpponti
+                            ellenállásra alapozzuk. Ha a talpponti ellenállást elhanyagoljuk, akkor az emberi testre
+                            jutó feszültség azonos lesz a védőföldelésen fellépő feszültségeséssel, azaz U<sub>e</sub> =
+                            U<sub>H</sub> = I<sub>z</sub> * R<sub>v</sub>
+                            tehát az érintési feszültséget ez esetben a védőföldelés szétterjedési ellenállásának és a
+                            rajta folyó áramnak szorzatával definiáljuk.<br>A hibafeszültség áthidalásának egyik esete
+                            és a belőle származó áramütés tehát a fentiek szerint értelmezhető.
+                            A hibafeszültség áthidalásának más elvi esete is lehetséges. Ez főleg akkor fordul elő, ha
+                            egy ember által egyidejűleg megérinthető két olyan villamos fogyasztó van, amelyek más-más
+                            fázisban hibásodtak meg. Ez esetben a két gépet megérintő nem a fázis, hanem a vonali
+                            feszültséget hidalja át, amely súlyosabb balesetet okozhat.</p>
+                    <p class="maxwidth1000"><span class="textbold">Lépésfeszültség áthidalása:</span> A talaj, mint
+                        vezető a rendkívül nagy keresztmetszete következtében elhanyagolható ellenállású. Ez a
+                        feltételezés csak a földelő rendszertől távoli pontokon teljesül. A földelők közvetlen közelében
+                        már nem, hiszen a földelőt véges keresztmetszetű talaj övezi, ugyanakkor itt a legnagyobb az
+                        áramsűrűség is. Ezért egy árammal terhelt földelő környezetében a talaj potenciálja pontról
+                        pontra más lesz. Ha ezen a területen ember vagy állat közlekedik, akkor a lábai által áthidalt
+                        pontok közötti potenciálkülönbség okozhat áramütést.<br>Lépésfeszültség (U<sub>l</sub>) az a
+                        feszültség,
+                        amely lépés közben a talajt érintő lábak között, a talajban folyó földzárlati áram hatására
+                        fellép. Kisfeszültségű hálózaton, ha az érintésvédelem egyébként helyesen van méretezve és
+                        kialakítva, akkor veszélyes lépésfeszültség nem keletkezik. Nagyfeszültségű hálózatoknál, ahol a
+                        földzárlati áramok is jóval nagyobbak, már komoly veszélyt jelenthet a lépésfeszültség
+                        kialakulása, különösen ott, ahol nem szigetelő anyagból készült hosszabb tárgyakat emberi erővel
+                        szállítanak, vagy rakodnak. Ezeken a helyeken a lépésfeszültség okozta baleset ellen is
+                        védekezni kell.</p>
+                    <p class="maxwidth1000"><span class="textbold">Nullázás:</span> <a
+                            href="x_villrendszerek.html">TN-S, TN-C, TN-C-S</a></p>
+                    <p class="maxwidth1000">Fázisvezetők: L1 L2 L3 Színjelölésük: fekete, barna, szürke<br>Nullavezető:
+                        N Színjelölése: világoskék<br>PEN vezető: nullával egyesített védővezető, színjelölése kétféle
+                        lehet. Teljes hosszában kék, a csatlakozási pontoknál zöld/sárga jelöléssel, vagy teljes
+                        hosszában zöld/sárga, a csatlakozási pontoknál kék jelöléssel.<br>PE vezető, védővezető,
+                        színjelölése: zöld/sárga. (szokták még nullázó vezetőnek is nevezni) Üzemi áramot nem
+                        vezet.<br>Üzemi vezetők: fázis és nulla vezetők</p>
+                    <p class="maxwidth1000">A TN rendszerű hálózaton fellepő testzárlati áram gyakorlatilag nem halad a
+                        talajon át, szinte teljesen fémes úton (a fázisvezetőn, a nullázó vezetőn és a PEN-vezetőn át)
+                        záródik. Ennek megfelelően a földhöz képest ennek hatására fellepő feszültségemelkedést nem
+                        lehet számítani, itt a méretezés csak azt veszi számításba, hogy a fázisfeszültség
+                        (U<sub>0</sub>) a
+                        zárlati kör impedanciáján (amit „hurok impedancia”-nak, vagy egyszerűen „hurokellenállás”-nak
+                        neveznek es Z<sub>s</sub> -el jelölnek) át tud-e hajtani olyan nagyságú áramot, ami a
+                        túláramvédelmet az
+                        előirt időn belül működteti:</p>
+                    <p class="maxwidth1000 centered textbold">Z<sub>s</sub> &#8804 U<sub>0</sub> / I<sub>a</sub> &#8804
+                        230V / (I<sub>n</sub> * 𝛼)</p>
+                    <p class="maxwidth1000">ahol:<br>Z<sub>s</sub> a hibahely hurokimpedanciája<br>U<sub>0</sub>U0 a
+                        névleges váltakozó vagy egyenfeszültség értéke a földhöz képest<br>I<sub>a</sub> a kioldást
+                        előírt időn belül biztosító áram, (TN <0,4 s, TT < 0,2 s)<br>I<sub>n</sub> a kioldószerv
+                            névleges árama<br>α a kioldási tényező
+                    </p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>

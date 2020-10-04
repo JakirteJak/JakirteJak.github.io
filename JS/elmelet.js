@@ -24,4 +24,5 @@ add_elmTR("Mértékegységek neve, jelölése", "x_mertekegysegek.html");
 add_elmTR("Ohm törvénye", "x_ohm_torvenye.html");
 add_elmTR("Sönt ellenállás", "x_sont_ellenallas.html");
 add_elmTR("Szigetelési ellenállás", "x_szigetelesi_ell.html");
+add_elmTR("Törpefeszültség, SELV, PELV, FELV (8. Tétel)", "t08_hibavedelem.html#T08_torpefesz");
 add_elmTR("Villamos rendszerek TT, IT, TN-C, TN-S, TN-C-S", "x_villrendszerek.html");

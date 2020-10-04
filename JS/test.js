@@ -1,6 +1,6 @@
 document.getElementById("tablePercent").style.visibility = "hidden";
 let myAnswers = [];       // A kérdésekre adott válaszok tömbje
-let maxQuestionsNum = 10;  // Maximális kérdésszám
+let maxQuestionsNum = 15; // Maximális kérdésszám
 let dataBaseSize    = 18; // Adatbázisban található kérdések száma
 let actQNum = 0;          // Az aktuális kérdés sorszáma az adatbázisban
 let numOfQ  = 0;          // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
