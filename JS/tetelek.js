@@ -20,5 +20,7 @@ add_elmTR("5. Villamos áramkörök kialakításánál használt anyagok falon k
     "t05_anyagok.html");
 add_elmTR("6. Lakásvilágítási áramkörök", "t06_lakasvilagitas.html");
 add_elmTR("7. Túláramvédelem", "t07_tularamvedelem.html");
-add_elmTR("8. Hibavédelem (Érintésvédelem)", "t08_hibavedelem.html")
-add_elmTR("9. Áramütés elleni védelem nullázott (TN) rendszerű hálózaton", "t09_aramutes.html")
+add_elmTR("8. Hibavédelem (Érintésvédelem)", "t08_hibavedelem.html");
+add_elmTR("9. Áramütés elleni védelem nullázott (TN) rendszerű hálózaton", "t09_aramutes.html");
+add_elmTR("10. Áramütés elleni védelem földelt vagy szigetelt csillagpontú hálózat esetén", "t10_aramutes10.html");
+add_elmTR("11. Lakó és kommunális épület hibaáram-rendszerében a központi EPH-csomópont kialakítása és az áram-védőkapcsoló ellenőrzése", "t11_eph_csomopont.html");

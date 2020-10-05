@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="centered">
+        <tr>
+            <td>
+                <p class="centered bordered maintitle">11. tétel: Lakó és kommunális épület hibaáram-rendszerében a
+                    központi EPH-csomópont kialakítása és az áram-védőkapcsoló ellenőrzése</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 textbold">Milyen fémes elemeket kell közvetlenül bekötni a központi
+                        EPH-csomópontba?<br>
+                        Ismertesse az áram-védőkapcsoló szerkezetét, működési elvét, az áramkörbe csatlakoztatási
+                        lehetőségeit.<br>
+                        Üzleti terv.<br>
+                        Jellemezze a vállalkozások környezetét, személyi feltételeit. Ismertesse a vállalkozási
+                        formákat. Mutassa be az üzleti terv fejezeteit.</p>
+                    <p class="maxwidth1000">A tételhez használható segédeszköz: áram-védőkapcsoló elvi működési rajza
+                    </p>
+                    <p class="maxwidth1000 centered textbold">8/1981. (XII. 27.) IpM rendelet
+                        a Kommunális- és Lakóépületek Érintésvédelmi Szabályzatáról
+                        KLÉSZ</p>
+                    <p class="maxwidth1000">A <span class="textbold">KLÉSZ</span> a közcélú kisfeszültségű
+                        elosztóhálózatra csatlakozó kommunális-,
+                        lakó- és egyéb épületek, fogyasztási helyek, fogyasztói vezetékhálózatok és
+                        fogyasztóberendezések érintésvédelme létesítésére és ellenőrzésére ad előírásokat.<br>A KLÉSZ
+                        alkalmazásában:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a) <span class="textbold">Lakóépület:</span> közvetlenül a közcélú kisfeszültségű
+                            elosztóhálózatról (a továbbiakban:
+                            elosztóhálózat) ellátott és alaprendeltetése szerint
+                            <ul>
+                                <li>lakóépület,</li>
+                                <li>üdülőépület,</li>
+                                <li>otthonház</li>
+                            </ul>
+                            abban az esetben is, ha az alaprendeltetéstől eltérő célra szolgáló helyiség (pl.: üzlet,
+                            műhely) is van benne, továbbá az előbbiek elhelyezésére szolgáló, illetve alkalmas telek.
+                        </li>
+                        <li>b) <span class="textbold">Kommunális épület:</span> közvetlenül az elosztóhálózatról
+                            ellátott és alaprendeltetése szerint
+                            az
+                            a) pontba nem tartozó valamennyi épület, úgymint
+                            <ul>
+                                <li>igazgatási és irodaépület,</li>
+                                <li>szociális épület (bölcsőde, csecsemőotthon, szociális otthon),</li>
+                                <li>egészségvédelmi épület (gyógykezelő épület, orvosi rendelő),</li>
+                                <li>művelődési épület (színház, mozi, kultúrház stb.),</li>
+                                <li>oktatási épület (óvoda, iskola, egyetem, diákotthon, nevelőotthon,
+                                    sportlétesítmények),</li>
+                                <li>ellátó és szolgáltató épület (üzlet, üzletház, áruház, vásárcsarnok, piac,
+                                    vendéglátó üzlet, konyha, szálloda, üdülőszálló)</li>
+                            </ul>
+                            abban az esetben is, ha az épület alaprendeltetésétől eltérő célra szolgáló helyiség (pl.:
+                            lakás, műhely) is van benne, továbbá az előbbiekhez hasonló rendeltetésű, illetve a
+                            felsorolt létesítmények elhelyezésére
+                            szolgáló egyéb épület.
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az érintésvédelemmel kapcsolatos fogalmak a következők:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li><span class="textbold">Házi fémhálózat:</span> az épületen belül minden olyan villamosan
+                            összefüggő jól vezető
+                            fémszerkezet, amelynek mérete függőleges irányban a szintmagasságnál, vagy vízszintes
+                            irányban 5 m-nél nagyobb.<br>Nem minősül házi fémhálózatnak a lépcső, a függőfolyosó- és az
+                            erkélykorlát, valamint a zászlótartó rúd abban az esetben sem, ha méretei az említett
+                            határértékeket meghaladják. (Házi fémhálózat pl.: a víz, gáz, központi fűtés villamosan
+                            összefüggő jól vezető fémcsőhálózata, vagy villamosan összefüggő jól vezető fém
+                            épületszerkezet),</li>
+                        <li><span class="textbold">Villamosan összefüggő jól vezető:</span> minden olyan fémszerkezet,
+                            melynek elemei egymáshoz
+                            hegesztéssel, forrasztással, szegecseléssel, csavaros kötéssel, vagy csővezeték esetén a
+                            szokásos karmantyús vagy karimás csőkötéssel vannak összeerősítve.</li>
+                        <li><span class="textbold">Önállóan is számottevő földelés:</span> a vasbeton
+                            épületalap-földelés, továbbá más - természetes vagy mesterséges - földelés, amelynek
+                            szétterjedési ellenállása (létesítés után vagy a földelőként való felhasználás előtt
+                            megmérve és bizonylatolva) 10 ohm-nál nem nagyobb, vagy amelynek a talajban fekvő hatásos (a
+                            talajfelszínnél legalább 0,7 m-rel mélyebben fekvő) teljes hossza vízszintes földelő esetén
+                            legalább 8 m, függőleges (rúd, cső) földelő esetén legalább 4 m, ezt a feltételt kielégíti 2
+                            db
+                            egymástól legalább 2 m távolságra levő és egyenként 2 m hatásos hosszúságú földelő
+                            összekötése is.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Nullázásos érintésvédelem esetén a védővezetőt a nullavezetőről - annak
+                        keresztmetszetétől függetlenül - az áram-védőkapcsoló előtt kell leágaztatni.
+                        Az EPH-t ki kell alakítani minden olyan épületben, amelyben házi fémhálózat van:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>új épület esetén a házi fémhálózatok, illetve a villamos fogyasztói vezetékhálózat
+                            létesítésével egyidőben,</li>
+                        <li>meglevő épület esetén a házi fémhálózatok, illetve az épületben levő méretlen villamos
+                            fogyasztói hálózat felújításával egyidőben.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Azokat a házi fémhálózatokat, amelyek az (épület szekció) legalsó szintjére
+                        (pl.: pince, szerelőszint) is kiterjednek, ezen a szinten fémesen jól vezető módon össze kell
+                        kötni egymással, valamint a földeléssel (pl.: vasbetonalap földeléssel), továbbá nullázás esetén
+                        a nullavezetővel - az MSZ 447 előírásait is figyelembe véve - elsősorban a házi főelosztó
+                        berendezésben, vagy a házi csatlakozó szekrényben, ezek hiányában a fogyasztásmérő berendezés,
+                        illetve a fogyasztói főelosztótábla közelében. Azt a házi fémhálózatot, mely az épület legalsó
+                        szintjére nem terjed ki, az előfordulásának megfelelő legalsó szinten kell összekötni.
+                        Az épületnek legalább négy szintjére kiterjedő házi fémhálózaton összekötést az előfordulásának
+                        megfelelő legfelső szinten is el kell készíteni.</p>
+                    <p class="maxwidth1000"><span class="textbold">Központi földelőkapocs, földelősín:</span> Valamennyi
+                        villamos berendezés részére ki kell alakítani egy központi földelőkapcsot, illetve földelő
+                        sínt. Ebbe bonthatóan be kell kötni a következő vezetőket:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a földelővezetőket,</li>
+                        <li>a védővezetőket,</li>
+                        <li>a védő egyenpotenciálrahozó vezetőt (EPH-gerincvezetőket),</li>
+                        <li>az üzemi földelések földelővezetőit (ha ilyenek vannak, és az összekötést előírás nem
+                            tiltja)</li>
+                        <li>a villámvédelmi rendszer földelését az érintésvédelmi rendszer földelésével össze kell
+                            kötni, ha a két rendszer földelői 20 m-nél közelebb vannak telepítve. Ennél nagyobb távolság
+                            esetén az összekötés megengedett, de nem kötelező.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000 subtitle">ÁVK</p>
+                    <p class="maxwidth1000">Az áram-védőkapcsoló, továbbiakban (ÁVK), elsőleges alkalmazásban a
+                        közvetett érintés elleni védelem - továbbiakban érintésvédelem - kikapcsoló szerve. Feladata -
+                        érintésvédelmi célú kikapcsoló eszközként - a balesetveszélyt okozó, hibás, esetünkben
+                        "testzárlatos" hálózatrész lekapcsolása, a
+                        balesetveszély megszüntetése. Ezt a feladatot az ÁVK úgy látja el, hogy érzékeli a hibaáramot
+                        (különbözeti áramot), és ha az meghaladja az ÁVK névleges kioldó áramát (In), akkor működteti a
+                        kikapcsoló készülékét.<br>Az ÁVK-t gyakran nevezik FI relének, amely elnevezés a német
+                        megnevezés "Fehlerstromschutzschalter" rövidítéséből ered. Az RCD megjelölés az angol "residual
+                        current device" kezdőbetűiből adódik. Az MSZ EN 61008-1: 1998 termékszabvány RCCB rövidítése
+                        pedig a "residual carrent opereted circuit breaker" szavak kezdőbetűiből adódik. Az idegen
+                        nyelvű megnevezések fordításai nem terjedtek el a hazai gyakorlatban.<br>A védővezetős
+                        érintésvédelem kioldási követelményei bizonyos esetekben nem teljesülnek; például akkor, ha a
+                        hurok impedancia vagy a földelési ellenállás nem elegendően kicsi, azaz a zárlati áram nem elég
+                        nagy a zárlatvédelmi szerv kioldásához.<br>Az áram-védő kapcsolás működésének elve az, hogy ha
+                        egy váltakozó áramú fogyasztóhoz csatlakozó összes üzemi vezető áthalad egy vasmagon, amelyben
+                        hibamentes berendezés esetén a fluxus nulla, mert a vasmagon áthaladó áramok összege is
+                        szükségszerűen nulla és ezzel a gerjesztés is nulla. A fluxus csak akkor lesz nullától eltérő
+                        értékű a vasmagban, ha az áramok összege nem nulla, azaz áram halad a vasmagon kívüli
+                        védővezetőben is. A nullától eltérő váltakozó fluxus ekkor feszültséget indukál a vasmagon
+                        elhelyezett tekercsben, ami áramot indít egy kioldó relében, ami viszont bontja a berendezés
+                        kapcsolóját és így leválasztja a hibás berendezést a hálózatról.
+                        Az áramvédő kapcsolás működése tehát független a védett berendezés teljesítményétől.<br>ÁVK
+                        alkalmazásánál az alábbiakat mindig vegyük figyelembe:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>Az üzemi áramokat összegezni kell, tehát háromfázisú rendszerbe háromfázisú ÁVK építendő be!
+                            Azonban háromfázisú áramkörben a háromfázisú ÁVK helyett három egyfázisú ÁVK nem építhető
+                            be, mert nem hozza létre a különbözeti áramot, miután az egyik fázisra kapcsolt áramváltó
+                            áramának visszavezetése a többi fázis ÁVK-in történne, és így mindegyik hibaáramot érzékelne
+                            és kikapcsolódna. Hasonló probléma adódik, ha több egyfázisú áramkört külön-külön védenek
+                            ÁVK-val, de valamely szakaszon az egyik vezetőt közösítik, és azt vezetik át az ÁVK-n: ekkor
+                            természetesen hibás kioldás keletkezik.</li>
+                        <li>Csak az összes üzemi vezető vezetendő át, mert ha azt a vezetőt is átvisszük, amin a
+                            megkerülő áram is folyik, megint nulla lesz a gerjesztés, és az ÁVK jogosan nem működik.
+                            Azaz a testzárlati hibaáram vezetésére szolgáló PE védővezetőt soha nem szabad az ÁVK-n
+                            átvezetni!</li>
+                        <li>Az előző két meggondolás alapján - a nullavezetőt (N) mindig, a védővezetőt (PE) soha nem
+                            szabad az ÁVK-n átvezetni - PEN vezető esetében ÁVK nem alkalmazható, miután egyidejűleg a
+                            két feltételnek nem lehet megfelelni. Azaz TN-C rendszerben, illetve TN-C-S rendszer TN-C
+                            részében ÁVK nem alkalmazható!</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A legérzékenyebb áramvédő kapcsolók - (FI-relék) - már 10 mA különbségi
+                        áramra is működésbe lépnek. Ezzel már az emberen áthaladó áram hatására is megszólalnak és rövid
+                        idő alatt lekapcsolnak.
+                        Az áram-védőkapcsolás érzékenységét úgy kell megválasztani, hogy a szokásos üzemi szivárgóáramok
+                        ne okozhassanak kikapcsolást.
+                        Az áram-védőkapcsolás szokásos érzékenysége:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>daruk esetén: 200 mA</li>
+                        <li>építőipari gépek esetén: 100 mA</li>
+                        <li>lakások esetén 30 mA</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az áram-védőkapcsolók általában már a névleges kioldóáramuk 75-80 % -ánál is
+                        kioldanak. Az áramvédő kapcsolás nem önálló érintésvédelmi mód, hanem a vezetékes érintésvédelem
+                        kikapcsoló szerveként alkalmazható, azok legkedvezőbb érintésvédelmi kapcsoló szervének
+                        tekinthető. Áram-védőkapcsoló alkalmazásakor nem szabad természetesen a védővezetőt átvezetni a
+                        vasmagon és az áramvédő kapcsolás után a védővezetőt nem szabad újra összekötni a nulla
+                        vezetővel.</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img style="max-width: 950px; width: 100%;" src="img_tetel/fi_rele01.jpg"
+                                    title="" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img style="max-width: 950px; width: 100%;" src="img_tetel/fi_rele02.jpg"
+                                    title="" alt="">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure>
+                                    <img style="max-width: 950px; width: 100%;" src="img_tetel/fi_rele03.jpg"
+                                    title="" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
