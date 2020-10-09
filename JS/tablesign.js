@@ -12,9 +12,9 @@ function addTD(HTML, parentTR, classL) {
 function addTR(mennyisegNev, mennyisegJel, mertekegysegNev, mertekegysegJel) {
     let tr = document.createElement("tr");
     addTD(mennyisegNev, tr);
-    addTD(mennyisegJel, tr, "tdc2");
+    addTD(mennyisegJel, tr, "tdc2 kiemel");
     addTD(mertekegysegNev, tr);
-    addTD(mertekegysegJel, tr, "tdc2");
+    addTD(mertekegysegJel, tr, "tdc2 kiemel");
     tBody.appendChild(tr);
 }
 

@@ -7,25 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/clock.css">
     <style>
         tr:nth-child(even) {
-            background-color: #dddddd;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
         }
     </style>
 </head>
 
-<body>
-    <table class="centered">
-        <tr>
-            <td>
-                <p class="centered bordered maintitle">Mértékegységek neve, jelölése</p>
-            </td>
-        </tr>
-    </table>
+<body class="backG01">
+    <div class="centered">
+        <p class="bordered maintitle backGSub01">Mértékegységek neve, jelölése</p>
+    </div>
 
     <table class="centered">
-        <tbody style="max-width: 980px;" class="bordered">
+        <tbody style="max-width: 980px;">
             <tr>
                 <td>
                     <p class="maxwidth1000">
@@ -45,7 +41,7 @@
                                     <td class="tdc" style="background-color: black; color: white;">Jele:</td>
                                 </tr>
                             </thead>
-                            <tbody id="tableSigns">
+                            <tbody id="tableSigns" class="backGSub01">
                             </tbody>
                         </table>
                     </div>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
+        }
+    </style>
+</head>
+
+<body class="backG01">
+    <div class="centered">
+        <p class="bordered maintitle backGSub01">12. tétel: Külső villámvédelmi rendszer kialakítása</p>
+    </div>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;"
+            class="bordered backGSub01">
+            <tr>
+                <td>
+                    <p class="maxwidth1000 txtbold">Határozza meg a külső villámvédelmi rendszer feladatát, részeit!
+                        Mutassa be a külső villámvédelmi rendszer részeinek jellemzőit! Mondja el a villámáram hatásait,
+                        károkozásának lehetőségeit! Ismertesse, hogy az épület milyen jellemzőitől függ a külső
+                        villámvédelmi rendszer kialakítása!</p>
+                    <p class="maxwidth1000 textbold">Szakkifejezések és fogalom meghatározások</p>
+                    <p class="maxwidth1000"><span class="textbold">Fizikai károsodás (physical damage):</span> A villám
+                        mechanikai, hő, kémiai vagy robbantó hátasai miatt az építményben (vagy a tartalmában)
+                        vagy a szolgáltatásban bekövetkezett kár.</p>
+                    <p class="maxwidth1000"><span class="textbold">Kockázat (risk) R:</span> A villám által okozott
+                        évenkénti (emberi es anyagi) veszteség várható átlagos értéke a védendő tárgy teljes (emberi es
+                        anyagi) értekéhez viszonyítva.</p>
+                    <p class="maxwidth1000"><span class="textbold">Elviselhető kockázat (tolerable risk)
+                            R<sub>T</sub>:</span> Annak a legnagyobb kockázatnak az értéke, amely a védendő tárgy esetén
+                        meg megengedhető.</p>
+                    <p class="maxwidth1000"><span class="textbold">Fajlagos energia: </span>A villámáram négyzetének a
+                        villámcsapás teljes időtartamára vett idő szerinti integrálja. A villámáram egységnyi
+                        ellenállásra jutó disszipált hőenergiája, az áramnégyzetfüggvény görbe alatti területe.
+                        (áramnégyzet impulzus)<br>𝑊𝑅=∫𝑖<sup>2</sup>𝑑𝑡</p>
+                    <p class="maxwidth1000">Egy építményt érő villámcsapás károsíthatja:
+                    <ul>
+                        <li>az építményt</li>
+                        <li>a benne lévő személyeket és javakat</li>
+                        <li>a belső rendszereket</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Építményben keletkező veszteségek forrásai és típusai:</p>
+                    <div class="centered">
+                        <table style="border: 1px solid #dddddd; border-collapse: separate;">
+                            <thead>
+                                <tr>
+                                    <td class="tdp" style="background-color: black; color: white; padding-left: 5px;">
+                                        Becsapási pont</td>
+                                    <td class="tdp" style="background-color: black; color: white; padding-left: 5px;">
+                                        Kár fajtája</td>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td class="tdp">Építményt érő villámcsapás</td>
+                                <td class="tdp">D1, D2, D3</td>
+                            </tr>
+                            <tr>
+                                <td class="tdp">Építmény környezetét érő
+                                    villámcsapás</td>
+                                <td class="tdp">D3</td>
+                            </tr>
+                            <tr>
+                                <td class="tdp">Az építményhez csatlakozó
+                                    vezetéket érő villámcsapás</td>
+                                <td class="tdp">D1, D2, D3</td>
+                            </tr>
+                            <tr>
+                                <td class="tdp">Az építményhez csatlakozó
+                                    vezeték környezetét érő
+                                    villámcsapás</td>
+                                <td class="tdp">D3</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="maxwidth1000">Károsodás típusai:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li><span class="textbold">D1:</span> élőlények sérülése az érintési és a lépésfeszültség miatt
+                        </li>
+                        <li><span class="textbold">D2:</span> fizikai kár ( tűz, robbanás, mechanikai rongálás, vegyi
+                            anyagok kiszabadulása)</li>
+                        <li><span class="textbold">D3:</span> belső rendszerek meghibásodása az elektromágneses
+                            villámimpulzus következtében</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Veszteségek típusai:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li><span class="textbold">L1:</span> emberi élet elvesztése</li>
+                        <li><span class="textbold">L2:</span> közszolgáltatás kiesése (villany, víz, gáz, telefon,
+                            internet valamint ezek járulékos hatásai –
+                            áramszünet kórházban, banki adatvesztés)</li>
+                        <li><span class="textbold">L3:</span> kulturális örökség elvesztése (műemlék épület, szobrok,
+                            emlékművek, múzeumok)</li>
+                        <li><span class="textbold">L4:</span> gazdasági érték elvesztése ( építmény és a benne található
+                            javak, anyagi károk, állatok elpusztulása álltatelepen)</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">L1-L3: pénzben nem mérhető<br>
+                        L4: tisztán gazdasági veszteség</p>
+                    <p class="maxwidth1000 subtitle">A villámáram káros hatásai:</p>
+                    <p class="maxwidth1000"><span class="textbold">Hőhatás:</span> a felfogó, levezetőben fellépő ohmos
+                        melegedés okozza. Hőhatást okoz a becsapódási ponton kialakuló talpponti melegedés. A vezetőknek
+                        olyan keresztmetszetűnek kell lenniük, hogy azok felmelegedése ne okozzon a környezetük számára
+                        tűzveszélyt.<br>A talpponti melegedésből származó sérülések a villámvédelmi rendszer mindazon
+                        elemein megfigyelhetők, amelyeken ívkisülés alakulhat ki, pl. felfogó rendszerek, szikraköz stb.
+                        A talppontban megolvadás és anyagfogyás léphet fel. A talppont közelében több hőenergia
+                        keletkezik, mint amennyit a fém el tud vezetni, ez egyrészt sugárzás révén távozik, másrészt
+                        megolvasztja és elpárologtatja a fémet.</p>
+                    <p class="maxwidth1000"><span class="textbold">Mechanikai hatások:</span>
+                    <ul>
+                        <li>mágneses kölcsönhatás: Mágneses erők két árammal átjárt vezető között jönnek létre, vagy
+                            egyetlen vezető esetén akkor, ha abban iránytörés van, vagy hurkot alkot.</li>
+                        <li>elektrodinamikus erők: Az elektrodinamikus erőket a vezetők a sarkokban és a hurokban
+                            deformálhatják.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Akusztikus nyomáshullám által okozott
+                            károsodás:</span> A kisülési csatornában folyó villámáram nyomáshullámot hoz létre.
+                        (ablaküveg betörik)</p>
+                    <p class="maxwidth1000"><span class="textbold">Kombinált hatások:</span> A gyakorlatban a hő és
+                        mechanika hatások együtt jelentkeznek.</p>
+                    <p class="maxwidth1000"><span class="textbold">Másodlagos kisülés:</span> A másodlagos kisülésnek
+                        általában csak gyúlékony környezetben van jelentősége. Kétféle eset fordulhat elő, hő vagy
+                        feszültség hatására alakulhatnak ki. Hő hatására akkor jön létre, amikor nagyon nagy áram folyik
+                        át két, egymással érintkező vezető anyag érintkezési felületén. A legtöbb, hő hatására létrejövő
+                        másodlagos kisülés az élek környékén akkor alakul ki ha az őket összeszorító nyomás túl kicsi.
+                        Kialakulásának oka a nagy áramsűrűség és a felületeket összeszorító elégtelen
+                        nyomás.<br>Feszültség hatására akkor jön létre, amikor az áramkör nem egyenes vonal mentén
+                        halad, ha egy hurokban az indukált feszültség meghaladja az összeköttetésekben a fémrészek
+                        közötti átütési feszültséget.</p>
+                    <p class="maxwidth1000"><span class="textbold">Villámvédelmi rendszer (lighting protection system)
+                            LPS:</span> az építményt érő villámcsapás által okozott fizikai kár csökkentésére szolgáló
+                        teljes rendszer.
+                    <ul>
+                        <li>felfogó</li>
+                        <li>levezető</li>
+                        <li>földelő</li>
+                        <li>potenciálkiegyenlítés</li>
+                        <li>veszélyes megközelítés elleni védelem</li>
+                        <li>veszélyes érintési és lépésfeszültség elleni védelem</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Külső villámvédelem:
+                    <ul>
+                        <li>felfogó</li>
+                        <li>levezető</li>
+                        <li>földelő</li>
+                        <li>veszélyes érintési és lépésfeszültség elleni védelem</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Belső villámvédelem:
+                    <ul>
+                        <li>potenciálkiegyenlítés</li>
+                        <li>veszélyes megközelítés elleni védelem</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Felfogó rendszer:</span> A felfogó feladata, hogy
+                    <ul>
+                        <li>csökkentse a villámáram épületbe hatolásának valószínűségét az épületet érő villámcsapások
+                            felfogása által és</li>
+                        <li>biztosítsa a tetőn tartózkodó személyek közvetlen villámcsapás elleni védelmét, ha a tető
+                            kialakítása olyan, hogy ott a rendeltetésszerű használatból következően személyforgalommal
+                            kell számolni.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Mesterséges felfogó, amelyet kifejezettem villámvédelmi célra alakítottak
+                        ki. <br>
+                        Természetes felfogó, amit eredetileg más (építészeti vagy technológia) célt szolgálnak, de
+                        tulajdonságaiknak köszönhetően alkalmasak a villámcsapás felfogására is. <br>Ha a felfogó az
+                        épületen kerül kialakításra, akkor a felfogót az épület tetején kell elhelyezni. 60 m feletti
+                        épület magasságok esetén az épület oldalának felső 20% án is felfogót kell kialakítani.</p>
+                    <p class="maxwidth1000"><span class="textbold">Levezető:</span> A villámvédelmi levezető feladatai:
+                    <ul>
+                        <li>A felfogó és a földelő összekötése és ezzel összefüggésben a villámáram biztonságos
+                            levezetése</li>
+                        <li>A villámáram elosztása</li>
+                        <li>A másodlagos kisülések elleni védelem, a biztonsági távolság befolyásolása által</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Levezetők lehetnek mesterséges és természetes levezetők.
+                        (vasbetonszerkezetek acélszerkezetei,
+                        amennyiben keresztmetszetük megfelelő a villámáram levezetésére. 8 mm átmérő felett)
+                        Levezetők elhelyezése lehetőség szerint az épület külső részén egyenletesen. A levezetők kerület
+                        mentén
+                        mért távolsága feleljen meg az alábbi táblázatban foglaltaknak, attól maximálisa 20%-nál nagyobb
+                        mértékben ne térjen el.</p>
+                    <div class="centered">
+                        <table style="border: 1px solid #dddddd; border-collapse: separate;">
+                            <thead>
+                                <tr>
+                                    <td class="tdp" style="background-color: black; color: white; padding-left: 5px;">
+                                        Villámvédelmi fokozat</td>
+                                    <td class="tdp" style="background-color: black; color: white; padding-left: 5px;">
+                                        Jellemző levezető elrendezési távolságok (m)</td>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td class="tdp">I</td>
+                                <td class="tdp">10</td>
+                            </tr>
+                            <tr>
+                                <td class="tdp">II</td>
+                                <td class="tdp">10</td>
+                            </tr>
+                            <tr>
+                                <td class="tdp">III</td>
+                                <td class="tdp">15</td>
+                            </tr>
+                            <tr>
+                                <td class="tdp">IV</td>
+                                <td class="tdp">20</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="maxwidth1000"><span class="textbold">Mérési hely:</span> A villámvédelmi rendszer akkor
+                        képes a feladatát maradéktalanul ellátni, ha az egyes részek fémes folytonossága biztosított, és
+                        az
+                        alkatrészek nem szenvedtek el olyan mértékű korróziót, ami feladatuk ellátásában akadályozná. A
+                        villámhárító rendszer föld feletti részei szemrevételezéssel ellenőrizhetőek. A földelő állapota
+                        csak a földelési ellenállás megmérésével ellenőrizhető. A villámhárítón elhelyezett mérési hely
+                        arra szolgál, hogy ezt a mérést szakszerűen el lehessen végezni és a mérés helye utólag is jól
+                        azonosítható legyen. A mérési helyet a talajszinthez közel kell elhelyezni. A kezelhetőséget is
+                        figyelembe véve általában 0,5 és 1,5 méter magasságban szokásos elhelyezni. Mérési hely kétféle
+                        lehet:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li><span class="textbold">Vizsgáló összekötő
+                                (bontható mérési hely)</span> amelynél a levezető és a földelő kapcsolata bontható. A
+                            vizsgáló összekötő lehetőséget ad a felfogó és levezető folytonosságának ellenőrzésére is,
+                            mert
+                            a vizsgáló összekötő bontását követően a földelési ellenállás nem csak közvetlenül a földelő
+                            csatlakozóvezetékén, hanem a felfogón és a levezetőn keresztül is mérhető.</li>
+                        <li><span class="textbold">Vizsgáló csatlakozó (nem bontható mérési hely)</span>
+                            csak az eredő földelési ellenállás mérhető. Ilyen elrendezésnél csak a teljes villámhárító
+                            eredő
+                            földelési ellenállása mérhető, amelyen megjelenik a földelő szétterjedési ellenállásának,
+                            illetve a levezető és a felfogó ellenállásának együttes hatása.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Földelő:</span> A felfogó által felfogott és a
+                        levezető által levezetett villámáram földbe vezetése önmagában nem támaszt különleges
+                        feltételeket a földelővel szemben. A földelő feladata az, hogy ez a folyamat úgy menjen végbe,
+                        hogy ne jelentsen veszélyt a védett dokumentumra, tartalmára és az ott tartózkodó
+                        személyekre.<br>A talajban és a talaj felszínén a földelő környezetében a villámáram
+                        levezetésekor jelentős potenciálnövekedés lép fel, amelynek mértéke a földelőtől távolodva
+                        számos paraméter függvényében csökken. Emiatt a felszínen a földelő közelében olyan potenciál
+                        eloszlás jöhet létre, amelynek következtében a felszín egymáshoz közeli pontjai között
+                        személyekre és állatokra veszélyes lépésfeszültség keletkezésével kell számolni.<br>A
+                        villámvédelmi földelőt az alábbi szempontok szerint kell kialakítani:
+                    </p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>a lehető legkisebb potenciálemelkedés mellett vezesse a villámáramot a földbe</li>
+                        <li>segítse a potenciálkiegyenlítést a levezetők között, járuljon hozzá az épület területén a
+                            lehető legegyenletesebb potenciáleloszlás kialakulásához</li>
+                        <li>megfelelően befolyásolja a felszíni potenciálelsozlást a levezetők környezetében, a
+                            veszélyes lépésfeszültség kialakulásának megelőzése érdekében.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">A földelők csoportosítása:</span> Az MSZ EN 62305 a
+                        földelőket geometriájuk alapján csoportosítja, „A” vagy „B” típusúra. Az „A” típushoz tartoznak
+                        a vonalszerű földelők, amelyek függőlegesek vagy vízszintesek. A vízszintes földelőt
+                        „szalagföldelő”-nek, a függőlegest „földelő szondá”-nak nevezik. A „szalagföldelő” elnevezés a
+                        geometriára utal, függetlenül attól hogy huzalból, szalagból vagy más profilból készül. A „B”
+                        típushoz
+                        tartoznak azok a földelők, amelyek síkban, vagy térben zárt hurkot vagy hurkokat alkotó
+                        vezetőkből állnak. Ilyen a keret, vagy gyűrűs földelő, betonalapban kialakított síkbeli vagy
+                        térbeli földelőháló.
+                        A földelők lehetnek mesterséges vagy természetes földelők, aszerint, hogy kifejezetten földelési
+                        célokra helyezték el a talajban, vagy más célt szolgálnak, de tulajdonságaik alapján
+                        villámvédelmi földelésre is alkalmasak.<br>A földelőt a közlekedési útvonaltól és a földbe
+                        fektetett vezetőképes közművektől biztonságos (legalább 3 m-es) távolságban kell elhelyezni. Ha
+                        ez a távolság nem biztosítható, akkor a veszélyes lépésfeszültség elleni védekezési módszert
+                        kell alkalmazni. Ha a távolság a vezetőképes közművektől nem biztosítható, akkor a közmű
+                        vezetéket vastagfalú műanyagcsőben kell elhelyezni. Egymást keresztező nyomvonal esetén a
+                        védőcső hossza legalább 3 méter legyen, és a kereszteződésre szimmetrikusan legyen elhelyezve.
+                    </p>
+                    <p class="maxwidth1000"><span class="textbold">Betonalap földelő:</span> A betonalap földelő
+                        betonban lévő összeköttetéseit szorító kapcsokkal, vagy hegesztéssel kell
+                        létesíteni. A hegesztésnek legalább 30 mm hosszúságúnak kell lennie.</p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
