@@ -43,6 +43,16 @@
     padding-right: 10px;
 }
 
+.dark01 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.dark01:hover {
+    color: red;
+}
+
 .img300 {
     display: table-cell;
     text-align: center;
