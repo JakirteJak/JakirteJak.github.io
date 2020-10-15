@@ -8,6 +8,7 @@ function add_elmTR(cim, url) {
     td.style.textAlign = "center";
     td.style.paddingLeft  = "5px";
     td.style.paddingRight = "5px";
+    td.classList.add("kiemel2");
     tr.appendChild(td);
     tableElmelet.appendChild(tr);
 }
@@ -26,3 +27,4 @@ add_elmTR("10. Áramütés elleni védelem földelt vagy szigetelt csillagpontú
 add_elmTR("11. Lakó és kommunális épület hibaáram-rendszerében a központi EPH-csomópont kialakítása és az áram-védőkapcsoló ellenőrzése", "t11_eph_csomopont.html");
 add_elmTR("12. Külső villámvédelmi rendszer kialakítása", "t12_villamvedelem.html");
 add_elmTR("13. Belső villámvédelem kialakítása", "t13_belso_villamvedelem.html");
+add_elmTR("14. Egyfázisú transzformátor", "t14_transzformator.html");

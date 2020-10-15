@@ -3,12 +3,13 @@ let tableElmelet = document.getElementById("tableElmelet");
 function add_elmTR(cim, url) {
     let tr = document.createElement("tr");
     let td = document.createElement("td");
-    let str = '<a class="linker01" href="' + url + '">' + cim + '</a>';
-    td.innerHTML = str;
+   // let str = '<a class="linker01" href="' + url + '">' + cim + '</a>';
+    td.innerHTML = '<a class="linker01" href="' + url + '">' + cim + '</a>';
     td.style.textAlign = "center";
     td.style.paddingLeft  = "5px";
     td.style.paddingRight = "5px";
     tr.appendChild(td);
+    td.classList.add("kiemel2");
     tableElmelet.appendChild(tr);
 }
 

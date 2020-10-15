@@ -80,6 +80,10 @@
     background-color: black;
 }
 
+.kiemel2:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
@@ -121,6 +125,10 @@ h1 {
 }
 
 .textbold {
+    font-weight: bold;
+}
+
+.tb {
     font-weight: bold;
 }
 

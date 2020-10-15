@@ -1,6 +1,6 @@
 document.getElementById("tablePercent").style.visibility = "hidden";
 let myAnswers = [];       // A kérdésekre adott válaszok tömbje
-let maxQuestionsNum = 15; // Maximális kérdésszám
+let maxQuestionsNum = 4; // Maximális kérdésszám
 let dataBaseSize    = 18; // Adatbázisban található kérdések száma
 let actQNum = 0;          // Az aktuális kérdés sorszáma az adatbázisban
 let numOfQ  = 0;          // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
@@ -21,7 +21,7 @@ tdQ.style.visibility = "hidden";          // Ennek elrejtése, csak akkor lesz l
 function startTest() { // Teszt indítása
     document.getElementById("tablePercent").style.visibility = "hidden"; // Az eredmények táblázat elrejtése
     let lengthDB = myAnswers.length;
-    if (myAnswers.length > 0) { // Megszakított teszt esetén törli a már feldolgozott válaszokat
+    if (myAnswers.length > 0) { // Megszakított teszt esetén törli a már feldolgozott válaszokat (kell a lengthDB segédváltozó!!!)
         for (let ci = 1; ci <= lengthDB; ci++ ) myAnswers.pop();
     }
     tdQ.style.visibility = "visible";     // A tesztet tartalmazó td felfedése
@@ -82,9 +82,10 @@ function endTest() { // A teszt vége, kiértékelés
     document.getElementById("txtEndNumOfQ").innerHTML = ("Feltett kérdések száma: " + '<span class="textbold">' + maxQuestionsNum.toString() + '</span>');
     let numOfGoodA = 0; // Jó válaszok számának kiszámítása
     for (let ci = 0; ci < maxQuestionsNum; ci++) if (myAnswers[ci].selectedAnswerNum == myAnswers[ci].goodAnswerNum) numOfGoodA++;
-
+    // Jó válaszok számának elhelyezése a HTML -ben
     document.getElementById("txtEndNumOfGA").innerHTML = ("Jó válaszok száma: " + '<span class="textbold">' + numOfGoodA.toString() + '</span>');
-    document.getElementById("txtEndPercent").innerHTML = ("Százalékos eredmény: " + '<span class="textbold">' + (numOfGoodA / maxQuestionsNum * 100).toString() + ' %</span>');
+    // Százalékos eredmény kiszámolása és elhelyezése két tizedes jegyig
+    document.getElementById("txtEndPercent").innerHTML = ("Százalékos eredmény: " + '<span class="textbold">' + ((numOfGoodA / maxQuestionsNum * 100)).toFixed(2).toString() + ' %</span>');
 }
 
 // "Adatbázis"

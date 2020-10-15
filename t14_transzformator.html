@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
+        }
+    </style>
+</head>
+
+<body class="backG01">
+    <div class="centered">
+        <p class="bordered maintitle backGSub01">14. tétel: Egyfázisú transzformátor</p>
+    </div>
+
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered backGSub01">
+            <tr>
+                <td>
+                    <p class="maxwidth1000"><span class="tb">Mutassa be az egyfázisú transzformátor főbb
+                            szerkezeti részeit, azok feladatát. Milyen típusú transzformátorok alakíthatók ki a primer
+                            és szekunder tekercsek egymáshoz
+                            viszonyított elhelyezése szerint? Ismertesse az egyfázisú transzformátor működési elvét,
+                            áttételeit. Adja meg a primer áramerősség értékeit a névleges terheléshez viszonyítva, a
+                            transzformátor különböző üzemállapotaiban. Jellemezze a mágneses anyagokat. Mutassa be a
+                            mágneses anyagok fajtáit,
+                            jellemzőiket.</span><br>A tételhez használható segédeszköz:<br>
+                        - az egyfázisú transzformátor szerkezeti kialakítására vonatkozó rajzok
+                        <br>- mágnesezési görbe</p>
+                    <p class="maxwidth1000"><span class="tb">Traszformátor:</span> A transzformátorokat a műszaki élet
+                        legkülönbözőbb területein használják. Alkalmazásukkal a villamos energia jellemzőit
+                        (feszültségét, áramerősségét, néha fázisszámát) változtatják meg. Azokat a transzformátorokat,
+                        amelyek a villamos energia átvitelében vesznek részt, gyűjtőnéven „erőátviteli”
+                        transzformátoroknak nevezzük.
+                        Természetesen a műszaki élet egyéb területein is használnak transzformátorokat, pl. elektronika,
+                        távközléstechnika, biztonságtechnika, stb. Az alkalmazás célja nagyon változó: feszültség, áram
+                        vagy impedancia átalakítása lehet a cél.</p>
+                    <p class="maxwidth1000"><span class="tb">Egyfázisú transzformátorok:</span> A transzformátorok
+                        működését az egyfázisú transzformátorok esetén vizsgáljuk. A transzformátorok működési elve a
+                        Faraday féle indukción alapszik, azaz: <span class="tb">𝑈<sub>i</sub> = 𝑁 * (Δ<sub>𝜃</sub>/
+                            Δ<sub>𝑡</sub>)</span><br>A transzformátorok legfontosabb szerkezeti eleme a vasmag és az
+                        ezen elhelyezett egy vagy több tekercs.
+                        A transzformátor vasmagját általában lemezelten készítik, hogy csökkentsék az örvényáramú
+                        veszteséget (vasveszteség = örvényáramú + hiszterézis veszteség). A vasmag kialakítása szerint
+                        létezik</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>mag</li>
+                        <li>láncszem</li>
+                        <li>köpeny</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">típusú transzformátor.</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img style="max-width: 950px; width: 100%;" src="img_tetel/transzformator01.png"
+                                        title="" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000">Működése a kölcsönös indukción alapszik. Az N<sub>P</sub> menetszámú primer
+                        és N<sub>SZ</sub>
+                        menetszámú szekunder tekercsek zárt vasmagon helyezkednek el. A primer tekercsre kapcsolt
+                        U<sub>P</sub>
+                        váltakozó feszültség hatására I<sub>P</sub> erősségű áram folyik, amely a vasmagban váltakozó
+                        fluxust
+                        gerjeszt. Ez a fluxus áthalad a szekunder tekercsen és benne U<sub>iSZ</sub> feszültséget
+                        indukál. A fluxus
+                        ugyanakkor a primer tekercsen is átmegy és az önindukció elvén abban U<sub>iP</sub> feszültséget
+                        hoz létre.
+                        Ha a szekunder oldalt egy fogyasztóval összekötjük, a fogyasztó impedanciáján keresztül egy
+                        I<sub>SZ</sub>
+                        áram fog folyni. Ez az I<sub>SZ</sub> áram Lenz törvénye szerint csökkenteni igyekszik a
+                        fluxusváltozást.
+                        Erre a primer oldal az I<sub>P</sub> áramerősség növekedésével válaszol, fenntartva az eredeti
+                        fluxusváltozást, ami az U<sub>P</sub> = U<sub>iP</sub> fennmaradásához szükséges. A
+                        transzformátor I<sub>P</sub> áramfelvétele
+                        tehát az I<sub>SZ</sub> terhelőárammal arányosan változik. Az áramfelvétel változása az
+                        energiamegmaradás
+                        elvéből is következik. A szekunder oldal, mint energiaforrás teljesítményt szolgáltat a
+                        fogyasztónak. Ez csak úgy lehetséges, ha primer oldali teljesítmény felvétele is megnövekszik.
+                        Mivel U<sub>P</sub> állandó, ez csak az I<sub>P</sub> növekedésével lehetséges.</p>
+                    <p class="maxwidth1000"><span class="tb">Felépítése:</span></p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>vasmag: kis széntartalmú 3-4 % Si –al ötvözött lemezelt. Lemezvastagság 035 – 05 mm, hőre
+                            keményedő műanyag bázisú lakkréteggel bevonva</li>
+                        <li>tekercselés: elektrolitréz, 99,9% réztartalmú szigetelt műanyagbázisú lakkal</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="tb">Veszteségek:</span></p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>tekercsveszteség</li>
+                        <li>vasveszteség:
+                            <ul>
+                                <li>hiszterézis veszteség</li>
+                                <li>örvényáramú veszteség</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Legegyszerűbb esetben két tekercs (primer és szekunder) helyezkedik el a
+                        közös, többnyire zárt vasmagon. A primer tekercs huzaljában folyó áram a jobbkézszabállyal
+                        meghatározható irányú mágneses erővonalakat hoz létre, ezek a mágneses erővonalak a tekercs
+                        belsejében összegződve hozzák létre az ábrán jelölt mágneses fluxust. Mivel ez a mágneses fluxus
+                        pillanatról pillanatra változó, a szekunder tekercsben feszültséget indukál.<br>A működési
+                        alapelvekből adódik az is, hogy a két áramkörben a frekvencia azonos, míg a primer és szekunder
+                        oldali feszültségek aránya jó közelítéssel a megfelelő oldali tekercsek menetszámainak arányával
+                        egyezik meg. A transzformátorban állandósult állapotban az átmenő energia nem halmozódhat, tehát
+                        a bemenő és a továbbmenő teljesítmény különbsége a transzformátor veszteségeivel egyenlő. Mivel
+                        a transzformátorok jó hatásfokkal működnek, a két teljesítmény gyakorlatilag ugyanakkora. Ebből
+                        adódik, hogy a primer és szekunder oldali áramok aránya durva közelítéssel megegyezik a
+                        menetszámáttétel reciprokával:</p>
+                    <p class="maxwidth1000">S<sub>1</sub> = S<sub>2</sub><br>U<sub>1</sub> * I<sub>1</sub> =
+                        U<sub>2</sub> * I<sub>2</sub><br>a = U<sub>2</sub> / U<sub>1</sub> = I<sub>1</sub> /
+                        I<sub>2</sub></p>
+                    <p class="maxwidth1000">A transzformátort leggyakrabban a nagy teljesítményű (erőátviteli) villamos
+                        hálózatokban használják a feszültségszint, és ezzel az áramszint megváltoztatására. Ennek
+                        jelentősége abban áll, hogy azonos teljesítményű magasabb feszültségű átviteléhez kisebb áramra
+                        van szükség, így az átviteli hálózat ohmos veszteségei, valamint a vezetékek keresztmetszetei
+                        jelentősen csökkenthetők, és így lehetővé válik a villamos energia nagy távolságokra történő
+                        gazdaságos továbbítása.<br>A gyakorlatban a tökéletes csatolás nem valósítható meg, mindig van
+                        valamennyi úgynevezett szórt fluxus, ami vagy csak a primer, vagy csak a szekunder tekerccsel
+                        kapcsolódik (feltételezve, hogy a vas nem kerül telítésbe, és minden erővonal a vason keresztül
+                        záródik). Emiatt a primer és szekunder
+                        feszültségek aránya még terheletlen transzformátor esetén is kismértékben eltér a menetszámok
+                        arányától.</p>
+                    <p class="maxwidth1000"><span class="tb">Üresjárat:</span> (ahol I<sub>2</sub> = 0) A primer
+                        tekercsre feszültséget kapcsolva a primer tekercsben áram folyik.
+                        Ennek nagysága függ a primer tekercs ohmos ellenállásától, az induktív reaktanciától, valamint a
+                        vas
+                        átmágnesezéséhez szükséges teljesítménytől.</p>
+                    <p class="maxwidth1000"><span class="tb">Terhelés:</span> (Üzemi állapot, ahol 0 < I<sub>2</sub>
+                            < ∞.) Amennyiben a szekunder oldalt terheljük, a szekunder tekercsben megindul a szekunder
+                                áram. Ez az áram a tekercs ohmos ellenállásán és induktív reaktanciáján feszültségesést
+                                hoz létre, ami csökkenti a szekunder kapcsokon lévő feszültséget. A gyakorlatban tehát
+                                üzemszerű állapotban a szekunder feszültség kisebb, mint az ideális, a primer és
+                                szekunder feszültségek aránya a menetszámáttételtől akár 6% - 50%-al is eltérhet.
+                                Nagyobb transzformátoroknál az eltérés kisebb.<br>A szekunder oldali áram hatására
+                                fluxus keletkezik, ami a primer áram által keltett fluxussal ellentétes
+                                irányú, tehát azt csökkenteni akarja. (Lentz törvény) Ezért I<sub>1</sub> elkezd nőni,
+                                hogy
+                                fenntartsa az eredeti
+                                fluxusváltozást, ami U<sub>i1</sub> = U<sub>1</sub> fennmaradáshoz kell. I<sub>1</sub>
+                                az I<sub>2</sub> terhelő árammal arányosan
+                                növekszik. A
+                                szekunder oldal teljesítményt ad a fogyasztónak. A szekunder oldali teljesítmény csak
+                                úgy tud nőni, ha
+                                a primer oldali teljesítmény is növekszik. 𝑈<sub>1</sub> ∗ 𝐼<sub>1</sub> =
+                                𝑈<sub>2</sub> ∗ 𝐼<sub>2</sub> Mivel a feszültségek
+                                állandók, csak az
+                                áramok tudnak nőni a nagyobb teljesítmény felvételéhez és leadásához.<br>Terheléskor a
+                                cos φ a terhelés jellegétől függ. Terhelés hatására a veszteségek is nőnek, nagyobb
+                                áramok
+                                folynak a tekercsekben, ezért a tekercsveszteség ilyenkor már jelentős. A vasveszteség a
+                                terhelés
+                                hatására nem változik, hiszen a fluxus állandó.</p>
+                    <p class="maxwidth1000"><span class="tb">Rövidzár:</span> (rövidrezárt szekunder oldal) Az
+                        ellenállások és a szórt fluxust
+                        reprezentáló úgynevezett
+                        szórási reaktanciák határozzák meg a transzformátor rövidzárási áramát. A tervezés során ezért
+                        mindig
+                        ügyelnek arra, hogy legyen valamennyi szórt fluxus a rövidzárási áram csökkentése
+                        érdekében.<br>U<sub>2</sub> = 0 A szekunder kör áramerősségét ilyenkor csak a tekercs
+                        impedanciája
+                        korlátozza. I<sub>2</sub> igen nagy
+                        lehet, ami I<sub>1</sub> növekedését is maga után vonzza. A nagy áramok mind a primer, mind a
+                        szekunder
+                        tekercselést tönkre tehetik. A transzformátor tekercselését biztosítékkal kell védeni.</p>
+                    <p class="maxwidth1000 tb">Drop</p>
+                    <p class="maxwidth1000"><span class="tb">Rövidzárási</span> méréshez a szekunder oldali
+                        kivezetéseket rövidre kell zárni. A rövidzárási mérést nem
+                        névleges feszültségen, hanem névleges áram mellett végezzük. Rövidzárási méréssel a drop-ot és a
+                        névleges áramnál fellépő tekercsveszteséget tudjuk meghatározni.<br>A méréshez olyan táplálásra
+                        van szükség, ahol a
+                        feszültséget nulláról folyamatosan lehet változtatni a
+                        transzformátor névleges feszültségének kb. 10 %-áig,
+                        és a tápláló berendezésnek el kell tudnia viselnie a
+                        transzformátor névleges áramát. A mérés menete: a
+                        transzformátor primer oldalára kapcsolt feszültséget
+                        nulláról elkezdjük növelni mindaddig, amíg a primer
+                        oldali árammérő a transzformátor névleges áramát nem
+                        mutatja. A névleges áramot létrehozó U<sub>1z</sub> feszültség és
+                        a névleges primer feszültség százalékos viszonya a
+                        drop. Kis és közepes teljesítményű transzformátoroknál a drop értéke 3-6%. A nagy áramok mind a
+                        primer, mind a szekunder tekercselést
+                        tönkre tehetik. A transzformátor tekercselését olvadóbiztosítóval kell védeni.
+                    </p>
+                    <table class="bordered" style="width: 100%;">
+                        <tr>
+                            <td style="width: 50%;" class="bordered tdc backGSub01 tb">
+                                Ɛ = (U<sub>lz</sub> / U<sub>ln</sub>) * 100 [%]
+                            </td>
+                            <td style="width: 100%;" class="bordered tdc backGSub01 tb">
+                                100 / Ɛ = I<sub>lz</sub> / I<sub>ln</sub>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000">A zárlati áram 3% drop esetén 33 szorosa a névleges áramnak. A rövidzárásban
+                        mért P<sub>1z</sub> teljesítmény teljes egészében veszteség. Mivel ilyenkor a primer és a
+                        szekunder oldalakon a névleges áramerősség folyik, ezért a tekercsek vesztesége a névleges
+                        terhelésnél
+                        fellépővel megegyező. A vasveszteség elhanyagolható, mivel a rövidzárási feszültség néhány
+                        százaléka a névlegesnek és a vasveszteség a feszültség négyzetével arányos.<br>P<sub>1z</sub> ≈
+                        P<sub>1tekn</sub> + P<sub>2tekn</sub> </p>
+                    <p class="maxwidth1000"><span class="tb">Állandó mágnes:</span> Azokat az anyagokat, amelyeknél a
+                        külső mágneses tér megszűnése után is fennmarad a rendezett állapot, állandó mágneseknek
+                        nevezzük.</p>
+                    <p class="maxwidth1000">Az ideális transzformátor primer tekercsébe betáplált teljesítmény
+                        ugyanakkora, mint a
+                        másodlagos, szekunder tekercsből kivehető teljesítmény. A valóságos transzformátorok mind
+                        veszteségesek. A veszteségek a következők: a tekercs ohmos ellenállásából adódó vezetőanyag
+                        vesztesége, valamint a vasmag örvényáramú és hiszterézis-vesztesége, ezek mind hővé alakulnak a
+                        működés közben, de mindezek ellenére a transzformátorok hatásfoka megközelíti a 98%-ot.<br>
+                    </p>
+                    <p class="maxwidth1000"><span class="tb">Permeabilitás</span>, vagyis a mágnesezhetőség szerint
+                        dia-, para-, és ferromágneses anyagokat
+                        különböztetnek meg. A permeabilitás, a B mágneses indukciót és a H mágneses térerősséget
+                        összekötő
+                        arányossági tényező. Jele: a görög µ (ejtsd: mű), mértékegysége a henry/méter, 1 H/m = 1
+                        V•s/A•m.)
+                        A diamágneses anyagok mágneses permeabilitása 1-nél alig kisebb érték, tehát szinte megegyezik a
+                        vákuum permeabilitásával. </p>
+                    <p class="maxwidth1000">A <span class="tb">diamágneses anyagok</span>, melyekben az elektronok és az atommagok mágneses tere
+                        semlegesíti
+                        egymást. Külső mágneses tér hatására a térrel ellentétes irányban rendeződnek az anyagban az
+                        elemi
+                        mágneses ún. domének.. Ilyen anyagok pl. a réz, alumínium, ólom, bizmut, arany, higany, kén,
+                        víz,
+                        nemesgázok. Páramágnesek: ezek atomjai elemi mágneseket (doméneket) alkotnak, amelyek a
+                        mágneses tér hatására a külső tér irányában mágneseződnek, azaz a mágnes vonzza ezeket. A
+                        permeabilitása 1-nél alig nagyobb érték. Anyagok pl.: mangán, alumínium, platina.
+                    </p>
+                    <p class="maxwidth1000">A <span class="tb">ferromágneses anyagok</span> (vas, nikkel, kobalt és ötvözeteik) relatív permeabilitása a telítésig
+                        igen nagy, akár 103 -106 -szorosa a levegőnek . Nem-ferromágneses összetevőkből is készítenek jól
+                        mágnesezhető ötvözeteket felhasználásra: ezek az anyagok képesek a legnagyobb mértékben megnövelni
+                        a külső tér indukcióértékét. Ide sorolandók: vas , nikkel, kobalt, és ezek ötvözetei. A ferromágneses
+                        anyagok indukció-térerősség összefüggése (B-H görbe) erősen nemlineáris, ezért annak meghatározása
+                        rendszerint méréssel történik. A mágnesezési görbének 4 jellegzetes része van: induló szakasz,
+                        lineáris szakasz, könyök szakasz, telítési szakasz. Hiszterézis veszteség: Az anyagok átmágnesezéséhez
+                        energiára van szükség, amely az anyag felmelegedését okozza. Az erre fordított energiát hiszterézis
+                        veszteségnek nevezzük. A hiszterézis görbe olyan B-H karakterisztikák, ami az anyag fel-, le- és
+                        átmágenesezhetőségét ábrázolja. A keménymágneses anyagok hiszterézis görbéi szélesek, ezek az
+                        állandó mágnesek, amelyeket különböző berendezésekben, motorokban, műszerekben,
+                        hangszórókban mágneses tér előállítására használnak.</p>
+                    <p class="maxwidth1000"><span class="tb">Lágymágneses anyagok</span> csoportjába azok az anyagok tartoznak, amelyeknél a lemágnesezéshez
+                        szükséges térerősség, az ún. koercitív erő Hc
+                         értéke kisebb, mint 10 A/m, vagyis a lágymágneses
+                        anyagok hiszterézis görbéi keskenyek. A lágymágneses anyagok közé tartozik a lágyvas, a
+                        transzformátorlemez, dinamólemez.</p>
+                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="centered">
+        <td>
+            <tr><a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a></tr>
+        </td>
+    </table>
+
+</body>
+
+</html>
