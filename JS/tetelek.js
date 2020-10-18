@@ -28,3 +28,6 @@ add_elmTR("11. Lakó és kommunális épület hibaáram-rendszerében a központ
 add_elmTR("12. Külső villámvédelmi rendszer kialakítása", "t12_villamvedelem.html");
 add_elmTR("13. Belső villámvédelem kialakítása", "t13_belso_villamvedelem.html");
 add_elmTR("14. Egyfázisú transzformátor", "t14_transzformator.html");
+add_elmTR("15. Háromfázisú transzformátor", "t15_3faz_transzf.html");
+add_elmTR("16. Aszinkron motor", "t16_aszinkron.html");
+add_elmTR("17. Szinkrongépek", "t17_szinkrongepek.html");
