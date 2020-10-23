@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.8);
+            background-blend-mode: lighten;
+        }
+
+        td.tdc2 {
+            border-width: 1px;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body class="backG01">
+    <p class="maintitle bordered backGSub01 center980">19. tétel: Mágneskapcsolók, mikrokapcsolók, relék</p>
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
+        <tbody style="max-width: 980px;" class="bordered backGSub01">
+            <tr>
+                <td>
+                    <p class="maxwidth1000"><span class="tb">Ismertesse a mágnes kapcsolók, kontaktorok alkalmazási
+                            területeit, főbb szerkezeti elemeit.
+                            Soroljon fel olyan kiegészítő elemeket, amelyekkel a mágneskapcsolók feladatai bővíthetők.
+                            Mutassa be a mikrokapcsolók működésének jellegét, az alkalmazás céljait, működési
+                            jellemzőit.
+                            Mutassa be a relék működési jellemzőit, alkalmazási területeit, ismertesse egy-egy
+                            típusukat.
+                            Azonosítsa az áramkör kialakításához szükséges eszközöket, elemeket egy háromfázisú
+                            aszinkronmotor irányváltó kapcsolásában. Mutasson rá a szükséges reteszelés és az öntartás
+                            megoldására.
+                        </span><br>A tételhez használható segédeszköz:<br>- háromfázisú aszinkronmotor irányváltó
+                        kapcsolásának fő- és vezérlő áramköri rajza</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <p class="maxwidth1000">Mágneskapcsoló felépítése:
+                                <ul>
+                                    <li>tekercs</li>
+                                    <li>vastest</li>
+                                    <li>érintkezők</li>
+                                </ul>
+                                </p>
+                            </td>
+                            <td>
+                                <figure><img style="width: 100%;" class="bordered" src="img_tetel/magnesk01.png" alt="">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure><img style="width: 100%;" class="bordered" src="img_tetel/magnesk02.png" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000">Az egész relében a legfontosabb a tekercs. Ez a tekercs egy vastestre van
+                        felcsévélve. Felépítése és működése nagyon hasonló a
+                        transzformátoréhoz. Ha erre a tekercse feszültséget kapcsolunk, akkor a mozgó töltések hatására
+                        a tekercs körül mágneses mező keletkezik, ami behúzatja az érintkezőket.<br>A tekercs két
+                        végpontját A1-el és A2-vel szokták jelölni, az érintkezőket pedig alapállapotuk szerint vagy
+                        NO (normal open - alapesetben nyitott érintkezők) vagy NC (normal close - alapesetben zárt
+                        érintkezők), magát a kapcsolónyelvet, tehát amit a mágneses mező mozgat, az a COM (közös pont).
+                        Ma a legtöbb relében mind a két érintkezőt beleépítik, tehát van egy NC és egy NO állapota, és
+                        ezekből kettő van. Ezt úgy kell elképzelni, hogy van az NC kontaktus ugye, azért NC, mert a COM
+                        alapesetben ezt a kört zárja. Feszültségre kapcsoláskor pedig ez a kör bontódik és a COM az NO
+                        érintkezőhöz ugrik, így az NC-ből NO lesz és az NO-ból pedig NC.<br>Reléket gyengeáramú
+                        elektronikában használunk, mágneskapcsolókat pedig erősáramú erőátviteli rendszerekben. Tehát a
+                        reléből max (speciális reléket nem nézve) 24V-os a maximum, mágneskapcsolóból pedig 230V-tól
+                        egészen 380V-os kivitelig válogathatunk magunknak. Ez az egyik különbség. Relé esetében az
+                        érintkezőpogácsák
+                        egymástól néhány mm-re vannak, illetve egyik hátrányuk, hogy ki- ill. bekapcsoláskor a pogácsák
+                        szikráznak, ezek egy statikusan és elektromosan is érzékeny processzoros rendszernél nagy
+                        odafigyelést igényelnek, szikrázáskor anyagvándorlás is keletkezik, amitől egy idő után
+                        összehegedhetnek az érintkezők. Valamint a tekercs tulajdonságából adódóan kikapcsoláskor nagy
+                        feszültség indukálódik, ami az áram irányával ellentétes, ezt egy párhazusamosan, az áram
+                        irányával ellentétesen kötött diódával tudjuk rövidre záratni. A mágneskapcsoló esetében az
+                        érintkezők jóval távolabb helyezkednek el, nagyobb a légrés, nagyobb feszültség nagyobb mágneses
+                        teret hoz létre, így a vonzás is erőteljesebb, ez produkálja a jellegzetes kattanó hangokat
+                        ki/be kapcsoláskor. A mágneskapcsoló összetettebb és drágább eszköz, sokkal alkalmasabb induktív
+                        terhelések kapcsolására, pl.: egy villanymotor. Közös tulajdonságuk, hogy mind AC, mind DC
+                        körben használhatóak.</p>
+                    <p class="maxwidth1000 subtitle">Kiegészítő elemek</p>
+                    <p class="maxwidth1000">A homlokfelületre pattintható:
+                    <ul>
+                        <li>kettő- vagy négyérintkezős segédérintkező-egység</li>
+                        <li>behúzás- vagy elengedéskésleltetésű pneumatikus időzítő egység</li>
+                        <li>elektromechanikus reteszelő (öntartó) egység</li>
+                        <li>csillag-háromszög átkapcsolást időzítő egység</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A felső oldalon a tekercskivezetésekre csatlakoztathaható:
+                    <ul>
+                        <li>interface (csatoló) egység</li>
+                        <li>kis jelszint kapcsolására alkalmas egység</li>
+                        <li>meghúzáskésleltetésű időrelé</li>
+                        <li>túlfeszültségvédő vagy zavarszűrő egység</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az oldalfelületekhez illeszthető:
+                    <ul>
+                        <li>kétérintkezős segédérintkező-egység</li>
+                        <li>két mágneskapcsoló egyidejű működését egymáshoz mechanikusan reteszelő elem</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az alsó csatlakozókapcsokra dugaszolható:
+                    <ul>
+                        <li>hőrelé</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Felszerelés:
+                    <ul>
+                        <li>35 mm-es EN 50022 szabvány szerinti sínre pattinthaható, vagy</li>
+                        <li>2 db M4 csavarral sík lapra rögzíthető,</li>
+                        <li>szerelőbarát kapocselrendezés, elveszíthetetlen vezetékszorítók, gyors beköthetőség</li>
+                    </ul>
+                    </p>
+                    <table class="centered">
+                        <tr>
+                            <td style="width: 60%;">
+                                <p style="text-align: justify;" class="margins10">A rápattintott vagy oldalra illesztett
+                                    segédérintkezők jelében az
+                                    első
+                                    számjegy (a sorozatszám) a poziciót jelenti, több érintkező esetén balról jobbra
+                                    haladva
+                                    növekvő
+                                    számokkal. A második helyen álló számjegy (a funkciószám) jelentése: az .1; .2
+                                    nyitó, a
+                                    .3; .4
+                                    záró, az .5; .6 záráskor késleltetve nyitó, a .7; .8 záráskor előresietve záró
+                                    érintkező. A
+                                    tekercskivezetések jele A1 és A2.</p>
+                            </td>
+                            <td>
+                                <figure><img style="width: 100%;" class="bordered" src="img_tetel/magnesk03.png" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align: justify;" class="margins10">
+                                    A hőrelé 95, 96 jelű nyitó érintkezője kapcsolja ki a mágneskapcsoló tekercsét, a
+                                    97, 98 jelű
+                                    záró érintkezője jelzési célra felhasználható.</p>
+                            </td>
+                            <td>
+                                <figure><img style="width: 100%;" class="bordered" src="img_tetel/magnesk04.png" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000"><span class="tb">Túlfeszültségvédelmi és zavarszűrő egységek:</span> A
+                        túlfeszültségvédelmi, illetve zavarszűrő feladatot ellátó egységek a kontaktortekercs felső A1
+                        és A2 jelű csatlakozókapcsaira dugaszolhatók. Csatlakozóik olyan kialakításúak, hogy a vezérlő
+                        feszültség vezetékének bekötését nem akadályozzák.</p>
+                    <p class="maxwidth1000"><span class="tb">Alkalmazási kategóriák (az MSZ EN 60947-1 : 1998
+                            alapján):</span></p>
+                    <table class="centered">
+                        <tbody class="bordered">
+                            <tr>
+                                <td colspan="2" class="tdc" style="background-color: black; color: white;">Alkalmazási
+                                    kategóriák (az MSZ EN 60947-1 : 1998 alapján):</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-1</td>
+                                <td class="padding10">Nem induktív vagy csekély mértékben induktív terhelések,
+                                    ellenállásfűtésű kemencék.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-2</td>
+                                <td class="padding10">Csúszógyűrűs motorok indítása, forgás közbeni kikapcsolása.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-3</td>
+                                <td class="padding10">Kalickás forgórészű aszinkron motorok indítása, forgás közbeni
+                                    kikapcsolása.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-4</td>
+                                <td class="padding10">Kalickás forgórészű aszinkron motorok indítása, ellenáramú
+                                    fékezése, irányváltása, léptetése.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-5a</td>
+                                <td class="padding10">Villamos kisülőlámpa-vezérlés kapcsolása</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-5b</td>
+                                <td class="padding10">Izzólámpák kapcsolása.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-6a</td>
+                                <td class="padding10">Transzformátorok kapcsolása.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-6b</td>
+                                <td class="padding10">Kondenzátortelepek kapcsolása.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-14</td>
+                                <td class="padding10">Kis elektromágneses terhelések vezérlése.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">AC-15</td>
+                                <td class="padding10">Váltakozóáramú mágnesek vezérlése.</td>
+                            </tr>
+                            <tr class="bordered">
+                                <td class="tdc2"></td>
+                                <td class="padding10"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">DC-1</td>
+                                <td class="padding10">Nem induktív vagy csekély mértékben induktív terhelések,
+                                    ellenállásfűtésű kemencék.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">DC-3</td>
+                                <td class="padding10">Söntmotorok indítása, ellenáramú fékezése, léptetése, dinamikus
+                                    fékezése.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">DC-5</td>
+                                <td class="padding10">Soros gerjesztésű motorok indítása, ellenáramú fékezése,
+                                    léptetése, dinamikus fékezése.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">DC-6</td>
+                                <td class="padding10">Izzólámpák kapcsolása.</td>
+                            </tr>
+                            <tr>
+                                <td class="tdc2">DC-13</td>
+                                <td class="padding10">Egyenáramú elektromágnesek vezérlése.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="margin-top: 10px;" class="maxwidth1000 subtitle">Kapcsolók</p>
+                    <p class="maxwidth1000">Szerkezeti felépítésük és működtetésük szerint a kisfeszültségű mechanikus
+                        kapcsolók csoportjai: nyomócsapos, forgó-, billenőkapcsolók és kontaktorok. Az első három
+                        csoport kapcsolói általában kézi vagy idegen gépi működtetésűek, a kontaktor azonban saját
+                        (általában) elektromágneses működtetésű. A mechanikus kapcsolók három fő szerkezeti elemből
+                        állnak:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>kapcsoló szerkezet (fő- és segédérintkezők, valamint ívoltó szerkezetek)</li>
+                        <li>működtető szerkezet</li>
+                        <li>Helyzet- (vagy állás-) biztosító szerkezet. Kontaktoroknál az utóbbi szerkezet feladatát a
+                            működtető mágnes látja el.</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">Az érintkezők gyors szétválását forgó kapcsolóknál csak bonyolult mechanikai
+                        szerkezettel (helyzetbiztosító vagy rugóerőtároló szerkezettel) lehetett megvalósítani. A
+                        billenőkapcsolók esetében erre nincs szükség, mert érintkezőik gyors nyitása működésük
+                        természetes következménye. Ezen kapcsolók előnye az egyszerű felépítésük is, de hátrányuk hogy
+                        névleges áramuk legfeljebb csak 10 A lehet. Szerkezeti felépítésük és működésük szerint
+                        billenőpályás és billenőkaros kapcsolók különböztethetők meg.</p>
+                    <p class="maxwidth1000"><span class="tb">Mikrokapcsolók:</span> A mikrokapcsolók alkotják a
+                        billenőkaros kapcsolók másik csoportját. Ezek úgy vannak kialakítva, hogy külső erő hatására
+                        átbillennek, majd annak megszűnésekor alaphelyzetükbe térnek vissza. A három ágú szigonyrugó két
+                        meghajlított szélső ága
+                        feszítő erőt gyakorol a belső szabad ágra. A mikrokapcsoló működtetésekor a szabad ágra egy
+                        nyomócsap közvetítésével kell erőt kifejteni. A megfeszített ágak támadáspontja alá vagy fölé
+                        került szabad ág határozza meg ugyanis a szigonyrugó végén lévő mozgó érintkezők helyzetét. A
+                        kis méretek és az ék-csapágyazás következtében csekély (néhány tized mm) elmozdulással is
+                        létrehozható az
+                        átkapcsolás. Figyelembe véve a
+                        mikrokapcsolók 1...5 ms kapcsolási és 1...2 ms pattogási idejét, a hibás kapcsolások biztos
+                        elkerülése érdekében, másodpercenként legfeljebb 50 kapcsolás engedhető meg.</p>
+                    <p class="maxwidth1000"><span class="tb">Végálláskapcsolók:</span> A végálláskapcsolók a
+                        helyzetkapcsolók közé tartoznak. Ha ez a helyzet a mozgás végpontja, akkor végállás kapcsolónak
+                        nevezzük.</p>
+                    <p class="maxwidth1000"><span class="tb">Relék:</span> A védelmek és automatikák a villamos
+                        energiatermelés, elosztás és felhasználás biztonsági berendezései. Ezek elemei a relék és
+                        kioldók, amelyeket különálló készülékként, valamint egy másik kapcsolókészülék (pl. megszakító)
+                        cserélhető szerkezeti egységeként vagy annak beépített elemeként, továbbá kiegészítő védelmi
+                        készülékként (pl. kontaktoroknál) alkalmaznak. A relék és kioldók feladata, hogy meghatározott
+                        jellemzőket ellenőrizve, azok megváltozása által érzékeljék a villamos berendezések üzemében
+                        bekövetkezett rendellenességet, és - az érzékelt jellemző(k) megváltozásának mértékétől függően
+                        - parancsadó szervükön keresztül - emberi beavatkozástól függetlenül, tehát automatikusan -
+                        jelzést adjanak vagy beavatkozzanak a villamos berendezés működésébe.<br>Érzékelő képességük azt
+                        jelenti, hogy bemenetükön folyamatosan változó (legtöbbször villamos) jelet ellenőrizve, egy
+                        meghatározott (beállítási) érték elérése esetén működésbe lépnek (megszólalnak). Általuk tehát
+                        nem állapítható meg az ellenőrzött mennyiség mindenkori értéke, csupán az, hogy a beállítási
+                        értékhez képest az kisebb, vagy nagyobb-e.<br>Vezérlési képességük a megszólalásukkal együtt
+                        járó kimeneti funkció, amely pillanatszerű változást eredményez. A relé és kioldó ezen funkció
+                        szerint különböztethető meg. A relé megszólalásakor érintkezőt működtetve közvetetten vezérel
+                        (villamos kimenete van), a kioldó pedig közvetlenül erőhatást gyakorol (mechanikai kimenete
+                        van). A relék és kioldók akkor szólalnak meg, ha az általuk érzékelt mennyiség (áram,
+                        feszültség, hőmérséklet stb.) egy adott értéket elér. Mindkét készülékfajta tehát adott esetben
+                        pl. villamos bemenettel rendelkezik, eltérés a kimeneti oldalon jelentkezik. A reléknek a
+                        kimenete is villamos, mert érintkezőket zárnak vagy nyitnak, a kioldók viszont mechanikus
+                        kimenetükkel zárszerkezeteket működtetnek. Az ellenőrzött jel érzékelése lehet közvetlen vagy
+                        közvetett (villamos jel esetén pl. mérőváltón keresztül). Eszerint primer és szekunder reléket
+                        és kioldókat különböztethetünk meg. Ezek a hálózatban folyó vagy azzal arányos áram beállított
+                        értéke esetén szólalnak meg és kioldók esetében a megszakító érintkezőit közvetlenül, relék
+                        esetében pedig közvetve (egy kioldó által) nyitják. Indító és mérőreléként egyaránt használják
+                        az
+                        áram-, feszültség-, teljesítmény-, impedancia- és frekvenciareléket.<br>A pontossági
+                        osztályuknak megfelelő hibahatárt általában 1, 2, 5 és 10 % értékben adják meg.</p>
+                    <p class="maxwidth1000">A relék két típusa az időrelék és a szilárdtest relék. A szilárdtestrelék
+                        semmiféle mozgó
+                        elemet nem tartalmaznak: félvezetős technológiával működnek, ezért gyorsabbak, nem
+                        prelleznek, hosszabb élettartamúak, de az impulzus jellegű túlterhelést nem bírják. Az üzemi
+                        hőmérsékletükre figyelni kell. A multifunkciós időrelék kismegszakító méretűek, univerzális
+                        tápfeszültség tartományai 24-
+                        230V AC és 24-48V DC, egy váltóérintkezős, relés kimenettel, valamint LED-es
+                        működésvisszajelzővel rendelkeznek, több féle időzítési funkcióra alkalmasak, pl. a Finder 80-as
+                        sorozat:<br>AI: Meghúzás késleltetés,<br>DI: Bekapcsolást törlő (vagyis ejtés
+                        késleltetés),<br>SW: Villogó relé, szimmetrikus, impulzusindítással,<br>
+                        BE: Ejtés késleltetés vezérlőkontaktussal,<br>
+                        CE: Meghúzás és ejtés késleltetés vezérlőkontaktussal,<br>
+                        DE: Bekapcsolást törlő relé vezérlőkontaktussal.
+                    </p>
+                    <p class="maxwidth1000"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a class="linker01 centered" href="tetelek.html">vissza az előző oldalra</a>
+</body>
+
+</html>

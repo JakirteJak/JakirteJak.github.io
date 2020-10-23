@@ -16,30 +16,244 @@
 </head>
 
 <body class="backG01">
-    <div class="centered">
-        <p class="bordered maintitle backGSub01">17. tétel: Szinkrongépek</p>
-    </div>
-
+    <p class="maintitle bordered backGSub01 center980">17. tétel: Szinkrongépek</p>
     <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
         <tbody style="max-width: 980px;" class="bordered backGSub01">
             <tr>
                 <td>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
-                    <p class="maxwidth1000"></p>
+                    <p class="maxwidth1000"><span class="tb">Ismertesse a szinkron generátor működési elvét. Térjen ki
+                            az indukált feszültség és a frekvencia változtatásának lehetőségére.
+                            Egyenáramú gépek.
+                            Ismertesse a párhuzamos (sönt, mellékáramkörű) gerjesztésű egyenáramú motor működési elvét.
+                            Mutassa be a kommutátor feladatát generátoros üzemmódban.
+                            Hol helyezik el a gépen belül a kompenzáló tekercset és a segédpólust az armatúravisszahatás
+                            csökkentése érdekében, és milyen gerjesztési viszonyai vannak.
+                            Impregnálás.
+                            Mutassa be a tekercsek impregnálásának célját, lépéseit.</span><br>A tételhez használható
+                        segédeszköz:<br>
+                        - szinkrongép szerkezetét bemutató rajz<br>
+                        - egyenáramú gépek gerjesztési lehetőségeit mutató elvi kapcsolási rajz<br>
+                        - a kompenzáló tekercs és a segédpólus elhelyezését mutató elvi rajz</p>
+                    <p class="maxwidth1000">A szinkrongépek olyan forgógépek, amelyeknek az álló és forgórészében
+                        létrejött mágneses terek azonos fordulatszámmal, együtt mozognak, szinkronban vannak.
+                        A szinkron gép legfontosabb jellemzője, hogy csak egy kitüntetett fordulatszámon, az ún.
+                        szinkron fordulaton képes tartósan üzemelni. A gép fordulatszáma és frekvenciája között ugyanis
+                        merev kapcsolat van:</p>
+                    <p class="bordered backGSub01 center980 tb margins10">f = p * n</p>
+                    <p class="maxwidth1000">ahol p a gép póluspárjainak a száma. Működhet generátorként és motorként is,
+                        ahogy a legtöbb villamos forgógép. Túlnyomórészt azonban generátorként használják, a háromfázisú
+                        villamos energiatermelés legfontosabb gépe az erőművekben.
+                        Szerkezeti felépítését tekintve két fő egységből áll: az állórészből (armatúrából) és a
+                        forgórészből. Legfontosabb jellemzői:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>3 fázisú tekercselés az állórészen (aramatúra)</li>
+                        <li>lemezelt állórész (az örvényáram csökkentése miatt)</li>
+                        <li>tömör, vastestű forgórész (hengeres vagy kiálló pólusú) egyfázisú tekercseléssel, a
+                            tekercsvégek csúszógyűrűkhöz csatlakoznak, ahova szénkeféken keresztül vezetjük a
+                            gerjesztőáramot (egyenáram)</li>
+                        <li>motor:
+                            <ul>
+                                <li>állórész: a rákapcsolt 3 fázisú feszültség hozza létre a forgó mágneses teret,
+                                    amely-nek fordulatszámát a frekvencia és a pólusok száma határozza meg (nincs
+                                    indító-nyomatéka)</li>
+                                <li>forgórész: egyenáramú gerjesztés</li>
+                                <li>(abszolút fordulattartó)</li>
+                            </ul>
+                        </li>
+                        <li>generátor:
+                            <ul>
+                                <li>forgórész: egyenáramú gerjesztés</li>
+                                <li>forgórészt állandó fordulatszámmal forgatják (gőz-, víz-, gázturbina, diesel motor)
+                                </li>
+                                <li>állórész: indukált feszültség</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000">A generátorok a mechanikai energiát villamos energiává alakítják át. A
+                        mágneses mező és vezető egymáshoz viszonyított mozgatásával érhetjük el, hogy feszültség
+                        indukálódjék. Ha vezetéket áthúzzuk egy mágneses téren akkor feszültség indukálódik. Minél
+                        erősebb a mágneses tér annál nagyobb feszültség mérhető. Mágneses erőtér időbeli
+                        megváltoztatása, villamos erőtér megjelenésével jár. Az indukált feszültség ennek a villamos
+                        erőtérnek a vezeték végpontjai között mérhető feszültsége.
+                        A generátorok működési elve a mozgási indukció felismerésén alapszik. Ha egy vezetőkerettel
+                        kapcsolódó mágneses erővonalak száma megváltozik, a vezetőkeretben feszültség indukálódik. A
+                        fluxus változást mozgási indukciónál a mágneses tér és a vezetőkeret viszonylagos elmozdulása
+                        okozza.<br>
+                        A szinkron generátoroknál a vezetőkeret az álló részen van, a forgórész által létrehozott
+                        mágneses teret forgatjuk. A forgó mágneses tér az álló vezető keretben az energiaszállítási
+                        szempontból kedvező váltakozó feszültségű villamos energiát állítja elő. Ha feltételezzük, hogy
+                        a mágneses tér eloszlása a kerület mentén szinuszos, akkor a tekercsben indukált feszültség
+                        változása is szinuszos alakú lesz.</p>
+                    <p class="maxwidth1000">Állórész:<br>
+                        – ház: Kis és közepes teljesítményű gépek esetén öntöttvas, nagyobb gépeknél hegesztett
+                        acélszerkezet<br>
+                        - vasmag: Cső alakú, egymástól elszigetelt ún. dinamólemezből készül. A vasmag belső palástja
+                        mentén egyenletes osztással hornyolt.<br>
+                        - tekercselés: Szigetelt rézvezetőből készül</p>
+                    <p class="maxwidth1000">Forgórész (Egyenárammal gerjesztett elektromágnes)<br>
+                        - Hengeres forgórész: Vasmagja henger alakú. Közepes teljesítményig lemezelt, nagy teljesítményű
+                        gépeknél tömör acél. A hengerpalást egy részén kialakított hornyokban helyezkedik el a
+                        gerjeszőtekercselés, mely szigetelt rézből készül.<br>A gerjesztőtekercs két vége a tengelyre
+                        szerelt ún. csúszógyűrűkhöz csatlakozik. A csúszóérintkezők egymástól illetve a tengelytől
+                        egyaránt elszigetelt bronzból készült, mozgó érintkezők.</p>
+                    <p class="maxwidth1000">Kiálló pólusú forgórész:<br>
+                        - A tengelyen elhelyezett acélkoszorúra szerelik fel a pólusokat, amelyek törzsén helyezkednek
+                        el a gerjesztőtekercsek.</p>
+                    <p class="maxwidth1000 subtitle">Egyenáramú gépek</p>
+                    <p class="maxwidth1000">A villamos gépek közül legkorábban
+                        az egyenáramú gépek terjedtek el. Később, a váltakozóáramú hálózatok elterjedésével együtt az
+                        aszinkron gépeket is egyre nagyobb számban használták. Azonban ma is vannak olyan alkalmazási
+                        területek, ahol nagy számban használnak egyenáramú gépeket elsősorban ott, ahol precíziós
+                        fordulatszám szabályozásra van szükség (pl. szerszámgépek, robotok, stb.)</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <p class="maxwidth1000"><span class="tb">Szerkezeti felépítés (motor, generátor):</span>
+                                    Az
+                                    egyenáramú gépekre négy alapvető szerkezeti rész jellemző:</p>
+                                <p class="maxwidth1000">
+                                <ul>
+                                    <li>az acélöntvényből készült henger alakú állórész, amelyre csavarokkal erősítik
+                                        fel a fő- és
+                                        segédpólusokat. A főpólusokon elhelyezett, és egyenárammal táplált
+                                        gerjesztőtekercsek – a
+                                        főpólustekercsek – gerjesztik a gép fluxusát. (kisebb teljesítményű gépeknél az
+                                        állórészt
+                                        állandó mágnesből készítik, így nem kell az állórészt külön gerjeszteni)</li>
+                                    <li>A lemezelt, henger alakú, külső felületén hornyokkal ellátott forgórész az
+                                        armatúra,
+                                        amelynek tekercselésében a főfluxus hatására feszültség indukálódik</li>
+                                    <li>A kommutátor, amely az armatúra tekercselés váltakozó áramát mechanikus úton
+                                        egyenirányítja</li>
+                                    <li>A kefék, amelyek az armatúra áramot a kommutátorról csúszóérintkezéssel szedik
+                                        le</li>
+                                </ul>
+
+                            </td>
+                            <td>
+                                <figure>
+                                    <img class="bordered" src="img_tetel/egyenaramu_motor01.jpg" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                    <p class="maxwidth1000"><span class="tb">Működés:</span> Az
+                        állandó mágnes mágneses terében van elhelyezve egy vezető keret (armatúra), amelyben áram
+                        folyik. Az áram hatására a vezető körül mágneses mező alakul ki, amely merőleges lesz az
+                        állandómágnes mágneses terének vektoraira. Ez a jelenség azt eredményezi, hogy a forgórész
+                        elfordul.</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <figure class="bordered">
+                                    <img src="img_tetel/egyenaramu_motor02a.jpg" alt="">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="bordered">
+                                    <img src="img_tetel/egyenaramu_motor02b.jpg" alt="">
+                                </figure>
+                            </td>
+                            <td>
+                                <figure class="bordered">
+                                    <img src="img_tetel/egyenaramu_motor02c.jpg" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                        <tr class="bordered">
+                            <td style="max-width: 195px;text-align: justify;">
+                                <p class="margins10">Ha a tekercsben áram folyik, körülötte mágneses mező létesül, amely
+                                    igyekszik az
+                                    állórész mező irányába állni.</p>
+                            </td>
+                            <td style="max-width: 195px;text-align: justify;">
+                                <p class="margins10">A forgórész a kommutátorral együtt forog, a kefék az állórészhez
+                                    rögzítettek, és a kommutátor egymástól elszigetelt lemezein csúsznak.</p>
+                            </td>
+                            <td style="max-width: 195px;text-align: justify;">
+                                <p class="margins10">Minden fél fordulatnál a stabil helyzet elérésekor a kommutátor
+                                    megfordítja a tekercsben folyó áram irányát, így a forgás folytatódik.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p style="margin-top: 10px;" class="maxwidth1000"><span class="tb">Armatúrareakció:</span> A működés
+                        pontosabb megértéséhez
+                        szükséges megismerni az armatúra visszahatás vagyis az armatúra-reakció jelenségét. Az
+                        armatúraáram maga is mágneses fluxust hoz létre, amely hozzáadódik a pólusok által létesített
+                        fluxushoz. Ez a jelenség eltorzítja az indukció-eloszlást az armatúra kerülete mentén. Ennek az
+                        lesz a következménye, hogy a gép fluxusa csökken, és az
+                        ún. semleges vonal eltolódik. Ezért tehát ennek megfelelően el kell tolni a keféket is. Az
+                        armatúrareakció hatásainak megszüntetése:</p>
+                    <p class="maxwidth1000">
+                    <ul>
+                        <li>légrés növelése (nagyobb gerjesztés szükséges)</li>
+                        <li>segédpólus alkalmazása az üresjárási semleges vonalban az armatúraárammal gerjesztve</li>
+                        <li>megfelelő kommutálási késleltetés (siettetés)</li>
+                        <li>kompenzálótekercs alkalmazása a pólussarukban az armatúraárammal gerjesztve</li>
+                    </ul>
+                    </p>
+                    <p class="maxwidth1000"><span class="tb">Egyenáramú gépek osztályozása:</span> Az egyenáramú gépeket
+                        a gerjesztés módja szerint négy csoportba osztjuk. Ezek láthatók az alábbi ábrán:</p>
+                    <table class="centered">
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img src="img_tetel/egyenaramu_motor03.jpg" alt="">
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="maxwidth1000"><span class="tb">Külső gerjesztésű motor (párhuzamos is):</span> Külső
+                        gerjesztésű motornak két pár független kivezetése van. Egyikre kapcsoljuk a
+                        gerjesztő feszültséget, a másikra pedig az armatúra feszültséget. A motor egyik legfontosabb
+                        tulajdonsága a fordulatszámtartás, azaz növekvő nyomaték
+                        mellett nem változik meg lényegesen a fordulatszám. Egyenáramú generátorként jó feszültségtartó.
+                    </p>
+                    <p class="maxwidth1000"><span class="tb">Soros gerjesztésű motor:</span> Az armatúra sorosan van
+                        kapcsolva a gerjesztőtekerccsel, ezért a gerjesztőáram azonos az
+                        armatúraárammal. <span class="tb bordered"
+                            style="padding-left: 5px;padding-right: 5px;">I<sub>g</sub> = I<sub>a</sub></span><br>A
+                        soros gerjesztésű motor sajátos tulajdonsága, hogy egyaránt működik váltakozó-, illetve
+                        egyenáramú táplálásról is, ezért univerzális gépnek nevezzük. A motor forgásirányának
+                        változtatása csak a gerjesztő tekercs kapcsainak felcserélésével lehetséges. Fontos azonban,
+                        hogy egy 230V váltakozófeszültségre tervezett gépet, nem lehet 230V egyenfeszültségről
+                        táplálni, ilyenkor ugyanis a tekercs reaktanciája megszűnik, így kisebb lesz a terhelés és az
+                        áram nagyon megnő.</p>
+                    <p class="maxwidth1000"><span class="tb">Vegyes gerjesztésű motor:</span> Párhuzamos és soros
+                        gerjesztő tekercse is van. Ha a soros tekercs
+                        fluxusa erősíti a párhuzamos tekercs fluxusát kompaund kapcsolásnak nevezzük. Egyesíti a
+                        fenti gépek jó tulajdonságait: jó feszültség tartó, nem kell külső gerjesztő táplálás.
+                    </p>
+                    <p class="maxwidth1000"><span class="tb">Tekercsek villamos jellemzői:</span> A tekercsek áramot
+                        vezetnek, melegednek és feszültségek lépnek fel, ezért nem közömbös az, hogy milyen villamos
+                        tulajdonságú szigetelő anyagok kerülnek beépítésre, és ezek hogyan viselik el az
+                        igénybevételeket. A villamos szigetelő anyagokra jellemző, hogy az adott anyag 1 mm vastagságát,
+                        szabványos elektródákat alkalmazva, hány volt üti át. Ezt nevezik az illető anyag átütési
+                        szilárdságának.<br>A villamos szigetelő anyagokat hőállóságuk alapján hőállósági osztályokba
+                        sorolják. Ez megmutatja, hogy átütés és meghibásodás nélkül milyen hőmérsékletet viselnek el.
+                        <br>Az elkészített tekercselést összeszerelés után, mikor a transzformátor belemezelése már
+                        megtörtént, ellenőrizni kell. Az ellenőrzést új, illetve javított tekercs esetén egyaránt el
+                        kell végezni. Mivel ez a barkácsolóknál eszköz hiánya miatt problémát jelenthet, ennek
+                        elvégzésére célszerű szervizhez fordulni. Amikor a tekercs a csévetesten elkészült, impregnálni
+                        kell. Az impregnálás, másképpen itatás, az elkészített tekercs üres részeinek kitöltése
+                        folyékony szigetelőanyaggal. A tekercsben a vezetők és a szigetelőanyagok között levegő van.
+                        Mint a fizikából ismert a levegő rossz hővezető, ezért célszerű jó hővezetőjű anyaggal a
+                        tekercsben lévő levegőt kitölteni. A tekercsben folyó áram teljesítménnyel arányos melegedést
+                        hoz létre a tekercs belsejében. Ezt a meleget kell kivezetni a tekercs külső felületére.
+                        Impregnálás előtt felmelegítik a tekercset, utána impregnáló anyagba mártják vagy vákuum
+                        kemencében telítik. Impregnálás célja:</p>
+                    <p class="maxwidth1000">
+                        <ul>
+                            <li>megvédeni a tekercset a nedvességtől</li>
+                            <li>növelni a villamos szilárdságot</li>
+                            <li>rögzíteni a tekercs meneteit</li>
+                            <li>védelem a külső mechanikai behatásoktól</li>
+                            <li>jó hőelvezetés biztosítása</li>
+                        </ul>
+                    </p>
                     <p class="maxwidth1000"></p>
                     <p class="maxwidth1000"></p>
                 </td>

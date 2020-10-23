@@ -6,6 +6,14 @@
     background-blend-mode: lighten;
 }
 
+.backG02 {
+    background-image: url('/img/backG02.jpg');
+    background-size: 100%;
+    background-position: unset;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
 .backGSub01 {
     background-color: rgba(255,255,255,0.4);
     background-blend-mode: lighten;
@@ -26,6 +34,23 @@
     align-items: center;
     justify-content: center;    
     display: flex;
+}
+
+.center980 {
+    text-align: center;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margins10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.padding10 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .tdc {
