@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudoku</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body id="body" class="backG02">
-    <table id="mainT">
-    </table>
-    <table style="margin-top: 15px;" id="subT">
-        <tbody></tbody>
+    <div style="font-size: 60px;text-align: center;">Sudoku</div>
+    <table class="centered">
+        <tr>
+            <td>
+                <table id="mainT" style="margin-top: 9px;"></table>
+                <table style="margin-top: 15px;" id="subT"></table>
+                <div class="centered" style="margin-top: 10px;margin-bottom: 10px;">
+                    <input type="button" value="Clear cell" id="btnClearCell">
+                    <input type="button" value="Clear whole table" id="btnClearWholeTable" style="margin-left: 10px;">
+                </div>
+            </td>
+            <td style="vertical-align: top;padding-left: 10px;padding-right: 10px;padding-top: 10px;">
+                <div class="bordered" style="padding: 10px; border-width: 2px;background-color: rgba(255,255,205,0.4);">
+                    <input style="margin-bottom: 10px;" type="button" value="Make random game" id="btnMakeRandomGame"><br>
+                    <input type="radio" name="cbDifficulity" id="cbDiffEasy" value="" checked>
+                    <label for="cbDiffEasy">Easy</label><br>
+                    <input type="radio" name="cbDifficulity" id="cbDiffMedium" value="">
+                    <label for="cbDiffMedium">Medium</label><br>                    
+                    <input type="radio" name="cbDifficulity" id="cbDiffHard" value="">
+                    <label for="cbDiffHard">Hard</label><br>
+                    <input type="radio" name="cbDifficulity" id="cbDiffExpert" value="">
+                    <label for="cbDiffExpert">Expert</label><br>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="pControlsDiv" class="centered">
+                    <p id="pControls" style="font-weight: bolder;">
+                        Keyboard layout:<br>
+                        - 1-9: numbers for filling up cells<br>
+                        - Arrows: jump between cells<br>
+                        - Del: clear selected cell<br>
+                        - End: clear the whole table
+                    </p>
+                </div>
+            </td>
+        </tr>
     </table>
     <script src="JS/sudoku.js"></script>
 </body>
+
 </html>
