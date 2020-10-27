@@ -13,24 +13,48 @@
     <table class="centered">
         <tr>
             <td>
-                <table id="mainT" style="margin-top: 9px;"></table>
-                <table style="margin-top: 15px;" id="subT"></table>
-                <div class="centered" style="margin-top: 10px;margin-bottom: 10px;">
-                    <input type="button" value="Clear cell" id="btnClearCell">
-                    <input type="button" value="Clear whole table" id="btnClearWholeTable" style="margin-left: 10px;">
-                </div>
+                <table id="mainT"
+                    style="margin-top: 9px;font-family: 'Times New Roman', Times, serif;text-align: center;"></table>
+                <table id="subT" style="margin-top: 5px;"></table>
             </td>
-            <td style="vertical-align: top;padding-left: 10px;padding-right: 10px;padding-top: 10px;">
+            <td style="vertical-align: top;padding-top: 10px;">
                 <div class="bordered" style="padding: 10px; border-width: 2px;background-color: rgba(255,255,205,0.4);">
-                    <input style="margin-bottom: 10px;" type="button" value="Make random game" id="btnMakeRandomGame"><br>
-                    <input type="radio" name="cbDifficulity" id="cbDiffEasy" value="" checked>
-                    <label for="cbDiffEasy">Easy</label><br>
-                    <input type="radio" name="cbDifficulity" id="cbDiffMedium" value="">
-                    <label for="cbDiffMedium">Medium</label><br>                    
-                    <input type="radio" name="cbDifficulity" id="cbDiffHard" value="">
-                    <label for="cbDiffHard">Hard</label><br>
-                    <input type="radio" name="cbDifficulity" id="cbDiffExpert" value="">
-                    <label for="cbDiffExpert">Expert</label><br>
+                    <table>
+                        <tr>
+                            <td>
+                                <input style="margin-bottom: 5px; width: 140px;" type="button" value="Make random game"
+                                id="btnMakeRandomGame"><br>      
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="cbDifficulity" id="cbDiffEasy" value="" checked>
+                                <label for="cbDiffEasy">Easy</label><br>
+                                <input type="radio" name="cbDifficulity" id="cbDiffMedium" value="">
+                                <label for="cbDiffMedium">Medium</label><br>
+                                <input type="radio" name="cbDifficulity" id="cbDiffHard" value="">
+                                <label for="cbDiffHard">Hard</label><br>
+                                <input type="radio" name="cbDifficulity" id="cbDiffExpert" value="">
+                                <label for="cbDiffExpert">Expert</label><br>            
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <p></p>
+                <div class="bordered centered"
+                    style="padding: 10px; border-width: 2px;background-color: rgba(255,255,205,0.4);">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="button" value="Clear cell" id="btnClearCell" style="width: 140px;"> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="Clear whole table" id="btnClearWholeTable" style="width: 140px;">
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </td>
         </tr>

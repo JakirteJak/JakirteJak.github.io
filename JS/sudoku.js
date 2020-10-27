@@ -126,6 +126,7 @@ function makeRandomGame() { // Randomly generate a new game / Véletlenszerűen 
             }
         }
     }
+    setSubTableVisibility();
 }
 
 function changeXYforArrowKeys(incdec, XorY, funct) { // Subfunction for arrowKeyPress / Alfunkció arrowKeyPress -hez
