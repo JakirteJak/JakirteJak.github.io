@@ -31,6 +31,6 @@ add_elmTR("14. Egyfázisú transzformátor", "t14_transzformator.html");
 add_elmTR("15. Háromfázisú transzformátor", "t15_3faz_transzf.html");
 add_elmTR("16. Aszinkron motor", "t16_aszinkron.html");
 add_elmTR("17. Szinkrongépek", "t17_szinkrongepek.html");
-add_elmTR("18. ???", "");
+add_elmTR("18. Villamos ív", "t18_villamosiv.html");
 add_elmTR("19. tétel: Mágneskapcsolók, mikrokapcsolók, relék", "t19_magneskapcsolok.html");
 add_elmTR("20. Megújuló energia", "t20_megujulo.html");
