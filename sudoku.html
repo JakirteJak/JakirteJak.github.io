@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudoku</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">    
 </head>
 
 <body id="body" class="backG02">
@@ -29,13 +29,13 @@
                         <tr>
                             <td>
                                 <input type="radio" name="cbDifficulity" id="cbDiffEasy" value="" checked>
-                                <label for="cbDiffEasy">Easy</label><br>
+                                <label class="toolpit" title="38 cells will be filled" for="cbDiffEasy">Easy</label><br>
                                 <input type="radio" name="cbDifficulity" id="cbDiffMedium" value="">
-                                <label for="cbDiffMedium">Medium</label><br>
+                                <label class="toolpit" title="30 cells will be filled" for="cbDiffMedium">Medium</label><br>
                                 <input type="radio" name="cbDifficulity" id="cbDiffHard" value="">
-                                <label for="cbDiffHard">Hard</label><br>
+                                <label class="toolpit" title="25 cells will be filled" for="cbDiffHard">Hard</label><br>
                                 <input type="radio" name="cbDifficulity" id="cbDiffExpert" value="">
-                                <label for="cbDiffExpert">Expert</label><br>            
+                                <label class="tooltip" title="23 cells will be filled" for="cbDiffExpert" title="hh">Expert</label><br>            
                             </td>
                         </tr>
                     </table>
@@ -51,7 +51,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="button" value="Clear whole table" id="btnClearWholeTable" style="width: 140px;">
+                                <input class="toolpit" title="All cells will be empty" type="button" value="Clear whole table" id="btnClearWholeTable" style="width: 140px;">
                             </td>
                         </tr>
                     </table>

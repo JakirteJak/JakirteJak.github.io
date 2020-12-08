@@ -4,8 +4,11 @@ let diffHard = document.getElementById("cbDiffHard");
 let diffExpert = document.getElementById("cbDiffExpert");
 let borderWidth = 3;
 let actX = 0, actY = 0; // Coordinates of the actually selected cell / Az éppen kiválastott cella koordinátái
-let cellSizeX  = 50, cellSizeY = 50;
-let easyLimit  = 36;
+let cellSizeX   = 50, cellSizeY = 50;
+let easyLimit   = 38;
+let mediumLimit = 30;
+let hardLimit   = 25;
+let expertLimit = 23;
 isSelected     = false; // Is any cell select? / Van cella kiválasztva?
 baseColor1     = "rgba(255,255,255,0.5)"; // First background color / Első háttérszín
 baseColor2     = "rgba(255,255,205,0.4)"; // Second background color / Második háttérszín
@@ -111,10 +114,10 @@ function fillWholeTable() {
 function makeRandomGame() { // Randomly generate a new game / Véletlenszerűen generál egy új játékot
     fillWholeTable();
     let limit, rX, rY; let coordOK = false;
-    if (diffEasy.checked) limit = 43;
-    if (diffMedium.checked) limit = 51;
-    if (diffHard.checked) limit = 56;
-    if (diffExpert.checked) limit = 58;
+    if (diffEasy.checked) limit = 80 - easyLimit;
+    if (diffMedium.checked) limit = 81 - mediumLimit;
+    if (diffHard.checked) limit = 81 - hardLimit;
+    if (diffExpert.checked) limit = 81 - expertLimit;
     for (let ci = 0; ci < limit; ci++) {
         coordOK = false;
         while (!coordOK) {
