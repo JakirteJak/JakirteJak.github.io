@@ -6,7 +6,7 @@ let timerMain      = setInterval(timerMainF, 10);
 let timerArcrotate = setInterval(tArcRotate, 10);
 let timerSetTime   = setInterval(tSetTime, 500);
 let isArcRotate = true; let actRotateAngle = 0; let rotateAngle = 0.005;
-let isMoveAfterMouse = false;
+let isMoveAfterMouse = true;
 let speedMax = 10;
 let speedMin = 1;
 let mouseX; let mouseY;
