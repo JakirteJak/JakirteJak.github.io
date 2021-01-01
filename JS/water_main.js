@@ -1,41 +1,106 @@
-document.getElementById("btnTest").onclick =    testClick;
-document.getElementById("btnTest2").onclick =   test2Click;
-document.getElementById("btnRestart").onclick = restartClick;
+document.getElementById("btnTest").onclick    = testClick;
+document.getElementById("btnStart1").onclick  = testClick;
+
+document.getElementById("btnTest2").onclick   = test2Click;
+document.getElementById("btnStart2").onclick  = test2Click;
+
+document.getElementById("btnRestart").onclick  = restartClick;
+document.getElementById("btnRestart2").onclick = restartClick;
+
 document.getElementById("body").onload = onLoad;
+document.getElementById("cbSmoothed").onclick = smoothClick;
+
+let p = document.getElementById("pOne");
 
 let timerMain = setInterval(timerMainF, 0);
 let timerStaticMoves = setInterval(timerStaticMovesF, 50);
 
-let p = document.getElementById("pOne");
-
-let mapSizeX = 350;
+let mapSizeX = 450;
 let mapSizeY = 250;
 let colorBackGr = "lightblue";
 let phisicsOn   = false;
-let zoom = 1;
+let zoom   = 1;
+let mouseX = 0; let mzX = 0;
+let mouseY = 0; let mzY = 0;
 
+let c_zoom    = document.getElementById("zoomCanvas");
+let ctx_zoom  = c_zoom.getContext("2d");
+c_zoom.width  = mapSizeX * zoom / 1;
+c_zoom.height = mapSizeY * zoom / 1;
+ctx_zoom.fillStyle = "white";
 
-let c2 = document.getElementById("myCanvas2");
-let ctx_main = c2.getContext("2d");
+let c_main = document.getElementById("mainCanvas");
+let ctx_main = c_main.getContext("2d");
+c_main.width  = mapSizeX * zoom;
+c_main.height = mapSizeY * zoom;
+c_main.onclick = function() { zoom_fixed = !zoom_fixed; };
 
-c2.width  = mapSizeX * zoom;
-c2.height = mapSizeY * zoom;
+let zoom_img = ctx_main.getImageData(100, 100, c_zoom.width / 3, c_zoom.height / 3);
+let zoom_c = 4; let zoom_c_max = 6;
+document.getElementById("btnZoom").onclick = btnZoomClick;
+let txtZoom = document.getElementById("txtZoom");
+
 
 let map     = [];
 let water   = []; 
-let water_2 = [];
+//let water_2 = [];
 let blocks  = [];
 let numOfTest = 0;
 let randomMultiplier = 4;
+let zoomX, zoomY;
+let smooth = false;
+let zoom_fixed = false;
 
-let img = new Image();
-img.src = '/img/backG02.jpg';
+let img_backg = new Image(); // Used for background image
+img_backg.src = '/img/backG02.jpg'; // Background image source
 
 let tempCanvas = document.createElement("canvas");
 tempCanvas.width  = mapSizeX * zoom;
 tempCanvas.height = mapSizeY * zoom;
 ctx_temp = tempCanvas.getContext("2d");
 imgData = ctx_temp.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+
+c_main.addEventListener("mousemove", function(event) {
+    mouseX = event.clientX;
+    mouseY = event.clientY;
+});
+
+c_zoom.addEventListener("mousemove", function(event) {
+   // mzX = event.clientX;
+    mzX = event.layerX;
+    //mzY = event.clientY;
+    mzY = event.layerY;
+    p.innerHTML = mzX;
+});
+
+function btnZoomClick() {
+    if (zoom_c < zoom_c_max)
+        zoom_c++;
+    else
+        zoom_c = 1;
+
+    txtZoom.innerHTML = zoom_c + "X";
+}
+
+function setSmooth(ctx) {
+    if (smooth) {
+        ctx.imageSmoothingEnabled = true;
+        ctx.mozImageSmoothingEnabled = true;
+        ctx.webkitImageSmoothingEnabled = true;
+        ctx.msImageSmoothingEnabled = true;      
+    }
+    else {
+        ctx.imageSmoothingEnabled = false;
+        ctx.mozImageSmoothingEnabled = false;
+        ctx.webkitImageSmoothingEnabled = false;
+        ctx.msImageSmoothingEnabled = false;      
+    }
+}
+
+function smoothClick() {
+    smooth = this.checked;
+    setSmooth(ctx_zoom);
+}
 
 function setPixels(r, g, b, a, sX, sY) {
     let pixelIndex = 0;    
@@ -53,34 +118,41 @@ function setPixels(r, g, b, a, sX, sY) {
     }
 }
 
-/*function initBlocks2() {
-    for (let x = 0; x < mapSizeX; x++)
-        for (let y = 0; y < mapSizeY; y++) {
-            switch (getType(x, y)) {
-                case 0:  setPixels(50, 50, 100, 50, x, y); break;
-                case 1:  setPixels(255, 0, 0, 255, x, y);  break;
-                case 10: setPixels(0, 0, 255, 155, x, y);
-            }
-        }
-}*/
-
 function makeImgData() { // redraw only the moving elements
     for (let x = 0; x < mapSizeX; x++)
         for (let y = 0; y < mapSizeY; y++) {
             switch (getColor(x, y)) {
-                case colorBackGr:  setPixels(0, 0, 0, 0, x, y); break;
-                case "white"  : setPixels(255, 255, 255, 255, x, y); break;
-                case "blue"   : setPixels(0, 50, 255, 155 /*- Math.floor(Math.random() * 30)*/, x, y); break;
-                case "green"  : setPixels(0, 255, 255, 155, x, y);
+                case colorBackGr : setPixels(0, 0, 0, 0, x, y);         break;
+                case "white"     : setPixels(255, 255, 255, 255, x, y); break;
+                case "blue"      : setPixels(0, 50, 255, 155, x, y);    break;
+                //case "blue"      : setPixels(0, 50, 255, 155 - Math.floor(Math.random() * 90), x, y); break;
+                case "green"     : setPixels(0, 255, 255, 155, x, y);
         }    
     }
 }
 
 function drawMap2() {    
     makeImgData();
-    ctx_main.drawImage(img, 0, 0, mapSizeX * zoom, mapSizeY * zoom); // draw background to main canvas
+    ctx_main.drawImage(img_backg, 0, 0, mapSizeX * zoom, mapSizeY * zoom); // draw background to main canvas
     ctx_temp.putImageData(imgData, 0, 0); // move changes to temp canvas
     ctx_main.drawImage(tempCanvas, 0, 0); // move temp canvas to main canvas
+
+    if (!zoom_fixed) {
+        zoomX = mouseX - (c_zoom.width / zoom_c / 2);
+        zoomY = mouseY - (c_zoom.height / zoom_c / 2);
+        ctx_main.strokeStyle = "black";
+    }
+    else
+        ctx_main.strokeStyle = "green";
+
+    ctx_main.beginPath();
+    ctx_zoom.fillRect(0,0, c_zoom.width, c_zoom.height); // Clear zoom canvas
+    ctx_main.rect(zoomX -1, zoomY -1, c_zoom.width / zoom_c + 2, c_zoom.height / zoom_c + 2); // Draw zoom rectangle
+    ctx_main.stroke();
+
+    ctx_zoom.drawImage(c_main,
+        zoomX, zoomY, c_zoom.width / zoom_c, c_zoom.height / zoom_c, 
+        0, 0, c_zoom.width, c_zoom.height); // Move data to zoom canvas
 }
 
 function main() {
@@ -97,6 +169,10 @@ function main() {
                 case "green"  : setPixels(0, 255, 255, 155, x, y);
         }    
     }
+
+    setSmooth(ctx_zoom);
+    setSmooth(ctx_temp);
+    txtZoom.innerHTML = zoom_c + "X";
   //  window.requestAnimationFrame(main);    
   //  drawMap2();
 }
@@ -341,7 +417,7 @@ function makeWaterRect(x1, y1, xSize, ySize, color) {
         for (let ci2 = y1; ci2 < (y1 + ySize); ci2++) {
             map[ci + ci2 * mapSizeX].color = color;
             map[ci + ci2 * mapSizeX].type  = 10;
-            water.push({color : color, x : ci, y : ci2});
+            water.push({color : color, x : ci, y : ci2, xA : 0, yA : 0});
         }
 }
 

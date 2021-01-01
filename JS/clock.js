@@ -25,7 +25,7 @@ let hourDIVs = []; hourCoord = []; // Óramutató
 
 let timerNumSize   = setInterval(setNumSize, 100);    // Számok fontméret változtatása
 let timerClockMove = setInterval(setMoveCoord, 10);   // Pozíció koordináták számolása
-let timerTime = setInterval(setTimeAndCoord, 10);    // Mutatók alapkoordinátáinak számolása
+let timerTime = setInterval(setTimeAndCoord, 10);     // Mutatók alapkoordinátáinak számolása
 let timerClockPulse = setInterval(setClockPulse, 50); // Pulzálás változtatása
 let timerMouseCoordChange = setInterval(setMouseCoordNum, 50);
 

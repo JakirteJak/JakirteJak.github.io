@@ -4,18 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/water.css">
 </head>
 <body id="body">
-    <div>
-        <canvas id="myCanvas2" width="500" height="200" style="border:1px solid #000000;"></canvas>
+    <div class="control_main">
+        <canvas id="mainCanvas" width="500" height="200" style="border:1px solid #000000;"></canvas>
+
+        <div id="btnStart1" class="control_sub">    
+            <span style="font-family: 'Times New Roman', Times, serif; left: 5px; font-size: 30px;
+                position: absolute; text-align: center; align-items: center; align-content: center; top: 3px">S1</span>
+            <span class="toolTip">Start / pause test 1</span>  
+        </div>        
+
+        <div  id="btnStart2" class="control_sub pos_start2">
+            <span style="font-family: 'Times New Roman', Times, serif; left: 5px; font-size: 30px;
+               position: absolute; text-align: center; align-items: center; align-content: center; top: 3px">S2</span>
+            <span class="toolTip">Start / pause test 2</span>  
+        </div>        
+
+        <div id="btnRestart2" class="control_sub pos_restart">
+            <span style="position: absolute; left: 5px; top: 6px;">&#113</span>            
+            <span class="toolTip">Restart</span>              
+        </div>        
+    </div>
+
+    <div style="display: inline-block;">
         <p id="pOne">0</p>
-    </div>
-    <div>
+        <input type="checkbox" name="" id="cbSmoothed">
+        <label for="cbSmoothed">Smoothed<br><br></label>            
+
         <input id="btnRestart" type="button" value="Restart">
-        <input id="btnTest" type="button" value="Test">
-        <input id="btnTest2" type="button" value="Test2">        
+        <input id="btnTest"  type="button" value="Test">
+        <input id="btnTest2" type="button" value="Test2">
+        
     </div>
-    
+    <div class="control_main">
+        <canvas id="zoomCanvas" width="150" height="200" style="border:1px solid #000000;"></canvas>
+
+        <div id="btnZoom" class="control_sub pos_zoom">
+            <span style="position: absolute; left: 10px; top: 5px;">L</span>
+            <span id="txtZoom" style="font-family: 'Times New Roman', Times, serif; left: 5px;top: 23px; position: absolute; font-size: 10px;">1X</span>
+            <span style="left: 55px;" class="toolTip">Change zoom (1X - 6X)</span>              
+        </div>                
+    </div>
     <script src="JS/water_main.js"></script>
 </body>
 </html>

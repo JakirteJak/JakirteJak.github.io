@@ -1,0 +1,77 @@
+.control_main {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+
+.control_sub {
+    font-family: Webdings;
+    font-size: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: beige;
+    width:  40px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#btnStart1 {
+    right: 5px;
+    top: 5px;
+}
+
+#btnStart1:hover {
+    background-color: lawngreen;
+}
+
+#btnStart2 {
+    right: 5px;
+    top: 55px;
+}
+
+#btnStart2:hover {
+    background-color: lawngreen;
+}
+
+#btnZoom {
+    left: 5px;
+    top: 5px;
+}
+
+#btnZoom:hover {
+    background-color: lawngreen;
+}
+
+#btnRestart2 {
+    right: 5px;
+    top: 105px;
+}
+
+#btnRestart2:hover {
+    background-color: lawngreen;
+}
+
+.toolTip {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: max-content;
+    position: absolute;
+    right: 55px;
+    top: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    user-select: none;
+    visibility: hidden;
+}
+
+.control_sub:hover .toolTip {
+    visibility: visible;
+}

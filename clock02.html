@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock 02</title>
+    <link rel="stylesheet" href="css/clock02.css">
+</head>
+<body>
+    <div id="header_main" style="width: 100%; height: 45px; background-color: black;">
+        <button id="btn001" class="control_sub" style="right: 15px; top: 11px">?</button>
+        <div id="divRotate">
+            <input type="checkbox" name="" id="cbRotate">
+            <label for="cbRotate">Rotate clock</label>                        
+        </div>
+        <div id="divMoveAfterMouse">
+            <input type="checkbox" name="" id="cbMoveAfterMouse">
+            <label for="cbMoveAfterMouse">Move after mouse</label>                        
+        </div>
+    </div>
+    <div class="control_main">  
+        <div id="menu001" style="position: absolute; right: 55px; top: 10px;width: 200px; height: 100px;
+                    background-color: lightgray; border-radius: 10px;
+                    box-shadow: 3px 3px 10px black; visibility: hidden; z-index: 10;">
+                <p style="position: absolute; left: 30px;">Test window!</p>
+        </div>      
+        <canvas id="mainCanvas" class="canvasMaxWidth"  style="border:1px solid #000000;"></canvas>        
+
+        <div id="btnZoomIn" class="control_sub">    
+            <span style="font-family: 'Times New Roman', Times, serif; left: 11px; font-size: 30px; font-weight: bolder;
+                position: absolute; text-align: center; align-items: center; align-content: center; top: 3px">+</span>
+            <span class="toolTip">Increase clock size</span>  
+        </div>        
+
+        <div id="btnZoomOut" class="control_sub">
+            <span style="font-family: 'Times New Roman', Times, serif; left: 14px; font-size: 30px; font-weight: bolder;
+               position: absolute; text-align: center; align-items: center; align-content: center; top: 0px">-</span>
+            <span class="toolTip">Decrease clock size</span>  
+        </div>   
+        
+        <div id="btnRestart" class="control_sub">
+            <span style="position: absolute; left: 5px; top: 6px;">&#113</span>            
+            <span class="toolTip">Restart</span>              
+        </div>        
+
+        <p id="p" style="position: absolute; right: 100px; top: 5px">dddopjpojpojpojdd</p>
+    </div>
+
+    <script src="JS/clock02.js"></script>
+</body>
+</html>
