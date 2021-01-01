@@ -80,6 +80,13 @@
     top: 10px
 }
 
+#divRotateSpeed {
+    position: absolute;
+    color: white;
+    right: 488px;
+    top: 10px
+}
+
 .toolTip {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;

@@ -3,11 +3,10 @@ let c_main   = document.getElementById("mainCanvas");
 let ctx_main = c_main.getContext("2d");
 
 let timerMain      = setInterval(timerMainF, 10);
-let timerArcmove   = setInterval(tArcMove, 10);
 let timerArcrotate = setInterval(tArcRotate, 10);
 let timerSetTime   = setInterval(tSetTime, 500);
 let isArcRotate = true; let actRotateAngle = 0; let rotateAngle = 0.005;
-let isMoveAfterMouse = true;
+let isMoveAfterMouse = false;
 let speedMax = 10;
 let speedMin = 1;
 let mouseX; let mouseY;
@@ -20,9 +19,9 @@ let clockSize = 1;
 let hourSectionSize = 0.1667;
 let secSectionSize  = 0.0333;
 let R = 0, G = 0, B = 0, A = 0;
-
 let sec, min, hour; tSetTime();
 
+hMain = document.getElementById("header_main");
 document.getElementById("btnZoomIn").onclick  = function() { if (clockSize < 3.5) clockSize+= 0.5 };
 document.getElementById("btnZoomOut").onclick = function() { if (clockSize > 0.5) clockSize-= 0.5 };
 document.getElementById("cbRotate").checked = isArcRotate;
@@ -58,21 +57,29 @@ function tSetTime() {
 }
 
 function initElements() {
-    // Init hour red / black arcs
-    let actSpeed = 10;
+    // init hour red / black arcs
+    let actSpeed = 10; let dS = 295; let dE = 264;
     for (let ci = 1; ci < 12; ci+=2) {    
         actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 255, fillG : 0, fillB : 0, strokeColor : "black", D : 257, angle : ci * hourSectionSize, secSize : hourSectionSize, rotateLeft : true });
+        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 255, fillG : 0, fillB : 0, strokeColor : "black", D1 : dS, D2 : dE, angle : ci * hourSectionSize, secSize : hourSectionSize, rotateLeft : true, isRotate : true });
         actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 0, fillG : 0, fillB : 0, strokeColor : "black", D : 257, angle : (ci + 1) * hourSectionSize, secSize : hourSectionSize, rotateLeft : true });        
+        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 0, fillG : 0, fillB : 0, strokeColor : "black", D1 : dS, D2 : dE, angle : (ci + 1) * hourSectionSize, secSize : hourSectionSize, rotateLeft : true, isRotate : true });        
     }
 
+    // init non rotating arcs
+    dS = 260; dE = 200;
+    for (let ci = 1; ci <=12; ci++) {
+        actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
+        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 255, fillG : 255, fillB : 255, strokeColor : "white", D1 : dS, D2 : dE, angle : (ci * hourSectionSize) - 0.062, secSize : 0.13, rotateLeft : true, isRotate : false });
+    }
+
+    dS = 195; dE = 175;
     // init secund red / black arcs
     for (let ci = 1; ci < 60; ci+=2) {        
         actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 0, fillG : 0, fillB : 0, strokeColor : "black", D : 175, angle : ci * secSectionSize + secSectionSize / 2, secSize : secSectionSize, rotateLeft : false });
+        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 0, fillG : 0, fillB : 0, strokeColor : "black", D1 : dS, D2 : dE, angle : ci * secSectionSize + secSectionSize / 2, secSize : secSectionSize, rotateLeft : false, isRotate : true });
         actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 255, fillG : 0, fillB : 0, strokeColor : "black", D : 177, angle : (ci + 1) * secSectionSize + secSectionSize / 2, secSize : secSectionSize, rotateLeft : false });
+        elems.push({ type : 1, speed : actSpeed, X : 200, Y : 200, fillR : 255, fillG : 0, fillB : 0, strokeColor : "black", D1 : dS + 2, D2 : dE + 2, angle : (ci + 1) * secSectionSize + secSectionSize / 2, secSize : secSectionSize, rotateLeft : false, isRotate : true });
     }
 
     // init hour hands
@@ -85,52 +92,22 @@ function initElements() {
 
     // init numbers
     let D_base = 115;
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "12", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 270});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "1", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 300});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "2", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 330});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "3", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 0});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "4", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 30});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "5", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 60});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "6", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 90});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "7", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 120});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "8", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 150});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "9", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 180});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "10", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 210});
-    actSpeed = Math.floor(Math.random() * (speedMax - speedMin)) + speedMin;
-    elems.push({ name : "11", type : 3, speed : actSpeed, X : 200, Y : 200, D : D_base, angle : 240});
-
+    for (let ci = 3; ci <= 14; ci++) {
+        let num = ci; if (num > 12) num -= 12;        
+        elems.push({ name : num, type : 3, speed : Math.floor(Math.random() * (speedMax - speedMin)) + speedMin, X : 200, Y : 200, D : D_base, angle : (ci - 3) * 30});
+    }
 }
 
 function tArcRotate() {
     if (!isArcRotate) return;
-    for (let ci = 0; ci < elems.length; ci++) {
-        if (elems[ci].type == 1)
+    for (let ci = 0; ci < elems.length; ci++) {        
+        if (elems[ci].type == 1 && elems[ci].isRotate)
             if (elems[ci].rotateLeft)
-                elems[ci].angle += rotateAngle;
+                elems[ci].angle += parseFloat(document.getElementById("rotateSpeed").value);
             else
-                elems[ci].angle -= rotateAngle;
+                elems[ci].angle -= parseFloat(document.getElementById("rotateSpeed").value);
     }        
 }
-
-function tArcMove() {
-    if (arcAngle > 2)
-        arcAngle = 0;
-    else
-        arcAngle += 0.005;
-}
-
-hMain = document.getElementById("header_main");
 
 function timerMainF() {    
     c_main.width  = window.innerWidth - 18;
@@ -141,7 +118,8 @@ function timerMainF() {
                   "<br>Hour: " + hour +
                   "<br>Min: " + min +
                   "<br>Sec: " + sec +
-                  "<br>Clock size: " + clockSize;
+                  "<br>Clock size: " + clockSize +
+                  "<br>Rotate speed: " + document.getElementById("rotateSpeed").value;
     drawMap();
 }
 
@@ -200,18 +178,20 @@ function drawArcSection(data) { // for array draw
     else
         A = 1;
 
+    if (!data.isRotate) A = 0;
+
     ctx_main.fillStyle   = "rgba(" + data.fillR + ", " 
                                    + data.X / (c_main.width / 256) + 30 + ", " 
                                    + data.X / (c_main.width / 256) + 30 + ", "
-                                   + data.Y / (c_main.height - 200) +")";
+                                   + data.Y / (c_main.height - 200) +")";                        
     ctx_main.fillStyle   = "rgba(" + R +", " + G + ", " + B + ", " + A +")";                                   
-    ctx_main.arc(data.X, data.Y, (data.D * clockSize) / 2, 
+    ctx_main.arc(data.X, data.Y, (data.D1 * clockSize) / 2, 
         data.angle * Math.PI,
         (data.angle + data.secSize) * Math.PI);
-    ctx_main.arc(data.X, data.Y, (data.D * clockSize) / 1.8, 
+    ctx_main.arc(data.X, data.Y, (data.D2 * clockSize) / 2,
         (data.angle + data.secSize) * Math.PI,
         data.angle * Math.PI, true);
-    ctx_main.arc(data.X, data.Y, (data.D * clockSize) / 2, 
+    ctx_main.arc(data.X, data.Y, (data.D1 * clockSize) / 2, 
         data.angle * Math.PI,
         data.angle * Math.PI);
     ctx_main.fill();
@@ -265,14 +245,13 @@ function drawElements() {
     }
 }
 
-function drawMap() {
-    //ctx_main.putImageData(imgData, 0, 0); // move changes to temp canvas
+function drawMap() {    
     ctx_main.drawImage(img_backg, 0, 0, c_main.width, c_main.height); // draw background to main canvas
   //  drawCircle();
     drawElements();
 }
 
-function drawOneArcSection(angle, fillColor, strokeColor, cX1, cY1, cD) {
+function drawOneArcSection(angle, fillColor, strokeColor, cX1, cY1, cD) { // not used, only for test!
     ctx_main.moveTo(cX1, cY1); // for manual draw
     ctx_main.beginPath();
     ctx_main.strokeStyle = strokeColor;
@@ -290,7 +269,7 @@ function drawOneArcSection(angle, fillColor, strokeColor, cX1, cY1, cD) {
     ctx_main.stroke();
 }
 
-function drawCircle() {
+function drawCircle() { // not used, only for test!
     let cX1 = mouseX;
     let cY1 = mouseY;
     let cD  = 200;
