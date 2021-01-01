@@ -66,6 +66,20 @@
     top: 31px
 }
 
+#divChangeAlpha {
+    position: absolute;
+    color: white;
+    right: 230px;
+    top: 31px
+}
+
+#divChangeColor {
+    position: absolute;
+    color: white;
+    right: 232px;
+    top: 10px
+}
+
 .toolTip {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;

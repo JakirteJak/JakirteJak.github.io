@@ -19,6 +19,7 @@ let arcAngle  = 0;
 let clockSize = 1;
 let hourSectionSize = 0.1667;
 let secSectionSize  = 0.0333;
+let R = 0, G = 0, B = 0, A = 0;
 
 let sec, min, hour; tSetTime();
 
@@ -28,6 +29,8 @@ document.getElementById("cbRotate").checked = isArcRotate;
 document.getElementById("cbMoveAfterMouse").checked = isMoveAfterMouse;
 document.getElementById("cbRotate").onclick = function() { isArcRotate = document.getElementById("cbRotate").checked; }
 document.getElementById("cbMoveAfterMouse").onclick = function() { isMoveAfterMouse = document.getElementById("cbMoveAfterMouse").checked; }
+document.getElementById("cbChangeColor").checked = false;
+document.getElementById("cbChangeAlpha").checked = false;
 document.getElementById("btnRestart").onclick = function() { elems = []; initElements(); };
 document.getElementById("btn001").onclick     = function() { 
     if (document.getElementById("menu001").style.visibility == "visible") {
@@ -178,11 +181,30 @@ function drawArcSection(data) { // for array draw
     ctx_main.moveTo(data.X, data.Y);
     ctx_main.beginPath();
     ctx_main.strokeStyle = data.strokeColor;
-    let a = (c_main.height / 10000.0) * data.Y;
-    ctx_main.fillStyle   = "rgba(" + data.fillR +", " 
+
+    if (document.getElementById("cbChangeColor").checked == true) {
+        R = data.fillR;
+        /*G = data.X / (c_main.width / 256) + 30;
+        B = data.X / (c_main.width / 256) + 30;*/
+        G = data.X / c_main.width * 255 - 50;
+        B = data.X / c_main.width * 255 -50;
+    }
+    else {
+        R = data.fillR;
+        G = data.fillG;
+        B = data.fillB;
+    }
+
+    if (document.getElementById("cbChangeAlpha").checked == true)
+        A = data.Y / (c_main.height - 200);
+    else
+        A = 1;
+
+    ctx_main.fillStyle   = "rgba(" + data.fillR + ", " 
                                    + data.X / (c_main.width / 256) + 30 + ", " 
                                    + data.X / (c_main.width / 256) + 30 + ", "
                                    + data.Y / (c_main.height - 200) +")";
+    ctx_main.fillStyle   = "rgba(" + R +", " + G + ", " + B + ", " + A +")";                                   
     ctx_main.arc(data.X, data.Y, (data.D * clockSize) / 2, 
         data.angle * Math.PI,
         (data.angle + data.secSize) * Math.PI);
