@@ -1,0 +1,104 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #06181f;
+}
+
+.container {
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .icon {
+    width: 200px;
+}
+
+.container .icon path {
+    fill: transparent;
+    stroke-width: 10;
+    stroke: teal;
+}
+
+.icon.gear path{
+    fill: transparent;
+    stroke-width: 1;
+    stroke: tomato;
+}
+
+.icon.gear2 path{
+    fill: transparent;
+    stroke-width: 1;
+    stroke: tomato;
+}
+
+.container .icon.gear path {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.heart path {
+    stroke-dasharray: 1600;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.heart:hover path{
+    animation: animate-heart 2s linear forwards
+}
+
+.container .icon.heart2 path {
+    stroke-dasharray: 1600;
+    stroke-dashoffset: 0;
+}
+
+.container .icon.heart2:hover path{
+    animation: animate-heart 2s linear forwards
+}
+
+
+@keyframes animate-heart {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 1600;
+    }
+    80% {
+        stroke-dashoffset: 3200;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 3200;
+        fill: violet;
+    }
+}
+
+.container .icon.gear:hover path{
+    animation: animate-gear 2s linear forwards
+}
+
+@keyframes animate-gear {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    40% {
+        stroke-dashoffset: 100;
+    }
+    80% {
+        stroke-dashoffset: 200;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 200;
+        fill: violet;
+    }
+}
