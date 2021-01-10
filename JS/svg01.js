@@ -9,8 +9,7 @@ let timerMain      = setInterval(timerMainF, 20);
 function timerMainF() {
     angle++;
     if (angle > 359) angle =  0;
-    txt01.set
-    Attribute("transform", "rotate(" + (360 - angle) + " 100,100)");    
+    txt01.setAttribute("transform", "rotate(" + (360 - angle) + " 100,100)");    
     txt01.innerHTML = "Angle: " + angle;
 
     let xH = 0;

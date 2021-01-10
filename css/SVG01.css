@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #06181f;
+  //  background-color: #06181f;
 }
 
 .container {
@@ -24,7 +24,7 @@ body {
 }
 
 .container .icon path {
-    fill: transparent;
+/    fill: transparent;
     stroke-width: 10;
     stroke: teal;
 }
@@ -33,6 +33,32 @@ body {
     fill: transparent;
     stroke-width: 1;
     stroke: tomato;
+}
+
+.indatech path{
+    fill: transparent;
+    stroke-width: .1px;
+    stroke: black;
+    stroke-dasharray: 40;
+    stroke-dashoffset: 40;
+    animation: animate-indatech 2s linear forwards
+}
+
+@keyframes animate-indatech {
+    0% {
+        stroke-dashoffset: 40;
+    }
+    70% {
+        stroke-dashoffset: 0;
+    }
+    80% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: black;
+    }
 }
 
 .icon.gear2 path{
