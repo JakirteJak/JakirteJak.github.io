@@ -1,0 +1,35 @@
+.div_main {
+    display: flex;
+    margin: auto;    
+    width: 700px;
+    position: relative;
+}
+
+.div_onecard {
+    border: 2px solid black;    
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    position: absolute;
+    display: flex;
+    user-select: none;
+    overflow: hidden;
+}
+
+.btn {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: lawngreen;
+}
+
+.p_maintitle {
+    text-align: center;
+    align-content: center;       
+}

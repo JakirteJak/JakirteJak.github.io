@@ -27,7 +27,7 @@ let timerMain = setInterval(timerMainF, 140);
 let img_backg = new Image();
 img_backg.src = '/img/backG02.jpg';
 
-imgArray  = new Array();
+imgArray  = [];
 let chars = []; // characters array
 let keyMap = [];
 
