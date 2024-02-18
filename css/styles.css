@@ -8,6 +8,11 @@
     display: none;
 }
 
+.radio_container{
+    display: flex;
+    align-items: center;
+}
+
 .backG01 {
     background-image: url('/img/backG01.jpg');
     background-size: cover;

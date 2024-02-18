@@ -86,6 +86,41 @@
                   "4 évenként",
                   "6 évenként"],
             "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "1.16. Milyen időközönként kell ellenőrizni a lakóépületek villamos berendezéseit az áramütés elleni védelem szempontjából, ha nem minősül munkahelynek?",
+            "a": ["3 évenként",
+                  "4 évenként",
+                  "6 évenként"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.17. Mikor hagyható el a lakóépületekben lévő lakások villamos biztonsági felülvizsgálata?",
+            "a": ["a lakások áramütés elleni védelmét nem kell vizsgálni",
+                  "ha a túláramvédelem ≤32 A fázisonként és 30 mA áram-védőkapcsolóval védett a lakás",
+                  "ha a tulajdonos nem engedélyezi a vizsgálatot"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "1.18. A felhasználó (pl. lakó vagy kommunális épületek, nem munkahelyek) berendezéseiben felszerelt áram-védőkapcsolók működő képességét milyen időközönként kell ellenőrizni?",
+            "a": ["havonta és jegyzőkönyvezni is kell",
+                  "évente, dokumentálás nélkül",
+                  "félévente, nem kell bizonylatozni"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "1.19. A munkavédelemről szóló 1993 évi XCIII. törvény előírja a munkavédelmi kockázat elemzést. Hol kötelező ennek készítése?",
+            "a": ["minden munkahelyen",
+                  "csak 1000-nél több munkavállalót foglalkoztató nagyobb ipari üzemek esetében",
+                  "csak a kimondottan veszélyes üzemeknek kötelező az elkészítése, mint pl. bányák, nagyobb vegyipari üzemek, atomerőmű"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "1.20. A munkavédelemről szóló 1993 évi XCIII. törvény előírja a munkavédelmi kockázat elemzést. Van-e ennek jelentősége a villamos biztonság szempontjából?",
+            "a": ["nincs, a kockázatelemzés teljesen más témakörökkel foglalkozik",
+                  "villamos szempontból is mondhat véleményt, de nem kötelező figyelembe venni",
+                  "az elemzés feltárhatja a durva környezeti igénybevételnek kitett villamos berendezéseket, ezek alapján javasolhatja a felülvizsgálati időköz csökkentését"],
+            "numOfQs": 3,"gA": 3
         }
     ]
 }
