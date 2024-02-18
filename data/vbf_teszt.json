@@ -60,18 +60,32 @@
             "numOfQs": 3,"gA": 2
         },
         {
-            "q": "Mit nevezünk önellenőrzésnek?",
+            "q": "1.12. Mit nevezünk önellenőrzésnek?",
             "a": ["a) amikor az ellenőrzés elvégzéséről az üzemeltető gondoskodik",
                   "b) amikor az üzemeltető felettes szerve végez ellenőrzést",
                   "az a) és b) szerinti ellenőrzések mindegyikét"],
             "numOfQs": 3,"gA": 1
         },
         {
-            "q": "Milyen vizsgálatokat tartalmaz az első ellenőrzés?",
+            "q": "1.13. Milyen vizsgálatokat tartalmaz az első ellenőrzés?",
             "a": ["csak szemrevételezéseket",
                   "csak a tervek egyeztetését a kivitelezéssel, azonosítást",
                   "az a) és b) pontokon kívül minden esetben villamos méréseket is, mindenesetben az áramütés elleni védelem méréses vizsgálatát és szigetelés ellenállásmérést is"],
             "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.14. Mi írja elő a nagyfeszültségű berendezések teljes körű villamos biztonsági felülvizsgálatát?",
+            "a": ["10/2016. NGM r.",
+                  "módosított VMBSZ",
+                  "OTSZ 5.2"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "1.15. Milyen időközönként kell elvégezni a nagyfeszültségű villamos berendezések villamos biztonsági felülvizsgálatát?",
+            "a": ["3 évenként",
+                  "4 évenként",
+                  "6 évenként"],
+            "numOfQs": 3,"gA": 1
         }
     ]
 }
