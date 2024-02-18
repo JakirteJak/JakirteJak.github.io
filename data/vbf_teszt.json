@@ -1,0 +1,77 @@
+{
+    "data":[
+        {
+            "q": "1.01. Mit jelent az alapvédelem?",
+            "a": ["korszerű beton-alapvédelem kialakítása, illetve alkalmazása",
+                  "az aktív részek véletlen vagy szándékolt érintését akadályozó intézkedések", 
+                  "alapvető védelmi módszer alkalmazása"],
+            "numOfQs": 3, "gA": 2
+        },
+        {
+            "q": "1.02. Kik végezhetik el az időszakos villamos biztonsági felülvizsgálatot?",
+            "a": ["csak magánszemély, illetve vállalkozó",
+                  " az üzemeltető, vagy egy általa megbízott szolgáltató",
+                  "csak az erre jogosított szolgáltató vállalat",
+                  "a fentiek bármelyike, ha rendelkezik az 34/2021. (VII.26.) ITM rendeletben előírt szakképesítéssel"],
+            "numOfQs": 4, "gA": 4
+        },
+        {
+            "q": "1.03. A villamos biztonsági felülvizsgáló szakképesítés megszerzését igazoló bizonyítvány érvényességi feltétele:",
+            "a": ["érvényes a kiállításától számított 5 évig",
+                  "érvényes a kiállításától számított 10 évig",
+                  "5 évenként kötelező továbbképzésen való részvétel és ehhez tartozó megfelelő vizsgaeredmény"],
+            "numOfQs": 3,
+            "gA": 3
+        },
+        {
+            "q": "1.04. Melyik jogszabály írja elő a villamos biztonsági felülvizsgálat szerinti első ellenőrzés és ismétlődő felülvizsgálat kötelezettségét?",
+            "a": ["40/2017.(XII.4.) NGM rendelet (VMBSZ)",
+                  "24/2021. (VII.26.) ITM rendelet",
+                  "54/2014.(XII.5.) BM rendelet (OTSZ)"],
+            "numOfQs": 3, "gA": 1
+        },
+        {
+            "q": "1.06. Elsősorban kinek a feladata és felelőssége az üzemelő villamos berendezés időszakos ellenőrzéseiről gondoskodni?",
+            "a": ["a berendezést üzemeltető művezetőé",
+                  "a szerződött szolgáltatóé",
+                  "az üzemeltető felelős vezetőjének feladata",
+                  "valamennyi villamos szakemberé"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "1.07. Végezheti-e az általa szerelt berendezésnél a munka befejezését követő általános szemrevételezést (korábban: szerelői ellenőrzést) a VBF vizsgabizonyítvánnyal nem rendelkező kisiparos?",
+            "a": ["ez a vizsgálat csak bizonyítvánnyal végezhető",
+                  "végezheti, ha szerződésben elvállalta",
+                  "a kivitelezői szolgáltatás részeként szükséges elvégeznie"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.08. Szerelői ellenőrzést, illetve szemrevételezést milyen képzettségű személy végezheti?",
+            "a": ["csak közép vagy felsőfokú végzettségű, ellenőrzésre jogosított személy",
+                  "bárki elvégezheti, külön jogosítás nélkül is",
+                  "legalább erősáramú villamos szakképzettségű személy"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.09. Munkahelyeken milyen időközönként szükséges a kéziszerszámok és a hordozható biztonsági transzformátorok szerelői ellenőrzése a 10/2016. (IV. 5.) NGM r. szerint?",
+            "a": ["havonta",
+                  "évenként",
+                  "háromévenként"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "Mit nevezünk önellenőrzésnek?",
+            "a": ["a) amikor az ellenőrzés elvégzéséről az üzemeltető gondoskodik",
+                  "b) amikor az üzemeltető felettes szerve végez ellenőrzést",
+                  "az a) és b) szerinti ellenőrzések mindegyikét"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "Milyen vizsgálatokat tartalmaz az első ellenőrzés?",
+            "a": ["csak szemrevételezéseket",
+                  "csak a tervek egyeztetését a kivitelezéssel, azonosítást",
+                  "az a) és b) pontokon kívül minden esetben villamos méréseket is, mindenesetben az áramütés elleni védelem méréses vizsgálatát és szigetelés ellenállásmérést is"],
+            "numOfQs": 3,"gA": 3
+        }
+    ]
+}

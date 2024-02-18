@@ -185,9 +185,11 @@ function drawArcSection(data) { // for array draw
                                    + data.X / (c_main.width / 256) + 30 + ", "
                                    + data.Y / (c_main.height - 200) +")";                        
     ctx_main.fillStyle   = "rgba(" + R +", " + G + ", " + B + ", " + A +")";                                   
-    ctx_main.arc(data.X, data.Y, (data.D1 * clockSize) / 2, 
-        data.angle * Math.PI,
-        (data.angle + data.secSize) * Math.PI);
+    ctx_main.arc(data.X, // y-coordinate of the center of the circle
+                 data.Y, // x-coordinate of the center of the circle
+                 (data.D1 * clockSize) / 2, // radius of the circle
+                 data.angle * Math.PI,                  // starting angle, in radians (0 is at the 3 o'clock position of the arc's circle)
+                (data.angle + data.secSize) * Math.PI); // ending angle, in radians
     ctx_main.arc(data.X, data.Y, (data.D2 * clockSize) / 2,
         (data.angle + data.secSize) * Math.PI,
         data.angle * Math.PI, true);

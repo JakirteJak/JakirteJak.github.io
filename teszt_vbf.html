@@ -2,9 +2,7 @@
 <html lang="en" class="backG02">
 
 <style>
-    #tdQ.invisible {
-        display: none;
-    }
+  
 </style>
 
 <head>
@@ -13,12 +11,12 @@
     <title>Document</title>
     <style>
         body, html {
-            height: 100%;
-            background-image: url('hatterkep.jpg'); /* Háttérkép URL-je */
+            /*height: 100%;*/
+            /*background-image: url('hatterkep.jpg');  Háttérkép URL-je */
             background-size: cover; /* Háttérkép teljes területet kitöltő beállítása */
             background-position: center; /* Háttérkép középre igazítása */
             background-repeat: no-repeat; /* Háttérkép ne ismétlődjön */                        
-            padding: 0;
+            /*padding: 0;*/
         }
     </style>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
@@ -34,13 +32,19 @@
     <table class="centered" style="font-family: 'Times New Roman', Times, serif;">
         <tbody style="max-width: 980px;box-shadow: 3px 3px 10px black;" class="bordered backGSub01">
             <tr>
-                <td>
-                    <p class="maxwidth1000"><span class="textbold">Villanyszerelő írásbeli vizsgakérdésekből
+                <td style="padding-top: 10px;">
+                    <p class="maxwidth1000"><span class="textbold">Villamos biztonsági felülvizsgáló vizsgakérdésekből
                             összeállított teszt.</span> A
                         kérdések veletlenszerűen követik
                         egymást, a teszt többszöri elvégzése során ismétlődhetnek. A <span class="textbold">Teszt
                             indítása</span> gombra klikkelve a teszt elindul, menet közbeni újra klikkeléskor újraindul
                         az első kérdéstől.</p>
+                    <p class="maxwidth1000" id="txtDBsize"></p>
+                    <p class="maxwidth1000">
+                        Teszkérdések száma: 
+                        <input id="inputMaxQNum" class="margins10" type="number" name="quantity" min="1" max="100" step="1" 
+                        value="3" style="text-align: right; ">
+                    </p>
                 </td>
             </tr>
             <tr>
@@ -57,7 +61,7 @@
     <table class="centered" style="font-family: 'Times New Roman', Times, serif; padding-top: 13px;"  id="tdQ">
         <tbody style="max-width: 980px;box-shadow: 3px 3px 10px black;" class="bordered backGSub01">
             <tr>
-                <td>
+                <td style="padding-top: 10px;">
                     <p class="maxwidth1000">A teszt során 20 kérdésre kell megadni a megfelelő választ, az előre
                         megadott lehetőségek közül egyet kiválasztva. A <span class="textbold">Következő kérdés</span>
                         gombra klikkelve értelemszerűen újabb véletlenszerűen kiválasztott kérdés következik,
@@ -66,18 +70,22 @@
                 </td>
             </tr>
             <tr>
-                <td class="">
+                <td cellpadding="0" cellspacing="0">
                     <p id="txtNumOfQ" class="maxwidth1000">1. kérdés</p>
                     <p id="txtTxtOfQ" class="maxwidth1000">Kérdés szövege</p>
                     <p class="maxwidth1000">
-                        <input type="radio" name="radioA" id="firstA">
-                        <label for="firstA" id="lblA1">Első válasz</label><br>
-                        <input type="radio" name="radioA" id="secondA">
-                        <label for="secondA" id="lblA2">Második válasz</label><br>
-                        <input type="radio" name="radioA" id="thirdA">
-                        <label for="thirdA" id="lblA3">Harmadik válasz</label><br>
-                        <input type="radio" name="radioA" id="fourthA">
-                        <label for="fourthA" id="lblA4">Negyedik válasz</label><br>
+                        <input type="radio" name="radioA" id="firstA" class="margins20">
+                        <label for="firstA" name="labelA" id="lblA1">Első válasz</label><br>
+                        <input type="radio" name="radioA" id="secondA" class="margins20">
+                        <label for="secondA" name="labelA" id="lblA2">Második válasz</label><br>
+                        <input type="radio" name="radioA" id="thirdA" class="margins20">
+                        <label for="thirdA" name="labelA" id="lblA3">Harmadik válasz</label><br>
+                        <input type="radio" name="radioA" id="fourthA" class="margins20">
+                        <label for="fourthA" name="labelA" id="lblA4">Negyedik válasz</label><br>
+                        <input type="radio" name="radioA" id="fifthA" class="margins20">
+                        <label for="fifthA" name="labelA" id="lblA5">Ötödik válasz</label><br>
+                        <input type="radio" name="radioA" id="sixthA" class="margins20">
+                        <label for="sixthA" name="labelA" id="lblA6">Hatodik válasz</label><br>
                     </p>
                     <input style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Következő kérdés"
                         id="btnNextQ">
@@ -88,12 +96,11 @@
     <table id="tablePercent" class="centered" style="font-family: 'Times New Roman', Times, serif; padding-top: 13px;">
         <tbody style="width: 980px;box-shadow: 3px 3px 10px black;" class="bordered backGSub01">
             <tr>
-                <td>
+                <td style="padding-top: 10px;">
                     <p class="maxwidth1000 subtitle">Teszt kiértékelése:</p>
-                    <p id="txtEndNumOfQ" class="maxwidth1000">Feltett kérdések száma:</p>
-                    <p id="txtEndNumOfGA" class="maxwidth1000">Jó válaszok száma:</p>
-                    <p id="txtEndPercent" class="maxwidth1000">Százalékos eredmény:</p>
-                    <p class="maxwidth1000"></p>
+                    <p class="margins20" id="txtEndNumOfQ" class="maxwidth1000">Feltett kérdések száma:</p>
+                    <p class="margins20" id="txtEndNumOfGA" class="maxwidth1000">Jó válaszok száma:</p>
+                    <p class="margins20" id="txtEndPercent" class="maxwidth1000">Százalékos eredmény:</p>                    
                 </td>
             </tr>
         </tbody>
@@ -101,14 +108,14 @@
     <table id="tableEvaulation" class="centered" style="font-family: 'Times New Roman', Times, serif; padding-top: 13px; padding-bottom: 13px;">
         <tbody style="width: 980px;box-shadow: 3px 3px 10px black;" class="bordered backGSub01">
             <tr>
-                <td>
+                <td style="padding-top: 10px;">
                     <p class="maxwidth1000">Hibásan megválaszolt kérdések. A helyes válaszok <span style="color: green;">zölddel</span>
                         lesznek jelölve, a helytelenül kiválasztottak <span style="color: red;">pirossal</span>.            
                 </td>
             </tr>
         </tbody>
     </table>
-    <script src="JS/test.js"></script>
+    <script src="JS/test_vbf.js"></script>
     
 </body>
 

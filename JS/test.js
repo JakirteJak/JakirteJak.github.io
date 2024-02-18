@@ -1,9 +1,13 @@
 document.getElementById("tablePercent").style.visibility = "hidden";
 let myAnswers = [];       // A kérdésekre adott válaszok tömbje
-let maxQuestionsNum = 18; // Maximális kérdésszám
+let maxQuestionsNum = 3; // Maximális kérdésszám
 let dataBaseSize    = 18; // Adatbázisban található kérdések száma
 let actQNum = 0;          // Az aktuális kérdés sorszáma az adatbázisban
 let numOfQ  = 0;          // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
+
+let evaulateRowsArray = [];
+
+nextQuestionBTN = document.getElementById("btnNextQ");
 
 document.getElementById("btnStartTest").onclick = startTest; // Teszt indítása gomb klikk esemény
 document.getElementById("btnNextQ").onclick = nextQuestion;  // Következő kérdés gomb klikk esemény
@@ -12,19 +16,28 @@ for (let ci in answers) answers[ci].onclick = answerClick;
 
 function answerClick() { // Ha valamelyik válaszra rá lett klikkelve, aktívvá válik a Következő kérdés gomb
     if (numOfQ > maxQuestionsNum) return;
-    document.getElementById("btnNextQ").disabled = false;
+    //document.getElementById("btnNextQ").disabled = false;
+    nextQuestionBTN.disabled = false;
 }
 
 let tdQ = document.getElementById("tdQ"); // Az egész teszt egy táblázatoszlopban található
 tdQ.style.visibility = "hidden";          // Ennek elrejtése, csak akkor lesz látható, ha a teszt elindul
+let tEvaulation = document.getElementById("tableEvaulation").getElementsByTagName('tbody')[0];
+tEvaulation.style.visibility = "hidden";
 
-function startTest() { // Teszt indítása
+function startTest() { // Teszt indítása, a Start Teszt gomb onclick eseménye
     document.getElementById("tablePercent").style.visibility = "hidden"; // Az eredmények táblázat elrejtése
     let lengthDB = myAnswers.length;
     if (myAnswers.length > 0) { // Megszakított teszt esetén törli a már feldolgozott válaszokat (kell a lengthDB segédváltozó!!!)
         for (let ci = 1; ci <= lengthDB; ci++ ) myAnswers.pop();
     }
     tdQ.style.visibility = "visible";     // A tesztet tartalmazó td felfedése
+    tEvaulation.style.visibility = "hidden"; // A kiértékelés elrejtése
+
+    tdQ.classList.remove("invisible"); // !!!
+
+    tdQ.style = "font-family: 'Times New Roman', Times, serif; padding-top: 13px;";
+
     for (let ci in answers) answers[ci].checked = false; // Ne legyen kérdés kiválasztva
     document.getElementById("btnNextQ").disabled = true; // A Következő kérdés gomb inaktívvá tétele
     document.getElementById("btnNextQ").value = "Következő kérdés"; // A Következő kérdés gomb feliratának alaphelyzetbe állítása
@@ -76,27 +89,67 @@ function saveActAnswers() { // Elmenti a válasz sorszámát, a jó válasz sors
     myAnswers.push({selectedAnswerNum: selectedAnswerNum, goodAnswerNum: questions[actQNum].gA, answerInDB: actQNum});
 }
 
+function addColoredLine(questionNum, answerNum){
+    if (answerNum == myAnswers[questionNum].goodAnswerNum)
+        return '<p class="maxwidth1000" style="color: green">'
+    else if (answerNum == myAnswers[questionNum].selectedAnswerNum)
+        return '<p class="maxwidth1000" style="color: red">'
+    else
+        return '<p class="maxwidth1000" style="color: white">';
+}
+
 function endTest() { // A teszt vége, kiértékelés
     tdQ.style.visibility = "hidden"; // A tesztet tartalmazó td elrejtése
+
+    var rows = document.getElementsByClassName("evaulatedRow");
+    evaulateRowsArray = Array.from(rows);
+    evaulateRowsArray.forEach(function(row){
+        row.parentNode.removeChild(row);
+    });
+
+    tdQ.classList.add("invisible"); // !!!
+
     document.getElementById("tablePercent").style.visibility = "visible"; // A tesz kiértékelése táblázat felfedése
     document.getElementById("txtEndNumOfQ").innerHTML = ("Feltett kérdések száma: " + '<span class="textbold">' + maxQuestionsNum.toString() + '</span>');
     let numOfGoodA = 0; // Jó válaszok számának kiszámítása
-    for (let ci = 0; ci < maxQuestionsNum; ci++) if (myAnswers[ci].selectedAnswerNum == myAnswers[ci].goodAnswerNum) numOfGoodA++;
+    for (let ci = 0; ci < maxQuestionsNum; ci++){
+        if (myAnswers[ci].selectedAnswerNum == myAnswers[ci].goodAnswerNum){
+            numOfGoodA++; // Összeszámlálja a jó válaszok számát.
+        }
+        else {
+            // Rossz válasz esetén megmutatja a hibát, és a helyes megoldást is.
+            let newRow = tEvaulation.insertRow(tEvaulation.rows.length);
+            newRow.className = "evaulatedRow";
+            let cell1 = newRow.insertCell(0);
+    
+            cell1.innerHTML = '<p class="maxwidth1000">' + questions[myAnswers[ci].answerInDB].q + '</p>';
+    
+            cell1.innerHTML += addColoredLine(ci, 1) + questions[myAnswers[ci].answerInDB].a1 + '</p>';
+            cell1.innerHTML += addColoredLine(ci, 2) + questions[myAnswers[ci].answerInDB].a2 + '</p>';
+            cell1.innerHTML += addColoredLine(ci, 3) + questions[myAnswers[ci].answerInDB].a3 + '</p>';
+            cell1.innerHTML += addColoredLine(ci, 4) + questions[myAnswers[ci].answerInDB].a4 + '</p>';
+    
+            cell1.innerHTML += "<p> </p>"    
+        }        
+    }
+
     // Jó válaszok számának elhelyezése a HTML -ben
     document.getElementById("txtEndNumOfGA").innerHTML = ("Jó válaszok száma: " + '<span class="textbold">' + numOfGoodA.toString() + '</span>');
     // Százalékos eredmény kiszámolása és elhelyezése két tizedes jegyig
     document.getElementById("txtEndPercent").innerHTML = ("Százalékos eredmény: " + '<span class="textbold">' + ((numOfGoodA / maxQuestionsNum * 100)).toFixed(2).toString() + ' %</span>');
+
+    tEvaulation.style.visibility = "visible";    
 }
 
 // "Adatbázis"
 let questions = [
     // 00 - 10:
     {q: "Mi az áramerősség jele?", a1: "V", a2: "A", a3: "J", a4: "I", gA: 4},
-    {q: "Mi az feszültség jele?", a1: "A", a2: "W", a3: "V", a4: "U", gA: 4},
-    {q: "Mi az feszültség mértékegysége?", a1: "W", a2: "V", a3: "A", a4: "km", gA: 2},
+    {q: "Mi az feszültség jele?",  a1: "A", a2: "W", a3: "V", a4: "U", gA: 4},
+    {q: "Mi az feszültség mértékegysége?",  a1: "W", a2: "V", a3: "A", a4: "km", gA: 2},
     {q: "Mi az áramerősség mértékegysége?", a1: "V", a2: "A", a3: "J", a4: "I", gA: 2},
-    {q: "Mi az ellenállás jele?", a1: "R", a2: "A", a3: "U", a4: "I", gA: 1},
-    {q: "Mi az ellenállás mértékegysége?", a1: "R", a2: "Ω", a3: "W", a4: "E", gA: 2},
+    {q: "Mi az ellenállás jele?",  a1: "R", a2: "A", a3: "U", a4: "I", gA: 1},
+    {q: "Mi az ellenállás mértékegysége?",  a1: "R", a2: "Ω", a3: "W", a4: "E", gA: 2},
     {q: "Mi az az áramköri elem, amelynek feladata az induktív jellegből adódó fázistényező javítása?",
         a1: "ellenállás", a2: "kondenzátor", a3: "dióda", a4: "relé", gA: 2},
     {q: "Melyik az a vezető, amelynek a betűjele PE?", a1: "fáisvezető", a2: "nullavezető", a3: "védővezető", a4: "PEN vezető", gA: 3},

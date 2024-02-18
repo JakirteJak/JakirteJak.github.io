@@ -1,6 +1,16 @@
+#fourthA.TRinvisible, #lblA4.TRinvisible, 
+#fifthA.TRinvisible, #lblA5.TRinvisible, 
+#sixthA.TRinvisible, #lblA6.TRinvisible {
+    display: none;
+}
+
+#tdQ.invisible {
+    display: none;
+}
+
 .backG01 {
-    background-image: url('/img/backG02.jpg');
-    background-size: 100%;
+    background-image: url('/img/backG01.jpg');
+    background-size: cover;
     background-position: unset;
     background-color: rgba(255,255,255,0.8);
     background-blend-mode: lighten;
@@ -8,15 +18,23 @@
 
 .backG02 {
     background-image: url('/img/backG02.jpg');
-    background-size: 100%;
-    background-position: unset;
+    background-size: cover;
+    background-position: top;
     background-color: rgba(255,255,255,0.3);
     background-blend-mode: lighten;
+
+    background-attachment: fixed;
+    
+    height: 100%;
 }
 
 .backGSub01 {
     background-color: rgba(255,255,255,0.4);
     background-blend-mode: lighten;
+}
+
+.invisible_common {
+    display: none;
 }
 
 .maxtextwidth01 {	
@@ -48,10 +66,17 @@
     margin-right: 10px;
 }
 
+.margins20 {
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
 .padding10 {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 .tdc {
     text-align: center;
@@ -126,6 +151,8 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .maxwidth550 {
