@@ -42,7 +42,7 @@
                     <p class="maxwidth1000" id="txtDBsize"></p>
                     <p class="maxwidth1000">
                         Teszkérdések száma: 
-                        <input id="inputMaxQNum" class="margins10" type="number" name="quantity" min="1" max="100" step="1" 
+                        <input id="inputMaxQNum" class="margins10" type="number" name="quantity" min="3" max="100" step="1" 
                         value="3" style="text-align: right; ">
                     </p>
                 </td>
@@ -62,7 +62,7 @@
         <tbody style="max-width: 980px;box-shadow: 3px 3px 10px black;" class="bordered backGSub01">
             <tr>
                 <td style="padding-top: 10px;">
-                    <p class="maxwidth1000">A teszt során 20 kérdésre kell megadni a megfelelő választ, az előre
+                    <p class="maxwidth1000">A teszt során <span id="spanNumOfQs">20</span> kérdésre kell megadni a megfelelő választ, az előre
                         megadott lehetőségek közül egyet kiválasztva. A <span class="textbold">Következő kérdés</span>
                         gombra klikkelve értelemszerűen újabb véletlenszerűen kiválasztott kérdés következik,
                         visszalépésre nincs lehetőség! A teszt végén az eredmény kiértékelésre kerül. Amíg egy válasz

@@ -9,6 +9,7 @@
 
 let myAnswers = [];         // A kérdésekre adott válaszok tömbje
 let maxQuestionsNum = document.getElementById("inputMaxQNum").value; // Maximális kérdésszám
+document.getElementById("spanNumOfQs").innerHTML = maxQuestionsNum;
 let dataBaseSize    = 3;    // Adatbázisban található kérdések száma
 let actQNum = 0;            // Az aktuális kérdés sorszáma az adatbázisban
 let numOfQ  = 0;            // Hányadik kérdésnél tart a teszt. Ha 0, akkor még nem indult el.
