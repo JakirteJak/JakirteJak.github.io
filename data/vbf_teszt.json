@@ -121,6 +121,48 @@
                   "villamos szempontból is mondhat véleményt, de nem kötelező figyelembe venni",
                   "az elemzés feltárhatja a durva környezeti igénybevételnek kitett villamos berendezéseket, ezek alapján javasolhatja a felülvizsgálati időköz csökkentését"],
             "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.22. A szabvány alkalmazása önkéntes. Mit kell tenni a tervezőnek, ha nem szabványos megoldás mellett dönt?",
+            "a": ["egyeztetnie kell a beruházóval és a kivitelezővel",
+                  "eltérési engedélyt kér a Szabványügyi Hivataltól",
+                  "egyenértékűségi nyilatkozatot kell kiállítania"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.23. Mit kell tartalmaznia a tervező egyenértékűségi nyilatkozatának?",
+            "a": ["kinyilvánítja, hogy a terv építészeti, gépészeti és villamos szempontból egyenértékű",
+                  "kinyilvánítja, hogy a tervben alkalmazott műszaki megoldások biztonsági és műszaki szempontból a szabvány követelményeivel egyenértékűek",
+                  "az MSZT kinyilvánított eltérési engedélyét"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "1.25. A FAM-tevékenységet melyik jogszabály szabályozza?",
+            "a": ["a 40/2017.(XII.4.) NGM rendelet",
+                  "a 8/2001. (III. 30.) GM rendelet",
+                  "a 72/2003. (X.29.) GKM rendelet"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "1.26. Az erősáramú berendezések időszakos villamos biztonsági felülvizsgálatához kell-e tűzvédelmi szakvizsga?",
+            "a": ["csak érvényes tűzvédelmi szakvizsgával rendelkező személy végezheti!",
+                  "nem kell",
+                  "eseti egyeztetések szükségesek"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "1.28. A potenciálisan robbanásveszélyes közegben működő villamos berendezések és védelmi rendszerek villamos biztonsági felülvizsgálatát ki végezheti?",
+            "a": ["a) villamos biztonsági felülvizsgáló szakképesítés",
+                  "b) tűzvédelmi szakvizsga",
+                  "az a)+b) válasz kiegészítve „robbanásbiztos berendezés kezelője” szakképesítéssel"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "Az összekötő berendezésre külön vagy üzemeltető szervezetenként közös dokumentációt kell készíteni. Mi ez?",
+            "a": [" tűzvédelmi szabályzat",
+                  "felhasználói belső szabályzat",
+                  "üzemviteli szabályzat"],
+            "numOfQs": 3,"gA": 2
         }
     ]
 }

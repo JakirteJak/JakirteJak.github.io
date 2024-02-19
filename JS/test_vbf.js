@@ -39,6 +39,12 @@ let rButtons = document.getElementsByName("radioA"); // Radiobuttonok a válaszo
 let rLabels  = document.getElementsByName("labelA"); // Cimkék a radiobuttonokhoz.
 for (let ci in rButtons) rButtons[ci].onclick = answerClick; // Mindegyik radiogomb ugyanazt a eseményt hívja meg.
 
+document.getElementById("inputMaxQNum").onchange = function(){
+    maxQuestionsNum = document.getElementById("inputMaxQNum").value;
+    document.getElementById("spanNumOfQs").innerHTML = maxQuestionsNum;
+    startTest();
+}
+
 function ReadDataFromJson(){ // Adatok beolvasása JSON fileból question3 globális változóba.
     fetch('../data/vbf_teszt.json')
        .then(response => response.json())
@@ -104,43 +110,6 @@ function makeNewQuestion() { // Új kérdést rak ki
         }
     }
 
-/*    document.getElementById("txtTxtOfQ").innerHTML = questions[actQNum].q; // Kérdés
-    
-    document.getElementById("lblA1").innerHTML = questions[actQNum].a1;    // Első válasz
-    document.getElementById("lblA2").innerHTML = questions[actQNum].a2;    // Második válasz
-    document.getElementById("lblA3").innerHTML = questions[actQNum].a3;    // Harmadik válasz
-    if (questions[actQNum].a4 != null){ // Negyedik válasz  
-        document.getElementById("fourthA").classList.remove("TRinvisible");
-        document.getElementById("lblA4").classList.remove("TRinvisible");  
-
-        document.getElementById("lblA4").innerHTML = questions[actQNum].a4;          
-    }else{
-        document.getElementById("fourthA").classList.add("TRinvisible");
-        document.getElementById("lblA4").classList.add("TRinvisible");  
-    }
-
-    if (questions[actQNum].a5 != null){ // Ötödik válasz   
-        document.getElementById("fifthA").classList.remove("TRinvisible");
-        document.getElementById("lblA5").classList.remove("TRinvisible");  
-
-        document.getElementById("lblA5").innerHTML = questions[actQNum].a5;
-    }else{
-        document.getElementById("fifthA").classList.add("TRinvisible");
-        document.getElementById("lblA5").classList.add("TRinvisible");  
-    }
-
-    if (questions[actQNum].a6 != null){ // Hatodik válasz   
-        document.getElementById("sixthA").classList.remove("TRinvisible");
-        document.getElementById("lblA6").classList.remove("TRinvisible");  
-
-        document.getElementById("lblA6").innerHTML = questions[actQNum].a6;
-    }else{
-        document.getElementById("sixthA").classList.add("TRinvisible");
-        document.getElementById("lblA6").classList.add("TRinvisible");
-        /*document.getElementById("sixthA").classList.add("invisible_common");
-        document.getElementById("lblA6").classList.add("invisible_common");
-    }*/
-
     if (question3){        
         /*console.log("OK");*/
         console.log(question3.data[0].q);
@@ -148,8 +117,7 @@ function makeNewQuestion() { // Új kérdést rak ki
         console.log(question3.data[0].numOfQs);
         console.log(question3.data[1].q);     
     }else{
-        console.log("Error!");
-        
+        console.log("Error!");        
     }
 }
 
@@ -170,10 +138,12 @@ function nextQuestion() { // Következő kérdés gomb megnyomásakor meghívott
 
 function saveActAnswers() { // Elmenti a válasz sorszámát, a jó válasz sorszámát, és a kérdés sorszámát az adatbázisban
     let selectedAnswerNum = 4;
-
-    for (let ci = 0; ci < maxQuestionsNum; ci++)
+    /*for (let ci = 0; ci < question3.data[actQNum].numOfQs; ci++)
+        if (rButtons[ci].checked) selectedAnswerNum = ci + 1;*/
+    
+    for (let ci = 0; ci < rButtons.length; ci++)
         if (rButtons[ci].checked) selectedAnswerNum = ci + 1;
-
+        
     myAnswers.push({selectedAnswerNum: selectedAnswerNum, goodAnswerNum: question3.data[actQNum].gA, answerInDB: actQNum});
 }
 
@@ -225,75 +195,6 @@ function endTest() { // A teszt vége, kiértékelés
     tEvaulation.style.visibility = "visible";    
 }
 
-// "Adatbázis"
-let questions_old = [
-    // 00 - 10:  
-    {q: "1.01. Mit jelent az alapvédelem?", 
-        a1: "korszerű beton-alapvédelem kialakítása, illetve alkalmazása", 
-        a2: "az aktív részek véletlen vagy szándékolt érintését akadályozó intézkedések", 
-        a3: "alapvető védelmi módszer alkalmazása",        
-        numOfQs: 3,
-        gA: 2},
-    {q: "1.02. Kik végezhetik el az időszakos villamos biztonsági felülvizsgálatot?", 
-        a1: "csak magánszemély, illetve vállalkozó", 
-        a2: "az üzemeltető, vagy egy általa megbízott szolgáltató", 
-        a3: "csak az erre jogosított szolgáltató vállalat", 
-        a4: "a fentiek bármelyike, ha rendelkezik az 34/2021. (VII.26.) ITM rendeletben előírt szakképesítéssel",
-        numOfQs: 4,
-        gA: 4},
-    {q: "1.06. Elsősorban kinek a feladata és felelőssége az üzemelő villamos berendezés időszakos ellenőrzéseiről gondoskodni?", 
-        a1: "a berendezést üzemeltető művezetőé", 
-        a2: "a szerződött szolgáltatóé", 
-        a3: "az üzemeltető felelős vezetőjének feladata", 
-        a4: "valamennyi villamos szakemberé", 
-        numOfQs: 4,
-        gA: 3},
-    {q: "2.05. Mi a tényleges érintési feszültség?", 
-        a1: "két, meghibásodás folytán feszültség alá kerülő test között fellépő feszültség", 
-        a2: "zárlatos test és a földpotenciálú hely között mérhető feszültség", 
-        a3: "személy vagy haszonállat által egyidejűleg megérintett vezetőképes részek közötti feszültség", 
-        a4: "a talaj felületén meghatározott távolságban lévő két pont közötti feszültség", 
-        numOfQs : 4, gA: 3},
-    {q: "2.07.  Jelölje meg, hogy az áramütés elleni védelem létesítési előírásait melyik érvényes szabványsorozat tartalmazza!", 
-        a1: "MSZ HD 60364 szabványsorozat", 
-        a2: "MSZ 2064 szabványsorozat", 
-        a3: "MSZ 1585 szabványsorozat", 
-        a4: "MSZ 4851 szabványsorozat", 
-        numOfQs: 4,
-        gA: 1}
-];
-
-let q2_old = [
-    { q: "1.01. Mit jelent az alapvédelem?",
-      a: ["korszerű beton-alapvédelem kialakítása, illetve alkalmazása",
-          "az aktív részek véletlen vagy szándékolt érintését akadályozó intézkedések", 
-          "alapvető védelmi módszer alkalmazása"],
-      numOfQs : 3, gA: 2},
-    {q: "1.02. Kik végezhetik el az időszakos villamos biztonsági felülvizsgálatot?", 
-     a: ["csak magánszemély, illetve vállalkozó", 
-         "az üzemeltető, vagy egy általa megbízott szolgáltató", 
-         "csak az erre jogosított szolgáltató vállalat", 
-         "a fentiek bármelyike, ha rendelkezik az 34/2021. (VII.26.) ITM rendeletben előírt szakképesítéssel"],
-     numOfQs: 4, gA: 4},
-    {q: "1.06. Elsősorban kinek a feladata és felelőssége az üzemelő villamos berendezés időszakos ellenőrzéseiről gondoskodni?", 
-     a: ["a berendezést üzemeltető művezetőé", 
-         "a szerződött szolgáltatóé", 
-         "az üzemeltető felelős vezetőjének feladata", 
-         "valamennyi villamos szakemberé"], 
-     numOfQs: 4, gA: 3},
-    {q: "2.05. Mi a tényleges érintési feszültség?", 
-     a: ["két, meghibásodás folytán feszültség alá kerülő test között fellépő feszültség", 
-         "zárlatos test és a földpotenciálú hely között mérhető feszültség", 
-         "személy vagy haszonállat által egyidejűleg megérintett vezetőképes részek közötti feszültség", 
-         "a talaj felületén meghatározott távolságban lévő két pont közötti feszültség"], 
-     numOfQs: 4, gA: 3},
-    {q: "2.07.  Jelölje meg, hogy az áramütés elleni védelem létesítési előírásait melyik érvényes szabványsorozat tartalmazza!", 
-     a: ["MSZ HD 60364 szabványsorozat", 
-        "MSZ 2064 szabványsorozat", 
-        "MSZ 1585 szabványsorozat", 
-        "MSZ 4851 szabványsorozat"], 
-     numOfQs: 4, gA: 1}
-];
 // {q: "", a1: "", a2: "", a3: "", a4: "", gA: }
 /*   q: question
     a1: answer 1
