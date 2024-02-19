@@ -158,10 +158,188 @@
             "numOfQs": 3,"gA": 3
         },
         {
-            "q": "Az összekötő berendezésre külön vagy üzemeltető szervezetenként közös dokumentációt kell készíteni. Mi ez?",
+            "q": "1.29. Az összekötő berendezésre külön vagy üzemeltető szervezetenként közös dokumentációt kell készíteni. Mi ez?",
             "a": [" tűzvédelmi szabályzat",
                   "felhasználói belső szabályzat",
                   "üzemviteli szabályzat"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.01. Mi a hibavédelem (korábban:az érintésvédelem) célja?",
+            "a": ["az embert védi az üzemszerűen feszültség alatt álló berendezések megérintésétől",
+                  "az üzemszerűen feszültség alatt nem álló, de meghibásodás során feszültség alá kerülő fémrészek veszélyességét csökkenti",
+                  "az üzemszerűen feszültség alatt nem álló, de hiba következtében feszültség alá kerülő fémrészek megérintését teszi lehetetlené"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.02. Mit nevezünk testzárlatnak?",
+            "a": ["az üzemszerűen feszültség alatt álló fémrészek érin tkezé se az emberi testtel",
+                  "az aktív rész és test fémes érintkezése",
+                  " az üzemszerűen feszültség alatt nem álló fémrészek érin tkezé se a földdel"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.03. Mi a „test” fogalma?",
+            "a": ["üzemszerűen feszültség alatt álló, de meghibásodás során veszélyessé váló fémrész",
+                  "a villamos szerkezet olyan megérinthető vezetőképes része, amely üzemszerűen nem aktív, de amely az alapszigetelés meghibásodásakor aktívvá válhat",
+                  " a villamos berendezéshez nem tartozó fémszerkezet, amely földpotenciált is közvetíthet (pl. vízcső)"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.04. Mi az „idegen fémszerkezet”?",
+            "a": ["idegen tulajdont képező fémszerkezetek, amelyek villamos készülékekkel egy idejűleg érinthetőek",
+                  "más villamos készülék fémteste, amely a vizsgált készülékkel egyidejűleg érint hető",
+                  "a villamos berendezéshez nem tartozó fémszerkezet, amely földpotenciált is közvetíthet (pl. vízcső)"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.05. Mi a tényleges érintési feszültség?",
+            "a": ["két, meghibásodás folytán feszültség alá kerülő test között fellépő feszültség",
+                  "zárlatos test és a földpotenciálú hely között mérhető feszültség",
+                  "személy vagy haszonállat által egyidejűleg megérintett vezetőképes részek közötti feszültség",
+                  "a talaj felületén meghatározott távolságban lévő két pont közötti feszültség"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "2.06. Mit értünk a hibafeszültség alatt?",
+            "a": ["a hiba következtében fellépő feszültségnek azt a részét, amelyet egy ember áthidalhat",
+                  "a feszültség alá került test és a földpotenciálú hely között fellépő feszültséget",
+                  "a mérhető legnagyobb fázisfeszültséget, hiba esetén"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.07. Jelölje meg, hogy az áramütés elleni védelem létesítési előírásait melyik érvényes szabványsorozat tartalmazza!",
+            "a": ["MSZ HD 60364 szabványsorozat",
+                  "MSZ 2064 szabványsorozat",
+                  "MSZ 1585 szabványsorozat",
+                  "MSZ 4851 szabványsorozat"],
+            "numOfQs": 4,"gA": 1
+        },
+        {
+            "q": "2.08. Mi az „egyenpotenciálú összekötés”?",
+            "a": ["különálló áramütésvédelmi célú földelőknek a talajszint felett vagy alatt történő fémes összekötése",
+                  "a testek és kiterjedt idegen vezetőképes részek villamos összekötése azonos potenciálra hozására",
+                  "a védővezetőt igénylő áramütésvédelmeknek (TN-, TT-rendszer, védőkapcsolások) közös, összefoglaló elnevezése",
+                  "a védett berendezés környezetének a földtől való elszigetelése (szigete lő anyag, szigetelőzsámoly stb.) alkalmazása"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.09. Mit értünk „helyi egyenpotenciálú összekötésen”? (MSZ 172-1:1986 sz. 3.6. szakasza)",
+            "a": ["a nulla- és nullázó vezetékek hálózatát",
+                  "valamennyi, egyidejűleg érinthető villamosan vezető rész (test és idegen fémszer kezetek) összekötését",
+                  "olyan védővezetők hálózatát, melyeket az épületi becsatlakozásnál egy helyen össze kötöttek az épület csővezetékeivel és fémszerkezetével",
+                  "a kapcsolóterek celláin elhelyezett, a véletlen érintés elleni védelem céljára alkal mazott védőhálót"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.11. Mit értünk a „villamos szerkezetek” fogalma alatt?",
+            "a": ["magában foglalja az összes villamos gyártmányt, az ezekbe épített alkatrészeikkel együtt",
+                  "a vezetékek kivételével minden, a villamos energia termelésére, szállítására, elosztására szolgáló komplett berendezést jelenti",
+                  "minden olyan eszköz, amelyet a villamos energia fejlesztésére, átalakítására, szállítására, elosztására vagy felhasználására alkalmaznak (pl. forgógépek, transzformátorok, kapcsoló- és vezérlőkészülékek, mérőkészülékek, védelmi eszközök, vezetékrendszerek szerkezetei, fogyasztókészülékek)"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.12. Hogyan működnek a védővezető nélküli hibavédelmi módok?",
+            "a": ["hiba (testzárlat) esetén nem avat koz nak be aktívan, hanem csak figyelmeztető jelzést adnak",
+                  "a villamos berendezések hibás részeit lekap csolják a táphálózatról",
+                  "megakadályozzák, hogy a meghi bá so dott készülékeken a megengedettnél nagyobb érintési feszültség alakuljon ki, illetve legyen érinthető"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.13. Mitől véd a védőföldelés közvetlenül földelt kisfeszültségű rendszerben?",
+            "a": ["nem enged nagyobb érintési feszültséget kialakulni, mint 50V~, illetve 120V=",
+                  "nem akadályozza meg mindig az 50V~, ill. 120V= -nál nagyobb érintési feszültség kialakulását, de ha az mégis fellép, kikapcsol a védelem",
+                  "minden esetben megvéd az áramütéstől, abban az esetben is, ha nem olvadna ki a biztosító"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.14. Szigetelt csillagpontú 3x400/230V-os hálózat milyen feszültségű?",
+            "a": ["törpefeszültségű",
+                  "kisfeszültségű",
+                  "nagyfeszültségű"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.15. Közvetlenül földelt csillagpontú 3x400/230 V-os hálózat milyen feszültségű?",
+            "a": ["törpefeszültségű",
+                 "kisfeszültségű",
+                 "nagyfeszültségű"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.16. Mi a különbség az üzemi földelés és a védőföldelés között?",
+            "a": ["az üzemi földelést csak üzemben, a védőföldelést lakásokban is használható készülékekhez létesítik ",
+                  "az üzemi földelés az üzemi főelosztó fémtestének földelése, a védőföldelés a fogyasztókészülékek földelése",
+                  "az üzemi földelés az üzemszerűen feszültség alatt álló vezetőrendszer egy pontját (üzemviteli céllal) köti össze a földdel, a védőföldelés esetében a villamos szerkezet teste a tápláló rendszerrel fémesen össze nem kötött földeléshez van kötve"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.17. Háromvezetős (2x110 V-os), egyenáramú hálózat középvezetőjét közvetlenül földelték. Milyen földelés ez?",
+            "a": ["védőföldelés",
+                  "üzemi földelés",
+                  "segédföldelés"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.18. A következő szabványok közül melyik az üzemeltetési szabvány?",
+            "a": ["MSZ 172-4",
+                  "MSZ 1585",
+                  "MSZ 1600",
+                  "MSZ HD 60364"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.19. Milyen villamos berendezések üzemére vonatkozik az MSZ 1585 szabvány?",
+            "a": ["valamennyi villamos berendezés üzemére",
+                  "valamennyi erősáramú villamos berendezés üzemére",
+                  "valamennyi 1000 V-nál nem nagyobb feszültségű erősáramú berendezés üze mé re"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.21. Melyik szabvány szerint kell létesíteni kisfeszültségű, egyenáramú berendezések áramütés elleni védelmét?",
+            "a": ["MSZ 2364-200",
+                  "MSZ 13207",
+                  "MSZ 4851-5",
+                  "MSZ HD 60364-4-41"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "2.22. Közvetlenül földelt kisfeszültségű hálózatnál PEN vezetőt alkalmaznak. Milyen rendszerű a hálózat?",
+            "a": ["TT",
+                  "IT",
+                  "TN",
+                  "IN"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "2.23. Közvetlenül földelt, védőföldeléses hálózat milyen rendszerű?",
+            "a": ["TT",
+                  "IT",
+                  "TN",
+                  "IN"],
+            "numOfQs": 4,"gA": 1
+        },
+        {
+            "q": "2.24. Milyen rendszerű az a földeletlen hálózat, ahol a hibavédelem védőföldelés?",
+            "a": ["TT",
+                  "IT",
+                  "TN",
+                  "IN"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.25. Az MSZ HD 60364-1 szabvány hogyan jelöli azt a rendszert, amikor a nulla és a védővezető a rendszer egy részében közös?",
+            "a": ["TN-S",
+                  "TN-C-S",
+                  "TN-C",
+                  "TN-S-C"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.26. Az MSZ HD 60364 szabványsorozat szerint létesített áramütés ellni védelmen túlmenő egyéb védelem, vagy fedővédelem szükséges-e?",
+            "a": ["igen",
+                  "nem",
+                  "tartalékvédelem szükséges"],
             "numOfQs": 3,"gA": 2
         }
     ]

@@ -39,8 +39,18 @@ let rButtons = document.getElementsByName("radioA"); // Radiobuttonok a válaszo
 let rLabels  = document.getElementsByName("labelA"); // Cimkék a radiobuttonokhoz.
 for (let ci in rButtons) rButtons[ci].onclick = answerClick; // Mindegyik radiogomb ugyanazt a eseményt hívja meg.
 
-document.getElementById("inputMaxQNum").onchange = function(){
+document.getElementById("inputMaxQNum").onchange = function(){ // A tesztkérdések száma inputmező változásakor meghívott függvény
     maxQuestionsNum = document.getElementById("inputMaxQNum").value;
+    if (maxQuestionsNum > question3.data.length){ // Ha nagyobb érték lett megadva, mint az adatbázis mérete.
+        maxQuestionsNum = question3.data.length;
+        document.getElementById("inputMaxQNum").value = maxQuestionsNum;
+    }
+
+    if (maxQuestionsNum < document.getElementById("inputMaxQNum").min){ // Ha kisebb érték lett megadva, mint a minimálisan megadható érték.
+        maxQuestionsNum = document.getElementById("inputMaxQNum").min;
+        document.getElementById("inputMaxQNum").value = maxQuestionsNum;
+    }
+
     document.getElementById("spanNumOfQs").innerHTML = maxQuestionsNum;
     startTest();
 }
