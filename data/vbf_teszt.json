@@ -341,6 +341,153 @@
                   "nem",
                   "tartalékvédelem szükséges"],
             "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.30. Melyek nem tartoznak a táplálás önműködő lekapcsolása védelmi módok közé?",
+            "a": ["csak a villamos szerkezet és környezet elszigetelése",
+                  "csak a törpefeszültség és villamos elválasztás",
+                  "csak a földeletlen egyenpotenciálra hozás és korlátozott zárlati teljesítményű áramkörök",
+                  "a felsorolt áramütés elleni védelmi módok mindegyike"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "2.31. Mi a TN-rendszer?",
+            "a": ["a hálózat nullavezetőjének sok ponton való leföldelése",
+                  "a táphálózat közvetlenül földelt üzemi vezetőjének fémes összekötése a hiba védelemmel ellátott villamos szerkezetek testével",
+                  "a nullavezető kék színel való jelölése és az egyfázisú leágazásokban is biztosító nélkül való vezetése",
+                  "háromfázisú hálózatnál a nullavezető kivezetése"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.32. Mi a nullázási hurokimpedancia?",
+            "a": ["a rendszer szigetelési ellenállása",
+                  "a tápláló transzformátortekercs, a fázisvezető, és a védővezető impedanciáinak összege",
+                  "a transzformátor csillagpontjánál és a védővezető végpontjánál lévő földelések ellenállásainak összege",
+                  " a hurkolt hálózat nullavezetőjének ellenállása"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.33. Milyen minimális keresztmetszeti határig használható az üzemi áramokat vezető nullavezető (PEN) védővezetőként nullázott hálózaton?",
+            "a": ["2,5 mm2",
+                  "10 mm2",
+                  "16 mm2",
+                  "120 mm2"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.34. Hol szabad összekötni TN-rendszerben az üzemi áramokat vivő nullavezetőt és védővezetőt?",
+            "a": ["csak egy helyen, a védővezető fogyasztó oldali végén",
+                  "tetszőleges helyen",
+                  "csak egy helyen, a védővezető táplálás oldali végén"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.36. Hol kell egyenpotenciálú védő-összekötő hálózatot kialakítani?",
+            "a": ["csak a kommunális létesítményekben",
+                  "ahol a táplálás önműködő lekapcsolásával működő hibavédelem van kialakítva és helyhez kötött villamos szerkezetek testével egyidejűleg érinthető, kiterjedt fémszerkezet is van",
+                  "csak ipari környezetben"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.37. Milyen vezetőnek minősül a fő földelőkapocs és a földeltnek tekinthető házi fém hálózatokat (pl. csővezetékek) összekötő vezető?",
+            "a": ["egyenpotenciálú vezető",
+                  "védőösszekötő-vezető",
+                  "védővezető"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.38. Helyi egyenpotenciálú összekötés hatásosságát kell-e számítással ellenőrizni? (MSZ 172-1:1986 szabvány 3.6. szakasza)",
+            "a": ["minden esetben",
+                  "nem kell",
+                  "csak abban az esetben, ha az egyszerű megtekintés alapján a hatásosságra vonatkozóan kétség merül fel"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.39. A közművek (víz, meleg víz, gáz, központi fűtés) csővezetékei közül melyek használhatók fel védővezetőként, ha a beiktatott mérőműszereket áthidalják?",
+            "a": ["mindegyik",
+                  "csak a víz-nyomócső",
+                  "a gázcső kivételével mindegyik",
+                  "egyik sem"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "2.41. Szabad-e földeléseket egyesíteni?",
+            "a": ["a földeléseket egymástól villamosan és függetlenül kell kialakítani",
+                  "minden földelő egyesíthető",
+                  "csak azok egyesíthetők, amelyek összekötését a szabvány megengedi"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.42. Milyen színű szigetelt vezetékkel kell létesíteni az új védővezetőt?",
+            "a": ["kék vagy zöld/sárga",
+                  "zöld/sárga",
+                  "csak vörös vagy zöld/sárga",
+                  "fekete vagy zöld/sárga"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.43. Négyvezetékes rendszer nullavezetőjeként (PEN vezeték) milyen fémszerkezet használható fel?",
+            "a": ["PEN-vezető céljára tilos fémszerkezetet felhasználni",
+                  "kizárólag fém vízcső használható",
+                  "bármilyen egyenértékű keresztmetszetű, folytonos fémszerkezet felhasz nál ható"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "2.46. Földelővezetők hegesztett vagy keményforrasztással készített talajban lévő kötéseinél bitumenes rozsdavédő bevonatot szabad-e alkalmazni?",
+            "a": ["csak a kötéseknél megengedett az alkalmazása",
+                  "minden földelőnél tiltott",
+                  "csak védőföldelésnél szabad, villámvédelmi földelőnél tilos"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "2.47. Kell-e a földelő felületét korrózió-gátló festéssel ellátni?",
+            "a": ["szükséges",
+                  "megengedett",
+                  "nem kell, tiltott"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.48. A TN-rendszerű kisfeszültségű hálózatok PEN vezetékeit ún. „alátámasztó” földelésekkel ajánlott ellátni a hálózat mentén. Milyen földelési ellenállása legyen egy ilyen földelőnek?",
+            "a": ["legfeljebb 5Ω",
+                  "értéke nincs meghatározva",
+                  "legfeljebb 5 Ω, illetve nagy fajlagos ellenállású talaj esetén legfeljebb 30 Ω"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.49. Alkalmazható-e szigetelt csillagpontú hálózatokra kapcsolt 400 V-os berendezéseknél nullázásos érintésvédelem?",
+            "a": ["nem lehet, mert nincs is olyan vezető, illetve földelt pont, ahonnan kivezető lehetne",
+                  "csak akkor, ha a nullázott berendezések testét a földtől megbízhatóan (legalább: l MΩ) elszigetelik",
+                  "csak akkor alkalmazható, ha az áramszolgáltató nullázási engedélye rendel ke zésre áll",
+                  " korlátlanul alkalmazható"],
+            "numOfQs": 4,"gA": 1
+        },
+        {
+            "q": "2.50. Válassza ki a hurokellenállás értékelési (méretezési) képletét TN-rendszerben olvadó biztosítóval megoldott túláramvédelem esetén!",
+            "a": ["Zs * Ia ≤ U0",
+                  "Zk ≤ (U0 - Ut) / It",
+                  "R ≤ R(émeg) / (It * It)"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "2.51. Közvetlenül földelt kisfeszültségű TT-rendszerű hálózatoknál mekkora a védőföldelés legnagyobb megengedett ellenállása ha a kioldószerv olvadóbiztosító?",
+            "a": ["Ra ≤ Ul / Ia",
+                  "Rb ≤ Uf / (Ib * á)",
+                  "Zs * Ia ≤ U0"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.52. IT-rendszerű, kisfeszültségű hálózatnál melyik képlet alapján kell méretezni a védőföldelést?",
+            "a": ["Rf ≤ U(hmeg) / (Ib * a)",
+                  "Rf ≤ Uf / (Ib * a)",
+                  "Ra * Id ≤ Ul"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.53. IT-rendszer méretezési képletéből 460Ω szükséges ellenállás érték adódik. Milyen értékű a még elfogadható földelés?",
+            "a": ["460 Ω",
+                  "30 Ω",
+                  "2 Ω"],
+            "numOfQs": 3,"gA": 1
         }
     ]
 }
