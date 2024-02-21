@@ -581,6 +581,155 @@
                   "minden üzemi- és védővezetőt",
                   "minden fázis- és nullavezetőt, de a védővezetőt nem szabad"],
             "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.68. Mit ellenőriz a védőkapcsolók próbagombjának a megnyomásával?",
+            "a": ["a teljes érintésvédelem rendben van-e",
+                  "csak a védőkapcsoló működőképességét",
+                  "a földelés megfelelő ellenállásértékét"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.69. Mitől kell távol lennie a feszültség-védőkapcsoló segédföldelőjének (az MSZ 172/1-72 szabvány szerint létesített berendezés)?",
+            "a": ["csak a védett berendezésektől",
+                  "mindazon fémrészektől, amelyeket a kezelő érinthet (függetlenül attól, hogy ezek a védett berendezésekkel érintkeznek-e)",
+                  "a védett berendezés testétől és minden egyéb földelőtől és földeltnek tekinthető fémtárgytól",
+                  "az egyéb célú érintésvédelmi földelőktől, és villámvédelmi földelőktől"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "2.70. Mit érzékel az áram-védőkapcsoló?",
+            "a": ["az üzemi áram változását",
+                  "a földzárlati hibafeszültséget",
+                  "a teljes testzárlati hibaáramot"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.71. Egy háromfázisú motor hibavédelmi kioldószerveként beépített áram-védőkapcsoló hogyan reagál az egyik fázis biztosítójának kiolvadására?",
+            "a": ["a terhelő áram szimmetriája megszűnik, az áram-védőkapcsoló kikapcsol",
+                  " a két másik vezető áramterhelése megnő, és emiatt néhány percen belül az áram-védőkapcsoló kiold",
+                  "testzárlati hibaáram hiányában az áram-védőkapcsoló nem lép működésbe"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.72. Több egymás után alkalmazott áram-védőkapcsolónál hogyan lehet a szelektív lépcsőzésre kívánalmakat betartani?",
+            "a": ["a kapcsolók megszólalási áramának lépcsőzetes növelésével",
+                  "a kapcsolók megszólalási idejének lépcsőzésével",
+                  "mindkét megoldás megfelelő "],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.73. Legfeljebb hány másodpercre késleltethető az áram-védőkapcsoló működése kapcsoló- vagy elosztó-berendezések védelme esetén?",
+            "a": ["legfeljebb 2s -ra",
+                  "legfeljebb 5s -ra",
+                  "olyan mértékben, ahogy a védelem lépcsőzése megkívánja",
+                  "tilos késleltetni: 0,2 s alatt le kell kapcsolnia"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.74. Mi a kiegészítő (védő)szigetelés?",
+            "a": ["kettős szigetelés",
+                  "az üzemi szigeteléstől független további szigetelés",
+                  "elválasztó transzformátor alkalmazása"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.75. Mit értünk az MSZ EN 61140 szabvány szerint II. Év. osztályú készülékeken?",
+            "a": ["amelynek mindenütt van alap (üzemi) szigetelése",
+                  "amelyek vezetékes hibavédelemmel vannak ellátva",
+                  "amelyben az alapvédelmet alapszigetelés és a hibavédelmet kiegészítő szigetelés biztosítja, vagy: az alapvédelmet és a hibavédelmet megerősített szigetelés biztosítja"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.76. Miről ismeri fel a II. Év. osztályú készülékeket?",
+            "a": ["a védőérintkező nélküli csatlakozó dugóról",
+                  "az adattáblán feltüntetett kettős négyzetjelről",
+                  "az adattáblán feltüntetett szabványszámról",
+                  "a védőérintkezős csatlakozó dugóról"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2,77. Milyen védelmi módot szabad alkalmazni egy helyhez kötött, biztonsági szigetelő transzformátor saját áramütés elleni védelmére?",
+            "a": ["csak TN- vagy TT-rendszert",
+                  "bármilyen szabványos védelmi rendszert",
+                  "csak kettős szigetelést",
+                  "csak védőkapcsolást"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.78. Milyen védelmi módot szabad alkalmazni hordozható, fém burkolatú, biztonsági szigetelő transzformátorok védelmére?",
+            "a": ["TN-rendszert",
+                  "villamos elválasztást",
+                  "kettős szigetelést"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.79. SELV- és PELV-törpefeszültség védelmi mód esetén csak ún. „biztonsági” kivitelű, szigetelőtransz formátort szabad alkalmazni. Miről ismerhető fel egyértelműen a biztonsági transzformátor?",
+            "a": ["a vonatkozó termékszabvány jelzetének feltüntetéséről (pl. „MSZ 9229”, „MSZ EN 60742” vagy „MSZ EN 61558-2-6” feliratról)",
+                  "kizárólag a szabványos adattábla jelekről",
+                  "az előzőek bármelyikéről"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.81. Villamos elválasztás védelmi módnál mekkora a legnagyobb még megengedett szekunder feszültség névleges értéke?",
+            "a": ["250 V",
+                  "40 V",
+                  "500 V"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2,82, A villamos elválasztó transzformátorról táplált egy hordozható fogyasztókészülék csatlakozó vezetékének mekkora a megengedett legnagyobb hosszúsága?",
+            "a": ["3 m",
+                  "6 m",
+                  "10 m",
+                  "tetszés szerint, de szemmel ellenőrizhető szereléssel"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "2,83, Hány fogyasztót szabad egy törpefeszültségű transzformátorra rákapcsolni?",
+            "a": ["csak egyet",
+                  "akármennyit, amennyi nem terheli túl a transzformátort",
+                  "egynél többet csak akkor, ha közös fémszerkezetre vannak szerelve"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.84. Gyermekjátékok és fodrászati, kozmetikai készülékek törpefeszültségű védelmi mód esetén mekkora az MSZ 172-1:1986 szabvány által megengedett legnagyobb alkalmazható névleges váltakozó feszültség? (az MSZ HD 60364-4-41 szabvány ezt nem tárgyalja!)",
+            "a": ["12 V",
+                  "25 V",
+                  "42 V",
+                  "48 V"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.86. Egy új ipari létesítmény villamos berendezéseinek első ellenőrzését mikor kell elvégezni?",
+            "a": ["a szerelési munkák elvégzése során",
+                  "a műszaki átadási eljárás alkalmával",
+                  "az üzemszerű használatbavétel előtt",
+                  "az átadástól számított 3 éves időszakon belül"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "2.88. Hordozható kivitelű törpefeszültségű biztonsági vagy villamos szigetelő transzformátort szabad-e kazánba, illetve fémtartályba bevinni?",
+            "a": ["megengedett, mert a hordozható transzformátor legalább II. Év. osztályú készülék",
+                  "szabad, ha a transzformátor testét a kazán, illetve a fémtartály testével külön vezetővel kötik össze",
+                  "tilos"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.89. A következőkben felsorolt védelmi módok közül melyek alkalmazhatók olyan kéziszerszámoknál, amelyeket MSZ HD 60364-7-706:2007 szabvány szerinti vezető anyagú szűk helyeken használnak? (706.410.3.10. szakasz!)",
+            "a": ["nullázás külön kikötés nélkül",
+                  "TN- vagy TT-rendszer áram-védőkapcsolással",
+                  "SELV-törpefeszültség és villamos elválasztás (egy szekunder tekercsre csak egy készülék csatlakozhat)",
+                  "védőföldelés"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "2,90. Szükséges-e védővezető kiépítése a helyiség oldalfalára szerelt lámpatesthez?  ",
+            "a": ["minden esetben szükséges",
+                  "nem szükséges, ha a lámpatest II. Év. osztályú",
+                  "nem szükséges, ha a fényforrás behelyezett állapotában megérinthető fém szerkezetet nem tartalmaz (pl. porcelán vagy műanyag fali foglalat)",
+                  "szükséges, ha egy fényforrásnál több izzólámpa befogadására alkalmas (pl. több izzólámpás falikar)"],
+            "numOfQs": 4,"gA": 1
         }
     ]
 }
