@@ -73,7 +73,21 @@ function answerClick() { // Ha valamelyik válaszra rá lett klikkelve, aktívv�
     nextQuestionBTN.disabled = false;
 }
 
-function startTest() { // Teszt indítása, a Start Teszt gomb onclick eseménye    
+function RestartVBFanim(){
+    /*const element = document.querySelector('.indatech path');
+    element.style.animation = 'none';
+    void element.offsetWidth; // Újra érvényesíti a CSS-t, így az animáció újra fog indulni
+    element.style.animation = null;*/
+
+    document.getElementById("vbf_svg").classList.remove("vbf_anim")
+    setTimeout(() =>{
+        document.getElementById("vbf_svg").classList.add("vbf_anim");
+    })
+    }
+
+function startTest() { // Teszt indítása, a Start Teszt gomb onclick eseménye
+    RestartVBFanim();
+
     if (!dateRead) return; // Ha az a adatok beolvasása nem történt meg, kilépés. (fetch változtathatja true -ra)
     if (myAnswers.length > 0) { // Megszakított teszt esetén törli a már feldolgozott válaszokat
         for (let ci = 1; ci <= myAnswers.length; ci++ ) myAnswers.pop();

@@ -488,6 +488,99 @@
                   "30 Ω",
                   "2 Ω"],
             "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "2.55. Földelési ellenállás megengedhető értékének számításánál a „Diazed” rendszerű olvadó biztosító névleges értékének „α”-szorosát kell venni. Miért van ez a szorzó?",
+            "a": ["a számításba nem vehető, előre nem látható hibák korrigálását célozza",
+                  "a névleges áramhoz képest az „α”-szoros áram kiolvasztja a biztosító betétet, az előírt, rövid időn belül",
+                  "ezzel a szorzóval vesszük figyelembe a villamos motor bekapcsolásánál rövid időre fellépő túláram hatását"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.56. Az olvadó biztosítók áram-idő diagramjai (még ugyanazon típuson belül, és a névleges áramtól függően is) szórást mutatnak (jellegsávok), ezért a célszerű és általánosan, a legtöbbször alkalmazott eljárás:",
+            "a": ["a kiolvadási időt számítással kell meghatározni",
+                  "a névleges áramot az α kiolvadási szorzóval szorozva, kapjuk a kiolvadást okozó áramot",
+                  "a kiolvadási időt diagramból szerkesztéssel kell meghatározni"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.57. A teljesítménykapcsolók (megszakítók) zárlatvédelmének (késleltetés nélküli, gyors védelem) esetén a beállítási értéket tekinthetjük-e kioldó áramerősségnek?",
+            "a": ["igen",
+                  "nem",
+                  "25A névleges áramerősségig igen"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "A teljesítménykapcsolók (megszakítók) késleltetett mágneses kioldóinál mi tekinthető a helyhez kötött szerkezetek hiba  védelmének méretezésére szolgáló értéknek?",
+            "a": ["a kioldó névleges áramerőssége",
+                  "a kioldó névleges áramának „α”-szorosa",
+                  "a jelleggörbéből meghatározható, 5 másodperchez tartozó áram érték"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.59. Az MSZ HD 60364-4-41:2018 szabvány alapján földeletlen kisfeszültségű hálózaton kell-e földzárlatjelző berendezést alkalmazni?",
+            "a": ["egysarkú földzárlatok jelzéséről gondoskodni kell, a hibát 8 órán belül meg kell szüntetni",
+                  "nem kell földzárlatjelző berendezés, mert hiba esetén a biztosító kiolvad",
+                  "ha az első hiba esetén a táplálás nem kapcsol le, akkor az első hibát szigetelés ellenőrző készülékkel vagy hibaáram-ellenőrző eszközzel ki kell jelezni"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.60. Milyen értékű lehet az egysarkú földzárlati áram földeletlen rendszerben?",
+            "a": ["amekkorát meghatároznak a zárlati hurok vezetékeinek impedanciái",
+                  "amekkorát a fázisfeszültség a földkapacitások impedanciáján létre tud hozni",
+                  "amekkora a táptranszformátor/ok/ zárlati teljesítményéből számolható"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.61. Mi szab gyakorlati határt a közvetlenül földelt 3x400/230 V feszültségű hálózatoknál a TT-rendszerű áramütés elleni védelmi mód alkalmazásának?",
+            "a": ["nem szab határt semmi",
+                  "a földzárlati vagy testzárlati áram nagysága",
+                  "a védendő villamos berendezés teljesítménye",
+                  "az előző két válasz együttesen "],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "2.62. Egy TN-rendszerben védővezetővel előírásszerűen bekötött munkagépen testzárlat esetén felléphet-e veszélyes érintési feszültség?",
+            "a": ["nem léphet fel, mert a nullázó vezetőn keresztül fémesen össze van kötve a transzformátor üzemi földelésével",
+                  "50 V-nál nagyobb érintési feszültség nem léphet fel",
+                  "a biztosító, vagy kismegszakító kioldásáig felléphet"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.63. Válassza ki azt a hibavédelmi módot, amelyik méretezéséhez az előírt gyorsaságú kioldást előidéző (Ia) áram értéke is szükséges!",
+            "a": ["TN- és TT-rendszerek",
+                  "földeletlen egyenpotenciálra hozás",
+                  "korlátozott zárlati teljesítményű áramkör alkalmazása"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "2.64. „M” vezetékek szabadon szerelt fém védőcsöveit és dobozaikat mikor kell az egyenpotenciálra hozoó rendszerbe bekötni?",
+            "a": ["nem szükséges bekötni",
+                  " a környezet jellegétől függetlenül csak a nem szigetelő padlójú helyiségekben a kézzel elérhető magasságban szerelt védőcsövek esetében szükséges bekötni",
+                  "minden esetben be kell kötni, ha idegen potenciált hozhatnak be"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "2.65. Mi az áram-védőkapcsoló?",
+            "a": ["önálló védelmi mód (az egyetlen, amely aktív)",
+                  "a táplálás önműködő lekapcsolása védelmi mód egyik kikapcsoló szerve",
+                  "védővezetős védelmi módoknál az alfa szorzót állítja be",
+                  "az áramváltók védelmi kapcsolása"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "2.66. Mi a különbség a „védőkapcsoló” és a „védőrelé” között?",
+            "a": ["nincs különbség",
+                  "a védőkapcsoló önmaga, míg a védőrelé külön kapcsoló működtetésével választja le a védett berendezést",
+                  "a védőkapcsoló mechanikai úton működik, védőrelé villamos vezérlésű"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "2.67. Melyik vezetőket kell az áram-védőkapcsoló összegező áramváltójának „ablakán” átvezetni?",
+            "a": ["csak a fázisvezetőket: az üzemi nulla- és védővezetőt nem szabad",
+                  "minden üzemi- és védővezetőt",
+                  "minden fázis- és nullavezetőt, de a védővezetőt nem szabad"],
+            "numOfQs": 3,"gA": 3
         }
     ]
 }

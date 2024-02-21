@@ -226,3 +226,34 @@ h1 {
 .shadow01 {
     box-shadow: 3px 3px 10px black;
 }
+
+.vbf_anim path{
+    fill: transparent;
+    stroke-width: .1px;
+    stroke: black;
+    stroke-dasharray: 40;
+    stroke-dashoffset: 40;
+    width: 10px;
+    animation: animate-indatech 2s linear forwards;
+    transform-origin: center;
+}
+
+@keyframes animate-indatech {
+    0% {
+        stroke-dashoffset: 40;
+        scale: 0.8;
+    }
+    70% {
+        stroke-dashoffset: 0;        
+    }
+    80% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: black;
+        
+    }
+}
+
