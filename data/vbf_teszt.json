@@ -730,6 +730,90 @@
                   "nem szükséges, ha a fényforrás behelyezett állapotában megérinthető fém szerkezetet nem tartalmaz (pl. porcelán vagy műanyag fali foglalat)",
                   "szükséges, ha egy fényforrásnál több izzólámpa befogadására alkalmas (pl. több izzólámpás falikar)"],
             "numOfQs": 4,"gA": 1
+        },
+        {
+            "q": "3.01. Melyik érvényes szabvány vonatkozik az 1000 V-nál nagyobb feszültségű, nem közvetlenül földelt rendszerű hálózatról táplált új erősáramú berendezés érintésvédelmének létesítésére?",
+            "a": ["MSZ 172-4",
+                  "MSZ EN 50522",
+                  "MSZ EN 61936-1",
+                  "MSZ EN 62271-200"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "3.02. Milyen hálózati rendszert nevezünk kompenzáltnak?",
+            "a": ["amelynek csillagpontja ohmos ellenálláson át földelt",
+                  "amelynek a csillagpontja nincs földelve",
+                  "amelynek csillagpontja Petersen tekercsen keresztül földelt"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.03. Melyik védelmi módot alkalmazzák általánosan a 6 kV-os beren de zé sek nél ?",
+            "a": ["nullázás",
+                  "elkerítés",
+                  "védőföldelés",
+                  "villamos elválasztás"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "3.04. Nagyfeszültségű (1 … 35 kV-os) berendezéseknél mekkora a megengedett érintési- és lépésfeszültség értéke, ha a földzárlatot a védelem 8 s alatt szünteti meg? (MSZ 172-2)",
+            "a": ["50 V",
+                  "65 V",
+                  "125 V",
+                  "250 V"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "3.05. Mitől függ az 1 … 35 kV-os villamos szerkezeteknél a megengedett legnagyobb érintési- és lépésfeszültség értéke?",
+            "a": ["a névleges feszültségtől",
+                  "a földzárlat fennállásának idejétől",
+                  "a földzárlati áram nagyságától",
+                  "az alkalmazott védőföldeléstől"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "3.07. Egy 10 kV-os fogyasztói berendezés fémtestén kettős földzárlat esetén 1000 V érintési feszültség léphet fel 0,1 s védelmi kikapcsolásig. Milyen intézkedést tenne?",
+            "a": ["érintési feszültség korlátozása kisebb ellenállású védőföldelés telepítésével",
+                  "kiegészítő érintésvédelmi mód alkalmazása szükséges",
+                  "többletintézkedésre nincs szükség, az áramütés elleni védelem megfelelő"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.08. Hogyan ellenőrizné egy nagyfeszültségű motor áramütésvédelmét a szemrevételezésen kívül?",
+            "a": ["szigetelési vizsgálattal",
+                  "hurokellenállás-méréssel",
+                  "földelési ellenállásméréssel"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.09. Ipartelepi 3000 V-s motor áramütés elleni védelmére szükséges-e külön védőföldelés létesítése?",
+            "a": ["igen, más célú földelésektől 20 m-nél távolabb",
+                  "igen, távolsági követelmények nélkül",
+                  "igen, de minden más földelővel összekötendő",
+                  "nem szükséges, ha a kisfeszültségű érintésvédelem védővezetője méretezése és kivitele megfelelő erre a célra"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "3.10. Milyen időközönként szükséges az MSZ 172-2 szabvány alkalmazási körébe tartozó nagyfeszültségű berendezéseknél a földelési ellenállások méréses ellenőrzése?",
+            "a": ["1 év",
+                  "2 év",
+                  "3 év",
+                  "6 év"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "3.11. Mi az alapvető védelmi mód a 120…400 kV-os közvetlenül földelt hálózatok távvezetéki oszlopainál?",
+            "a": ["a villamos szerkezet elszigetelése",
+                  "potenciálbefolyásolás",
+                  "védőföldelés",
+                  "az előzőek bármelyike"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "3.12. Milyen csillagpont kezelésű, nagyfeszültségű berendezések áramütés elleni védelmével foglalkozik az MSZ 172-3 szabvány?",
+            "a": ["szigetelt rendszerű",
+                  "kompenzált",
+                  "közvetlenül földelt rendszerű"],
+            "numOfQs": 3,"gA": 3
         }
     ]
 }
