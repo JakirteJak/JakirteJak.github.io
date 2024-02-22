@@ -649,7 +649,7 @@
             "numOfQs": 4,"gA": 2
         },
         {
-            "q": "2,77. Milyen védelmi módot szabad alkalmazni egy helyhez kötött, biztonsági szigetelő transzformátor saját áramütés elleni védelmére?",
+            "q": "2.77. Milyen védelmi módot szabad alkalmazni egy helyhez kötött, biztonsági szigetelő transzformátor saját áramütés elleni védelmére?",
             "a": ["csak TN- vagy TT-rendszert",
                   "bármilyen szabványos védelmi rendszert",
                   "csak kettős szigetelést",

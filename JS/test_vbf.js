@@ -170,7 +170,7 @@ function addColoredLine(questionNum, answerNum){
     else if (answerNum == myAnswers[questionNum].selectedAnswerNum)
         return '<p class="margins20" style="color: red">'
     else
-        return '<p class="margins20" style="color: white">';
+        return '<p class="margins20" style="color: black">';
 }
 
 function endTest() { // A teszt vége, kiértékelés
@@ -195,6 +195,7 @@ function endTest() { // A teszt vége, kiértékelés
             // Rossz válasz esetén megmutatja a hibát, és a helyes megoldást is.
             let newRow = tEvaulation.insertRow(tEvaulation.rows.length);
             newRow.className = "evaulatedRow";
+            newRow.style = "border-width: 1px; border-style: solid;";
             let cell1 = newRow.insertCell(0);
     
             cell1.innerHTML = '<p class="maxwidth1000">' + question3.data[myAnswers[ci].answerInDB].q + '</p>';
