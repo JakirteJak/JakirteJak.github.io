@@ -457,7 +457,7 @@
             "q": "2.49. Alkalmazható-e szigetelt csillagpontú hálózatokra kapcsolt 400 V-os berendezéseknél nullázásos érintésvédelem?",
             "a": ["nem lehet, mert nincs is olyan vezető, illetve földelt pont, ahonnan kivezető lehetne",
                   "csak akkor, ha a nullázott berendezések testét a földtől megbízhatóan (legalább: l MΩ) elszigetelik",
-                  "csak akkor alkalmazható, ha az áramszolgáltató nullázási engedélye rendel ke zésre áll",
+                  "csak akkor alkalmazható, ha az áramszolgáltató nullázási engedélye rendelkezésre áll",
                   " korlátlanul alkalmazható"],
             "numOfQs": 4,"gA": 1
         },
@@ -511,7 +511,7 @@
             "numOfQs": 3,"gA": 1
         },
         {
-            "q": "A teljesítménykapcsolók (megszakítók) késleltetett mágneses kioldóinál mi tekinthető a helyhez kötött szerkezetek hiba  védelmének méretezésére szolgáló értéknek?",
+            "q": "2.58. A teljesítménykapcsolók (megszakítók) késleltetett mágneses kioldóinál mi tekinthető a helyhez kötött szerkezetek hibavédelmének méretezésére szolgáló értéknek?",
             "a": ["a kioldó névleges áramerőssége",
                   "a kioldó névleges áramának „α”-szorosa",
                   "a jelleggörbéből meghatározható, 5 másodperchez tartozó áram érték"],
@@ -554,7 +554,7 @@
             "numOfQs": 3,"gA": 1
         },
         {
-            "q": "2.64. „M” vezetékek szabadon szerelt fém védőcsöveit és dobozaikat mikor kell az egyenpotenciálra hozoó rendszerbe bekötni?",
+            "q": "2.64. „M” vezetékek szabadon szerelt fém védőcsöveit és dobozaikat mikor kell az egyenpotenciálra hozó rendszerbe bekötni?",
             "a": ["nem szükséges bekötni",
                   " a környezet jellegétől függetlenül csak a nem szigetelő padlójú helyiségekben a kézzel elérhető magasságban szerelt védőcsövek esetében szükséges bekötni",
                   "minden esetben be kell kötni, ha idegen potenciált hozhatnak be"],
@@ -893,6 +893,48 @@
             "a": ["vezetőképessége legalább olyan legyen, mint az üzemi vezetőké",
                   "legalább a fele legyen az üzemi vezetők vezetőképességének",
                   "ellenállása egyezzen meg az üzemi vezetőkével"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "3.25. Milyen potenciálra kerül egy 5000 V névleges feszültségű testzárlatos kis zárlati áramú villamos szerkezet fémteste, ha védővezetőjének ellenállása 0,5 Ω; a testzár latiáram 0,8 A? (MSZ 172-4)",
+            "a": ["5000 V",
+                  "50 V",
+                  "4 V",
+                  "0,4 V"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "3.26. Egy szabadtéri kisülőcsöves reklámberendezés (neonberendezés) transzformátonak burkolatát és a kisülőcsövek fémtartóit az MSZ 172-4 szabvány előírásai szerint nullázták. Szükséges-e a transzformátor testének kisfeszültségü oldali hibavédelméről gondoskodni?",
+            "a": ["megengedett",
+                  "tilos",
+                  "szükséges"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.27. Nagyfeszültségű, kis zárlati áramú berendezés védővezetőjének mért értéke 0,4 Ω. Az MSZ 172-4:1978 szabvány szerint megfelelő-e?",
+            "a": ["igen",
+                  "nem"],
+            "numOfQs": 2,"gA": 1
+        },
+        {
+            "q": "3.28. TT-rendszerű kisfeszültségű hálózatról táplált röntgentranszformátor nagyfeszültségű oldalánalkalmazható-e a kis zárlati áramú nullázás? (MSZ 172-4:1978 szabvány)",
+            "a": ["igen",
+                  "csak az áramszolgáltató engedélyével",
+                  "nem"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "3.29. Helyhez kötött nagyfeszültségű, kis zárlati áramú berendezés nagyfeszültségű oldalának üzemi földeléséről kell-e gondoskodni?",
+            "a": ["nem",
+                  "csak akkor, ha ezen az oldalon védőföldelést alkalmaznak",
+                  "igen"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.30. Milyen időközönként kell ellenőrizni az 1000 V-nál nagyobb feszültségű, kis zárlati áramú berendezések áramütés elleni védelmét? (MSZ 172-4)",
+            "a": ["a kisfeszültségű berendezésekre előírt gyakorisággal",
+                  "a nagyfeszültségű berendezésekre előírt gyakorisággal",
+                  "a kéziszerszámokra előírt gyakorisággal"],
             "numOfQs": 3,"gA": 1
         }
     ]

@@ -82,11 +82,6 @@ function answerClick() { // Ha valamelyik válaszra rá lett klikkelve, aktívv�
 }
 
 function RestartVBFanim(){
-    /*const element = document.querySelector('.indatech path');
-    element.style.animation = 'none';
-    void element.offsetWidth; // Újra érvényesíti a CSS-t, így az animáció újra fog indulni
-    element.style.animation = null;*/
-
     document.getElementById("vbf_svg").classList.remove("vbf_anim")
     setTimeout(() =>{
         document.getElementById("vbf_svg").classList.add("vbf_anim");
@@ -129,27 +124,17 @@ function makeNewQuestion() { // Új kérdést rak ki
     document.getElementById("txtNumOfQ").innerHTML = str;                  // Kérdés sorszáma
 
     document.getElementById("txtTxtOfQ").innerHTML = question3.data[actQNum].q; // Kérdés
-    for (let ci = 0; ci < question3.data[actQNum].numOfQs; ci++){
+    for (let ci = 0; ci < question3.data[actQNum].numOfQs; ci++){ // Aktív válaszok
         rLabels[ci].innerHTML = question3.data[actQNum].a[ci];
         rButtons[ci].classList.remove("TRinvisible");
         rLabels[ci].classList.remove("TRinvisible");
     }
 
-    if (question3.data[actQNum].numOfQs < 6){
+    if (question3.data[actQNum].numOfQs < 6){ // Inaktív válaszok (csak annyi radiogomb aktív, ahány kérdés van)
         for (let ci = question3.data[actQNum].numOfQs; ci < 6; ci++){
             rButtons[ci].classList.add("TRinvisible");
             rLabels[ci].classList.add("TRinvisible");    
         }
-    }
-
-    if (question3){        
-        /*console.log("OK");*/
-        console.log(question3.data[0].q);
-        console.log(question3.data[0].a[0]);
-        console.log(question3.data[0].numOfQs);
-        console.log(question3.data[1].q);     
-    }else{
-        console.log("Error!");        
     }
 }
 
@@ -227,17 +212,6 @@ function endTest() { // A teszt vége, kiértékelés
     tEvaulation.style.visibility = "visible";    
 }
 
-// {q: "", a1: "", a2: "", a3: "", a4: "", gA: }
-/*   q: question
-    a1: answer 1
-    a2: answer 2
-    a3: answer 3
-    a4: answer 4
-    a5: answer 5
-    a6: answer 6
-    numOfQs: number of questions
-    gA: good answer order
-*/
 /*
         {
             "q": "",
