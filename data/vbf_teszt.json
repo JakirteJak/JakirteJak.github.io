@@ -814,6 +814,86 @@
                   "kompenzált",
                   "közvetlenül földelt rendszerű"],
             "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.13. Nagyfeszültségű tápvezeték vasbeton oszlopa gyárudvaron van. Szerkezeti vasalásának földelése szükséges-e?",
+            "a": ["ez a hálózat üzemi földelési rendszerétől függ",
+                  "csak akkor szükséges , ha az udvar nagy forgalmú helynek minősül",
+                  "igen, minden esetben"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.14. Hogyan alakítaná ki forgalmas helyen a környezet elszigetelése kiegészítővédelmi megoldást egy 120 kV-os szabadvezetéki oszlopnál?",
+            "a": ["gumitalpú bakancs előírásával",
+                  "figyelmeztető táblával",
+                  "a talaj aszfaltburkolásával",
+                  "kerítés alkalmazásával"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "3.15. Telephely hosszú fémkerítése 220 kV-os távvezeték közelében van. Melyik szabvány szerint intézkedne a kerítés áramütés elleni védelméről?",
+            "a": ["MSZ 172-3",
+                  "MSZ 172-1",
+                  "MSZ 1610",
+                  "MSZ 151"],
+            "numOfQs": 4,"gA": 1
+        },
+        {
+            "q": "3.16. Mi a neve az előírt rendszer szerint (négyzethálósan) elhelyezett, talajszint alatt összekötött, rúd- és szalagföldelőkből kialakított földelő rendszernek?",
+            "a": ["földelő hálózat",
+                  "földelőháló",
+                  "szalagföldelő"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "3.17. Fokozott biztonsággal épített nagyfeszültségű távvezeték fémkerítést keresztez.  Mely esetben válhat szükségessé a kerítés földelése?",
+            "a": ["minden esetben",
+                  "120 kV-os vagy nagyobb feszültség esetében",
+                  "nincs olyan előírás, amely erre kötelezne"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "3.18. Milyen időközönként szükséges a 120 kV-os kapcsolóállomás földelési ellenállását mérni? (MSZ 172-3:1973 szabvány 6.231. szakasza)",
+            "a": ["12 évenként",
+                  "6 évenként",
+                  "4 évenként",
+                  "3 évenként"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "3.20. Melyik szabvány szerint kell megoldani a kisülőcsöves reklámberendezések (neon reklámok) és a röntgenkészülékek érintésvédelmét?",
+            "a": ["MSZ 1585",
+                  "MSZ 4851-4",
+                  "MSZ 172-4"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.21. Milyen szerepe van a nagyfeszültségű nullázásos áramütés elleni védelemnek az 1000 V-on felüli kis zárlati áramú berendezéseknél?",
+            "a": ["feszültségáthatolás veszélyének kiküszöbölése",
+                  "a veszélyes érintési feszültség létrejöttének megakadályozása",
+                  "testzárlat esetén a biztosító kiolvasztása"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "3.22. Alkalmazható-e védőföldelés (TT-rendszer) önálló védelemként a nagyfeszültségű, kis zárlati áramú berendezéseknél?",
+            "a": ["minden további nélkül",
+                  "csak ha a lekapcsolási feltételek meghatározottak",
+                  " csak üzemi földelés nélküli berendezéseknél alkalmazható"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "3.23. Az 1000 V-on felüli, kis zárlati áramú berendezéseknél a nagyfeszültségű oldal védelmére alkalmazható-e kettős-, vagy megerősített szigetelés önálló áramütés elleni védelemként?",
+            "a": ["nem alkalmazható",
+                  "alkalmazható, az MSZ HD 60364-4-41 szabvány többletkövetelményeinek teljesítésével",
+                  "minden megszorítás nélkül alkalmazható"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "3.24. Milyen legyen a nagyfeszültségű, kis zárlati áramú berendezés védővezetőjének vezetőképessége?",
+            "a": ["vezetőképessége legalább olyan legyen, mint az üzemi vezetőké",
+                  "legalább a fele legyen az üzemi vezetők vezetőképességének",
+                  "ellenállása egyezzen meg az üzemi vezetőkével"],
+            "numOfQs": 3,"gA": 1
         }
     ]
 }

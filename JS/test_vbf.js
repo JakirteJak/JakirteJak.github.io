@@ -34,6 +34,14 @@ tEvaulation.style.visibility = "hidden";
 
 document.getElementById("tablePercent").style.visibility = "hidden";
 
+let infoWindow = document.getElementById("infoWindow"); // Info ablak
+document.getElementById("btnInfo").onclick = function(){
+    if (infoWindow.style.visibility == "hidden")
+        infoWindow.style.visibility = "visible";
+    else
+        infoWindow.style.visibility = "hidden";
+}
+
 let rButtons = document.getElementsByName("radioA"); // Radiobuttonok a válaszokhoz.
 //let rButtons = document.querySelectorAll("input[name='radioA']");
 let rLabels  = document.getElementsByName("labelA"); // Cimkék a radiobuttonokhoz.

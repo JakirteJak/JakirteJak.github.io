@@ -1,0 +1,37 @@
+.button_basic {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 6px black;
+}
+
+.button_basic:hover:active {
+    background-color: lawngreen;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.button_basic:active:disabled {
+    background-color: beige;    
+    top: 0px;
+    left: 0px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.info_window {
+    width: 98%;    
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 15px;
+}
+

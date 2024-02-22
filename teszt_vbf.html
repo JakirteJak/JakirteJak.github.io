@@ -21,6 +21,7 @@
     </style>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/test_vbf.css">
 </head>
 
 <body class="backG02">   
@@ -39,7 +40,7 @@
                         az első kérdéstől.</p>                   
                 </td>
                 <td class="vbf_anim" id="vbf_svg" style="width: 120px;height: 60px;margin: auto;">
-                    <svg viewbox="0 0 50 50" style="">                        
+                    <svg viewbox="0 0 50 50">                        
                         <path id="animatedPath"
                             d="M 19.756811,8.7645347 17.397607,26.612904 H 10.353068 L 7.6741595,8.7645347 h 4.8947965 q 0.848873,7.3752683 1.212675,12.4685023 0.363802,-5.148356 0.760678,-9.150183 l 0.319705,-3.3183193 z"
                             id="path2358" />
@@ -49,21 +50,24 @@
                         <path
                             d="m 33.019064,8.7645347 h 7.860337 v 3.5718783 h -3.2191 v 3.384466 h 2.866322 v 3.395489 h -2.866322 v 7.496536 h -4.641237 z"
                             id="path2362" />        
-                    </svg>
-                 
-                    
+                    </svg>                                    
                 </td>
             </tr>
             <tr>
                 <td>
-                    <p class="maxwidth1000" id="txtDBsize"></p>
+                    <div style="display: inline-block;">
+                        <p class="maxwidth1000" id="txtDBsize" style="display: inline;"></p>
+                        <input class="button_basic" style="margin-left: 10px; margin-bottom: 10px;display: inline;" type="button" value="Info"
+                                id="btnInfo">
+    
+                    </div>
                     <p class="maxwidth1000">
                         Teszkérdések száma: 
                         <input id="inputMaxQNum" class="margins10" type="number" name="quantity" min="3" max="100" step="1" 
                         value="20" style="text-align: right; ">
                     </p>
                     <form action="">
-                        <input style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Teszt indítása"
+                        <input class="button_basic" style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Teszt indítása"
                             id="btnStartTest">
                     </form>
                 </td>
@@ -100,7 +104,7 @@
                         <input type="radio" name="radioA" id="sixthA" class="margins20">
                         <label for="sixthA" name="labelA" id="lblA6">Hatodik válasz</label><br>
                     </p>
-                    <input style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Következő kérdés"
+                    <input class="button_basic" style="margin-left: 10px; margin-bottom: 10px;" type="button" value="Következő kérdés"
                         id="btnNextQ">
                 </td>
             </tr>
@@ -128,8 +132,19 @@
             </tr>
         </tbody>
     </table>
-    <script src="JS/test_vbf.js"></script>
-    
+
+    <div class="bordered backGSub02" id="infoWindow" style="position: absolute; right: 10px; top: 10px;width: 450px; height: 200px;
+        border-radius: 2px;
+        box-shadow: 3px 3px 10px black; visibility: hidden; z-index: 10;">
+        <p style="position: absolute; left: 15px;"></p>
+        <p class="info_window"><span class="textbold">A kérdéssor a következő témaköröket foglalja magában:</span><br>
+        <span class="textbold">1. </span>Az áramütés elleni védelem fogalma, felülvizsgálata<br>
+        <span class="textbold">2. </span>Kisfeszültségű rendszerek áramütés elleni védelme<br>
+        <span class="textbold">3. </span>Nagyfeszültségű berendezések áramütés elleni védelme<br>
+        <span class="textbold"></span></p>  
+    </div>    
+
+    <script src="JS/test_vbf.js"></script>    
 </body>
 
 </html>
