@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+            /*height: 100%;*/
+            /*background-image: url('hatterkep.jpg');  Háttérkép URL-je */
+            background-size: cover; /* Háttérkép teljes területet kitöltő beállítása */
+            background-position: center; /* Háttérkép középre igazítása */
+            background-repeat: no-repeat; /* Háttérkép ne ismétlődjön */                        
+            /*padding: 0;*/
+        }
+
+        tr:nth-child(even) {
+            background-color: #eec78d63; /* Páros sorok háttérszíne */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #866f2f70; /* Páratlan sorok háttérszíne */
+        }
+    </style>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/test_vbf.css">    
+</head>
+<body style="background-color: rgba(255, 255, 255, 0);">
+    <table class="centered" style="font-family: 'Times New Roman', Times, serif; padding-top: 10px;">
+        <tbody id="tableQuestions" style="max-width: 980px;box-shadow: 3px 3px 10px black;" class="backGSub01">
+       
+        </tbody>
+    </table>
+
+    <script src="JS/vbf_questions.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="backG02">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBF Anyagok</title>    
+    <style>
+        body, html {
+            background-size: cover; /* Háttérkép teljes területet kitöltő beállítása */
+            background-position: center; /* Háttérkép középre igazítása */
+            background-repeat: no-repeat; /* Háttérkép ne ismétlődjön */
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Ez elkerüli a görgetősáv megjelenését */
+        }
+        #menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            z-index: 1000; /* Biztosítja, hogy a menü előtérben legyen */        
+            box-shadow: 3px 3px 6px black; /* Árnyék beállítása */
+            
+        }
+        #main {
+            position: relative;
+           
+            margin-top: 115px; /* Elmozdítjuk a tartalmat a menüsor miatt */
+            width: 100%;
+            height: calc(100% - 115px); /* A képernyő magassága mínusz a menü magassága */
+            border: none; /* Elrejtjük az iframe körüli keretet */
+            overflow: hidden; /* Ez elkerüli a görgetősáv megjelenését */
+        }  
+        iframe {
+            overflow: hidden; /* Görgetősáv kikapcsolása az iframe-ben */
+        }      
+    </style>
+    <link rel="stylesheet" href="css/test_vbf.css">
+</head>
+    <body>
+        <div id="menu" class="backGSub01">        
+            <p style="margin-top: 0px; font-size: xx-large;font-family: 'Times New Roman', Times, serif;font-weight: bold;white-space: nowrap;" 
+               class="centered"><span class="textbold">Villamos biztonsági felülvizsgáló tesztsor</p>            
+            <a title="Vezérléssel kapcsolatos kapcsolások" style="margin-right: 20px;" href="vbf_questions.html" target="main">Teszkérdések</a>
+        </div>
+            
+    </body>
+    <iframe id="main"src="vbf_questions.html" name="main"></iframe>
+</html>

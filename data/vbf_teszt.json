@@ -1052,6 +1052,50 @@
                   "a fellépő potenciálemelkedést az ellenföldelő és a segédszonda között mérjük, majd a mért földelő ellenállását ebből számítjuk ki",
                   "az ellenföldelőn a terhelőáramot vezetjük vissza, a segédszondához képest mérjük a földelésen fellépő potenciálemelkedést"],
             "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.19. Milyen esetben szabad elhanyagolni erősáramú földelésmérésnél a mérendő földelő és a segédszonda közötti, a mérőáram bekapcsolása nélkül mérhető feszültséget?",
+            "a": ["minden esetben, mert a mérést nem befolyásolja",
+                  "csak akkor, ha a terhelés során mérhető feszültség 10%-ánál kisebb",
+                  "minden esetben figyelembe kell venni"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.20. Mit kell tenni, ha a földelési ellenállásmérésnél a zavaró feszültség 5%-a a mért feszültségnek?",
+            "a": ["a mérést meg kell ismételni",
+                  "a mérés értékelésénél a zavaró feszültséget figyelembe kell venni",
+                  "a zavaró feszültség figyelmen kívül hagyható"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.21. Mi a kettős mérővezetékek szerepe?",
+            "a": ["kétszeresen biztonságosabb mérés",
+                  "felére csökkentik a mérővezetékek ellenállását",
+                  "a mérés eredményébe nem kerül bele a mérővezetékek ellenállása"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.22. Közvetlenül földelt, kisfeszültségű hálózaton erősáramú módszerrel földelés méréseket végeznek. A felülvizsgálatot végzőknek ügyelni kell arra is, hogy a mérendő földelő és a mérő szonda között egy meghatározott értéknél nagyobb feszültség ne lépjen fel. Milyen értékű ez a feszültség?",
+            "a": ["42 V",
+                  "50 V",
+                  "125 V",
+                  "230 V"],
+            "numOfQs": 4,"gA": 2
+        },
+        {
+            "q": "4.23. Kisfeszültségű, szigetelt csillagpontú hálózatról táplált erőátviteli villamos berendezés védőföldelésének mért ellenállásértéke 5 Ω. Az egysarkú kapacitív zárlati áram maximális értéke 10 A. Mekkora értékű a mérési eredményekből számított hibafeszültség?",
+            "a": ["0,5 V",
+                  "2 V",
+                  "3,25 V",
+                  "50 V"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "4.24. Földelési hurokellenállás-mérésnél mekkora a védőföldelés ellenállásának tekinthető értéke?",
+            "a": ["a hurokellenállás mért értéke",
+                  "a hurokellenállás kétharmada",
+                  "a hurokellenállás fele"],
+            "numOfQs": 3,"gA": 3
         }
     ]
 }
