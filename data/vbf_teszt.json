@@ -936,6 +936,122 @@
                   "a nagyfeszültségű berendezésekre előírt gyakorisággal",
                   "a kéziszerszámokra előírt gyakorisággal"],
             "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.01. A következő szabványsorozatok közül melyik tartalmaz követelményt az áramütés elleni védelem mérési módszereire vonatkozóan?",
+            "a": ["az MSZ EN 60079 sorozat",
+                  "az MSZ EN 62305 sorozat",
+                  "az MSZ 4851 sorozat",
+                  "az MSZ 1600 sorozat"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "4.02. Melyik szabvány foglalkozik a védővezető folytonosságának vizsgálati módszereivel?",
+            "a": ["MSZ 4852",
+                  "MSZ 1585",
+                  "MSZ 4851-1",
+                  "MSZ 2364-200"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "4.03. A védővezető folytonosságának vizsgálatát, 230 V fázisfeszültség esetén, üzemi feszültséggel mekkora áramerősség alkalmazásával kell vizsgálni?",
+            "a": ["20 … 60 mA",
+                  "100 … 1000 mA",
+                  "1…5 A"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.04. A védővezető folytonosságának vizsgálatát a földhöz képest legfeljebb mekkora névleges feszültséggel szabad próbalámpás vizsgálattal végezni?",
+            "a": ["400 V földeletlen rendszer",
+                  "400 V közvetlenül földelt rendszer",
+                  "250 V közvetlenül földelt rendszer"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.05. Terheléses feszültség-mérésnél hány mérést kell végezni a védővezető folytonosságának megállapítása céljából?",
+            "a": ["egy mérést a terhelő-ellenállással",
+                  "egy mérést a terhelő-ellenállás nélkül, és egyet a terhelő ellenállással",
+                  "két mérést, mindkettőt a próbagomb lenyomásával"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.08. A védővezetős védelmi módok vizsgálatánál mikor kell a fázisvezető és a védővezető esetleges felcserélését feszültségvizsgálattal ellenőrizni?",
+            "a": ["minden szerelői ellenőrzés során",
+                  "csak akkor, ha a vezetékek színjelölése nem következetes",
+                  "szerelői ellenőrzésnél nem szükséges"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.09. Melyik szabvány tárgyalja a földelési ellenállás-mérések elvégzésének részletes szabályait?",
+            "a": ["MSZ 4851-1",
+                  "MSZ 4851-2",
+                  "MSZ 4851-3"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.10. Közvetlenül földelt, kisfeszültségű hálózatokon a védőföldelések földelési ellenállását milyen módszerrel szabad mérnie?",
+            "a": ["csak erősáramú",
+                  "csak gyengeáramú",
+                  "lehetőleg erősáramú",
+                  "csak kompenzációs"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "4.11. Mire használják a segédföldelést (szondát)?",
+            "a": ["a hibaáramok vezetésére, így erősáramú berendezés PEN vezetőjének potenciál rögzítésére",
+                  "egy távoli földponthoz képest fellépő potenciál érzékelésére, megállapítására (pl. méréskor)",
+                  "csak műszeres méréshez, a terhelőáram visszavezetésére"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.12. Legalább mekkora mérőáram-erősség szükséges az MSZ HD 60364-4-41 szabvány tárgykörébe tartozó berendezés erősáramú földelési ellenállás méréséhez?",
+            "a": ["250 mA",
+                  "1 A",
+                  "5 A"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.13. Legfeljebb mekkora lehet az áramerősség a gyengeáramú földelési ellenállás-mérési módszernél?",
+            "a": ["100 mA",
+                  "250 mA",
+                  "1 A"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.14. Kisfeszültségű berendezés földelési ellenállás-mérésénél mekkora lehet a szondák legkisebb távolsága más földelőtől?",
+            "a": ["10 m",
+                  "20 m",
+                  "25 m"],
+            "numOfQs": 3,"gA": 2
+        },
+        {
+            "q": "4.15. Mekkora legyen legalább a földelési ellenállás-méréshez használt műszerek osztály pontossága?",
+            "a": ["1,0",
+                  "1,5",
+                  "2,5"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.16. Földelési ellenállás mérésekor mekkora lehet a teljes mérési elrendezés hibája?",
+            "a": ["10 %",
+                  "5 %",
+                  "30 %",
+                  "1 %"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "4.17. A fázisfeszültséggel történő földelési ellenállás-mérésnél a következők közül melyik az a módszer, amellyel kiküszöbölhető az idegen áramok zavaró hatása?",
+            "a": ["a mérés megismétlése a másik két fázis segítségével",
+                  "egy terheletlen és egy terheléses feszültségmérés",
+                  "nagyobb keresztmetszetű mérővezetékek alkalmazása"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.18. A gyengeáramú földelésmérési módszer alkalmazása során két segédföldelőt kell telepíteni. Mi ezek feladata?",
+            "a": ["a nagyfelületű, telepített földelésen áthajtott mérőáramnak a földből való meg bízható  visszavezetéséhez egy segédföldelő rúd nem elegendő felületű, ezért legalább  kettő szükséges",
+                  "a fellépő potenciálemelkedést az ellenföldelő és a segédszonda között mérjük, majd a mért földelő ellenállását ebből számítjuk ki",
+                  "az ellenföldelőn a terhelőáramot vezetjük vissza, a segédszondához képest mérjük a földelésen fellépő potenciálemelkedést"],
+            "numOfQs": 3,"gA": 3
         }
     ]
 }
