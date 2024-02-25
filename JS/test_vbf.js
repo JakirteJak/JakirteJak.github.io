@@ -213,6 +213,15 @@ function endTest() { // A teszt vége, kiértékelés
     tEvaulation.style.visibility = "visible";    
 }
 
+function WriteDatabaseToJSON(filename){
+    fs.writeFile('adatbazis.json', JSON.stringify(question3, null, 4), err => {
+        if (err) {
+            console.error('Hiba történt a fájl írása közben:', err);
+            return;
+        }
+        console.log('Az adatbázis sikeresen kiírva adatbazis.json fájlba.');
+    });
+}
 /*
         {
             "q": "",

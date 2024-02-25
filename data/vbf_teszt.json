@@ -1096,6 +1096,88 @@
                   "a hurokellenállás kétharmada",
                   "a hurokellenállás fele"],
             "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.25. Melyik szabvány foglalkozik a nullázás szabványossági felülvizsgálatánál szükséges hurokellenállás-mérések módszereivel?",
+            "a": ["MSZ 4851-3",
+                  "MSZ 4851-5",
+                  "MSZ 10900"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.26. Mit jelez a hurokellenállás mérésnél szükséges folytonossági vizsgálat nem megfelelő eredménye?",
+            "a": ["a túláramvédelem névleges értéke a megengedettnél lényegesen nagyobb",
+                  "a műszer bekötése helytelen",
+                  "a védővezető hiányzik, vagy nem folytonos",
+                  "a hurokellenállás az előírt értéknél kisebb"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "4.27. Lehet-e hurokellenállást mérni üzemelő, feszültség alatti berendezésen?",
+            "a": ["igen",
+                  "a balesetveszély miatt tiltot",
+                  "csak akkor, ha külön áramforrást használunk a méréshez"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.29. Hurokellenállás-méréseknél legalább mennyi legyen a műszerek pontossági osztálya?",
+            "a": ["0,5",
+                  "1,0",
+                  "2,5"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.30. Hurokellenállás mérésekor mekkora lehet a teljes mérési elrendezés megengedett legnagyobb hibája?",
+            "a": ["5 %",
+                  "10 %",
+                  "25 %",
+                  "30 %",
+                  "30 %"],
+            "numOfQs": 5,"gA": 4
+        },
+        {
+            "q": "4.31. Egyes hurokellenállás-mérő műszereknél alkalmazott korrekciós tényező milyen jellegű hiba korrigálására szolgál?",
+            "a": ["a névlegestől eltérő fázisfeszültség által okozott hiba",
+                  "a fázisfeszültség ingadozásából eredő hiba",
+                  "a leolvasás bizonytalanságából eredő hiba"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.32. Hurokellenállás-mérésnél legalább mekkora legyen a mérőáram áramerőssége?",
+            "a": ["1 A",
+                  "2,5 A",
+                  "5 A"],
+            "numOfQs": 3,"gA": 1
+        },
+        {
+            "q": "4.33. Egy adott helyen - hurokellenállás-mérésnél - a hálózati feszültségingadozás miatt négy mérést végeztek el. A mérési eredmények között az eltérés 30%-nál nagyobb. Mit kell tenni?",
+            "a": ["mérési eredményként az átlagot kell elfogadni",
+                  "a legnagyobb értéket kell figyelembe venni, legalább három mérés közül",
+                  "további méréseket kell végezni, amíg három mérés 20%-nál nem nagyobb eltérésű, és ezek számtani átlaga a keresett érték"],
+            "numOfQs": 3,"gA": 3
+        },
+        {
+            "q": "4.34. Honnan kell csatlakoztatni a hurokellenállás méréséhez szükséges feszültséget?",
+            "a": ["világítási dugaszoló aljzatból",
+                  "tetszőleges, könnyen hozzáférhető helyről",
+                  "a tápvezeték kiindulási pontjából (elosztóból)",
+                  "mérendő berendezés csatlakozási pontjáról"],
+            "numOfQs": 4,"gA": 4
+        },
+        {
+            "q": "4.35. Hol csatlakoztathatjuk a nullázási hurokellenállást mérő műszerűnket a fázisfeszültségre, ha a vizsgált készülék csatlakozókapcsán erre nincs ésszerű lehetőség?",
+            "a": ["a legközelebbi kisfeszültségű dugaszolóaljzatnál",
+                  "az épületcsatlakozás valamely fázisvezetőjénél",
+                  "a vizsgált készülék áramkörének legközelebb feltárható pontján",
+                  "fentiek közül bármely helyen, mert a fázisfeszültség minden áramkörnél azonos"],
+            "numOfQs": 4,"gA": 3
+        },
+        {
+            "q": "4.36. A hurokellenállás mérés milyen munkának minősül?",
+            "a": ["egyszerű feszültség alatt végzett munka",
+                  "feszültség közelében végzett munka",
+                  "egyszerű munka"],
+            "numOfQs": 3,"gA": 1
         }
     ]
 }
