@@ -6,7 +6,6 @@
 // Egy JSON adatbázisból olvassa be a szükséges adatokat. (ReadDataFromJson();)
 // A válaszokat a myAnswers tömmbe gyűjti. (saveActAnswers();)
 // Ennek alapján értékeli ki a tsztet a végén.
-
 let myAnswers = [];         // A kérdésekre adott válaszok tömbje
 let maxQuestionsNum = document.getElementById("inputMaxQNum").value; // Maximális kérdésszám
 document.getElementById("spanNumOfQs").innerHTML = maxQuestionsNum;
@@ -36,6 +35,7 @@ document.getElementById("tablePercent").style.visibility = "hidden";
 
 let infoWindow = document.getElementById("infoWindow"); // Info ablak
 document.getElementById("btnInfo").onclick = function(){
+    WriteDatabaseToJSONfile("aaa");
     if (infoWindow.style.visibility == "hidden")
         infoWindow.style.visibility = "visible";
     else
@@ -213,8 +213,9 @@ function endTest() { // A teszt vége, kiértékelés
     tEvaulation.style.visibility = "visible";    
 }
 
-function WriteDatabaseToJSON(filename){
-    fs.writeFile('adatbazis.json', JSON.stringify(question3, null, 4), err => {
+function WriteDatabaseToJSONfile(filename){
+    return;
+    let fs = writeFile('adatbazis.json', JSON.stringify(question3, null, 4), err => {        
         if (err) {
             console.error('Hiba történt a fájl írása közben:', err);
             return;

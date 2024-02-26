@@ -1,1183 +1,1871 @@
 {
-    "data":[
-        {
-            "q": "1.01. Mit jelent az alapvédelem?",
-            "a": ["korszerű beton-alapvédelem kialakítása, illetve alkalmazása",
-                  "az aktív részek véletlen vagy szándékolt érintését akadályozó intézkedések", 
-                  "alapvető védelmi módszer alkalmazása"],
-            "numOfQs": 3, "gA": 2
-        },
-        {
-            "q": "1.02. Kik végezhetik el az időszakos villamos biztonsági felülvizsgálatot?",
-            "a": ["csak magánszemély, illetve vállalkozó",
-                  " az üzemeltető, vagy egy általa megbízott szolgáltató",
-                  "csak az erre jogosított szolgáltató vállalat",
-                  "a fentiek bármelyike, ha rendelkezik az 34/2021. (VII.26.) ITM rendeletben előírt szakképesítéssel"],
-            "numOfQs": 4, "gA": 4
-        },
-        {
-            "q": "1.03. A villamos biztonsági felülvizsgáló szakképesítés megszerzését igazoló bizonyítvány érvényességi feltétele:",
-            "a": ["érvényes a kiállításától számított 5 évig",
-                  "érvényes a kiállításától számított 10 évig",
-                  "5 évenként kötelező továbbképzésen való részvétel és ehhez tartozó megfelelő vizsgaeredmény"],
-            "numOfQs": 3,
-            "gA": 3
-        },
-        {
-            "q": "1.04. Melyik jogszabály írja elő a villamos biztonsági felülvizsgálat szerinti első ellenőrzés és ismétlődő felülvizsgálat kötelezettségét?",
-            "a": ["40/2017.(XII.4.) NGM rendelet (VMBSZ)",
-                  "24/2021. (VII.26.) ITM rendelet",
-                  "54/2014.(XII.5.) BM rendelet (OTSZ)"],
-            "numOfQs": 3, "gA": 1
-        },
-        {
-            "q": "1.06. Elsősorban kinek a feladata és felelőssége az üzemelő villamos berendezés időszakos ellenőrzéseiről gondoskodni?",
-            "a": ["a berendezést üzemeltető művezetőé",
-                  "a szerződött szolgáltatóé",
-                  "az üzemeltető felelős vezetőjének feladata",
-                  "valamennyi villamos szakemberé"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "1.07. Végezheti-e az általa szerelt berendezésnél a munka befejezését követő általános szemrevételezést (korábban: szerelői ellenőrzést) a VBF vizsgabizonyítvánnyal nem rendelkező kisiparos?",
-            "a": ["ez a vizsgálat csak bizonyítvánnyal végezhető",
-                  "végezheti, ha szerződésben elvállalta",
-                  "a kivitelezői szolgáltatás részeként szükséges elvégeznie"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.08. Szerelői ellenőrzést, illetve szemrevételezést milyen képzettségű személy végezheti?",
-            "a": ["csak közép vagy felsőfokú végzettségű, ellenőrzésre jogosított személy",
-                  "bárki elvégezheti, külön jogosítás nélkül is",
-                  "legalább erősáramú villamos szakképzettségű személy"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.09. Munkahelyeken milyen időközönként szükséges a kéziszerszámok és a hordozható biztonsági transzformátorok szerelői ellenőrzése a 10/2016. (IV. 5.) NGM r. szerint?",
-            "a": ["havonta",
-                  "évenként",
-                  "háromévenként"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "1.12. Mit nevezünk önellenőrzésnek?",
-            "a": ["a) amikor az ellenőrzés elvégzéséről az üzemeltető gondoskodik",
-                  "b) amikor az üzemeltető felettes szerve végez ellenőrzést",
-                  "az a) és b) szerinti ellenőrzések mindegyikét"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "1.13. Milyen vizsgálatokat tartalmaz az első ellenőrzés?",
-            "a": ["csak szemrevételezéseket",
-                  "csak a tervek egyeztetését a kivitelezéssel, azonosítást",
-                  "az a) és b) pontokon kívül minden esetben villamos méréseket is, mindenesetben az áramütés elleni védelem méréses vizsgálatát és szigetelés ellenállásmérést is"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.14. Mi írja elő a nagyfeszültségű berendezések teljes körű villamos biztonsági felülvizsgálatát?",
-            "a": ["10/2016. NGM r.",
-                  "módosított VMBSZ",
-                  "OTSZ 5.2"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "1.15. Milyen időközönként kell elvégezni a nagyfeszültségű villamos berendezések villamos biztonsági felülvizsgálatát?",
-            "a": ["3 évenként",
-                  "4 évenként",
-                  "6 évenként"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "1.16. Milyen időközönként kell ellenőrizni a lakóépületek villamos berendezéseit az áramütés elleni védelem szempontjából, ha nem minősül munkahelynek?",
-            "a": ["3 évenként",
-                  "4 évenként",
-                  "6 évenként"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.17. Mikor hagyható el a lakóépületekben lévő lakások villamos biztonsági felülvizsgálata?",
-            "a": ["a lakások áramütés elleni védelmét nem kell vizsgálni",
-                  "ha a túláramvédelem ≤32 A fázisonként és 30 mA áram-védőkapcsolóval védett a lakás",
-                  "ha a tulajdonos nem engedélyezi a vizsgálatot"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "1.18. A felhasználó (pl. lakó vagy kommunális épületek, nem munkahelyek) berendezéseiben felszerelt áram-védőkapcsolók működő képességét milyen időközönként kell ellenőrizni?",
-            "a": ["havonta és jegyzőkönyvezni is kell",
-                  "évente, dokumentálás nélkül",
-                  "félévente, nem kell bizonylatozni"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "1.19. A munkavédelemről szóló 1993 évi XCIII. törvény előírja a munkavédelmi kockázat elemzést. Hol kötelező ennek készítése?",
-            "a": ["minden munkahelyen",
-                  "csak 1000-nél több munkavállalót foglalkoztató nagyobb ipari üzemek esetében",
-                  "csak a kimondottan veszélyes üzemeknek kötelező az elkészítése, mint pl. bányák, nagyobb vegyipari üzemek, atomerőmű"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "1.20. A munkavédelemről szóló 1993 évi XCIII. törvény előírja a munkavédelmi kockázat elemzést. Van-e ennek jelentősége a villamos biztonság szempontjából?",
-            "a": ["nincs, a kockázatelemzés teljesen más témakörökkel foglalkozik",
-                  "villamos szempontból is mondhat véleményt, de nem kötelező figyelembe venni",
-                  "az elemzés feltárhatja a durva környezeti igénybevételnek kitett villamos berendezéseket, ezek alapján javasolhatja a felülvizsgálati időköz csökkentését"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.22. A szabvány alkalmazása önkéntes. Mit kell tenni a tervezőnek, ha nem szabványos megoldás mellett dönt?",
-            "a": ["egyeztetnie kell a beruházóval és a kivitelezővel",
-                  "eltérési engedélyt kér a Szabványügyi Hivataltól",
-                  "egyenértékűségi nyilatkozatot kell kiállítania"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.23. Mit kell tartalmaznia a tervező egyenértékűségi nyilatkozatának?",
-            "a": ["kinyilvánítja, hogy a terv építészeti, gépészeti és villamos szempontból egyenértékű",
-                  "kinyilvánítja, hogy a tervben alkalmazott műszaki megoldások biztonsági és műszaki szempontból a szabvány követelményeivel egyenértékűek",
-                  "az MSZT kinyilvánított eltérési engedélyét"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "1.25. A FAM-tevékenységet melyik jogszabály szabályozza?",
-            "a": ["a 40/2017.(XII.4.) NGM rendelet",
-                  "a 8/2001. (III. 30.) GM rendelet",
-                  "a 72/2003. (X.29.) GKM rendelet"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.26. Az erősáramú berendezések időszakos villamos biztonsági felülvizsgálatához kell-e tűzvédelmi szakvizsga?",
-            "a": ["csak érvényes tűzvédelmi szakvizsgával rendelkező személy végezheti!",
-                  "nem kell",
-                  "eseti egyeztetések szükségesek"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "1.28. A potenciálisan robbanásveszélyes közegben működő villamos berendezések és védelmi rendszerek villamos biztonsági felülvizsgálatát ki végezheti?",
-            "a": ["a) villamos biztonsági felülvizsgáló szakképesítés",
-                  "b) tűzvédelmi szakvizsga",
-                  "az a)+b) válasz kiegészítve „robbanásbiztos berendezés kezelője” szakképesítéssel"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "1.29. Az összekötő berendezésre külön vagy üzemeltető szervezetenként közös dokumentációt kell készíteni. Mi ez?",
-            "a": [" tűzvédelmi szabályzat",
-                  "felhasználói belső szabályzat",
-                  "üzemviteli szabályzat"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.01. Mi a hibavédelem (korábban:az érintésvédelem) célja?",
-            "a": ["az embert védi az üzemszerűen feszültség alatt álló berendezések megérintésétől",
-                  "az üzemszerűen feszültség alatt nem álló, de meghibásodás során feszültség alá kerülő fémrészek veszélyességét csökkenti",
-                  "az üzemszerűen feszültség alatt nem álló, de hiba következtében feszültség alá kerülő fémrészek megérintését teszi lehetetlené"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.02. Mit nevezünk testzárlatnak?",
-            "a": ["az üzemszerűen feszültség alatt álló fémrészek érin tkezé se az emberi testtel",
-                  "az aktív rész és test fémes érintkezése",
-                  " az üzemszerűen feszültség alatt nem álló fémrészek érin tkezé se a földdel"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.03. Mi a „test” fogalma?",
-            "a": ["üzemszerűen feszültség alatt álló, de meghibásodás során veszélyessé váló fémrész",
-                  "a villamos szerkezet olyan megérinthető vezetőképes része, amely üzemszerűen nem aktív, de amely az alapszigetelés meghibásodásakor aktívvá válhat",
-                  " a villamos berendezéshez nem tartozó fémszerkezet, amely földpotenciált is közvetíthet (pl. vízcső)"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.04. Mi az „idegen fémszerkezet”?",
-            "a": ["idegen tulajdont képező fémszerkezetek, amelyek villamos készülékekkel egy idejűleg érinthetőek",
-                  "más villamos készülék fémteste, amely a vizsgált készülékkel egyidejűleg érint hető",
-                  "a villamos berendezéshez nem tartozó fémszerkezet, amely földpotenciált is közvetíthet (pl. vízcső)"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.05. Mi a tényleges érintési feszültség?",
-            "a": ["két, meghibásodás folytán feszültség alá kerülő test között fellépő feszültség",
-                  "zárlatos test és a földpotenciálú hely között mérhető feszültség",
-                  "személy vagy haszonállat által egyidejűleg megérintett vezetőképes részek közötti feszültség",
-                  "a talaj felületén meghatározott távolságban lévő két pont közötti feszültség"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "2.06. Mit értünk a hibafeszültség alatt?",
-            "a": ["a hiba következtében fellépő feszültségnek azt a részét, amelyet egy ember áthidalhat",
-                  "a feszültség alá került test és a földpotenciálú hely között fellépő feszültséget",
-                  "a mérhető legnagyobb fázisfeszültséget, hiba esetén"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.07. Jelölje meg, hogy az áramütés elleni védelem létesítési előírásait melyik érvényes szabványsorozat tartalmazza!",
-            "a": ["MSZ HD 60364 szabványsorozat",
-                  "MSZ 2064 szabványsorozat",
-                  "MSZ 1585 szabványsorozat",
-                  "MSZ 4851 szabványsorozat"],
-            "numOfQs": 4,"gA": 1
-        },
-        {
-            "q": "2.08. Mi az „egyenpotenciálú összekötés”?",
-            "a": ["különálló áramütésvédelmi célú földelőknek a talajszint felett vagy alatt történő fémes összekötése",
-                  "a testek és kiterjedt idegen vezetőképes részek villamos összekötése azonos potenciálra hozására",
-                  "a védővezetőt igénylő áramütésvédelmeknek (TN-, TT-rendszer, védőkapcsolások) közös, összefoglaló elnevezése",
-                  "a védett berendezés környezetének a földtől való elszigetelése (szigete lő anyag, szigetelőzsámoly stb.) alkalmazása"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.09. Mit értünk „helyi egyenpotenciálú összekötésen”? (MSZ 172-1:1986 sz. 3.6. szakasza)",
-            "a": ["a nulla- és nullázó vezetékek hálózatát",
-                  "valamennyi, egyidejűleg érinthető villamosan vezető rész (test és idegen fémszer kezetek) összekötését",
-                  "olyan védővezetők hálózatát, melyeket az épületi becsatlakozásnál egy helyen össze kötöttek az épület csővezetékeivel és fémszerkezetével",
-                  "a kapcsolóterek celláin elhelyezett, a véletlen érintés elleni védelem céljára alkal mazott védőhálót"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.11. Mit értünk a „villamos szerkezetek” fogalma alatt?",
-            "a": ["magában foglalja az összes villamos gyártmányt, az ezekbe épített alkatrészeikkel együtt",
-                  "a vezetékek kivételével minden, a villamos energia termelésére, szállítására, elosztására szolgáló komplett berendezést jelenti",
-                  "minden olyan eszköz, amelyet a villamos energia fejlesztésére, átalakítására, szállítására, elosztására vagy felhasználására alkalmaznak (pl. forgógépek, transzformátorok, kapcsoló- és vezérlőkészülékek, mérőkészülékek, védelmi eszközök, vezetékrendszerek szerkezetei, fogyasztókészülékek)"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.12. Hogyan működnek a védővezető nélküli hibavédelmi módok?",
-            "a": ["hiba (testzárlat) esetén nem avat koz nak be aktívan, hanem csak figyelmeztető jelzést adnak",
-                  "a villamos berendezések hibás részeit lekap csolják a táphálózatról",
-                  "megakadályozzák, hogy a meghi bá so dott készülékeken a megengedettnél nagyobb érintési feszültség alakuljon ki, illetve legyen érinthető"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.13. Mitől véd a védőföldelés közvetlenül földelt kisfeszültségű rendszerben?",
-            "a": ["nem enged nagyobb érintési feszültséget kialakulni, mint 50V~, illetve 120V=",
-                  "nem akadályozza meg mindig az 50V~, ill. 120V= -nál nagyobb érintési feszültség kialakulását, de ha az mégis fellép, kikapcsol a védelem",
-                  "minden esetben megvéd az áramütéstől, abban az esetben is, ha nem olvadna ki a biztosító"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.14. Szigetelt csillagpontú 3x400/230V-os hálózat milyen feszültségű?",
-            "a": ["törpefeszültségű",
-                  "kisfeszültségű",
-                  "nagyfeszültségű"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.15. Közvetlenül földelt csillagpontú 3x400/230 V-os hálózat milyen feszültségű?",
-            "a": ["törpefeszültségű",
-                 "kisfeszültségű",
-                 "nagyfeszültségű"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.16. Mi a különbség az üzemi földelés és a védőföldelés között?",
-            "a": ["az üzemi földelést csak üzemben, a védőföldelést lakásokban is használható készülékekhez létesítik ",
-                  "az üzemi földelés az üzemi főelosztó fémtestének földelése, a védőföldelés a fogyasztókészülékek földelése",
-                  "az üzemi földelés az üzemszerűen feszültség alatt álló vezetőrendszer egy pontját (üzemviteli céllal) köti össze a földdel, a védőföldelés esetében a villamos szerkezet teste a tápláló rendszerrel fémesen össze nem kötött földeléshez van kötve"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.17. Háromvezetős (2x110 V-os), egyenáramú hálózat középvezetőjét közvetlenül földelték. Milyen földelés ez?",
-            "a": ["védőföldelés",
-                  "üzemi földelés",
-                  "segédföldelés"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.18. A következő szabványok közül melyik az üzemeltetési szabvány?",
-            "a": ["MSZ 172-4",
-                  "MSZ 1585",
-                  "MSZ 1600",
-                  "MSZ HD 60364"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.19. Milyen villamos berendezések üzemére vonatkozik az MSZ 1585 szabvány?",
-            "a": ["valamennyi villamos berendezés üzemére",
-                  "valamennyi erősáramú villamos berendezés üzemére",
-                  "valamennyi 1000 V-nál nem nagyobb feszültségű erősáramú berendezés üze mé re"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.21. Melyik szabvány szerint kell létesíteni kisfeszültségű, egyenáramú berendezések áramütés elleni védelmét?",
-            "a": ["MSZ 2364-200",
-                  "MSZ 13207",
-                  "MSZ 4851-5",
-                  "MSZ HD 60364-4-41"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "2.22. Közvetlenül földelt kisfeszültségű hálózatnál PEN vezetőt alkalmaznak. Milyen rendszerű a hálózat?",
-            "a": ["TT",
-                  "IT",
-                  "TN",
-                  "IN"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "2.23. Közvetlenül földelt, védőföldeléses hálózat milyen rendszerű?",
-            "a": ["TT",
-                  "IT",
-                  "TN",
-                  "IN"],
-            "numOfQs": 4,"gA": 1
-        },
-        {
-            "q": "2.24. Milyen rendszerű az a földeletlen hálózat, ahol a hibavédelem védőföldelés?",
-            "a": ["TT",
-                  "IT",
-                  "TN",
-                  "IN"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.25. Az MSZ HD 60364-1 szabvány hogyan jelöli azt a rendszert, amikor a nulla és a védővezető a rendszer egy részében közös?",
-            "a": ["TN-S",
-                  "TN-C-S",
-                  "TN-C",
-                  "TN-S-C"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.26. Az MSZ HD 60364 szabványsorozat szerint létesített áramütés ellni védelmen túlmenő egyéb védelem, vagy fedővédelem szükséges-e?",
-            "a": ["igen",
-                  "nem",
-                  "tartalékvédelem szükséges"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.30. Melyek nem tartoznak a táplálás önműködő lekapcsolása védelmi módok közé?",
-            "a": ["csak a villamos szerkezet és környezet elszigetelése",
-                  "csak a törpefeszültség és villamos elválasztás",
-                  "csak a földeletlen egyenpotenciálra hozás és korlátozott zárlati teljesítményű áramkörök",
-                  "a felsorolt áramütés elleni védelmi módok mindegyike"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "2.31. Mi a TN-rendszer?",
-            "a": ["a hálózat nullavezetőjének sok ponton való leföldelése",
-                  "a táphálózat közvetlenül földelt üzemi vezetőjének fémes összekötése a hiba védelemmel ellátott villamos szerkezetek testével",
-                  "a nullavezető kék színel való jelölése és az egyfázisú leágazásokban is biztosító nélkül való vezetése",
-                  "háromfázisú hálózatnál a nullavezető kivezetése"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.32. Mi a nullázási hurokimpedancia?",
-            "a": ["a rendszer szigetelési ellenállása",
-                  "a tápláló transzformátortekercs, a fázisvezető, és a védővezető impedanciáinak összege",
-                  "a transzformátor csillagpontjánál és a védővezető végpontjánál lévő földelések ellenállásainak összege",
-                  " a hurkolt hálózat nullavezetőjének ellenállása"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.33. Milyen minimális keresztmetszeti határig használható az üzemi áramokat vezető nullavezető (PEN) védővezetőként nullázott hálózaton?",
-            "a": ["2,5 mm2",
-                  "10 mm2",
-                  "16 mm2",
-                  "120 mm2"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.34. Hol szabad összekötni TN-rendszerben az üzemi áramokat vivő nullavezetőt és védővezetőt?",
-            "a": ["csak egy helyen, a védővezető fogyasztó oldali végén",
-                  "tetszőleges helyen",
-                  "csak egy helyen, a védővezető táplálás oldali végén"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.36. Hol kell egyenpotenciálú védő-összekötő hálózatot kialakítani?",
-            "a": ["csak a kommunális létesítményekben",
-                  "ahol a táplálás önműködő lekapcsolásával működő hibavédelem van kialakítva és helyhez kötött villamos szerkezetek testével egyidejűleg érinthető, kiterjedt fémszerkezet is van",
-                  "csak ipari környezetben"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.37. Milyen vezetőnek minősül a fő földelőkapocs és a földeltnek tekinthető házi fém hálózatokat (pl. csővezetékek) összekötő vezető?",
-            "a": ["egyenpotenciálú vezető",
-                  "védőösszekötő-vezető",
-                  "védővezető"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.38. Helyi egyenpotenciálú összekötés hatásosságát kell-e számítással ellenőrizni? (MSZ 172-1:1986 szabvány 3.6. szakasza)",
-            "a": ["minden esetben",
-                  "nem kell",
-                  "csak abban az esetben, ha az egyszerű megtekintés alapján a hatásosságra vonatkozóan kétség merül fel"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.39. A közművek (víz, meleg víz, gáz, központi fűtés) csővezetékei közül melyek használhatók fel védővezetőként, ha a beiktatott mérőműszereket áthidalják?",
-            "a": ["mindegyik",
-                  "csak a víz-nyomócső",
-                  "a gázcső kivételével mindegyik",
-                  "egyik sem"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "2.41. Szabad-e földeléseket egyesíteni?",
-            "a": ["a földeléseket egymástól villamosan és függetlenül kell kialakítani",
-                  "minden földelő egyesíthető",
-                  "csak azok egyesíthetők, amelyek összekötését a szabvány megengedi"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.42. Milyen színű szigetelt vezetékkel kell létesíteni az új védővezetőt?",
-            "a": ["kék vagy zöld/sárga",
-                  "zöld/sárga",
-                  "csak vörös vagy zöld/sárga",
-                  "fekete vagy zöld/sárga"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.43. Négyvezetékes rendszer nullavezetőjeként (PEN vezeték) milyen fémszerkezet használható fel?",
-            "a": ["PEN-vezető céljára tilos fémszerkezetet felhasználni",
-                  "kizárólag fém vízcső használható",
-                  "bármilyen egyenértékű keresztmetszetű, folytonos fémszerkezet felhasz nál ható"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "2.46. Földelővezetők hegesztett vagy keményforrasztással készített talajban lévő kötéseinél bitumenes rozsdavédő bevonatot szabad-e alkalmazni?",
-            "a": ["csak a kötéseknél megengedett az alkalmazása",
-                  "minden földelőnél tiltott",
-                  "csak védőföldelésnél szabad, villámvédelmi földelőnél tilos"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "2.47. Kell-e a földelő felületét korrózió-gátló festéssel ellátni?",
-            "a": ["szükséges",
-                  "megengedett",
-                  "nem kell, tiltott"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.48. A TN-rendszerű kisfeszültségű hálózatok PEN vezetékeit ún. „alátámasztó” földelésekkel ajánlott ellátni a hálózat mentén. Milyen földelési ellenállása legyen egy ilyen földelőnek?",
-            "a": ["legfeljebb 5Ω",
-                  "értéke nincs meghatározva",
-                  "legfeljebb 5 Ω, illetve nagy fajlagos ellenállású talaj esetén legfeljebb 30 Ω"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.49. Alkalmazható-e szigetelt csillagpontú hálózatokra kapcsolt 400 V-os berendezéseknél nullázásos érintésvédelem?",
-            "a": ["nem lehet, mert nincs is olyan vezető, illetve földelt pont, ahonnan kivezető lehetne",
-                  "csak akkor, ha a nullázott berendezések testét a földtől megbízhatóan (legalább: l MΩ) elszigetelik",
-                  "csak akkor alkalmazható, ha az áramszolgáltató nullázási engedélye rendelkezésre áll",
-                  " korlátlanul alkalmazható"],
-            "numOfQs": 4,"gA": 1
-        },
-        {
-            "q": "2.50. Válassza ki a hurokellenállás értékelési (méretezési) képletét TN-rendszerben olvadó biztosítóval megoldott túláramvédelem esetén!",
-            "a": ["Zs * Ia ≤ U0",
-                  "Zk ≤ (U0 - Ut) / It",
-                  "R ≤ R(émeg) / (It * It)"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "2.51. Közvetlenül földelt kisfeszültségű TT-rendszerű hálózatoknál mekkora a védőföldelés legnagyobb megengedett ellenállása ha a kioldószerv olvadóbiztosító?",
-            "a": ["Ra ≤ Ul / Ia",
-                  "Rb ≤ Uf / (Ib * á)",
-                  "Zs * Ia ≤ U0"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.52. IT-rendszerű, kisfeszültségű hálózatnál melyik képlet alapján kell méretezni a védőföldelést?",
-            "a": ["Rf ≤ U(hmeg) / (Ib * a)",
-                  "Rf ≤ Uf / (Ib * a)",
-                  "Ra * Id ≤ Ul"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.53. IT-rendszer méretezési képletéből 460Ω szükséges ellenállás érték adódik. Milyen értékű a még elfogadható földelés?",
-            "a": ["460 Ω",
-                  "30 Ω",
-                  "2 Ω"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "2.55. Földelési ellenállás megengedhető értékének számításánál a „Diazed” rendszerű olvadó biztosító névleges értékének „α”-szorosát kell venni. Miért van ez a szorzó?",
-            "a": ["a számításba nem vehető, előre nem látható hibák korrigálását célozza",
-                  "a névleges áramhoz képest az „α”-szoros áram kiolvasztja a biztosító betétet, az előírt, rövid időn belül",
-                  "ezzel a szorzóval vesszük figyelembe a villamos motor bekapcsolásánál rövid időre fellépő túláram hatását"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.56. Az olvadó biztosítók áram-idő diagramjai (még ugyanazon típuson belül, és a névleges áramtól függően is) szórást mutatnak (jellegsávok), ezért a célszerű és általánosan, a legtöbbször alkalmazott eljárás:",
-            "a": ["a kiolvadási időt számítással kell meghatározni",
-                  "a névleges áramot az α kiolvadási szorzóval szorozva, kapjuk a kiolvadást okozó áramot",
-                  "a kiolvadási időt diagramból szerkesztéssel kell meghatározni"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.57. A teljesítménykapcsolók (megszakítók) zárlatvédelmének (késleltetés nélküli, gyors védelem) esetén a beállítási értéket tekinthetjük-e kioldó áramerősségnek?",
-            "a": ["igen",
-                  "nem",
-                  "25A névleges áramerősségig igen"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "2.58. A teljesítménykapcsolók (megszakítók) késleltetett mágneses kioldóinál mi tekinthető a helyhez kötött szerkezetek hibavédelmének méretezésére szolgáló értéknek?",
-            "a": ["a kioldó névleges áramerőssége",
-                  "a kioldó névleges áramának „α”-szorosa",
-                  "a jelleggörbéből meghatározható, 5 másodperchez tartozó áram érték"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.59. Az MSZ HD 60364-4-41:2018 szabvány alapján földeletlen kisfeszültségű hálózaton kell-e földzárlatjelző berendezést alkalmazni?",
-            "a": ["egysarkú földzárlatok jelzéséről gondoskodni kell, a hibát 8 órán belül meg kell szüntetni",
-                  "nem kell földzárlatjelző berendezés, mert hiba esetén a biztosító kiolvad",
-                  "ha az első hiba esetén a táplálás nem kapcsol le, akkor az első hibát szigetelés ellenőrző készülékkel vagy hibaáram-ellenőrző eszközzel ki kell jelezni"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.60. Milyen értékű lehet az egysarkú földzárlati áram földeletlen rendszerben?",
-            "a": ["amekkorát meghatároznak a zárlati hurok vezetékeinek impedanciái",
-                  "amekkorát a fázisfeszültség a földkapacitások impedanciáján létre tud hozni",
-                  "amekkora a táptranszformátor/ok/ zárlati teljesítményéből számolható"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.61. Mi szab gyakorlati határt a közvetlenül földelt 3x400/230 V feszültségű hálózatoknál a TT-rendszerű áramütés elleni védelmi mód alkalmazásának?",
-            "a": ["nem szab határt semmi",
-                  "a földzárlati vagy testzárlati áram nagysága",
-                  "a védendő villamos berendezés teljesítménye",
-                  "az előző két válasz együttesen "],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "2.62. Egy TN-rendszerben védővezetővel előírásszerűen bekötött munkagépen testzárlat esetén felléphet-e veszélyes érintési feszültség?",
-            "a": ["nem léphet fel, mert a nullázó vezetőn keresztül fémesen össze van kötve a transzformátor üzemi földelésével",
-                  "50 V-nál nagyobb érintési feszültség nem léphet fel",
-                  "a biztosító, vagy kismegszakító kioldásáig felléphet"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.63. Válassza ki azt a hibavédelmi módot, amelyik méretezéséhez az előírt gyorsaságú kioldást előidéző (Ia) áram értéke is szükséges!",
-            "a": ["TN- és TT-rendszerek",
-                  "földeletlen egyenpotenciálra hozás",
-                  "korlátozott zárlati teljesítményű áramkör alkalmazása"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "2.64. „M” vezetékek szabadon szerelt fém védőcsöveit és dobozaikat mikor kell az egyenpotenciálra hozó rendszerbe bekötni?",
-            "a": ["nem szükséges bekötni",
-                  " a környezet jellegétől függetlenül csak a nem szigetelő padlójú helyiségekben a kézzel elérhető magasságban szerelt védőcsövek esetében szükséges bekötni",
-                  "minden esetben be kell kötni, ha idegen potenciált hozhatnak be"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.65. Mi az áram-védőkapcsoló?",
-            "a": ["önálló védelmi mód (az egyetlen, amely aktív)",
-                  "a táplálás önműködő lekapcsolása védelmi mód egyik kikapcsoló szerve",
-                  "védővezetős védelmi módoknál az alfa szorzót állítja be",
-                  "az áramváltók védelmi kapcsolása"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.66. Mi a különbség a „védőkapcsoló” és a „védőrelé” között?",
-            "a": ["nincs különbség",
-                  "a védőkapcsoló önmaga, míg a védőrelé külön kapcsoló működtetésével választja le a védett berendezést",
-                  "a védőkapcsoló mechanikai úton működik, védőrelé villamos vezérlésű"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.67. Melyik vezetőket kell az áram-védőkapcsoló összegező áramváltójának „ablakán” átvezetni?",
-            "a": ["csak a fázisvezetőket: az üzemi nulla- és védővezetőt nem szabad",
-                  "minden üzemi- és védővezetőt",
-                  "minden fázis- és nullavezetőt, de a védővezetőt nem szabad"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.68. Mit ellenőriz a védőkapcsolók próbagombjának a megnyomásával?",
-            "a": ["a teljes érintésvédelem rendben van-e",
-                  "csak a védőkapcsoló működőképességét",
-                  "a földelés megfelelő ellenállásértékét"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.69. Mitől kell távol lennie a feszültség-védőkapcsoló segédföldelőjének (az MSZ 172/1-72 szabvány szerint létesített berendezés)?",
-            "a": ["csak a védett berendezésektől",
-                  "mindazon fémrészektől, amelyeket a kezelő érinthet (függetlenül attól, hogy ezek a védett berendezésekkel érintkeznek-e)",
-                  "a védett berendezés testétől és minden egyéb földelőtől és földeltnek tekinthető fémtárgytól",
-                  "az egyéb célú érintésvédelmi földelőktől, és villámvédelmi földelőktől"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "2.70. Mit érzékel az áram-védőkapcsoló?",
-            "a": ["az üzemi áram változását",
-                  "a földzárlati hibafeszültséget",
-                  "a teljes testzárlati hibaáramot"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.71. Egy háromfázisú motor hibavédelmi kioldószerveként beépített áram-védőkapcsoló hogyan reagál az egyik fázis biztosítójának kiolvadására?",
-            "a": ["a terhelő áram szimmetriája megszűnik, az áram-védőkapcsoló kikapcsol",
-                  " a két másik vezető áramterhelése megnő, és emiatt néhány percen belül az áram-védőkapcsoló kiold",
-                  "testzárlati hibaáram hiányában az áram-védőkapcsoló nem lép működésbe"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.72. Több egymás után alkalmazott áram-védőkapcsolónál hogyan lehet a szelektív lépcsőzésre kívánalmakat betartani?",
-            "a": ["a kapcsolók megszólalási áramának lépcsőzetes növelésével",
-                  "a kapcsolók megszólalási idejének lépcsőzésével",
-                  "mindkét megoldás megfelelő "],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.73. Legfeljebb hány másodpercre késleltethető az áram-védőkapcsoló működése kapcsoló- vagy elosztó-berendezések védelme esetén?",
-            "a": ["legfeljebb 2s -ra",
-                  "legfeljebb 5s -ra",
-                  "olyan mértékben, ahogy a védelem lépcsőzése megkívánja",
-                  "tilos késleltetni: 0,2 s alatt le kell kapcsolnia"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.74. Mi a kiegészítő (védő)szigetelés?",
-            "a": ["kettős szigetelés",
-                  "az üzemi szigeteléstől független további szigetelés",
-                  "elválasztó transzformátor alkalmazása"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.75. Mit értünk az MSZ EN 61140 szabvány szerint II. Év. osztályú készülékeken?",
-            "a": ["amelynek mindenütt van alap (üzemi) szigetelése",
-                  "amelyek vezetékes hibavédelemmel vannak ellátva",
-                  "amelyben az alapvédelmet alapszigetelés és a hibavédelmet kiegészítő szigetelés biztosítja, vagy: az alapvédelmet és a hibavédelmet megerősített szigetelés biztosítja"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.76. Miről ismeri fel a II. Év. osztályú készülékeket?",
-            "a": ["a védőérintkező nélküli csatlakozó dugóról",
-                  "az adattáblán feltüntetett kettős négyzetjelről",
-                  "az adattáblán feltüntetett szabványszámról",
-                  "a védőérintkezős csatlakozó dugóról"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.77. Milyen védelmi módot szabad alkalmazni egy helyhez kötött, biztonsági szigetelő transzformátor saját áramütés elleni védelmére?",
-            "a": ["csak TN- vagy TT-rendszert",
-                  "bármilyen szabványos védelmi rendszert",
-                  "csak kettős szigetelést",
-                  "csak védőkapcsolást"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.78. Milyen védelmi módot szabad alkalmazni hordozható, fém burkolatú, biztonsági szigetelő transzformátorok védelmére?",
-            "a": ["TN-rendszert",
-                  "villamos elválasztást",
-                  "kettős szigetelést"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.79. SELV- és PELV-törpefeszültség védelmi mód esetén csak ún. „biztonsági” kivitelű, szigetelőtransz formátort szabad alkalmazni. Miről ismerhető fel egyértelműen a biztonsági transzformátor?",
-            "a": ["a vonatkozó termékszabvány jelzetének feltüntetéséről (pl. „MSZ 9229”, „MSZ EN 60742” vagy „MSZ EN 61558-2-6” feliratról)",
-                  "kizárólag a szabványos adattábla jelekről",
-                  "az előzőek bármelyikéről"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.81. Villamos elválasztás védelmi módnál mekkora a legnagyobb még megengedett szekunder feszültség névleges értéke?",
-            "a": ["250 V",
-                  "40 V",
-                  "500 V"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2,82, A villamos elválasztó transzformátorról táplált egy hordozható fogyasztókészülék csatlakozó vezetékének mekkora a megengedett legnagyobb hosszúsága?",
-            "a": ["3 m",
-                  "6 m",
-                  "10 m",
-                  "tetszés szerint, de szemmel ellenőrizhető szereléssel"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "2,83, Hány fogyasztót szabad egy törpefeszültségű transzformátorra rákapcsolni?",
-            "a": ["csak egyet",
-                  "akármennyit, amennyi nem terheli túl a transzformátort",
-                  "egynél többet csak akkor, ha közös fémszerkezetre vannak szerelve"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "2.84. Gyermekjátékok és fodrászati, kozmetikai készülékek törpefeszültségű védelmi mód esetén mekkora az MSZ 172-1:1986 szabvány által megengedett legnagyobb alkalmazható névleges váltakozó feszültség? (az MSZ HD 60364-4-41 szabvány ezt nem tárgyalja!)",
-            "a": ["12 V",
-                  "25 V",
-                  "42 V",
-                  "48 V"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "2.86. Egy új ipari létesítmény villamos berendezéseinek első ellenőrzését mikor kell elvégezni?",
-            "a": ["a szerelési munkák elvégzése során",
-                  "a műszaki átadási eljárás alkalmával",
-                  "az üzemszerű használatbavétel előtt",
-                  "az átadástól számított 3 éves időszakon belül"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "2.88. Hordozható kivitelű törpefeszültségű biztonsági vagy villamos szigetelő transzformátort szabad-e kazánba, illetve fémtartályba bevinni?",
-            "a": ["megengedett, mert a hordozható transzformátor legalább II. Év. osztályú készülék",
-                  "szabad, ha a transzformátor testét a kazán, illetve a fémtartály testével külön vezetővel kötik össze",
-                  "tilos"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "2.89. A következőkben felsorolt védelmi módok közül melyek alkalmazhatók olyan kéziszerszámoknál, amelyeket MSZ HD 60364-7-706:2007 szabvány szerinti vezető anyagú szűk helyeken használnak? (706.410.3.10. szakasz!)",
-            "a": ["nullázás külön kikötés nélkül",
-                  "TN- vagy TT-rendszer áram-védőkapcsolással",
-                  "SELV-törpefeszültség és villamos elválasztás (egy szekunder tekercsre csak egy készülék csatlakozhat)",
-                  "védőföldelés"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "2,90. Szükséges-e védővezető kiépítése a helyiség oldalfalára szerelt lámpatesthez?  ",
-            "a": ["minden esetben szükséges",
-                  "nem szükséges, ha a lámpatest II. Év. osztályú",
-                  "nem szükséges, ha a fényforrás behelyezett állapotában megérinthető fém szerkezetet nem tartalmaz (pl. porcelán vagy műanyag fali foglalat)",
-                  "szükséges, ha egy fényforrásnál több izzólámpa befogadására alkalmas (pl. több izzólámpás falikar)"],
-            "numOfQs": 4,"gA": 1
-        },
-        {
-            "q": "3.01. Melyik érvényes szabvány vonatkozik az 1000 V-nál nagyobb feszültségű, nem közvetlenül földelt rendszerű hálózatról táplált új erősáramú berendezés érintésvédelmének létesítésére?",
-            "a": ["MSZ 172-4",
-                  "MSZ EN 50522",
-                  "MSZ EN 61936-1",
-                  "MSZ EN 62271-200"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "3.02. Milyen hálózati rendszert nevezünk kompenzáltnak?",
-            "a": ["amelynek csillagpontja ohmos ellenálláson át földelt",
-                  "amelynek a csillagpontja nincs földelve",
-                  "amelynek csillagpontja Petersen tekercsen keresztül földelt"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.03. Melyik védelmi módot alkalmazzák általánosan a 6 kV-os beren de zé sek nél ?",
-            "a": ["nullázás",
-                  "elkerítés",
-                  "védőföldelés",
-                  "villamos elválasztás"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "3.04. Nagyfeszültségű (1 … 35 kV-os) berendezéseknél mekkora a megengedett érintési- és lépésfeszültség értéke, ha a földzárlatot a védelem 8 s alatt szünteti meg? (MSZ 172-2)",
-            "a": ["50 V",
-                  "65 V",
-                  "125 V",
-                  "250 V"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "3.05. Mitől függ az 1 … 35 kV-os villamos szerkezeteknél a megengedett legnagyobb érintési- és lépésfeszültség értéke?",
-            "a": ["a névleges feszültségtől",
-                  "a földzárlat fennállásának idejétől",
-                  "a földzárlati áram nagyságától",
-                  "az alkalmazott védőföldeléstől"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "3.07. Egy 10 kV-os fogyasztói berendezés fémtestén kettős földzárlat esetén 1000 V érintési feszültség léphet fel 0,1 s védelmi kikapcsolásig. Milyen intézkedést tenne?",
-            "a": ["érintési feszültség korlátozása kisebb ellenállású védőföldelés telepítésével",
-                  "kiegészítő érintésvédelmi mód alkalmazása szükséges",
-                  "többletintézkedésre nincs szükség, az áramütés elleni védelem megfelelő"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.08. Hogyan ellenőrizné egy nagyfeszültségű motor áramütésvédelmét a szemrevételezésen kívül?",
-            "a": ["szigetelési vizsgálattal",
-                  "hurokellenállás-méréssel",
-                  "földelési ellenállásméréssel"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.09. Ipartelepi 3000 V-s motor áramütés elleni védelmére szükséges-e külön védőföldelés létesítése?",
-            "a": ["igen, más célú földelésektől 20 m-nél távolabb",
-                  "igen, távolsági követelmények nélkül",
-                  "igen, de minden más földelővel összekötendő",
-                  "nem szükséges, ha a kisfeszültségű érintésvédelem védővezetője méretezése és kivitele megfelelő erre a célra"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "3.10. Milyen időközönként szükséges az MSZ 172-2 szabvány alkalmazási körébe tartozó nagyfeszültségű berendezéseknél a földelési ellenállások méréses ellenőrzése?",
-            "a": ["1 év",
-                  "2 év",
-                  "3 év",
-                  "6 év"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "3.11. Mi az alapvető védelmi mód a 120…400 kV-os közvetlenül földelt hálózatok távvezetéki oszlopainál?",
-            "a": ["a villamos szerkezet elszigetelése",
-                  "potenciálbefolyásolás",
-                  "védőföldelés",
-                  "az előzőek bármelyike"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "3.12. Milyen csillagpont kezelésű, nagyfeszültségű berendezések áramütés elleni védelmével foglalkozik az MSZ 172-3 szabvány?",
-            "a": ["szigetelt rendszerű",
-                  "kompenzált",
-                  "közvetlenül földelt rendszerű"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.13. Nagyfeszültségű tápvezeték vasbeton oszlopa gyárudvaron van. Szerkezeti vasalásának földelése szükséges-e?",
-            "a": ["ez a hálózat üzemi földelési rendszerétől függ",
-                  "csak akkor szükséges , ha az udvar nagy forgalmú helynek minősül",
-                  "igen, minden esetben"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.14. Hogyan alakítaná ki forgalmas helyen a környezet elszigetelése kiegészítővédelmi megoldást egy 120 kV-os szabadvezetéki oszlopnál?",
-            "a": ["gumitalpú bakancs előírásával",
-                  "figyelmeztető táblával",
-                  "a talaj aszfaltburkolásával",
-                  "kerítés alkalmazásával"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "3.15. Telephely hosszú fémkerítése 220 kV-os távvezeték közelében van. Melyik szabvány szerint intézkedne a kerítés áramütés elleni védelméről?",
-            "a": ["MSZ 172-3",
-                  "MSZ 172-1",
-                  "MSZ 1610",
-                  "MSZ 151"],
-            "numOfQs": 4,"gA": 1
-        },
-        {
-            "q": "3.16. Mi a neve az előírt rendszer szerint (négyzethálósan) elhelyezett, talajszint alatt összekötött, rúd- és szalagföldelőkből kialakított földelő rendszernek?",
-            "a": ["földelő hálózat",
-                  "földelőháló",
-                  "szalagföldelő"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "3.17. Fokozott biztonsággal épített nagyfeszültségű távvezeték fémkerítést keresztez.  Mely esetben válhat szükségessé a kerítés földelése?",
-            "a": ["minden esetben",
-                  "120 kV-os vagy nagyobb feszültség esetében",
-                  "nincs olyan előírás, amely erre kötelezne"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "3.18. Milyen időközönként szükséges a 120 kV-os kapcsolóállomás földelési ellenállását mérni? (MSZ 172-3:1973 szabvány 6.231. szakasza)",
-            "a": ["12 évenként",
-                  "6 évenként",
-                  "4 évenként",
-                  "3 évenként"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "3.20. Melyik szabvány szerint kell megoldani a kisülőcsöves reklámberendezések (neon reklámok) és a röntgenkészülékek érintésvédelmét?",
-            "a": ["MSZ 1585",
-                  "MSZ 4851-4",
-                  "MSZ 172-4"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.21. Milyen szerepe van a nagyfeszültségű nullázásos áramütés elleni védelemnek az 1000 V-on felüli kis zárlati áramú berendezéseknél?",
-            "a": ["feszültségáthatolás veszélyének kiküszöbölése",
-                  "a veszélyes érintési feszültség létrejöttének megakadályozása",
-                  "testzárlat esetén a biztosító kiolvasztása"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "3.22. Alkalmazható-e védőföldelés (TT-rendszer) önálló védelemként a nagyfeszültségű, kis zárlati áramú berendezéseknél?",
-            "a": ["minden további nélkül",
-                  "csak ha a lekapcsolási feltételek meghatározottak",
-                  " csak üzemi földelés nélküli berendezéseknél alkalmazható"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.23. Az 1000 V-on felüli, kis zárlati áramú berendezéseknél a nagyfeszültségű oldal védelmére alkalmazható-e kettős-, vagy megerősített szigetelés önálló áramütés elleni védelemként?",
-            "a": ["nem alkalmazható",
-                  "alkalmazható, az MSZ HD 60364-4-41 szabvány többletkövetelményeinek teljesítésével",
-                  "minden megszorítás nélkül alkalmazható"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "3.24. Milyen legyen a nagyfeszültségű, kis zárlati áramú berendezés védővezetőjének vezetőképessége?",
-            "a": ["vezetőképessége legalább olyan legyen, mint az üzemi vezetőké",
-                  "legalább a fele legyen az üzemi vezetők vezetőképességének",
-                  "ellenállása egyezzen meg az üzemi vezetőkével"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "3.25. Milyen potenciálra kerül egy 5000 V névleges feszültségű testzárlatos kis zárlati áramú villamos szerkezet fémteste, ha védővezetőjének ellenállása 0,5 Ω; a testzár latiáram 0,8 A? (MSZ 172-4)",
-            "a": ["5000 V",
-                  "50 V",
-                  "4 V",
-                  "0,4 V"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "3.26. Egy szabadtéri kisülőcsöves reklámberendezés (neonberendezés) transzformátonak burkolatát és a kisülőcsövek fémtartóit az MSZ 172-4 szabvány előírásai szerint nullázták. Szükséges-e a transzformátor testének kisfeszültségü oldali hibavédelméről gondoskodni?",
-            "a": ["megengedett",
-                  "tilos",
-                  "szükséges"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.27. Nagyfeszültségű, kis zárlati áramú berendezés védővezetőjének mért értéke 0,4 Ω. Az MSZ 172-4:1978 szabvány szerint megfelelő-e?",
-            "a": ["igen",
-                  "nem"],
-            "numOfQs": 2,"gA": 1
-        },
-        {
-            "q": "3.28. TT-rendszerű kisfeszültségű hálózatról táplált röntgentranszformátor nagyfeszültségű oldalánalkalmazható-e a kis zárlati áramú nullázás? (MSZ 172-4:1978 szabvány)",
-            "a": ["igen",
-                  "csak az áramszolgáltató engedélyével",
-                  "nem"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "3.29. Helyhez kötött nagyfeszültségű, kis zárlati áramú berendezés nagyfeszültségű oldalának üzemi földeléséről kell-e gondoskodni?",
-            "a": ["nem",
-                  "csak akkor, ha ezen az oldalon védőföldelést alkalmaznak",
-                  "igen"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "3.30. Milyen időközönként kell ellenőrizni az 1000 V-nál nagyobb feszültségű, kis zárlati áramú berendezések áramütés elleni védelmét? (MSZ 172-4)",
-            "a": ["a kisfeszültségű berendezésekre előírt gyakorisággal",
-                  "a nagyfeszültségű berendezésekre előírt gyakorisággal",
-                  "a kéziszerszámokra előírt gyakorisággal"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.01. A következő szabványsorozatok közül melyik tartalmaz követelményt az áramütés elleni védelem mérési módszereire vonatkozóan?",
-            "a": ["az MSZ EN 60079 sorozat",
-                  "az MSZ EN 62305 sorozat",
-                  "az MSZ 4851 sorozat",
-                  "az MSZ 1600 sorozat"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "4.02. Melyik szabvány foglalkozik a védővezető folytonosságának vizsgálati módszereivel?",
-            "a": ["MSZ 4852",
-                  "MSZ 1585",
-                  "MSZ 4851-1",
-                  "MSZ 2364-200"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "4.03. A védővezető folytonosságának vizsgálatát, 230 V fázisfeszültség esetén, üzemi feszültséggel mekkora áramerősség alkalmazásával kell vizsgálni?",
-            "a": ["20 … 60 mA",
-                  "100 … 1000 mA",
-                  "1…5 A"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.04. A védővezető folytonosságának vizsgálatát a földhöz képest legfeljebb mekkora névleges feszültséggel szabad próbalámpás vizsgálattal végezni?",
-            "a": ["400 V földeletlen rendszer",
-                  "400 V közvetlenül földelt rendszer",
-                  "250 V közvetlenül földelt rendszer"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.05. Terheléses feszültség-mérésnél hány mérést kell végezni a védővezető folytonosságának megállapítása céljából?",
-            "a": ["egy mérést a terhelő-ellenállással",
-                  "egy mérést a terhelő-ellenállás nélkül, és egyet a terhelő ellenállással",
-                  "két mérést, mindkettőt a próbagomb lenyomásával"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.08. A védővezetős védelmi módok vizsgálatánál mikor kell a fázisvezető és a védővezető esetleges felcserélését feszültségvizsgálattal ellenőrizni?",
-            "a": ["minden szerelői ellenőrzés során",
-                  "csak akkor, ha a vezetékek színjelölése nem következetes",
-                  "szerelői ellenőrzésnél nem szükséges"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.09. Melyik szabvány tárgyalja a földelési ellenállás-mérések elvégzésének részletes szabályait?",
-            "a": ["MSZ 4851-1",
-                  "MSZ 4851-2",
-                  "MSZ 4851-3"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.10. Közvetlenül földelt, kisfeszültségű hálózatokon a védőföldelések földelési ellenállását milyen módszerrel szabad mérnie?",
-            "a": ["csak erősáramú",
-                  "csak gyengeáramú",
-                  "lehetőleg erősáramú",
-                  "csak kompenzációs"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "4.11. Mire használják a segédföldelést (szondát)?",
-            "a": ["a hibaáramok vezetésére, így erősáramú berendezés PEN vezetőjének potenciál rögzítésére",
-                  "egy távoli földponthoz képest fellépő potenciál érzékelésére, megállapítására (pl. méréskor)",
-                  "csak műszeres méréshez, a terhelőáram visszavezetésére"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.12. Legalább mekkora mérőáram-erősség szükséges az MSZ HD 60364-4-41 szabvány tárgykörébe tartozó berendezés erősáramú földelési ellenállás méréséhez?",
-            "a": ["250 mA",
-                  "1 A",
-                  "5 A"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.13. Legfeljebb mekkora lehet az áramerősség a gyengeáramú földelési ellenállás-mérési módszernél?",
-            "a": ["100 mA",
-                  "250 mA",
-                  "1 A"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.14. Kisfeszültségű berendezés földelési ellenállás-mérésénél mekkora lehet a szondák legkisebb távolsága más földelőtől?",
-            "a": ["10 m",
-                  "20 m",
-                  "25 m"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.15. Mekkora legyen legalább a földelési ellenállás-méréshez használt műszerek osztály pontossága?",
-            "a": ["1,0",
-                  "1,5",
-                  "2,5"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.16. Földelési ellenállás mérésekor mekkora lehet a teljes mérési elrendezés hibája?",
-            "a": ["10 %",
-                  "5 %",
-                  "30 %",
-                  "1 %"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "4.17. A fázisfeszültséggel történő földelési ellenállás-mérésnél a következők közül melyik az a módszer, amellyel kiküszöbölhető az idegen áramok zavaró hatása?",
-            "a": ["a mérés megismétlése a másik két fázis segítségével",
-                  "egy terheletlen és egy terheléses feszültségmérés",
-                  "nagyobb keresztmetszetű mérővezetékek alkalmazása"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.18. A gyengeáramú földelésmérési módszer alkalmazása során két segédföldelőt kell telepíteni. Mi ezek feladata?",
-            "a": ["a nagyfelületű, telepített földelésen áthajtott mérőáramnak a földből való meg bízható  visszavezetéséhez egy segédföldelő rúd nem elegendő felületű, ezért legalább  kettő szükséges",
-                  "a fellépő potenciálemelkedést az ellenföldelő és a segédszonda között mérjük, majd a mért földelő ellenállását ebből számítjuk ki",
-                  "az ellenföldelőn a terhelőáramot vezetjük vissza, a segédszondához képest mérjük a földelésen fellépő potenciálemelkedést"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.19. Milyen esetben szabad elhanyagolni erősáramú földelésmérésnél a mérendő földelő és a segédszonda közötti, a mérőáram bekapcsolása nélkül mérhető feszültséget?",
-            "a": ["minden esetben, mert a mérést nem befolyásolja",
-                  "csak akkor, ha a terhelés során mérhető feszültség 10%-ánál kisebb",
-                  "minden esetben figyelembe kell venni"],
-            "numOfQs": 3,"gA": 2
-        },
-        {
-            "q": "4.20. Mit kell tenni, ha a földelési ellenállásmérésnél a zavaró feszültség 5%-a a mért feszültségnek?",
-            "a": ["a mérést meg kell ismételni",
-                  "a mérés értékelésénél a zavaró feszültséget figyelembe kell venni",
-                  "a zavaró feszültség figyelmen kívül hagyható"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.21. Mi a kettős mérővezetékek szerepe?",
-            "a": ["kétszeresen biztonságosabb mérés",
-                  "felére csökkentik a mérővezetékek ellenállását",
-                  "a mérés eredményébe nem kerül bele a mérővezetékek ellenállása"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.22. Közvetlenül földelt, kisfeszültségű hálózaton erősáramú módszerrel földelés méréseket végeznek. A felülvizsgálatot végzőknek ügyelni kell arra is, hogy a mérendő földelő és a mérő szonda között egy meghatározott értéknél nagyobb feszültség ne lépjen fel. Milyen értékű ez a feszültség?",
-            "a": ["42 V",
-                  "50 V",
-                  "125 V",
-                  "230 V"],
-            "numOfQs": 4,"gA": 2
-        },
-        {
-            "q": "4.23. Kisfeszültségű, szigetelt csillagpontú hálózatról táplált erőátviteli villamos berendezés védőföldelésének mért ellenállásértéke 5 Ω. Az egysarkú kapacitív zárlati áram maximális értéke 10 A. Mekkora értékű a mérési eredményekből számított hibafeszültség?",
-            "a": ["0,5 V",
-                  "2 V",
-                  "3,25 V",
-                  "50 V"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "4.24. Földelési hurokellenállás-mérésnél mekkora a védőföldelés ellenállásának tekinthető értéke?",
-            "a": ["a hurokellenállás mért értéke",
-                  "a hurokellenállás kétharmada",
-                  "a hurokellenállás fele"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.25. Melyik szabvány foglalkozik a nullázás szabványossági felülvizsgálatánál szükséges hurokellenállás-mérések módszereivel?",
-            "a": ["MSZ 4851-3",
-                  "MSZ 4851-5",
-                  "MSZ 10900"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.26. Mit jelez a hurokellenállás mérésnél szükséges folytonossági vizsgálat nem megfelelő eredménye?",
-            "a": ["a túláramvédelem névleges értéke a megengedettnél lényegesen nagyobb",
-                  "a műszer bekötése helytelen",
-                  "a védővezető hiányzik, vagy nem folytonos",
-                  "a hurokellenállás az előírt értéknél kisebb"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "4.27. Lehet-e hurokellenállást mérni üzemelő, feszültség alatti berendezésen?",
-            "a": ["igen",
-                  "a balesetveszély miatt tiltot",
-                  "csak akkor, ha külön áramforrást használunk a méréshez"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.29. Hurokellenállás-méréseknél legalább mennyi legyen a műszerek pontossági osztálya?",
-            "a": ["0,5",
-                  "1,0",
-                  "2,5"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.30. Hurokellenállás mérésekor mekkora lehet a teljes mérési elrendezés megengedett legnagyobb hibája?",
-            "a": ["5 %",
-                  "10 %",
-                  "25 %",
-                  "30 %",
-                  "30 %"],
-            "numOfQs": 5,"gA": 4
-        },
-        {
-            "q": "4.31. Egyes hurokellenállás-mérő műszereknél alkalmazott korrekciós tényező milyen jellegű hiba korrigálására szolgál?",
-            "a": ["a névlegestől eltérő fázisfeszültség által okozott hiba",
-                  "a fázisfeszültség ingadozásából eredő hiba",
-                  "a leolvasás bizonytalanságából eredő hiba"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.32. Hurokellenállás-mérésnél legalább mekkora legyen a mérőáram áramerőssége?",
-            "a": ["1 A",
-                  "2,5 A",
-                  "5 A"],
-            "numOfQs": 3,"gA": 1
-        },
-        {
-            "q": "4.33. Egy adott helyen - hurokellenállás-mérésnél - a hálózati feszültségingadozás miatt négy mérést végeztek el. A mérési eredmények között az eltérés 30%-nál nagyobb. Mit kell tenni?",
-            "a": ["mérési eredményként az átlagot kell elfogadni",
-                  "a legnagyobb értéket kell figyelembe venni, legalább három mérés közül",
-                  "további méréseket kell végezni, amíg három mérés 20%-nál nem nagyobb eltérésű, és ezek számtani átlaga a keresett érték"],
-            "numOfQs": 3,"gA": 3
-        },
-        {
-            "q": "4.34. Honnan kell csatlakoztatni a hurokellenállás méréséhez szükséges feszültséget?",
-            "a": ["világítási dugaszoló aljzatból",
-                  "tetszőleges, könnyen hozzáférhető helyről",
-                  "a tápvezeték kiindulási pontjából (elosztóból)",
-                  "mérendő berendezés csatlakozási pontjáról"],
-            "numOfQs": 4,"gA": 4
-        },
-        {
-            "q": "4.35. Hol csatlakoztathatjuk a nullázási hurokellenállást mérő műszerűnket a fázisfeszültségre, ha a vizsgált készülék csatlakozókapcsán erre nincs ésszerű lehetőség?",
-            "a": ["a legközelebbi kisfeszültségű dugaszolóaljzatnál",
-                  "az épületcsatlakozás valamely fázisvezetőjénél",
-                  "a vizsgált készülék áramkörének legközelebb feltárható pontján",
-                  "fentiek közül bármely helyen, mert a fázisfeszültség minden áramkörnél azonos"],
-            "numOfQs": 4,"gA": 3
-        },
-        {
-            "q": "4.36. A hurokellenállás mérés milyen munkának minősül?",
-            "a": ["egyszerű feszültség alatt végzett munka",
-                  "feszültség közelében végzett munka",
-                  "egyszerű munka"],
-            "numOfQs": 3,"gA": 1
-        }
-    ]
+  "data": [
+    {
+      "q": "1.01. Mit jelent az alapvédelem?",
+      "a": [
+        "korszerű beton-alapvédelem kialakítása, illetve alkalmazása",
+        "az aktív részek véletlen vagy szándékolt érintését akadályozó intézkedések",
+        "alapvető védelmi módszer alkalmazása"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "1.02. Kik végezhetik el az időszakos villamos biztonsági felülvizsgálatot?",
+      "a": [
+        "csak magánszemély, illetve vállalkozó",
+        " az üzemeltető, vagy egy általa megbízott szolgáltató",
+        "csak az erre jogosított szolgáltató vállalat",
+        "a fentiek bármelyike, ha rendelkezik az 34/2021. (VII.26.) ITM rendeletben előírt szakképesítéssel"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "1.03. A villamos biztonsági felülvizsgáló szakképesítés megszerzését igazoló bizonyítvány érvényességi feltétele:",
+      "a": [
+        "érvényes a kiállításától számított 5 évig",
+        "érvényes a kiállításától számított 10 évig",
+        "5 évenként kötelező továbbképzésen való részvétel és ehhez tartozó megfelelő vizsgaeredmény"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.04. Melyik jogszabály írja elő a villamos biztonsági felülvizsgálat szerinti első ellenőrzés és ismétlődő felülvizsgálat kötelezettségét?",
+      "a": [
+        "40/2017.(XII.4.) NGM rendelet (VMBSZ)",
+        "24/2021. (VII.26.) ITM rendelet",
+        "54/2014.(XII.5.) BM rendelet (OTSZ)"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "1.06. Elsősorban kinek a feladata és felelőssége az üzemelő villamos berendezés időszakos ellenőrzéseiről gondoskodni?",
+      "a": [
+        "a berendezést üzemeltető művezetőé",
+        "a szerződött szolgáltatóé",
+        "az üzemeltető felelős vezetőjének feladata",
+        "valamennyi villamos szakemberé"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "1.07. Végezheti-e az általa szerelt berendezésnél a munka befejezését követő általános szemrevételezést (korábban: szerelői ellenőrzést) a VBF vizsgabizonyítvánnyal nem rendelkező kisiparos?",
+      "a": [
+        "ez a vizsgálat csak bizonyítvánnyal végezhető",
+        "végezheti, ha szerződésben elvállalta",
+        "a kivitelezői szolgáltatás részeként szükséges elvégeznie"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.08. Szerelői ellenőrzést, illetve szemrevételezést milyen képzettségű személy végezheti?",
+      "a": [
+        "csak közép vagy felsőfokú végzettségű, ellenőrzésre jogosított személy",
+        "bárki elvégezheti, külön jogosítás nélkül is",
+        "legalább erősáramú villamos szakképzettségű személy"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.09. Munkahelyeken milyen időközönként szükséges a kéziszerszámok és a hordozható biztonsági transzformátorok szerelői ellenőrzése a 10/2016. (IV. 5.) NGM r. szerint?",
+      "a": [
+        "havonta",
+        "évenként",
+        "háromévenként"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "1.12. Mit nevezünk önellenőrzésnek?",
+      "a": [
+        "a) amikor az ellenőrzés elvégzéséről az üzemeltető gondoskodik",
+        "b) amikor az üzemeltető felettes szerve végez ellenőrzést",
+        "az a) és b) szerinti ellenőrzések mindegyikét"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "1.13. Milyen vizsgálatokat tartalmaz az első ellenőrzés?",
+      "a": [
+        "csak szemrevételezéseket",
+        "csak a tervek egyeztetését a kivitelezéssel, azonosítást",
+        "az a) és b) pontokon kívül minden esetben villamos méréseket is, mindenesetben az áramütés elleni védelem méréses vizsgálatát és szigetelés ellenállásmérést is"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.14. Mi írja elő a nagyfeszültségű berendezések teljes körű villamos biztonsági felülvizsgálatát?",
+      "a": [
+        "10/2016. NGM r.",
+        "módosított VMBSZ",
+        "OTSZ 5.2"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "1.15. Milyen időközönként kell elvégezni a nagyfeszültségű villamos berendezések villamos biztonsági felülvizsgálatát?",
+      "a": [
+        "3 évenként",
+        "4 évenként",
+        "6 évenként"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "1.16. Milyen időközönként kell ellenőrizni a lakóépületek villamos berendezéseit az áramütés elleni védelem szempontjából, ha nem minősül munkahelynek?",
+      "a": [
+        "3 évenként",
+        "4 évenként",
+        "6 évenként"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.17. Mikor hagyható el a lakóépületekben lévő lakások villamos biztonsági felülvizsgálata?",
+      "a": [
+        "a lakások áramütés elleni védelmét nem kell vizsgálni",
+        "ha a túláramvédelem ≤32 A fázisonként és 30 mA áram-védőkapcsolóval védett a lakás",
+        "ha a tulajdonos nem engedélyezi a vizsgálatot"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "1.18. A felhasználó (pl. lakó vagy kommunális épületek, nem munkahelyek) berendezéseiben felszerelt áram-védőkapcsolók működő képességét milyen időközönként kell ellenőrizni?",
+      "a": [
+        "havonta és jegyzőkönyvezni is kell",
+        "évente, dokumentálás nélkül",
+        "félévente, nem kell bizonylatozni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "1.19. A munkavédelemről szóló 1993 évi XCIII. törvény előírja a munkavédelmi kockázat elemzést. Hol kötelező ennek készítése?",
+      "a": [
+        "minden munkahelyen",
+        "csak 1000-nél több munkavállalót foglalkoztató nagyobb ipari üzemek esetében",
+        "csak a kimondottan veszélyes üzemeknek kötelező az elkészítése, mint pl. bányák, nagyobb vegyipari üzemek, atomerőmű"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "1.20. A munkavédelemről szóló 1993 évi XCIII. törvény előírja a munkavédelmi kockázat elemzést. Van-e ennek jelentősége a villamos biztonság szempontjából?",
+      "a": [
+        "nincs, a kockázatelemzés teljesen más témakörökkel foglalkozik",
+        "villamos szempontból is mondhat véleményt, de nem kötelező figyelembe venni",
+        "az elemzés feltárhatja a durva környezeti igénybevételnek kitett villamos berendezéseket, ezek alapján javasolhatja a felülvizsgálati időköz csökkentését"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.22. A szabvány alkalmazása önkéntes. Mit kell tenni a tervezőnek, ha nem szabványos megoldás mellett dönt?",
+      "a": [
+        "egyeztetnie kell a beruházóval és a kivitelezővel",
+        "eltérési engedélyt kér a Szabványügyi Hivataltól",
+        "egyenértékűségi nyilatkozatot kell kiállítania"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.23. Mit kell tartalmaznia a tervező egyenértékűségi nyilatkozatának?",
+      "a": [
+        "kinyilvánítja, hogy a terv építészeti, gépészeti és villamos szempontból egyenértékű",
+        "kinyilvánítja, hogy a tervben alkalmazott műszaki megoldások biztonsági és műszaki szempontból a szabvány követelményeivel egyenértékűek",
+        "az MSZT kinyilvánított eltérési engedélyét"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "1.25. A FAM-tevékenységet melyik jogszabály szabályozza?",
+      "a": [
+        "a 40/2017.(XII.4.) NGM rendelet",
+        "a 8/2001. (III. 30.) GM rendelet",
+        "a 72/2003. (X.29.) GKM rendelet"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.26. Az erősáramú berendezések időszakos villamos biztonsági felülvizsgálatához kell-e tűzvédelmi szakvizsga?",
+      "a": [
+        "csak érvényes tűzvédelmi szakvizsgával rendelkező személy végezheti!",
+        "nem kell",
+        "eseti egyeztetések szükségesek"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "1.28. A potenciálisan robbanásveszélyes közegben működő villamos berendezések és védelmi rendszerek villamos biztonsági felülvizsgálatát ki végezheti?",
+      "a": [
+        "a) villamos biztonsági felülvizsgáló szakképesítés",
+        "b) tűzvédelmi szakvizsga",
+        "az a)+b) válasz kiegészítve „robbanásbiztos berendezés kezelője” szakképesítéssel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "1.29. Az összekötő berendezésre külön vagy üzemeltető szervezetenként közös dokumentációt kell készíteni. Mi ez?",
+      "a": [
+        " tűzvédelmi szabályzat",
+        "felhasználói belső szabályzat",
+        "üzemviteli szabályzat"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.01. Mi a hibavédelem (korábban:az érintésvédelem) célja?",
+      "a": [
+        "az embert védi az üzemszerűen feszültség alatt álló berendezések megérintésétől",
+        "az üzemszerűen feszültség alatt nem álló, de meghibásodás során feszültség alá kerülő fémrészek veszélyességét csökkenti",
+        "az üzemszerűen feszültség alatt nem álló, de hiba következtében feszültség alá kerülő fémrészek megérintését teszi lehetetlené"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.02. Mit nevezünk testzárlatnak?",
+      "a": [
+        "az üzemszerűen feszültség alatt álló fémrészek érin tkezé se az emberi testtel",
+        "az aktív rész és test fémes érintkezése",
+        " az üzemszerűen feszültség alatt nem álló fémrészek érin tkezé se a földdel"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.03. Mi a „test” fogalma?",
+      "a": [
+        "üzemszerűen feszültség alatt álló, de meghibásodás során veszélyessé váló fémrész",
+        "a villamos szerkezet olyan megérinthető vezetőképes része, amely üzemszerűen nem aktív, de amely az alapszigetelés meghibásodásakor aktívvá válhat",
+        " a villamos berendezéshez nem tartozó fémszerkezet, amely földpotenciált is közvetíthet (pl. vízcső)"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.04. Mi az „idegen fémszerkezet”?",
+      "a": [
+        "idegen tulajdont képező fémszerkezetek, amelyek villamos készülékekkel egy idejűleg érinthetőek",
+        "más villamos készülék fémteste, amely a vizsgált készülékkel egyidejűleg érint hető",
+        "a villamos berendezéshez nem tartozó fémszerkezet, amely földpotenciált is közvetíthet (pl. vízcső)"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.05. Mi a tényleges érintési feszültség?",
+      "a": [
+        "két, meghibásodás folytán feszültség alá kerülő test között fellépő feszültség",
+        "zárlatos test és a földpotenciálú hely között mérhető feszültség",
+        "személy vagy haszonállat által egyidejűleg megérintett vezetőképes részek közötti feszültség",
+        "a talaj felületén meghatározott távolságban lévő két pont közötti feszültség"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "2.06. Mit értünk a hibafeszültség alatt?",
+      "a": [
+        "a hiba következtében fellépő feszültségnek azt a részét, amelyet egy ember áthidalhat",
+        "a feszültség alá került test és a földpotenciálú hely között fellépő feszültséget",
+        "a mérhető legnagyobb fázisfeszültséget, hiba esetén"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.07. Jelölje meg, hogy az áramütés elleni védelem létesítési előírásait melyik érvényes szabványsorozat tartalmazza!",
+      "a": [
+        "MSZ HD 60364 szabványsorozat",
+        "MSZ 2064 szabványsorozat",
+        "MSZ 1585 szabványsorozat",
+        "MSZ 4851 szabványsorozat"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "2.08. Mi az „egyenpotenciálú összekötés”?",
+      "a": [
+        "különálló áramütésvédelmi célú földelőknek a talajszint felett vagy alatt történő fémes összekötése",
+        "a testek és kiterjedt idegen vezetőképes részek villamos összekötése azonos potenciálra hozására",
+        "a védővezetőt igénylő áramütésvédelmeknek (TN-, TT-rendszer, védőkapcsolások) közös, összefoglaló elnevezése",
+        "a védett berendezés környezetének a földtől való elszigetelése (szigete lő anyag, szigetelőzsámoly stb.) alkalmazása"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.09. Mit értünk „helyi egyenpotenciálú összekötésen”? (MSZ 172-1:1986 sz. 3.6. szakasza)",
+      "a": [
+        "a nulla- és nullázó vezetékek hálózatát",
+        "valamennyi, egyidejűleg érinthető villamosan vezető rész (test és idegen fémszer kezetek) összekötését",
+        "olyan védővezetők hálózatát, melyeket az épületi becsatlakozásnál egy helyen össze kötöttek az épület csővezetékeivel és fémszerkezetével",
+        "a kapcsolóterek celláin elhelyezett, a véletlen érintés elleni védelem céljára alkal mazott védőhálót"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.11. Mit értünk a „villamos szerkezetek” fogalma alatt?",
+      "a": [
+        "magában foglalja az összes villamos gyártmányt, az ezekbe épített alkatrészeikkel együtt",
+        "a vezetékek kivételével minden, a villamos energia termelésére, szállítására, elosztására szolgáló komplett berendezést jelenti",
+        "minden olyan eszköz, amelyet a villamos energia fejlesztésére, átalakítására, szállítására, elosztására vagy felhasználására alkalmaznak (pl. forgógépek, transzformátorok, kapcsoló- és vezérlőkészülékek, mérőkészülékek, védelmi eszközök, vezetékrendszerek szerkezetei, fogyasztókészülékek)"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.12. Hogyan működnek a védővezető nélküli hibavédelmi módok?",
+      "a": [
+        "hiba (testzárlat) esetén nem avat koz nak be aktívan, hanem csak figyelmeztető jelzést adnak",
+        "a villamos berendezések hibás részeit lekap csolják a táphálózatról",
+        "megakadályozzák, hogy a meghi bá so dott készülékeken a megengedettnél nagyobb érintési feszültség alakuljon ki, illetve legyen érinthető"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.13. Mitől véd a védőföldelés közvetlenül földelt kisfeszültségű rendszerben?",
+      "a": [
+        "nem enged nagyobb érintési feszültséget kialakulni, mint 50V~, illetve 120V=",
+        "nem akadályozza meg mindig az 50V~, ill. 120V= -nál nagyobb érintési feszültség kialakulását, de ha az mégis fellép, kikapcsol a védelem",
+        "minden esetben megvéd az áramütéstől, abban az esetben is, ha nem olvadna ki a biztosító"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.14. Szigetelt csillagpontú 3x400/230V-os hálózat milyen feszültségű?",
+      "a": [
+        "törpefeszültségű",
+        "kisfeszültségű",
+        "nagyfeszültségű"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.15. Közvetlenül földelt csillagpontú 3x400/230 V-os hálózat milyen feszültségű?",
+      "a": [
+        "törpefeszültségű",
+        "kisfeszültségű",
+        "nagyfeszültségű"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.16. Mi a különbség az üzemi földelés és a védőföldelés között?",
+      "a": [
+        "az üzemi földelést csak üzemben, a védőföldelést lakásokban is használható készülékekhez létesítik ",
+        "az üzemi földelés az üzemi főelosztó fémtestének földelése, a védőföldelés a fogyasztókészülékek földelése",
+        "az üzemi földelés az üzemszerűen feszültség alatt álló vezetőrendszer egy pontját (üzemviteli céllal) köti össze a földdel, a védőföldelés esetében a villamos szerkezet teste a tápláló rendszerrel fémesen össze nem kötött földeléshez van kötve"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.17. Háromvezetős (2x110 V-os), egyenáramú hálózat középvezetőjét közvetlenül földelték. Milyen földelés ez?",
+      "a": [
+        "védőföldelés",
+        "üzemi földelés",
+        "segédföldelés"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.18. A következő szabványok közül melyik az üzemeltetési szabvány?",
+      "a": [
+        "MSZ 172-4",
+        "MSZ 1585",
+        "MSZ 1600",
+        "MSZ HD 60364"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.19. Milyen villamos berendezések üzemére vonatkozik az MSZ 1585 szabvány?",
+      "a": [
+        "valamennyi villamos berendezés üzemére",
+        "valamennyi erősáramú villamos berendezés üzemére",
+        "valamennyi 1000 V-nál nem nagyobb feszültségű erősáramú berendezés üze mé re"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.21. Melyik szabvány szerint kell létesíteni kisfeszültségű, egyenáramú berendezések áramütés elleni védelmét?",
+      "a": [
+        "MSZ 2364-200",
+        "MSZ 13207",
+        "MSZ 4851-5",
+        "MSZ HD 60364-4-41"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "2.22. Közvetlenül földelt kisfeszültségű hálózatnál PEN vezetőt alkalmaznak. Milyen rendszerű a hálózat?",
+      "a": [
+        "TT",
+        "IT",
+        "TN",
+        "IN"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "2.23. Közvetlenül földelt, védőföldeléses hálózat milyen rendszerű?",
+      "a": [
+        "TT",
+        "IT",
+        "TN",
+        "IN"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "2.24. Milyen rendszerű az a földeletlen hálózat, ahol a hibavédelem védőföldelés?",
+      "a": [
+        "TT",
+        "IT",
+        "TN",
+        "IN"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.25. Az MSZ HD 60364-1 szabvány hogyan jelöli azt a rendszert, amikor a nulla és a védővezető a rendszer egy részében közös?",
+      "a": [
+        "TN-S",
+        "TN-C-S",
+        "TN-C",
+        "TN-S-C"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.26. Az MSZ HD 60364 szabványsorozat szerint létesített áramütés ellni védelmen túlmenő egyéb védelem, vagy fedővédelem szükséges-e?",
+      "a": [
+        "igen",
+        "nem",
+        "tartalékvédelem szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.30. Melyek nem tartoznak a táplálás önműködő lekapcsolása védelmi módok közé?",
+      "a": [
+        "csak a villamos szerkezet és környezet elszigetelése",
+        "csak a törpefeszültség és villamos elválasztás",
+        "csak a földeletlen egyenpotenciálra hozás és korlátozott zárlati teljesítményű áramkörök",
+        "a felsorolt áramütés elleni védelmi módok mindegyike"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "2.31. Mi a TN-rendszer?",
+      "a": [
+        "a hálózat nullavezetőjének sok ponton való leföldelése",
+        "a táphálózat közvetlenül földelt üzemi vezetőjének fémes összekötése a hiba védelemmel ellátott villamos szerkezetek testével",
+        "a nullavezető kék színel való jelölése és az egyfázisú leágazásokban is biztosító nélkül való vezetése",
+        "háromfázisú hálózatnál a nullavezető kivezetése"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.32. Mi a nullázási hurokimpedancia?",
+      "a": [
+        "a rendszer szigetelési ellenállása",
+        "a tápláló transzformátortekercs, a fázisvezető, és a védővezető impedanciáinak összege",
+        "a transzformátor csillagpontjánál és a védővezető végpontjánál lévő földelések ellenállásainak összege",
+        " a hurkolt hálózat nullavezetőjének ellenállása"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.33. Milyen minimális keresztmetszeti határig használható az üzemi áramokat vezető nullavezető (PEN) védővezetőként nullázott hálózaton?",
+      "a": [
+        "2,5 mm2",
+        "10 mm2",
+        "16 mm2",
+        "120 mm2"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.34. Hol szabad összekötni TN-rendszerben az üzemi áramokat vivő nullavezetőt és védővezetőt?",
+      "a": [
+        "csak egy helyen, a védővezető fogyasztó oldali végén",
+        "tetszőleges helyen",
+        "csak egy helyen, a védővezető táplálás oldali végén"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.36. Hol kell egyenpotenciálú védő-összekötő hálózatot kialakítani?",
+      "a": [
+        "csak a kommunális létesítményekben",
+        "ahol a táplálás önműködő lekapcsolásával működő hibavédelem van kialakítva és helyhez kötött villamos szerkezetek testével egyidejűleg érinthető, kiterjedt fémszerkezet is van",
+        "csak ipari környezetben"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.37. Milyen vezetőnek minősül a fő földelőkapocs és a földeltnek tekinthető házi fém hálózatokat (pl. csővezetékek) összekötő vezető?",
+      "a": [
+        "egyenpotenciálú vezető",
+        "védőösszekötő-vezető",
+        "védővezető"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.38. Helyi egyenpotenciálú összekötés hatásosságát kell-e számítással ellenőrizni? (MSZ 172-1:1986 szabvány 3.6. szakasza)",
+      "a": [
+        "minden esetben",
+        "nem kell",
+        "csak abban az esetben, ha az egyszerű megtekintés alapján a hatásosságra vonatkozóan kétség merül fel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.39. A közművek (víz, meleg víz, gáz, központi fűtés) csővezetékei közül melyek használhatók fel védővezetőként, ha a beiktatott mérőműszereket áthidalják?",
+      "a": [
+        "mindegyik",
+        "csak a víz-nyomócső",
+        "a gázcső kivételével mindegyik",
+        "egyik sem"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "2.41. Szabad-e földeléseket egyesíteni?",
+      "a": [
+        "a földeléseket egymástól villamosan és függetlenül kell kialakítani",
+        "minden földelő egyesíthető",
+        "csak azok egyesíthetők, amelyek összekötését a szabvány megengedi"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.42. Milyen színű szigetelt vezetékkel kell létesíteni az új védővezetőt?",
+      "a": [
+        "kék vagy zöld/sárga",
+        "zöld/sárga",
+        "csak vörös vagy zöld/sárga",
+        "fekete vagy zöld/sárga"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.43. Négyvezetékes rendszer nullavezetőjeként (PEN vezeték) milyen fémszerkezet használható fel?",
+      "a": [
+        "PEN-vezető céljára tilos fémszerkezetet felhasználni",
+        "kizárólag fém vízcső használható",
+        "bármilyen egyenértékű keresztmetszetű, folytonos fémszerkezet felhasz nál ható"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "2.46. Földelővezetők hegesztett vagy keményforrasztással készített talajban lévő kötéseinél bitumenes rozsdavédő bevonatot szabad-e alkalmazni?",
+      "a": [
+        "csak a kötéseknél megengedett az alkalmazása",
+        "minden földelőnél tiltott",
+        "csak védőföldelésnél szabad, villámvédelmi földelőnél tilos"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "2.47. Kell-e a földelő felületét korrózió-gátló festéssel ellátni?",
+      "a": [
+        "szükséges",
+        "megengedett",
+        "nem kell, tiltott"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.48. A TN-rendszerű kisfeszültségű hálózatok PEN vezetékeit ún. „alátámasztó” földelésekkel ajánlott ellátni a hálózat mentén. Milyen földelési ellenállása legyen egy ilyen földelőnek?",
+      "a": [
+        "legfeljebb 5Ω",
+        "értéke nincs meghatározva",
+        "legfeljebb 5 Ω, illetve nagy fajlagos ellenállású talaj esetén legfeljebb 30 Ω"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.49. Alkalmazható-e szigetelt csillagpontú hálózatokra kapcsolt 400 V-os berendezéseknél nullázásos érintésvédelem?",
+      "a": [
+        "nem lehet, mert nincs is olyan vezető, illetve földelt pont, ahonnan kivezető lehetne",
+        "csak akkor, ha a nullázott berendezések testét a földtől megbízhatóan (legalább: l MΩ) elszigetelik",
+        "csak akkor alkalmazható, ha az áramszolgáltató nullázási engedélye rendelkezésre áll",
+        " korlátlanul alkalmazható"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "2.50. Válassza ki a hurokellenállás értékelési (méretezési) képletét TN-rendszerben olvadó biztosítóval megoldott túláramvédelem esetén!",
+      "a": [
+        "Zs * Ia ≤ U0",
+        "Zk ≤ (U0 - Ut) / It",
+        "R ≤ R(émeg) / (It * It)"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "2.51. Közvetlenül földelt kisfeszültségű TT-rendszerű hálózatoknál mekkora a védőföldelés legnagyobb megengedett ellenállása ha a kioldószerv olvadóbiztosító?",
+      "a": [
+        "Ra ≤ Ul / Ia",
+        "Rb ≤ Uf / (Ib * á)",
+        "Zs * Ia ≤ U0"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.52. IT-rendszerű, kisfeszültségű hálózatnál melyik képlet alapján kell méretezni a védőföldelést?",
+      "a": [
+        "Rf ≤ U(hmeg) / (Ib * a)",
+        "Rf ≤ Uf / (Ib * a)",
+        "Ra * Id ≤ Ul"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.53. IT-rendszer méretezési képletéből 460Ω szükséges ellenállás érték adódik. Milyen értékű a még elfogadható földelés?",
+      "a": [
+        "460 Ω",
+        "30 Ω",
+        "2 Ω"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "2.55. Földelési ellenállás megengedhető értékének számításánál a „Diazed” rendszerű olvadó biztosító névleges értékének „α”-szorosát kell venni. Miért van ez a szorzó?",
+      "a": [
+        "a számításba nem vehető, előre nem látható hibák korrigálását célozza",
+        "a névleges áramhoz képest az „α”-szoros áram kiolvasztja a biztosító betétet, az előírt, rövid időn belül",
+        "ezzel a szorzóval vesszük figyelembe a villamos motor bekapcsolásánál rövid időre fellépő túláram hatását"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.56. Az olvadó biztosítók áram-idő diagramjai (még ugyanazon típuson belül, és a névleges áramtól függően is) szórást mutatnak (jellegsávok), ezért a célszerű és általánosan, a legtöbbször alkalmazott eljárás:",
+      "a": [
+        "a kiolvadási időt számítással kell meghatározni",
+        "a névleges áramot az α kiolvadási szorzóval szorozva, kapjuk a kiolvadást okozó áramot",
+        "a kiolvadási időt diagramból szerkesztéssel kell meghatározni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.57. A teljesítménykapcsolók (megszakítók) zárlatvédelmének (késleltetés nélküli, gyors védelem) esetén a beállítási értéket tekinthetjük-e kioldó áramerősségnek?",
+      "a": [
+        "igen",
+        "nem",
+        "25A névleges áramerősségig igen"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "2.58. A teljesítménykapcsolók (megszakítók) késleltetett mágneses kioldóinál mi tekinthető a helyhez kötött szerkezetek hibavédelmének méretezésére szolgáló értéknek?",
+      "a": [
+        "a kioldó névleges áramerőssége",
+        "a kioldó névleges áramának „α”-szorosa",
+        "a jelleggörbéből meghatározható, 5 másodperchez tartozó áram érték"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.59. Az MSZ HD 60364-4-41:2018 szabvány alapján földeletlen kisfeszültségű hálózaton kell-e földzárlatjelző berendezést alkalmazni?",
+      "a": [
+        "egysarkú földzárlatok jelzéséről gondoskodni kell, a hibát 8 órán belül meg kell szüntetni",
+        "nem kell földzárlatjelző berendezés, mert hiba esetén a biztosító kiolvad",
+        "ha az első hiba esetén a táplálás nem kapcsol le, akkor az első hibát szigetelés ellenőrző készülékkel vagy hibaáram-ellenőrző eszközzel ki kell jelezni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.60. Milyen értékű lehet az egysarkú földzárlati áram földeletlen rendszerben?",
+      "a": [
+        "amekkorát meghatároznak a zárlati hurok vezetékeinek impedanciái",
+        "amekkorát a fázisfeszültség a földkapacitások impedanciáján létre tud hozni",
+        "amekkora a táptranszformátor/ok/ zárlati teljesítményéből számolható"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.61. Mi szab gyakorlati határt a közvetlenül földelt 3x400/230 V feszültségű hálózatoknál a TT-rendszerű áramütés elleni védelmi mód alkalmazásának?",
+      "a": [
+        "nem szab határt semmi",
+        "a földzárlati vagy testzárlati áram nagysága",
+        "a védendő villamos berendezés teljesítménye",
+        "az előző két válasz együttesen "
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "2.62. Egy TN-rendszerben védővezetővel előírásszerűen bekötött munkagépen testzárlat esetén felléphet-e veszélyes érintési feszültség?",
+      "a": [
+        "nem léphet fel, mert a nullázó vezetőn keresztül fémesen össze van kötve a transzformátor üzemi földelésével",
+        "50 V-nál nagyobb érintési feszültség nem léphet fel",
+        "a biztosító, vagy kismegszakító kioldásáig felléphet"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.63. Válassza ki azt a hibavédelmi módot, amelyik méretezéséhez az előírt gyorsaságú kioldást előidéző (Ia) áram értéke is szükséges!",
+      "a": [
+        "TN- és TT-rendszerek",
+        "földeletlen egyenpotenciálra hozás",
+        "korlátozott zárlati teljesítményű áramkör alkalmazása"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "2.64. „M” vezetékek szabadon szerelt fém védőcsöveit és dobozaikat mikor kell az egyenpotenciálra hozó rendszerbe bekötni?",
+      "a": [
+        "nem szükséges bekötni",
+        " a környezet jellegétől függetlenül csak a nem szigetelő padlójú helyiségekben a kézzel elérhető magasságban szerelt védőcsövek esetében szükséges bekötni",
+        "minden esetben be kell kötni, ha idegen potenciált hozhatnak be"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.65. Mi az áram-védőkapcsoló?",
+      "a": [
+        "önálló védelmi mód (az egyetlen, amely aktív)",
+        "a táplálás önműködő lekapcsolása védelmi mód egyik kikapcsoló szerve",
+        "védővezetős védelmi módoknál az alfa szorzót állítja be",
+        "az áramváltók védelmi kapcsolása"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.66. Mi a különbség a „védőkapcsoló” és a „védőrelé” között?",
+      "a": [
+        "nincs különbség",
+        "a védőkapcsoló önmaga, míg a védőrelé külön kapcsoló működtetésével választja le a védett berendezést",
+        "a védőkapcsoló mechanikai úton működik, védőrelé villamos vezérlésű"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.67. Melyik vezetőket kell az áram-védőkapcsoló összegező áramváltójának „ablakán” átvezetni?",
+      "a": [
+        "csak a fázisvezetőket: az üzemi nulla- és védővezetőt nem szabad",
+        "minden üzemi- és védővezetőt",
+        "minden fázis- és nullavezetőt, de a védővezetőt nem szabad"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.68. Mit ellenőriz a védőkapcsolók próbagombjának a megnyomásával?",
+      "a": [
+        "a teljes érintésvédelem rendben van-e",
+        "csak a védőkapcsoló működőképességét",
+        "a földelés megfelelő ellenállásértékét"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.69. Mitől kell távol lennie a feszültség-védőkapcsoló segédföldelőjének (az MSZ 172/1-72 szabvány szerint létesített berendezés)?",
+      "a": [
+        "csak a védett berendezésektől",
+        "mindazon fémrészektől, amelyeket a kezelő érinthet (függetlenül attól, hogy ezek a védett berendezésekkel érintkeznek-e)",
+        "a védett berendezés testétől és minden egyéb földelőtől és földeltnek tekinthető fémtárgytól",
+        "az egyéb célú érintésvédelmi földelőktől, és villámvédelmi földelőktől"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "2.70. Mit érzékel az áram-védőkapcsoló?",
+      "a": [
+        "az üzemi áram változását",
+        "a földzárlati hibafeszültséget",
+        "a teljes testzárlati hibaáramot"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.71. Egy háromfázisú motor hibavédelmi kioldószerveként beépített áram-védőkapcsoló hogyan reagál az egyik fázis biztosítójának kiolvadására?",
+      "a": [
+        "a terhelő áram szimmetriája megszűnik, az áram-védőkapcsoló kikapcsol",
+        " a két másik vezető áramterhelése megnő, és emiatt néhány percen belül az áram-védőkapcsoló kiold",
+        "testzárlati hibaáram hiányában az áram-védőkapcsoló nem lép működésbe"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.72. Több egymás után alkalmazott áram-védőkapcsolónál hogyan lehet a szelektív lépcsőzésre kívánalmakat betartani?",
+      "a": [
+        "a kapcsolók megszólalási áramának lépcsőzetes növelésével",
+        "a kapcsolók megszólalási idejének lépcsőzésével",
+        "mindkét megoldás megfelelő "
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.73. Legfeljebb hány másodpercre késleltethető az áram-védőkapcsoló működése kapcsoló- vagy elosztó-berendezések védelme esetén?",
+      "a": [
+        "legfeljebb 2s -ra",
+        "legfeljebb 5s -ra",
+        "olyan mértékben, ahogy a védelem lépcsőzése megkívánja",
+        "tilos késleltetni: 0,2 s alatt le kell kapcsolnia"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.74. Mi a kiegészítő (védő)szigetelés?",
+      "a": [
+        "kettős szigetelés",
+        "az üzemi szigeteléstől független további szigetelés",
+        "elválasztó transzformátor alkalmazása"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.75. Mit értünk az MSZ EN 61140 szabvány szerint II. Év. osztályú készülékeken?",
+      "a": [
+        "amelynek mindenütt van alap (üzemi) szigetelése",
+        "amelyek vezetékes hibavédelemmel vannak ellátva",
+        "amelyben az alapvédelmet alapszigetelés és a hibavédelmet kiegészítő szigetelés biztosítja, vagy: az alapvédelmet és a hibavédelmet megerősített szigetelés biztosítja"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.76. Miről ismeri fel a II. Év. osztályú készülékeket?",
+      "a": [
+        "a védőérintkező nélküli csatlakozó dugóról",
+        "az adattáblán feltüntetett kettős négyzetjelről",
+        "az adattáblán feltüntetett szabványszámról",
+        "a védőérintkezős csatlakozó dugóról"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.77. Milyen védelmi módot szabad alkalmazni egy helyhez kötött, biztonsági szigetelő transzformátor saját áramütés elleni védelmére?",
+      "a": [
+        "csak TN- vagy TT-rendszert",
+        "bármilyen szabványos védelmi rendszert",
+        "csak kettős szigetelést",
+        "csak védőkapcsolást"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.78. Milyen védelmi módot szabad alkalmazni hordozható, fém burkolatú, biztonsági szigetelő transzformátorok védelmére?",
+      "a": [
+        "TN-rendszert",
+        "villamos elválasztást",
+        "kettős szigetelést"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.79. SELV- és PELV-törpefeszültség védelmi mód esetén csak ún. „biztonsági” kivitelű, szigetelőtransz formátort szabad alkalmazni. Miről ismerhető fel egyértelműen a biztonsági transzformátor?",
+      "a": [
+        "a vonatkozó termékszabvány jelzetének feltüntetéséről (pl. „MSZ 9229”, „MSZ EN 60742” vagy „MSZ EN 61558-2-6” feliratról)",
+        "kizárólag a szabványos adattábla jelekről",
+        "az előzőek bármelyikéről"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.81. Villamos elválasztás védelmi módnál mekkora a legnagyobb még megengedett szekunder feszültség névleges értéke?",
+      "a": [
+        "250 V",
+        "40 V",
+        "500 V"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2,82, A villamos elválasztó transzformátorról táplált egy hordozható fogyasztókészülék csatlakozó vezetékének mekkora a megengedett legnagyobb hosszúsága?",
+      "a": [
+        "3 m",
+        "6 m",
+        "10 m",
+        "tetszés szerint, de szemmel ellenőrizhető szereléssel"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "2,83, Hány fogyasztót szabad egy törpefeszültségű transzformátorra rákapcsolni?",
+      "a": [
+        "csak egyet",
+        "akármennyit, amennyi nem terheli túl a transzformátort",
+        "egynél többet csak akkor, ha közös fémszerkezetre vannak szerelve"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "2.84. Gyermekjátékok és fodrászati, kozmetikai készülékek törpefeszültségű védelmi mód esetén mekkora az MSZ 172-1:1986 szabvány által megengedett legnagyobb alkalmazható névleges váltakozó feszültség? (az MSZ HD 60364-4-41 szabvány ezt nem tárgyalja!)",
+      "a": [
+        "12 V",
+        "25 V",
+        "42 V",
+        "48 V"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "2.86. Egy új ipari létesítmény villamos berendezéseinek első ellenőrzését mikor kell elvégezni?",
+      "a": [
+        "a szerelési munkák elvégzése során",
+        "a műszaki átadási eljárás alkalmával",
+        "az üzemszerű használatbavétel előtt",
+        "az átadástól számított 3 éves időszakon belül"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "2.88. Hordozható kivitelű törpefeszültségű biztonsági vagy villamos szigetelő transzformátort szabad-e kazánba, illetve fémtartályba bevinni?",
+      "a": [
+        "megengedett, mert a hordozható transzformátor legalább II. Év. osztályú készülék",
+        "szabad, ha a transzformátor testét a kazán, illetve a fémtartály testével külön vezetővel kötik össze",
+        "tilos"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "2.89. A következőkben felsorolt védelmi módok közül melyek alkalmazhatók olyan kéziszerszámoknál, amelyeket MSZ HD 60364-7-706:2007 szabvány szerinti vezető anyagú szűk helyeken használnak? (706.410.3.10. szakasz!)",
+      "a": [
+        "nullázás külön kikötés nélkül",
+        "TN- vagy TT-rendszer áram-védőkapcsolással",
+        "SELV-törpefeszültség és villamos elválasztás (egy szekunder tekercsre csak egy készülék csatlakozhat)",
+        "védőföldelés"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "2,90. Szükséges-e védővezető kiépítése a helyiség oldalfalára szerelt lámpatesthez?  ",
+      "a": [
+        "minden esetben szükséges",
+        "nem szükséges, ha a lámpatest II. Év. osztályú",
+        "nem szükséges, ha a fényforrás behelyezett állapotában megérinthető fém szerkezetet nem tartalmaz (pl. porcelán vagy műanyag fali foglalat)",
+        "szükséges, ha egy fényforrásnál több izzólámpa befogadására alkalmas (pl. több izzólámpás falikar)"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "3.01. Melyik érvényes szabvány vonatkozik az 1000 V-nál nagyobb feszültségű, nem közvetlenül földelt rendszerű hálózatról táplált új erősáramú berendezés érintésvédelmének létesítésére?",
+      "a": [
+        "MSZ 172-4",
+        "MSZ EN 50522",
+        "MSZ EN 61936-1",
+        "MSZ EN 62271-200"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "3.02. Milyen hálózati rendszert nevezünk kompenzáltnak?",
+      "a": [
+        "amelynek csillagpontja ohmos ellenálláson át földelt",
+        "amelynek a csillagpontja nincs földelve",
+        "amelynek csillagpontja Petersen tekercsen keresztül földelt"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.03. Melyik védelmi módot alkalmazzák általánosan a 6 kV-os beren de zé sek nél ?",
+      "a": [
+        "nullázás",
+        "elkerítés",
+        "védőföldelés",
+        "villamos elválasztás"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "3.04. Nagyfeszültségű (1 … 35 kV-os) berendezéseknél mekkora a megengedett érintési- és lépésfeszültség értéke, ha a földzárlatot a védelem 8 s alatt szünteti meg? (MSZ 172-2)",
+      "a": [
+        "50 V",
+        "65 V",
+        "125 V",
+        "250 V"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "3.05. Mitől függ az 1 … 35 kV-os villamos szerkezeteknél a megengedett legnagyobb érintési- és lépésfeszültség értéke?",
+      "a": [
+        "a névleges feszültségtől",
+        "a földzárlat fennállásának idejétől",
+        "a földzárlati áram nagyságától",
+        "az alkalmazott védőföldeléstől"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "3.07. Egy 10 kV-os fogyasztói berendezés fémtestén kettős földzárlat esetén 1000 V érintési feszültség léphet fel 0,1 s védelmi kikapcsolásig. Milyen intézkedést tenne?",
+      "a": [
+        "érintési feszültség korlátozása kisebb ellenállású védőföldelés telepítésével",
+        "kiegészítő érintésvédelmi mód alkalmazása szükséges",
+        "többletintézkedésre nincs szükség, az áramütés elleni védelem megfelelő"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.08. Hogyan ellenőrizné egy nagyfeszültségű motor áramütésvédelmét a szemrevételezésen kívül?",
+      "a": [
+        "szigetelési vizsgálattal",
+        "hurokellenállás-méréssel",
+        "földelési ellenállásméréssel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.09. Ipartelepi 3000 V-s motor áramütés elleni védelmére szükséges-e külön védőföldelés létesítése?",
+      "a": [
+        "igen, más célú földelésektől 20 m-nél távolabb",
+        "igen, távolsági követelmények nélkül",
+        "igen, de minden más földelővel összekötendő",
+        "nem szükséges, ha a kisfeszültségű érintésvédelem védővezetője méretezése és kivitele megfelelő erre a célra"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "3.10. Milyen időközönként szükséges az MSZ 172-2 szabvány alkalmazási körébe tartozó nagyfeszültségű berendezéseknél a földelési ellenállások méréses ellenőrzése?",
+      "a": [
+        "1 év",
+        "2 év",
+        "3 év",
+        "6 év"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "3.11. Mi az alapvető védelmi mód a 120…400 kV-os közvetlenül földelt hálózatok távvezetéki oszlopainál?",
+      "a": [
+        "a villamos szerkezet elszigetelése",
+        "potenciálbefolyásolás",
+        "védőföldelés",
+        "az előzőek bármelyike"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "3.12. Milyen csillagpont kezelésű, nagyfeszültségű berendezések áramütés elleni védelmével foglalkozik az MSZ 172-3 szabvány?",
+      "a": [
+        "szigetelt rendszerű",
+        "kompenzált",
+        "közvetlenül földelt rendszerű"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.13. Nagyfeszültségű tápvezeték vasbeton oszlopa gyárudvaron van. Szerkezeti vasalásának földelése szükséges-e?",
+      "a": [
+        "ez a hálózat üzemi földelési rendszerétől függ",
+        "csak akkor szükséges , ha az udvar nagy forgalmú helynek minősül",
+        "igen, minden esetben"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.14. Hogyan alakítaná ki forgalmas helyen a környezet elszigetelése kiegészítővédelmi megoldást egy 120 kV-os szabadvezetéki oszlopnál?",
+      "a": [
+        "gumitalpú bakancs előírásával",
+        "figyelmeztető táblával",
+        "a talaj aszfaltburkolásával",
+        "kerítés alkalmazásával"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "3.15. Telephely hosszú fémkerítése 220 kV-os távvezeték közelében van. Melyik szabvány szerint intézkedne a kerítés áramütés elleni védelméről?",
+      "a": [
+        "MSZ 172-3",
+        "MSZ 172-1",
+        "MSZ 1610",
+        "MSZ 151"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "3.16. Mi a neve az előírt rendszer szerint (négyzethálósan) elhelyezett, talajszint alatt összekötött, rúd- és szalagföldelőkből kialakított földelő rendszernek?",
+      "a": [
+        "földelő hálózat",
+        "földelőháló",
+        "szalagföldelő"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "3.17. Fokozott biztonsággal épített nagyfeszültségű távvezeték fémkerítést keresztez.  Mely esetben válhat szükségessé a kerítés földelése?",
+      "a": [
+        "minden esetben",
+        "120 kV-os vagy nagyobb feszültség esetében",
+        "nincs olyan előírás, amely erre kötelezne"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "3.18. Milyen időközönként szükséges a 120 kV-os kapcsolóállomás földelési ellenállását mérni? (MSZ 172-3:1973 szabvány 6.231. szakasza)",
+      "a": [
+        "12 évenként",
+        "6 évenként",
+        "4 évenként",
+        "3 évenként"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "3.20. Melyik szabvány szerint kell megoldani a kisülőcsöves reklámberendezések (neon reklámok) és a röntgenkészülékek érintésvédelmét?",
+      "a": [
+        "MSZ 1585",
+        "MSZ 4851-4",
+        "MSZ 172-4"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.21. Milyen szerepe van a nagyfeszültségű nullázásos áramütés elleni védelemnek az 1000 V-on felüli kis zárlati áramú berendezéseknél?",
+      "a": [
+        "feszültségáthatolás veszélyének kiküszöbölése",
+        "a veszélyes érintési feszültség létrejöttének megakadályozása",
+        "testzárlat esetén a biztosító kiolvasztása"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "3.22. Alkalmazható-e védőföldelés (TT-rendszer) önálló védelemként a nagyfeszültségű, kis zárlati áramú berendezéseknél?",
+      "a": [
+        "minden további nélkül",
+        "csak ha a lekapcsolási feltételek meghatározottak",
+        " csak üzemi földelés nélküli berendezéseknél alkalmazható"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.23. Az 1000 V-on felüli, kis zárlati áramú berendezéseknél a nagyfeszültségű oldal védelmére alkalmazható-e kettős-, vagy megerősített szigetelés önálló áramütés elleni védelemként?",
+      "a": [
+        "nem alkalmazható",
+        "alkalmazható, az MSZ HD 60364-4-41 szabvány többletkövetelményeinek teljesítésével",
+        "minden megszorítás nélkül alkalmazható"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "3.24. Milyen legyen a nagyfeszültségű, kis zárlati áramú berendezés védővezetőjének vezetőképessége?",
+      "a": [
+        "vezetőképessége legalább olyan legyen, mint az üzemi vezetőké",
+        "legalább a fele legyen az üzemi vezetők vezetőképességének",
+        "ellenállása egyezzen meg az üzemi vezetőkével"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "3.25. Milyen potenciálra kerül egy 5000 V névleges feszültségű testzárlatos kis zárlati áramú villamos szerkezet fémteste, ha védővezetőjének ellenállása 0,5 Ω; a testzár latiáram 0,8 A? (MSZ 172-4)",
+      "a": [
+        "5000 V",
+        "50 V",
+        "4 V",
+        "0,4 V"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "3.26. Egy szabadtéri kisülőcsöves reklámberendezés (neonberendezés) transzformátonak burkolatát és a kisülőcsövek fémtartóit az MSZ 172-4 szabvány előírásai szerint nullázták. Szükséges-e a transzformátor testének kisfeszültségü oldali hibavédelméről gondoskodni?",
+      "a": [
+        "megengedett",
+        "tilos",
+        "szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.27. Nagyfeszültségű, kis zárlati áramú berendezés védővezetőjének mért értéke 0,4 Ω. Az MSZ 172-4:1978 szabvány szerint megfelelő-e?",
+      "a": [
+        "igen",
+        "nem"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "3.28. TT-rendszerű kisfeszültségű hálózatról táplált röntgentranszformátor nagyfeszültségű oldalánalkalmazható-e a kis zárlati áramú nullázás? (MSZ 172-4:1978 szabvány)",
+      "a": [
+        "igen",
+        "csak az áramszolgáltató engedélyével",
+        "nem"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "3.29. Helyhez kötött nagyfeszültségű, kis zárlati áramú berendezés nagyfeszültségű oldalának üzemi földeléséről kell-e gondoskodni?",
+      "a": [
+        "nem",
+        "csak akkor, ha ezen az oldalon védőföldelést alkalmaznak",
+        "igen"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "3.30. Milyen időközönként kell ellenőrizni az 1000 V-nál nagyobb feszültségű, kis zárlati áramú berendezések áramütés elleni védelmét? (MSZ 172-4)",
+      "a": [
+        "a kisfeszültségű berendezésekre előírt gyakorisággal",
+        "a nagyfeszültségű berendezésekre előírt gyakorisággal",
+        "a kéziszerszámokra előírt gyakorisággal"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.01. A következő szabványsorozatok közül melyik tartalmaz követelményt az áramütés elleni védelem mérési módszereire vonatkozóan?",
+      "a": [
+        "az MSZ EN 60079 sorozat",
+        "az MSZ EN 62305 sorozat",
+        "az MSZ 4851 sorozat",
+        "az MSZ 1600 sorozat"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.02. Melyik szabvány foglalkozik a védővezető folytonosságának vizsgálati módszereivel?",
+      "a": [
+        "MSZ 4852",
+        "MSZ 1585",
+        "MSZ 4851-1",
+        "MSZ 2364-200"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.03. A védővezető folytonosságának vizsgálatát, 230 V fázisfeszültség esetén, üzemi feszültséggel mekkora áramerősség alkalmazásával kell vizsgálni?",
+      "a": [
+        "20 … 60 mA",
+        "100 … 1000 mA",
+        "1…5 A"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.04. A védővezető folytonosságának vizsgálatát a földhöz képest legfeljebb mekkora névleges feszültséggel szabad próbalámpás vizsgálattal végezni?",
+      "a": [
+        "400 V földeletlen rendszer",
+        "400 V közvetlenül földelt rendszer",
+        "250 V közvetlenül földelt rendszer"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.05. Terheléses feszültség-mérésnél hány mérést kell végezni a védővezető folytonosságának megállapítása céljából?",
+      "a": [
+        "egy mérést a terhelő-ellenállással",
+        "egy mérést a terhelő-ellenállás nélkül, és egyet a terhelő ellenállással",
+        "két mérést, mindkettőt a próbagomb lenyomásával"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.08. A védővezetős védelmi módok vizsgálatánál mikor kell a fázisvezető és a védővezető esetleges felcserélését feszültségvizsgálattal ellenőrizni?",
+      "a": [
+        "minden szerelői ellenőrzés során",
+        "csak akkor, ha a vezetékek színjelölése nem következetes",
+        "szerelői ellenőrzésnél nem szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.09. Melyik szabvány tárgyalja a földelési ellenállás-mérések elvégzésének részletes szabályait?",
+      "a": [
+        "MSZ 4851-1",
+        "MSZ 4851-2",
+        "MSZ 4851-3"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.10. Közvetlenül földelt, kisfeszültségű hálózatokon a védőföldelések földelési ellenállását milyen módszerrel szabad mérnie?",
+      "a": [
+        "csak erősáramú",
+        "csak gyengeáramú",
+        "lehetőleg erősáramú",
+        "csak kompenzációs"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.11. Mire használják a segédföldelést (szondát)?",
+      "a": [
+        "a hibaáramok vezetésére, így erősáramú berendezés PEN vezetőjének potenciál rögzítésére",
+        "egy távoli földponthoz képest fellépő potenciál érzékelésére, megállapítására (pl. méréskor)",
+        "csak műszeres méréshez, a terhelőáram visszavezetésére"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.12. Legalább mekkora mérőáram-erősség szükséges az MSZ HD 60364-4-41 szabvány tárgykörébe tartozó berendezés erősáramú földelési ellenállás méréséhez?",
+      "a": [
+        "250 mA",
+        "1 A",
+        "5 A"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.13. Legfeljebb mekkora lehet az áramerősség a gyengeáramú földelési ellenállás-mérési módszernél?",
+      "a": [
+        "100 mA",
+        "250 mA",
+        "1 A"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.14. Kisfeszültségű berendezés földelési ellenállás-mérésénél mekkora lehet a szondák legkisebb távolsága más földelőtől?",
+      "a": [
+        "10 m",
+        "20 m",
+        "25 m"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.15. Mekkora legyen legalább a földelési ellenállás-méréshez használt műszerek osztály pontossága?",
+      "a": [
+        "1,0",
+        "1,5",
+        "2,5"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.16. Földelési ellenállás mérésekor mekkora lehet a teljes mérési elrendezés hibája?",
+      "a": [
+        "10 %",
+        "5 %",
+        "30 %",
+        "1 %"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.17. A fázisfeszültséggel történő földelési ellenállás-mérésnél a következők közül melyik az a módszer, amellyel kiküszöbölhető az idegen áramok zavaró hatása?",
+      "a": [
+        "a mérés megismétlése a másik két fázis segítségével",
+        "egy terheletlen és egy terheléses feszültségmérés",
+        "nagyobb keresztmetszetű mérővezetékek alkalmazása"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.18. A gyengeáramú földelésmérési módszer alkalmazása során két segédföldelőt kell telepíteni. Mi ezek feladata?",
+      "a": [
+        "a nagyfelületű, telepített földelésen áthajtott mérőáramnak a földből való meg bízható  visszavezetéséhez egy segédföldelő rúd nem elegendő felületű, ezért legalább  kettő szükséges",
+        "a fellépő potenciálemelkedést az ellenföldelő és a segédszonda között mérjük, majd a mért földelő ellenállását ebből számítjuk ki",
+        "az ellenföldelőn a terhelőáramot vezetjük vissza, a segédszondához képest mérjük a földelésen fellépő potenciálemelkedést"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.19. Milyen esetben szabad elhanyagolni erősáramú földelésmérésnél a mérendő földelő és a segédszonda közötti, a mérőáram bekapcsolása nélkül mérhető feszültséget?",
+      "a": [
+        "minden esetben, mert a mérést nem befolyásolja",
+        "csak akkor, ha a terhelés során mérhető feszültség 10%-ánál kisebb",
+        "minden esetben figyelembe kell venni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.20. Mit kell tenni, ha a földelési ellenállásmérésnél a zavaró feszültség 5%-a a mért feszültségnek?",
+      "a": [
+        "a mérést meg kell ismételni",
+        "a mérés értékelésénél a zavaró feszültséget figyelembe kell venni",
+        "a zavaró feszültség figyelmen kívül hagyható"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.21. Mi a kettős mérővezetékek szerepe?",
+      "a": [
+        "kétszeresen biztonságosabb mérés",
+        "felére csökkentik a mérővezetékek ellenállását",
+        "a mérés eredményébe nem kerül bele a mérővezetékek ellenállása"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.22. Közvetlenül földelt, kisfeszültségű hálózaton erősáramú módszerrel földelés méréseket végeznek. A felülvizsgálatot végzőknek ügyelni kell arra is, hogy a mérendő földelő és a mérő szonda között egy meghatározott értéknél nagyobb feszültség ne lépjen fel. Milyen értékű ez a feszültség?",
+      "a": [
+        "42 V",
+        "50 V",
+        "125 V",
+        "230 V"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "4.23. Kisfeszültségű, szigetelt csillagpontú hálózatról táplált erőátviteli villamos berendezés védőföldelésének mért ellenállásértéke 5 Ω. Az egysarkú kapacitív zárlati áram maximális értéke 10 A. Mekkora értékű a mérési eredményekből számított hibafeszültség?",
+      "a": [
+        "0,5 V",
+        "2 V",
+        "3,25 V",
+        "50 V"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "4.24. Földelési hurokellenállás-mérésnél mekkora a védőföldelés ellenállásának tekinthető értéke?",
+      "a": [
+        "a hurokellenállás mért értéke",
+        "a hurokellenállás kétharmada",
+        "a hurokellenállás fele"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.25. Melyik szabvány foglalkozik a nullázás szabványossági felülvizsgálatánál szükséges hurokellenállás-mérések módszereivel?",
+      "a": [
+        "MSZ 4851-3",
+        "MSZ 4851-5",
+        "MSZ 10900"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.26. Mit jelez a hurokellenállás mérésnél szükséges folytonossági vizsgálat nem megfelelő eredménye?",
+      "a": [
+        "a túláramvédelem névleges értéke a megengedettnél lényegesen nagyobb",
+        "a műszer bekötése helytelen",
+        "a védővezető hiányzik, vagy nem folytonos",
+        "a hurokellenállás az előírt értéknél kisebb"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.27. Lehet-e hurokellenállást mérni üzemelő, feszültség alatti berendezésen?",
+      "a": [
+        "igen",
+        "a balesetveszély miatt tiltot",
+        "csak akkor, ha külön áramforrást használunk a méréshez"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.29. Hurokellenállás-méréseknél legalább mennyi legyen a műszerek pontossági osztálya?",
+      "a": [
+        "0,5",
+        "1,0",
+        "2,5"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.30. Hurokellenállás mérésekor mekkora lehet a teljes mérési elrendezés megengedett legnagyobb hibája?",
+      "a": [
+        "5 %",
+        "10 %",
+        "25 %",
+        "30 %",
+        "30 %"
+      ],
+      "numOfQs": 5,
+      "gA": 4
+    },
+    {
+      "q": "4.31. Egyes hurokellenállás-mérő műszereknél alkalmazott korrekciós tényező milyen jellegű hiba korrigálására szolgál?",
+      "a": [
+        "a névlegestől eltérő fázisfeszültség által okozott hiba",
+        "a fázisfeszültség ingadozásából eredő hiba",
+        "a leolvasás bizonytalanságából eredő hiba"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.32. Hurokellenállás-mérésnél legalább mekkora legyen a mérőáram áramerőssége?",
+      "a": [
+        "1 A",
+        "2,5 A",
+        "5 A"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.33. Egy adott helyen - hurokellenállás-mérésnél - a hálózati feszültségingadozás miatt négy mérést végeztek el. A mérési eredmények között az eltérés 30%-nál nagyobb. Mit kell tenni?",
+      "a": [
+        "mérési eredményként az átlagot kell elfogadni",
+        "a legnagyobb értéket kell figyelembe venni, legalább három mérés közül",
+        "további méréseket kell végezni, amíg három mérés 20%-nál nem nagyobb eltérésű, és ezek számtani átlaga a keresett érték"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.34. Honnan kell csatlakoztatni a hurokellenállás méréséhez szükséges feszültséget?",
+      "a": [
+        "világítási dugaszoló aljzatból",
+        "tetszőleges, könnyen hozzáférhető helyről",
+        "a tápvezeték kiindulási pontjából (elosztóból)",
+        "mérendő berendezés csatlakozási pontjáról"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "4.35. Hol csatlakoztathatjuk a nullázási hurokellenállást mérő műszerűnket a fázisfeszültségre, ha a vizsgált készülék csatlakozókapcsán erre nincs ésszerű lehetőség?",
+      "a": [
+        "a legközelebbi kisfeszültségű dugaszolóaljzatnál",
+        "az épületcsatlakozás valamely fázisvezetőjénél",
+        "a vizsgált készülék áramkörének legközelebb feltárható pontján",
+        "fentiek közül bármely helyen, mert a fázisfeszültség minden áramkörnél azonos"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.36. A hurokellenállás mérés milyen munkának minősül?",
+      "a": [
+        "egyszerű feszültség alatt végzett munka",
+        "feszültség közelében végzett munka",
+        "egyszerű munka"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.38. Az áram-védőkapcsolók ellenőrzésének módszerét melyik szabvány tárgyalja?",
+      "a": [
+        "a) MSZ 4851-3  ",
+        "b) MSZ 4851-4 ",
+        "c) MSZ 4851-5"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.39. Feszültség-védőkapcsolások ellenőrzésének módszerét melyik szabvány írja elő?",
+      "a": [
+        "a) MSZ 1585",
+        "b) MSZ 4851-1",
+        "c) MSZ 4851-4",
+        "d) MSZ 4851-5"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.41. Az MSZ 4851-3:1998 szabvány biztonsági előírásai szerint az áram-védőkapcsoló  szabványossági felülvizsgálatánál a mérés megkezdése előtt az MSZ 4851-1 szerinti  védővezető folytonossági vizsgálatot is el kell végezni. Hol végezné el ezt?",
+      "a": [
+        "a) összegező áramváltó és az áram-védőkapcsoló közötti vezetőnél",
+        "b) áram-védőkapcsoló és az általa működésbe hozott kapcsoló közötti vezetőnél",
+        "c) a védett készülék fázisvezetője és védővezetője között (terheléses feszültség méréssel) ",
+        "d) valamennyi felsorolt vezetőnél"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "4.42. A feszültség-védőkapcsolás már nem szabványos érintésvédelmi mód. A régebben  felszerelt védőkapcsolást kell-e ellenőrizni?",
+      "a": [
+        "a) igen, szükséges",
+        "b) nem kell, mert a védőkapcsolót le kell szerelni",
+        "c) nem kell, mert nem szabványos az érintésvédelmi mód"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.44. Melyik szabvány tartalmazza a védővezetőt nem igénylő érintésvédelmi módok vizsgálati módszereit?",
+      "a": [
+        "a) MSZ 4851-1",
+        "b) MSZ 4851-2",
+        "c) MSZ 4851-3 ",
+        "d) MSZ 4851-5"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "4.46. Mennyi a megengedhető legkisebb szigetelési ellenállása az érintésvédelmi törpe feszültséget előállító transzformátornak a különböző kivezetések, illetve kivezetések és a test között?",
+      "a": [
+        "a) 50 kΩ ",
+        "b) 2 MΩ ",
+        "c) 0,2 MΩ  ",
+        "d) 0,5 MΩ"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "4.47. Mely szerkezetek áramütés elleni védelmének szabványosságát ellenőrzi törpefeszültségű transzformátorok ellenőrzésére előírt szigetelési ellenállásmérésekkel?",
+      "a": [
+        "a) a transzformátor vastestének érintésvédelmét",
+        "b) a transzformátorról táplált törpefeszültségű készülék hibavédelmét",
+        "c) a transzformátor szekunder vezetékhálózatának érintésvédelmét"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "4.48. Törpefeszültségű transzformátor ellenőrzése során mi az, amit elsősorban és először vizsgálni kell? ",
+      "a": [
+        "a) a csatlakozó primer vezeték megfelelő voltát",
+        "b) a transzformátor védőburkolata megfelel-e",
+        "c) biztonsági szigetelő transzformátor-e"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.49. Az MSZ 4851-5 szabvány melyik védővezetőt nem igénylő védelmi módnál nem követeli meg az ellenőrzés során a műszeres mérést?",
+      "a": [
+        "a) fémtestű készülék kettős szigetelésénél            ",
+        "b) elkerítés és burkolás esetén (régi berendezésekben) ",
+        "c) a kiemelt gyógyászati helyiségek táphálózatánál ",
+        "d) villamos elválasztásnál"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "4.50. A földeletlen egyenpotenciálú összekötés védelmi mód szabványossági felül vizsgálata során hogyan kell meggyőződni arról, hogy az egyenpotenciálú összekötő vezeték földeletlen-e?",
+      "a": [
+        "a)  szemrevételezéssel      ",
+        "b) földelési ellenállás-méréssel",
+        "c) szigetelési ellenállás-méréssel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.51. Zárlati teljesítmény korlátozása érintésvédelmi mód szerelői ellenőrzése során hogyan kell ellenőrizni az előírások betartását?",
+      "a": [
+        "a) szemrevételezéssel   ",
+        "b) zárlati teljesítmény mérésével",
+        "c) próbalámpával",
+        "d) szigetelési ellenállás-méréssel"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "4.52. Legalább mekkora legyen a II. érintésvédelmi osztályú, 230 V-os villamos készülékek kiegészítő szigetelésének (védőszigetelésének) ellenállásértéke?",
+      "a": [
+        "a) 1 MΩ",
+        "b) 2 MΩ  ",
+        "c) 4 MΩ"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.53. Lakatfogós földelésmérésnél a pontos mérés érdekében legalább mekkora távolságot kell hagyni?",
+      "a": [
+        "a) 10 cm ",
+        "b) 50 cm ",
+        "c) 30 cm"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.54. Megfelelőnek tekinthető-e a padló szigetelése, ha a mérés eredménye 35 kΩ?",
+      "a": [
+        "a) nem megfelelő, mert a mérési eredmény kisebb, mint 50 kΩ",
+        "b) megfelelő, mert a mérés eredménye 30 kΩ-nál nagyobb",
+        "c) nem megfelelő, mert a mérés eredménye nagyobb 10 kΩ-nál"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.55. Villamos elválasztás esetén az áramforrás és a fogyasztó közötti vezetékrendszer szigetelési ellenállását meg kell mérni a vezetők és a föld között. Mekkora ennek a védő elválasztott hálózatnak a megengedett legkisebb szigetelési ellenállása (MSZ 4851-5:1991 szabvány)",
+      "a": [
+        "a) 0,1 MΩ ",
+        "b) 0,25 MΩ  ",
+        "c) 1,0 MΩ ",
+        "d) 2,0 MΩ "
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "4.56. Törpefeszültséget előállító vagy villamos elválasztó transzformátornál az MSZ 4851-5  szabvány előírása szerint milyen feszültségű meggerrel, vagy más hasonló feszültséggel működő szigetelési ellenállásmérővel kell meggyőződni a transzformátor szigetelésének jóságáról?",
+      "a": [
+        "a) 250-1000 V ",
+        "b) 500-2000 V ",
+        "c) 100-1000V"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.57. Melyik mérési módszert részesítené előnyben a nagyfeszültségű (10, 20, 35 kV-os stb.) szabadvezetéki oszlopok földelésének mérésénél a gyakorlati lehetőségek figyelembe vételével?",
+      "a": [
+        "a) erősáramú módszert    ",
+        "b) gyengeáramú módszert"
+      ],
+      "numOfQs": 2,
+      "gA": 2
+    },
+    {
+      "q": "4.58. Kettős szigetelésű kéziszerszámon 1,45 MΩ szigetelési ellenállást lehet mérni. Milyennek minősíti a szerszám szigetelési ellenállását?",
+      "a": [
+        "a) megfelelőnek",
+        "b) csak akkor megfelelő, ha szigetelőanyag padlózatú helyiségben használják",
+        "c) nem megfelelőnek"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "4.59. TT-rendszerben áram-védőkapcsolót alkalmaznak. Áramütés elleni védelem ellenörzésére szolgáló többcélú műszerrel lehet-e földelési ellenállást mérni segédszonda nélkül?",
+      "a": [
+        "a) lehet",
+        "b) nem lehet",
+        "c) csak nagyfrekvenciájú vizsgáló feszültség esetén"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "4.60. Mikor kell fajlagos talaj ellenállást mérni?",
+      "a": [
+        "a) mindenestben hozzátartozik a szabványossági felülvizsgálathoz",
+        "b) csak a földelési rendszerek pontos méretezéséhez szükséges mérés",
+        "c) nagyfeszültségű rendszerek időszakos felülvizsgálatánál"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    }
+  ]
 }
