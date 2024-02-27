@@ -1866,6 +1866,299 @@
       ],
       "numOfQs": 3,
       "gA": 2
+    },
+    {
+      "q": "5.01. Földeletlen vagy közvetve földelt hálózatokon előforduló földzárlatok közül melyinél keletkezik a nagyobb földzárlati áram?",
+      "a": [
+        "a) egysarkú földzárlat esetén",
+        "b) kettős földzárlat esetén",
+        "c) nincs üzemi földelés, tehát a két áram azonos értékű"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.02. Földeletlen, háromfázisú rendszerben egysarkú földzárlat következik be, így a rendszer egy ponton közvetlenül földeltté válik. A földhöz képest a többi fázisvezető milyen feszültségre kerül?",
+      "a": [
+        "a) fázisfeszültségre (Uf)",
+        "b) vonali feszültségre (√3 * Uf)",
+        "c) értéke nem változik ) "
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.03. Egyfázisú, 230/110 V áttételű transzformátor szekunder oldalán zárlat keletkezik. A primer biztosítón milyen értékű áram folyhat?",
+      "a": [
+        "a) azonos értékű, mint a szekunder körben",
+        "b) a transzformátor áttétele folytán a szekunder áram közel fele",
+        "c) a szekunder áram kétszerese"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.04. Szükséges-e a villamos biztonsági felülvizsgálat során alkalmazott mérőműszereket  hiteles műszerrel való összehasonlítással ellenőrizni (kalibrálni)?",
+      "a": [
+        "a) nem, mert nem laboratóriumi eszközök",
+        "b) nem, mert ezek nem vizsgálati etalonok",
+        "c) igen, mert joghatással járó méréseket végeznek azokkal"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.05. Hány személy részvétele szükséges a kisfeszültségű berendezések villamos biztonsági felülvizsgálatához szükséges mérések elvégzéséhez?",
+      "a": [
+        "a) egy ",
+        "b) legalább kettő ",
+        "c) legalább három"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.07. Szolgáltatásként végzett villamos biztonsági felülvizsgálat esetén elsősorban miért felelős a megbízó részéről kirendelt „kísérő személy”?",
+      "a": [
+        "a) valamennyi villamos szerkezet, berendezés bemutatásáért",
+        "b) az áramütés elleni védelemre kötelezett villamos berendezések bemutatásáért",
+        "c) valamennyi villamos berendezéssel rendelkező építmény bemutatásáért",
+        "d) a felülvizsgáló testi épségének védelméért"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "5.08. A villamos biztonsági felülvizsgáló jogosult-e a létesítmény főkapcsolójának működtetésével a villamos hálózat kikapcsolására?",
+      "a": [
+        "a) jogosult, ha a létesítmény villamos berendezései az előírásoknak nem megfelelőek",
+        "b) csak akkor jogosult, ha villamos berendezések az élet- és vagyonbiztonságot is veszélyeztető módon üzemelnek",
+        "c) csak közvetlen veszélyhelyzet, baleset elhárítása céljából jogosult",
+        "d) nem kapcsolhat ki, még közvetlen veszélyhelyzet észlelése esetén sem, a  bekövetkezett balesetért az üzemeltető felel"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.09. Az egyfázisú fogyasztókat is tápláló 400/230 V-os TN-rendszerű hálózat villamos szerkezetei számára milyen hibalehetőség jelenti a legnagyobb balesetveszélyt?",
+      "a": [
+        "a) a védővezető megszakadása ",
+        "b) a biztosítók áthidalása ",
+        "c) a betáplálás PEN-vezetőjének szakadása",
+        "d) a betáplálás fázisvezetőjének szakadása"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.10. Miért jelent különös veszélyt az egyfázisú fogyasztókat is tápláló TN-rendszerű hálózat PEN-vezetőjének megszakadása, ha hiányoznak az előírt földelések?",
+      "a": [
+        "a) az egy fázisról táplált világítás kimaradása balesethez vezethet",
+        "b) a PEN-vezetőről leágaztatott védővezetők folytonossága megszakad, és a fogyasztó ké szülékek érintésvédelme megszűnik",
+        "c) az egyfázisú fogyasztókon keresztül valamennyi test feszültség alá kerül"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.11. Miért kell a földelőket fagyhatár alatt telepíteni?",
+      "a": [
+        "a) a fagy többszörösére gyorsítja a földelő korrózióját",
+        "b) télen a megfagyott talajvíz nem vezet",
+        "c) a megfagyott talajvíz összeroppanthatja a földelőt"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.13. Csővezetékeknek, vasúti síneknek a villamos berendezések földelő rendszerével való összekötése előtt ki kell-e kérni azok üzembentartójának véleményét és engedélyét?",
+      "a": [
+        "a) igen .   ",
+        "b) nem ",
+        "c) csak indokolt esetben"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "5.14. Miért kell a közterületeken telepített rúdföldelőt legalább 1 m mélységű munkagödörből lesüllyeszteni?",
+      "a": [
+        "a) a felső talajrétegben nem hatásos a földelő",
+        "b) a földelőn fellépő érintési feszültség csökkentése érdekében",
+        "c) a közművezetékek sérülésének elkerülése érdekében",
+        "d) a fagyhatár figyelembevétele miatt"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.15. Miért helytelen a lemezföldelők faszénbe, kokszba ágyazása?",
+      "a": [
+        "a) többszörösére drágítja a létesítést",
+        "b) a földelőn fellépő érintési feszültség megnövekszik",
+        "c) a földelő korrózióját gyorsítja",
+        "d) a fagyhatár figyelembevétele miatt"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.16. Nevezzen meg egy tartós hatású, mesterséges talajellenállás-javító anyagot!",
+      "a": [
+        "a) só ",
+        "b) bitumen ",
+        "c) bentonit ",
+        "d) koksz"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.17. Napjainkban használatos-e kiterjedten a lemezföldelő?",
+      "a": [
+        "a) igen, mert a viszonylag kis áramsűrűség folytán árammal nagymértékben terhelhető",
+        "b) nem, mert a szétterjedési ellenállás elsősorban nem átmeneti jellegű",
+        "c) ritkán, mert kiépítése nagy gondosságot igényel és költséges megoldás"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.18. Az épületen felszerelt villámhárító földelők összeköthetők-e a villamos földelőkkel?",
+      "a": [
+        "a) tilos, mert villámcsapás esetén feszültségáthatolás keletkezhet a villamos berendezésben",
+        "b) szükséges összekötni minden földelőt   ",
+        "c) ajánlott",
+        "d) megengedett, de csak az önállóan is számottevő földelésekkel"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.20. Mekkora „α” kiolvadási szorzó” értéket vesz figyelembe TN-rendszerű végáramkör esetében a nullázási hurokellenállás meg engedett értékének meghatározásánál, 20 A-es gG  típusú olvadó betét esetén?",
+      "a": [
+        "a) 6  ",
+        "b) 5 d) 10",
+        "c) 10"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "5.21. Végáramköröknél „C” jelleggörbéjű kismegszakítóknál mekkora az „α” kiolvadási  szorzó” értéke?",
+      "a": [
+        "a) 4 ",
+        "b) 5 ",
+        "c) 6 ",
+        "d) 10"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "5.22. Egy épületszinten húzódó, vízszintes jellegű fémszerkezetnél szükséges lehet-e mindkét végpontjának összekötése az egyenpotenciálú hálózattal?",
+      "a": [
+        "a) nem szükséges elegendő egy pontján bekötni",
+        "b) szükséges, ha 5 m-nél hosszabb",
+        "c) szükséges, ha 10 m-nél hosszabb",
+        "d) csak akkor szükséges, ha vezetői folytonossága bizonytalan"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "5.23. Három épületszintre kiterjedő függőleges acélszerkezetet hol szükséges bekötni az egyenpotenciálú hálózatba?",
+      "a": [
+        "a) az egyenpotenciálú hálózathoz legközelebb eső pontján        ",
+        "b) a végpontok közötti felezőpont közelében   ",
+        "c) a legalsó pontja közelében  ",
+        "d) a legfelső pontja közelében"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.25. Ipari berendezésnél hol jelölné ki a fő földelőkapocs létesítési helyét?",
+      "a": [
+        "a) kizárólag a 0,4 kV-os főelosztó helyiségében  ",
+        "b) bárhol, ahol elegendő hely van",
+        "c) a technológiai berendezés helyi adottságai szerinti optimális helyen"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.26. Egy helyiségben felszerelt, 6 m-nél hosszabb vízszintes kiterjedésű fémsínt hol kell összekötni az egyenpotenciálú hálózattal?",
+      "a": [
+        "a) ha más helyiségbe nem vezet át, nem szükséges bekötni",
+        "b) az egyenpotenciálú hálózathoz legközelebb eső pontján",
+        "c) valamely végpontja közelében",
+        "d) mindkét végpontján be kell kötni"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.27. Egy TN-rendszerben üzemeltetett villamos motor szigetelt tápvezetőit acélpáncél (AP) védőcsőben vezetik. Felhasználható-e ez a védőcső védővezetőként? (MSZ HD 60364-5-54)",
+      "a": [
+        "a) nem használható védővezetőként",
+        "b) csak a védőcső és szerelvényeinek áramütésvédelmére használható",
+        "c) a motor védelmére is felhasználható, ha a keresztmetszete méretezett és méréssel ellenőrizték"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.28. Egy 4 m vízszintes kiterjedésű fémszerkezetet hol kell összekötni az egyenpotenciálú hálózattal?",
+      "a": [
+        "a) az 5 m-nél rövidebb vízszintes fémszerkezeteket nem szükséges összekötni",
+        "b) valamely végpontja közelében kell bekötni",
+        "c) mindkét végpontján be kell kötni hol ",
+        "d) az 5 m-nél rövidebb fémszerkezet bárhol összeköthető"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "5.29. TN-rendszerben üzemeltetett szabadvezeték oszlopaira szerelt közös olvadóbiztosítóról táplált lámpatestek ellenőrzését hogyan végezzük?",
+      "a": [
+        "a) csupasz szabadvezeték közelében a lámpákat nem kell ellátni áramütés elleni védelemmel, így ellenőrizni sem kell",
+        "b) minden lámpatesten meg kell mérni a hurokellenállást",
+        "c) elegendő a legtávolabbi lámpa hurokellenállását mérni, a közbensőket csak folytonosságra ellenőrizni",
+        "d) elegendő csak a védővezető bekötését ellenőrizni valamennyi lámpatestnél"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.30. Kimutatható-e a védővezető szakadása próbalámpás, vagy söntölt voltmérővel végzett folytonossági vizsgálattal, a forróvíztároló (bojler) testen?",
+      "a": [
+        "a) igen, ilyenkor a próbalámpa a fázis és a test közé kötve nem ég teljes fénnyel, illetve a műszer a fázisfeszültségnél kisebb feszültséget mutat",
+        "b) nem, mert a földelt vízhálózat kis földelési ellenállása miatt a próbalámpa gyakorlatilag teljes fénnyel ég és a voltmérő közel fázis feszültséget mutat",
+        "c) az előbbi okok miatt a próbalámpa nem felel meg, csak nagy ellenállású voltmérővel mutatható ki a szakadás"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.31. Egy háromfázisú fogyasztókat is ellátó épületcsatlakozásnál beszerzési nehézségek miatt, háromfázisú helyett, 3 db egyfázisú áram-védőkapcsolót iktattak be, mindegyiken átvezetve egy fázist és az üzemi nullavezetőt. Helyes-e ez a megoldás?",
+      "a": [
+        "a) helyes, ha a védővezetőt elkülönítik",
+        "b) tilos, mert így a védőkapcsolók nem szelektívek",
+        "c) helytelen, mert az üzemi áramokra is lekapcsol, működésképtelen"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.32. IT-rendszerű, háromfázisú, földeletlen hálózatnál alkalmazott védőföldelés vizsgálata során milyen méréseket kell végezni?",
+      "a": [
+        "a) a fázisok közötti vonali feszültséget és a fázisvezetők üzemi áramát",
+        "b) a földelőkön folyó áramokat és a földelők között fellépő érintési feszültséget",
+        "c) a fázisvezetők földzárlati áramát és a földelők ellenállását"
+      ],
+      "numOfQs": 3,
+      "gA": 3
     }
   ]
 }
