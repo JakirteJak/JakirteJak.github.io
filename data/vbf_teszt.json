@@ -2290,6 +2290,131 @@
       ],
       "numOfQs": 3,
       "gA": 3
+    },
+    {
+      "q": "5.49. Szükséges-e saját kivitelezésű családi ház építkezésénél a kölcsönzött betonkeverő gép áramütésvédelméhez az áram-védőkapcsoló telepítése?",
+      "a": [
+        "a) igen, az MSZ HD 60364-7-704 szabvány előírásai szerint szükséges ",
+        "b) nem, csak nagy építkezések felvonulási villamos energia ellátása esetén szükséges ",
+        "c) korábban szükséges volt, most már nem, mert elegendő a betonkeverő gépet a szabványosan szerelt védő érint kezős dugaszolóaljzathoz csatlakoztatni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "5.51. Fürdőszoba 1-es sávjában szabad-e csatlakozóaljzatot felszerelni?",
+      "a": [
+        "a) tilos fürdőszobában csatlakozóaljzatot alkalmazni;",
+        "b) legfeljebb 25 V váltakozó, illetve 60 V egyenfeszültségű SELV-, PELV- törpefeszültségű transzformátorról táplált csatlakozóaljzatot szabad felszerelni",
+        "c) villamos borotvához megengedett, ha ellátják erre utaló felirattal vagy jelzéssel",
+        "d) csak lakások fürdőszobájában, korlátozások nélkül megengedett."
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.52. 24 V-os SELV-törpefeszültségű csatlakozóaljzat céljára milyen szerelvény alkalmazható?",
+      "a": [
+        "a) kizárólag védőérintkező nélküli kétsarkú;",
+        "b) csak 24 V-os törpefeszültségű szerelvény;",
+        "c) kizárólag érintésvédelmi törpefeszültségre készült csatlakozóaljzat, vagy védőérintkezős csatlakozóaljzat."
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.53. Falba süllyesztett fém védőcsőben köpenyes vezetéket (tömlővezetéket) vezetnek. Szükséges-e a védőcsőre áramütés elleni védelmet alkalmazni?",
+      "a": [
+        "a) igen  ",
+        "b) csak szabadtéren  ",
+        "c) nem"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.54. TN-rendszerben mindhárom fázisról mérve a hurokellenállás azonos, de jóval nagyobb a megengedettnél. Mi okozhatja?",
+      "a": [
+        "a) mindhárom fázisban rossz kötések vannak",
+        "b) mindhárom fázisban, vagy a nullavezetőben lévő rossz kötés",
+        "c) túl hosszú és kis keresztmetszetű áramkör, vagy a védővezetőben lévő rossz kötés",
+        "d) az egyik fázisvezetőben és a nullavezetőben lévő rossz kötés"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.55. TN-rendszer korábbi mérési jegyzőkönyve szerint az üzem forgácsoló műhelyében 6 m magasan üzemelő, mennyezeti elszívó ventilátor 1,2 kW-os motorja nem volt ellátva hibavédelemmel. A motort mennyezet alatt vezetett 4 x 4 mm2 alumínium vezeték táplálja az egyik elosztó szekrényből. Egy másik elosztó dobozból, a világítási áramkör nullavezetőjéről leágaztatott egyerű, 6 mm2-es MM falvezetékkel csatlakoztak a motor fémtestére. Minősítse a ventilátormotor utólag kialakított hibavédelmét!",
+      "a": [
+        "a) megfelelő, mert a motort megfelelő keresztmetszetű vezetékkel, párhuzamosan kötötték a fázis és a nullavezetőhöz",
+        "b) felesleges, mert a ventilátormotort kézzel el nem érhető magasságban üzemeltetik,  érintésvédelemmel való ellátása nem szükséges",
+        "c) nem megfelelő, mert a külön áramkört képező világítási berendezés nulla vezetőjéből tilos védővezetőt leágaztatni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.56. Egy villamos kéziszerszám (kézi csiszológép) túláramvédelmét 6 A névleges áramerősségű biztosítóval valósították meg. Az alkalmazott védelemi mód: TN-rendszer. A mért hurok ellenállás értéke 0,62 Ω. Megfelel-e az MSZ HD 60364-4-41 szabvány előírásainak?",
+      "a": [
+        "a) a körellenállás érték megfelelő",
+        "b) a körellenállás érték túl nagy, nem megfelelő",
+        "c) nem felel meg az áramütés elleni védelem: kettős vagy megerősített szigetelésű  kéziszerszámokat kell alkalmazni."
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.57. Egy galvanizáló dob hajtómotorjának hibavédelmét villamos elválasztással oldották meg. A 3x400 V szekunder feszültségű villamos elválasztó transzformátor közvetlenül táplálja a mellette a falra szerelt mágneskapcsolót, amelyből köpenyes vezetéken keresztül kapja a motor a földeletlen 3x400 V tápfeszültséget. Hogyan véleményezné, és mit javasolna a galvanizáló dob hibavédelmével kapcsolatban?  ",
+      "a": [
+        "a) megfelelő; a villamos elválasztó transzformátor itt csak egy fogyasztó készüléket táplál a hozzá tartozó kapcsolóval",
+        "b) nem felel meg; a mágneskapcsolót a villamos elválasztó transzformátor primer tápvezetékébe kell iktatni, és a motort közvetlenül a transzformátorhoz kell csatlakoztatni",
+        "c) nem felel meg, a kapcsolót és a motort egy védővezetővel össze kell kötni",
+        "d) nem megfelelő, a motor és a kapcsoló két külön villamos készülék, így mindegyiket külön transzformátorra kell kapcsolni"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.58. Háromfázisú és egyfázisú villamos szerkezetekTN-rendszerű közös elosztószekrényéhez 6 mm2 réz-erű tápvezeték létesítése szükséges. Hány erű lehet ez a betáplálás?",
+      "a": [
+        "a) három  ",
+        "b) négy                      ",
+        "c) öt ",
+        "d) hat"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.60. Száraz, szigetelő padlójú üzemi helyiségben, földelt fémszerkezetekről egyidejű érintést kizáró távolságban 600 V névleges feszültségű egyenáramú, fémtestű berendezést üzemeltetnek. Hibavédelem alkalmazása szükséges-e?",
+      "a": [
+        "a) igen       ",
+        "b) nem"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "5.63. Az MSZ 172-1:1986 szabvány érvényessége idején létesített, fémtestű, fénycsöves lámpatestekből álló lámpasornál a 3 m magasan szerelt lámpatestek egymástól 2,7 méterre vannak elhelyezve. Milyen érintésvédelmi megoldást tart megfelelőnek? (A lámpatestektől érintési távolságon belül földeltnek tekinthető fémtárgy nincs)",
+      "a": [
+        "a) érintésvédelem az MSZ 172-1 szabvány szerint nem szükséges",
+        "b) TN-rendszerű (védővezetős) hibavédelmet kell alkalmazni",
+        "c) az armatúrákat azonos potenciálra kell hozni",
+        "d) csak az utóbbi két megoldás megfelelő"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.64. IΔn : 500 mA érzékenységű áram-védőkapcsolóval védett szivattyúmotor hibavédelmét kell felülvizsgálnia. A TT-rendszer földelési ellenállásának a megengedett értékét számítással kell meghatároznia. Melyik a hibátlanul számított, megengedett ellenállás érték?",
+      "a": [
+        "a) 50 Ω ",
+        "b) 100 Ω ",
+        "c) 460 Ω ",
+        "d) 230 Ω"
+      ],
+      "numOfQs": 4,
+      "gA": 2
     }
   ]
 }
