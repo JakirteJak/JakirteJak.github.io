@@ -1,3 +1,13 @@
+.goodAnswer {
+    font-weight: bold;
+    color: green;
+}
+
+.badAnswer {
+    font-weight: normal;
+    color: black;
+}
+
 .link_button {
     display: inline-block;
     background-color: #fff9c6;
