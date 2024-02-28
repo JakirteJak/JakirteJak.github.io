@@ -2159,6 +2159,137 @@
       ],
       "numOfQs": 3,
       "gA": 3
+    },
+    {
+      "q": "5.33. IT-rendszerű, háromfázisú, földeletlen hálózaton fennálló egysarkú földzárlat esetén, a fázisvezető és a földelő hálózat közötti földzárlati áram mérésnél kétfázisú zárlatot okozhatunk. Hogy ellenőrizné az áram mérése előtt a földzárlatmentességet?",
+      "a": [
+        "a) lakatfogóval ellenőrizzük, hogy a földelő vezetékek árammentesek-e",
+        "b) a fázisvezetők és egy földelő között mérjük a fázisfeszültségeket",
+        "c) a fázisvezetők közötti feszültségméréssel ellenőrizzük a vonali feszültségek azonosságát",
+        "d) a fázisvezetőkön lakatfogóval mérjük a fázisáramokat"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.34. Kisfeszültségű berendezés esetén szabad-e a védővezetőbe védelmi célokat szolgáló áramváltót beiktatni?",
+      "a": [
+        "a) igen  ",
+        "b) nem               ",
+        "c) csak akkor, ha minden fázisvezetőbe is beépítették"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.35. Hogyan minősítené a száraz helyiségekben üzemelő, alább felsorolt rendeltetésű és védelmi módú kéziszerszámok áramütés elleni védelmét – forrasztópákához védővezető csatlakozik,  – kettős szigetelésű kézi fúrógép, – háztartási vasalóhoz védővezető csatakozik,",
+      "a": [
+        "a) mindhárom megfelelő",
+        "b) a forrasztópáka és a vasaló nem megfelelő",
+        "c) a vasaló nem megfelelő",
+        "d) egyik sem felel meg"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "5.36. Hogyan lehet szabványosan megoldani a régi típusú, védővezetős, I. Év. osztályú  kéziszerszámok áramütés elleni védelmét?",
+      "a": [
+        "a) sehogy, mert ezek szabványellenesek",
+        "b) villamos elválasztással, vagy áram-védőkapcsolóval védett, védővezetős hálózatról üzemeltetéssel",
+        "c) bármilyen érintésvédelmi móddal, de a fokozott érintésvédelem szigorúbb előírásai szerint"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.39. A felülvizsgálat során hány darab, 0,5 A névleges áramfelvételű készülék üzemeltetését engedné meg egy egyfázisú, 500 VA teljesítményű villamos elválasztó transzformátorról?",
+      "a": [
+        "a) egy ",
+        "b) kettő ",
+        "c) négy  ",
+        "d) nincs megkötés"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.40. Háromfázisú villamos elválasztó transzformátor névleges szekunder feszültsége 420 V. Megfelel-e?",
+      "a": [
+        "a) igen      ",
+        "b) nem"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "5.41. II. Év. osztályú mosógép áramütés elleni védelmét hogy kell kialakítani?",
+      "a": [
+        "a) a védővezetőt nem kell csatlakoztatni, de a mosógép testét a helyiségben lévő nagyobb fémtesttel (vízvezeték, központifűtés csőrendszere) egyenpotenciálra kell hozni;",
+        "b) a mosógép fémburkolatát nem kell csatlakoztatni sehová sem, de a motorhoz be kell kötni a védővezetőt;               ",
+        "c) a mosógép védelme gyárilag biztosított, további intézkedés nem szükséges"
+      ],
+      "numOfQs": 5,
+      "gA": 3
+    },
+    {
+      "q": "5.42. Milyen Év. osztályú készülékre szabad védőérintkező nélküli, lapos, vagy profilperemű, minden aljzatba bedugható csatlakozódugót alkalmazni?",
+      "a": [
+        "a) 0. Év. osztályú készülékre",
+        "b) II. Év. osztályú készülékre",
+        "c) III. Év osztályú készülékre ",
+        "d) mindhárom válasz helyes"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "5.43. Melyik készülék csatlakozóvezetékén tilos védőérintkezős csatlakozódugót alkalmazni? ",
+      "a": [
+        "a) az I. Év. osztályú készülék vezetékén",
+        "b) a II. Év. osztályú készülék "
+      ],
+      "numOfQs": 2,
+      "gA": 2
+    },
+    {
+      "q": "5.44. Áramütésvédelmi szempontból védelemnek minősíti-e a termikus túláramvédelmet?",
+      "a": [
+        "a) igen, mert védelmi hatékonysága megfelelő",
+        "b) nem (lassú működése miatt)",
+        "c) az üzemi körülmények döntik el"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.45. TT-rendszer esetében lehet-e nagyobb teljesítményű fogyasztó áramütés elleni védelmét áram-védőkapcsoló nélkül megoldani? ",
+      "a": [
+        "a) igen  ",
+        "b) nem"
+      ],
+      "numOfQs": 2,
+      "gA": 2
+    },
+    {
+      "q": "5.47. Egy kisfeszültségű készülék csatlakoztatására alkalmazott 7 eres jelzőkábel 3 erét az SELV/PELV törpefeszültségű vezérlés céljára vették igénybe. Hogyan minősítené ezt a kialakítást?",
+      "a": [
+        "a) tilos, a vezérléshez külön kábel szükséges",
+        "b) megengedett, ha a törpefeszültségű készülékhez kisfeszültségű áramütésvédelmet is biztosítanak (pl. nullázás)",
+        "c) megfelelő, mert a kábel kisfeszültségre szigetelt"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.48. Egy nyaraló építkezésnél betonkeverő gépet üzemeltetnek. A felsorolt  védelmi  módok közül melyik alkalmazható?",
+      "a": [
+        "a) védőföldelés kismegszakítóval",
+        "b) feszültség-védőkapcsolás ",
+        "c) TN-rendszer áram-védőkapcsolóval"
+      ],
+      "numOfQs": 3,
+      "gA": 3
     }
   ]
 }
