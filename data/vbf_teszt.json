@@ -2415,6 +2415,152 @@
       ],
       "numOfQs": 4,
       "gA": 2
+    },
+    {
+      "q": "5.65. A köszörűműhelyben alkalmazott lámpatestek az alattuk lévő munkagépekkel egyidejűleg érinthetők. A padló anyaga PVC. A lámpatestek egymás közötti távolsága 3 méter. Szükséges-e a lámpatestek áramütés elleni védelme?",
+      "a": [
+        "a) igen, mert minden lámpatestet közvetlenül el kell látni védelemmel      ",
+        "b) nem, mert egyidejű érintésük nem lehetséges",
+        "c) igen, mert a munkagépekkel egyidejűleg érinthetők",
+        "d) igen, mert a padlóról elérhetők"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "5.66. Áram-védőkapcsoló névleges kioldási árama, IΔn : 100 mA. Betonkeverő gép áramütés elleni védelmére telepítették. A gép teste földelve van. Hány Ω lehet a földelési ellenállás elméleti meg engedett legnagyobb értéke ebben az esetben?",
+      "a": [
+        "a) 100 Ω ",
+        "b) 230 Ω ",
+        "c) 500 Ω ",
+        "d) 2300 Ω"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.67. TN-rendszerű hálózatban 25 A-es biztosítóval védett, 400 V-os szivattyúmotor esetében jelölje meg, hogy a mért hurokellenállás értékek közül melyik fogadható el még megfelelőnek? (α: 6) ",
+      "a": [
+        "a) 1,08 Ω ",
+        "b) 1,27 Ω ",
+        "c) 2,30 Ω ",
+        "d) 1,53 Ω"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "5.68. Egy megerősített szigetelésű nyéllel ellátott forrasztópákát 230 V-os hálózatról DoII 6 A névleges áramú olvadóbiztosítóval védett leágazásról üzemeltetnek. Az alkalmazott hibavédelmi mód: TN-rendszer. Minősítsen az MSZ HD 60364-4-41 szabvány szerint!",
+      "a": [
+        "a) az alkalmazott érintésvédelem nem felel meg, csak törpefeszültségről szabad táplálni",
+        "b) nem felel meg, mert a villamos kéziszerszám csak kettős szigetelésű lehet",
+        "c) a megerősített szigetelésű kéziszerszámok üzemeltetése így megengedett"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.69. Régi lakóházakban a villamos hálózat felújításáig mi használható fel védővezetőként?",
+      "a": [
+        "a) a üzemi nullavezető ",
+        "b) a gázcső   ",
+        "c) a vízvezetéki nyomócső"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.70. Szükséges-e javított (vagy felújított) villamos szerkezetek szerelői ellenőrzése?",
+      "a": [
+        "a) igen   ",
+        "b) nem   ",
+        "c) a műszaki állapot dönti el"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "5.71. 1970-ben létesített berendezés felülvizsgálata alkalmával a fázisvezetőktől függetlenül vezetett szigetelt védővezetőt talál. Jelölje meg az előírásnak megfelelő jelzőszínt!",
+      "a": [
+        "a) kék vagy zöld/sárga",
+        "b) zöld/sárga vagy vörös",
+        "c) zöld/sárga vagy fekete"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.72. Egy TN-rendszerű szabadvezetéki hálózat szakaszbiztosítójának legnagyobb alkalmazható értékét kell kiszámítania (In). A vezeték hurokellenállása Zs : 0,55 Ω, a kioldási szorzó, α: 4.",
+      "a": [
+        "a) 20 A ",
+        "b) 50 A ",
+        "c) 100 A ",
+        "d) 200 A"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.73. Hegesztett acélszerkezetre felszerelt, kisfeszültségű villamos motor felerősítése 4 db fémesen érintkező fogazott alátéttel ellátott csavarral történt. A védővezetőt nem a motorhoz, hanem az állványhoz csatlakoztatták. Megfelelőnek minősíti-e?",
+      "a": [
+        "a) igen, megfelelő ",
+        "b) megfelelő, ha a motor és az állvány között áthidaló vezetőt helyeznek el",
+        "c) nem felel meg, mert a védővezetőt a motorhoz kell csatlakoztatni ",
+        "d) nem felel meg, mert a motorhoz is és az állványhoz is külön védővezető szükséges"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.74. Egy TN-rendszerű öntöttvas tokozású elosztó berendezés tápvezetéke 4 x 95 mm2 alumínium kábel. A PE-sínről a berendezés fémtestére védővezetőt kell csatlakoztatni. Mekkora a legkisebb keresztmetszetű alumíniumvezető, amit erre külön számítás nélkül alkalmazhatunk?",
+      "a": [
+        "a) 16 mm2 ",
+        "b) 35 mm2 ",
+        "c) 50 mm2 ",
+        "d) 95 mm2"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "5.75. Egy üzemben a padozattól 3 m magasan elhelyezett fémlemez-tokozású biztosítótábla fölött a padozattól 3,5 m-re, az egyenpotenciálú rendszerbe bekötött fém vízvezetékcső halad. Mi a helyes hibavédelmi megoldás?",
+      "a": [
+        "a) áramütés elleni védelem nem szükséges",
+        "b) a lemez biztosítótábla tokozását hibavédelemmel kell ellátni",
+        "c) a lemeztokozást elegendő a vízvezetékcsővel összekötni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.76. Egy 1:1 feszültség-áttételű villamos elválasztó transzformátorról 3 db, külön-külön olvadó biztosítóval védett fogyasztót működtetnek. A három készüléket a tápvezetőkkel megegyező keresztmetszetű, szigetelt, földeletlen egyenpotenciálra hozó vezető köti össze. Hogy minősítené az érintésvédelmüket?",
+      "a": [
+        "a) nem felel meg, mert egy villamos elválasztó transzformátorról csak egy készülék működtethető",
+        "b) megfelelő, mert a védővezetős összekötés miatt a három készülék csak egy fogyasztónak számít",
+        "c) megfelelő, mert a földeletlen összekötés miatt az érintésvédelmi mód: „villamos elválasztás” egynél több fogyasztókészülék táplálásával"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "5.78. Melyik védelmi mód vizsgálatánál kell ellenőrizni a figyelmeztető jel meglétét?",
+      "a": [
+        "a) védőföldelés szigetelt hálózatnál",
+        "b) villamos szerkezet helyszíni létesítésű elszigetelése esetén",
+        "c) villamos elválasztás"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "5.80. Milyen különleges intézkedés tartozik a védőakadályok és elérhető tartományon kívüli elhelyezés védelmi mód alkalmazásához?",
+      "a": [
+        "a) nincs szükség semmilyen különleges intézkedésre",
+        "b) kioktatott személyek ellenőrzik, felhatalmazás nélkül nem lehet megváltoztatni ",
+        "c) csak szakképzett vagy kioktatott személyek által felügyelt berendezésekben használható "
+      ],
+      "numOfQs": 3,
+      "gA": 3
     }
   ]
 }
