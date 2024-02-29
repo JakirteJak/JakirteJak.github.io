@@ -2561,6 +2561,264 @@
       ],
       "numOfQs": 3,
       "gA": 3
+    },
+    {
+      "q": "6.02. A minősítő iratban a minősítés alapadatai között fel kell tüntetni az áramütés elleni védelem módját is. Mit ért ezen?",
+      "a": [
+        "a) azt kell feltüntetni, hogy az alapvető, általánosan alkalmazott védelmi mód TT- vagy TN-rendszer",
+        "b) meg kell jelölni az általános védelmi módon kívül azt, vagy azokat is, hogy amelyeket rendszeresen nagyobb számú készüléknél alkalmaznak",
+        "c) minden alkalmazott érintésvédelmi módot fel kell tüntetni, azt is, amelyet csak egyetlen készüléknél alkalmaznak"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "6.03. Melyik jogszabály írja elő a felülvizsgálati dokumentáció készítését?",
+      "a": [
+        "a) 31/1995.(VII.25.) IKIM rendelet (VFSZBSZ)",
+        "b) 8/2001.(III.30.) GM rendelet (VMBKSZ)",
+        "c) 40/2017.(XII.4.) NGM rendelet (VMBSZ)"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "6.04. Van-e kötelező formula a vizsgálati dokumentáció készítésére?",
+      "a": [
+        "a) nincs   ",
+        "b) van"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "6.07. Egy lakatosműhelyben minden munkaasztal felett 3-3 db azonos kivitelű védőérintkezős csatlakozóaljzat van felszerelve, 24 V, 42 V, 230 V feliratokkal ellátva. Mit írna erről a dokumentációban?",
+      "a": [
+        "a) nem megfelelő, úgy kell átalakítani a csatlakozóaljzatokat, hogy kizárt legyen a  készülék nagyobb feszültségre kapcsolása",
+        "b) megfelelő, ha minden dolgozót bizonyíthatóan kioktatnak arra, hogy a törpefeszültségű készülékeket véletlenül se dugaszolják a 230 V-os aljzatba. Ilyen esetben a szigetelés leégésével mindjárt életveszélyes testzárlat is fellépne",
+        "c) nem megfelelő, a törpefeszültségű készülékeknek olyan csatlakozóaljzatokat kell felszerelni, amelyek megakadályozzák, hogy azokat a névlegestől eltérő feszültségre csatlakoztassák (pl. védőérintkező nélküli törpefeszültségű csatlakozók)"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "6.08. Az ellenőrzési, illetve a felülvizsgálati dokumentációnak minden esetben tartalmaznia kell-e a minősítő iratot,",
+      "a": [
+        "a) nem, ekkor hibafelvételi jegyzéket kell tartalmaznia",
+        "b) igen",
+        "c) a megbízóval történt megegyezéstől függ"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "6.09. Melyik szabvány határozza meg az ellenőrzések és felülvizsgálatok követelményeit?",
+      "a": [
+        "a) MSZ HD 60364-6:2017",
+        "b) MSZ 1585:2016",
+        "c) MSZ HD 60364-1:2009"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "6.10. Melyik jogszabály írja elő a munkahelyek felülvizsgálatát?",
+      "a": [
+        "a) 31/1995.(VII.25.) IKIM rendelet (VFSZBSZ)",
+        "b) 8/2001.(III.30.) GM rendelet (VMBKSZ)",
+        "c) 10/2016. (IV.5.) NGM rendelet"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "6.11. A felülvizsgálatokat meghatározó MSZ HD 60364-6:2017 szabvány E, F és G melléklete közöl dokumentálási mintákat (a berendezés leírása, adatlap, ellenőrzés jelentése stb.). kötelező-e ezek alkalmazása?",
+      "a": [
+        "a) igen, minden esetben kötelező",
+        "b) nem, ezeket felváltják a módosított nemzeti mellékletek, az előírt minimális tartalommal ",
+        "c) csak akkor, ha szükséges az abban szereplő információk közlése"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "6.12. A kézikönyvünk vizsgálati dokumentáció mintái között szerepel „A vizsgálati eredmények összefoglalása” című táblázat. Kötelező-e minden esetben ennek alkalmazása?",
+      "a": [
+        "a) igen, minden esetben kötelező",
+        "b) nem, csak nagyobb munkáknál ajánlott, jó áttekintést ad az elvégzett ellenőrzésekről és vizsgálatokról ",
+        "c) csak akkor, ha szükséges ha a megbízó kifejezetten ragaszkodik hozzá"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "7.02. A megengedett 50 V váltakozó, illetve 120 V egyenfeszültség érintési feszültség minősíthető-e élettanilag veszélytelenek?",
+      "a": [
+        "a) igen",
+        "b) nem, csak egy kompromisszumnak az élettanilag veszélytelen és a gazdaságosan megvalósítható értékek között",
+        "c) a veszélyeztetettség mértékét mindig a helyi körülmények szabják meg"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "7.03. Okozhat-e áramütést szigetelt csillagpontú hálózaton a fázisvezető megérintése?",
+      "a": [
+        "a) nem okozhat, mert a hálózat földeletlen és emiatt a vezetőt érintő személyen át a föld felé nem folyhat áram",
+        "b) csak akkor okozhat áramütést, ha a hálózat földdel szembeni szigetelési ellen állása az előírt 0,2 MΩ-nál kisebb",
+        "c) a vezetékek földkapacitása miatt ugyanolyan áramütést okozhat, mint a közvetlenül földelt hálózat"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "7.05. Milyen hatással van az ipari frekvenciájú áram az izmok működésére?",
+      "a": [
+        "a) összehúzza az izmokat    ",
+        "b) elernyeszti az izmokat",
+        "c) rezgésbe hozza az izmokat"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "7.06. Melyik frekvenciájú váltakozó áram legveszélyesebb az emberi szervezetre?",
+      "a": [
+        "a) 10 Hz alatti",
+        "b) 50-1000 Hz alatti",
+        "c) 1-10 kHz alatti",
+        "d) 10 kHz felett"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "7.07. Mi az áramütés legsúlyosabb következménye?",
+      "a": [
+        "a) égés    ",
+        "b) bénulás   ",
+        "c) légzés- és/vagy keringésmegállás",
+        "d) izomgörcs, mely lehetetlené teszi a feszültségforrás elengedését"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "7.08. Mi a különbség a klinikai és biológiai halál között?",
+      "a": [
+        "a) a klinikai halál állapotában légzés nincs, a biológiai halál esetén sem légzés, sem vérkeringés nincs",
+        "b) a klinikai halál esetében a balesetes megmenthető, a biológiai halál állapotában újraélesztésre már nincs lehetőség",
+        "c) a klinikai halálból nincs, a biológiai halálból van remény az életbe való visszatérésre"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "7.09. Válassza ki a felsorolt teendők közül azt, amelyet villamos áramütéses baleset bekövetkezésekor haladéktalanul meg kell tennie!",
+      "a": [
+        "a) a balesetes hozzátartozóit értesíti",
+        "b) a balesetest, ha szükséges, az áramkörből kiszabadítja",
+        "c) telefont keres, és a mentőszolgálatot hívja"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "7.11. Hogyan állapítja meg az eszméletlen balesetes vérkeringésének meglétét vagy megszűnését?",
+      "a": [
+        "a) fülét a mellkasra helyezve szívhangokat figyeli  ",
+        "b) a nyaki ütőeret tapintja",
+        "c) a csuklón tapintja a verőeret"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "7.12. Hogyan állapítja meg az eszméletlen balesetes légzésének meglétét vagy megszűnését?",
+      "a": [
+        "a) tükröt tart a szája elé és figyeli hogy az bepárásodik-e",
+        "b) hallgatózással próbálja a légzést megállapítani",
+        "c) a szegycsont magasságába hajtott fejjel a mellkas és a gyomortájék emelkedését,  süllyedését figyeli",
+        "d) a balesetes orra elé tollpihét tartva, annak lebegését figyeli"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "7.13. Mikor kell a befúvásos lélegeztetést és a szívmasszázst (felválta) együttesen alkalmazni?",
+      "a": [
+        "a) ha az áramütött nincs eszméleténél   ",
+        "b) ha két elsősegélynyújtó van jelen     ",
+        "c) szívmasszázst csak orvos végezhet ",
+        "d) ha a sérültnek sem légzése sem vérkeringése nincs"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "7.14. Lélegeztetéskor a befúvás",
+      "a": [
+        "a) a normál nyugalmi légzés ütemében történjék;",
+        "b) percenként kb. 60-szor történjék;",
+        "c) másodpercenként végzendő;",
+        "d) a normál légzés szaporaságának kb. négyszeresével történjék."
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "7.15. Lehet-e ártani az újraélesztéssel? ",
+      "a": [
+        "a) csak ha szakszerűtlenül végzik",
+        "b) igen, ha a megmaradt keringésű személyen tévedésből végzik ",
+        "c) sohasem",
+        "d) ha 3 percnél tovább végzik"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "7.16. Mikor sikeres az újraélesztés?",
+      "a": [
+        "a) ha a mellkasi kompressziók alatt a nyaki verőéren pulzus tapintható",
+        "b) ha a bőr színe a normálishoz közeledik",
+        "c) ha a spontán légzés és keringés visszatér",
+        "d) ha a pupillák szűkülnek"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "7.17. A sikerrel újraélesztett beteg",
+      "a": [
+        "a)  legfeljebb 3 percre magára hagyható",
+        "b) az orvos vagy mentők megérkezéséig magára hagyható         ",
+        "c) stabil oldalfekvésbe fordítva magára hagyható",
+        "d)  pillanatokra sem hagyható magára"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "7.19. A stabil oldalfekvés jelentősége",
+      "a": [
+        "a) az újraélesztés első lépése",
+        "b) az eszméletlen beteg számára megakadályozza a nyelv hátracsúszását, és csökkenti a vér, hányadék belehelésének lehetőségét",
+        "c) lehetetlené teszi a légzésmegállás miatti halál bekövetkeztét",
+        "d) kényelmes feltételeket teremt a lélegeztetéshez"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "7.20. Kit kell stabil oldalfekvésbe fordítani?",
+      "a": [
+        "a) eszméletlen, kielégítő légzésű és keringésű beteget;",
+        "b) a klinikai halál állapotában lévőt;",
+        "c) azt, akinek légzése van, de keringése nincs."
+      ],
+      "numOfQs": 3,
+      "gA": 1
     }
   ]
 }
