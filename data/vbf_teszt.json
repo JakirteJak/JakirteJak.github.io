@@ -2957,6 +2957,320 @@
       ],
       "numOfQs": 1,
       "gA": 3
+    },
+    {
+      "q": "II.2.09. Melyik villamos berendezések időszakos felülvizsgálatát írja elő az OTSZ 5.2?",
+      "a": [
+        "a) csak a kisfeszültségű, erősáramú ",
+        "b) csak közüzemi berendezések",
+        "c) csak a váltakozó áramú                   ",
+        "d) valamennyi villamos berendezés"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.2.10. A 2011-es OTSZ szerint mit nevezünk veszélyességi övezetnek?",
+      "a": [
+        "a) a helyiségben vagy szabadtéren lévő anyagnak, gépnek, berendezésnek tűzvédelmi szempontból önállóan értékelendő környezetét, térrészét",
+        "b) az a terület, ahol robbanásveszélyes gázkoncentráció állandóan jelen van",
+        "c)  a robbanásveszélyes építményt övező 6 méteres biztonsági sávot"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.11. Az OTSZ 5.2 (illetve az OTÉK) szerint mit nevezünk magas épületnek?",
+      "a": [
+        "a) a toronyszerű épületeket (pl. templom, kilátó stb.)",
+        "b) a legfelső építményszint szintmagassága a 30 m-t meghaladja ",
+        "c) a legfelső építményszint magassága a 40 m-t meghaladja",
+        "d) egy egységet alkotó két épületrész esetén ha az alacsonyabb 25 m magas"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.2.12. Az OTSZ 5.2 szerint mit nevezünk létesítménynek?",
+      "a": [
+        "a)  az önálló légtérrel rendelkező épületek összességét",
+        "b)  az egy építési telken álló építmények és szabadterek összességét",
+        "c)  mesterséges épületeket és egyéb műtárgyakat",
+        "d)  valamennyi talajszint felett álló mesterséges építményt"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.2.13. Mikor beszélünk hatékony szellőztetésről az OTSZ 5.2 szerint?",
+      "a": [
+        "a)  ha egy helyiség háromszoros légcseréje biztosított",
+        "b)  ha nem tud a helységben robbanóképes koncentráció kialakulni",
+        "c)  ahol az adott térben a szellőzés biztosítja, hogy az éghető gázok, gőzök, porok koncentrációja ne érje el az alsó robbanási határérték (ARH) 20%-át ",
+        "d)  természetes szellőzés és ötszörös légcsere esetén"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.14. Hány tűzveszélyességi osztályba sorolja a létesítményeket a 2011-es OTSZ?",
+      "a": [
+        "a) 3 ",
+        "b) 4 ",
+        "c) 5 ",
+        "d) 6"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.15. Létesítmény (telephely) tűzveszélyességi osztályba sorolásánál figyelembe kell-e venni a termelési egységhez tartozó szabadtereket is?",
+      "a": [
+        "a) igen    ",
+        "b) nem    ",
+        "c) csak ha ott veszélyességi övezet is van"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.16. Az OTSZ 5.2 alapján jelölje meg, hogy milyen tűzveszélyességi osztályba tartozik az az anyag, amelynek zárttéri lobbanáspontja 21 C(fok) alatt van?",
+      "a": [
+        "a) fokozottan tűz- vagy robbanásveszélyes osztályba   ",
+        "b) mérsékelten tűzveszélyes osztályba     ",
+        "c) nem tűzveszélyes osztályba (FRV) (MTV) (NTV)"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.17. Az OTSZ 5.2 alapján milyen halmazállapotú és tűzveszélyességi osztályú az az anyag, amelynek nyílttéri lobbanáspontja 35 C(fok)?  ",
+      "a": [
+        "a) fokozottan tűz- vagy robbanásveszélyes osztályú folyadék (FRV)",
+        "b) mérsékelten tűzveszélyes osztályú gáz (MTV)",
+        "c) nem tűzveszélyes osztályú folyadék gőze (NTV)"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.18. Az OTSZ 5.2 alapján milyen tűzveszélyességi osztályú az a por amely a levegővel robbanásveszélyes keveréket képez? ",
+      "a": [
+        "a) fokozottan tűz- vagy robbanásveszélyes osztályú    (FRV)",
+        "b) mérsékelten tűzveszélyes osztályú      (MTV)",
+        "c) nem tűzveszélyes osztályú       (NTV)"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.19. Az OTSZ 5.2 alapján milyen tűzveszélyességi osztályba tartoznak azok a gázok, melyek önmaguk nem égnek, de az égést táplálják? (pl. oxigén)  ",
+      "a": [
+        "a) fokozottan tűz- vagy robbanásveszélyes osztályba (FRV)  ",
+        "b) mérsékelten tűzveszélyes osztályba (MTV)    ",
+        "c) nem tűzveszélyes osztályba (NTV)"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.2.20. Az OTSZ 5.2 alapján milyen tűzveszélyességi osztályba tartoznak a legalább 50 C(fok) nyíltéri lobbanáspontú gázolajok, tüzelőolajok, és a világítási petróleum?   ",
+      "a": [
+        "a) fokozottan tűz- vagy robbanásveszélyes osztályba (FRV)  ",
+        "b) mérsékelten tűzveszélyes osztályba (MTV)  ",
+        "c) nem tűzveszélyes osztályba (NTV)"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.2.21. Mitől függ az, hogy egy helyiség milyen kockázati osztályba tartozik? ",
+      "a": [
+        "a) az épületszerkezetek tűzveszélyességétől ",
+        "b) csak az ott használt anyagoktól ",
+        "c) csak az ott folytatott tevékenységtől (nyílt láng stb.) ",
+        "d) az ott tárolt/használt anyagoktól és az ott folytatott technológiától és tevékenységtől"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.2.22. A 2011-es OTSZ alapján szabadtér tartozhat-e „A” vagy „B” tűzveszélyességi osztályba?  ",
+      "a": [
+        "a) igen                             ",
+        "b) nem                            ",
+        "c) csak ha az átszellőzés korlátozott"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.23. Milyen kockázati osztályba sorolja az 54/2014. (XII. 5.) BM rendelet (OTSZ 5.2)  az állattartási épületeket (alommal)? ",
+      "a": [
+        "a) nagyon alacsony kockázati osztályba (NAK)",
+        "b) alacsony kockázati osztályba (AK)",
+        "c) közepes kockázati osztályba (KK)",
+        "d) magas kockázati osztályba (MK)"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.2.24. Milyen kockázati osztályba tartozik az üzemanyagtöltő állomás az 54/2014. (XII. 5.) BM rendelet (OTSZ 5.2) szerint?",
+      "a": [
+        "a) nagyon alacsony kockázati osztályba (NAK)",
+        "b) alacsony kockázati osztályba (AK)",
+        "c) közepes kockázati osztályba (KK)",
+        "d) magas kockázati osztályba (MK)"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.2.25. Egy gépkocsigyártó karosszériaüzem milyen kockázati osztályba tartozik az 54/2014. (XII. 5.) BM rendelet (OTSZ) szerint?",
+      "a": [
+        "a) nagyon alacsony kockázati osztályba (NAK)",
+        "b) alacsony kockázati osztályba (AK)",
+        "c) közepes kockázati osztályba (KK)",
+        "d) magas kockázati osztályba (MK)"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.2.26. Egy hangversenyterem befogadóképessége 600 fő. Milyen a kockázati osztálya az 54/2014. (XII. 5.) BM rendelet (OTSZ 5.2.) szerint?",
+      "a": [
+        "a) nagyon alacsony kockázati osztályba (NAK)",
+        "b) alacsony kockázati osztályba (AK)",
+        "c) közepes kockázati osztályba (KK)",
+        "d) magas kockázati osztályba (MK)"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.27. Milyen kockázati osztályba sorolandó egy általános irodahelyiség az OTSZ 5.2 szerint?",
+      "a": [
+        "a) nagyon alacsony kockázati osztályba (NAK)",
+        "b) alacsony kockázati osztályba (AK)",
+        "c) közepes kockázati osztályba (KK)",
+        "d) magas kockázati osztályba (MK)"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.2.30. Mi a különbség a tartalékvilágítás és a pánik elleni világítás között? (MSZ EN 1838)",
+      "a": [
+        "a) nincs különbség, mivel mindkettő szükségvilágítás más megnevezéssel",
+        "b) a tartalékvilágítás rendeleti előírás miatt szükséges, míg a pánik elleni világítást a üzembiztonság fokozása miatt célszerű alkalmazni",
+        "c) a tartalékvilágítás akkor lép működésbe, amikor a normál világítás tápellátása meghibásodik; a pánik elleni világítás a biztonsági világítás pánik megelőzésére szolgáló része: biztosítja az olyan helyre jutást, ahol már felismerhető a kijárati út"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.2.31. Van-e különbség a tartalékvilágítás és a biztonsági világítás között? (MSZ EN 1838)",
+      "a": [
+        "a) a tartalékvilágítás akkor lép működésbe, amikor a normál világítás tápellátása meghibásodik; a biztonsági világítás a tartalék világítás része, amely a veszélyes tevékenység befejezéséhez, és a térség biztonságos elhagyásához nyújt világítást",
+        "b) a tartalékvilágítás csak akkumulátorról táplálható, azért, hogy biztonságosan független legyen a veszélyeztetett hálózattól; a biztonsági világításnak minden esetben villamos világításnak kell lennie, függetlenül a táplálástól",
+        "c) ahol biztonsági világítást kell alkalmazni, tűzveszély csökkentése érdekében nemvillamos fényforrás alkalmazása tilos; a tartalékvilágítás a hálózattól függetlenül csak a kijáratokat világítja meg"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.33. Van-e különleges előírás a biztonsági világítás működési idejére vonatkozóan? (MSZ EN 1838)",
+      "a": [
+        "a) a veszélyes munkagépek közelében minimum 30 perc legyen",
+        "b) nincs",
+        "c) menekülést szolgáló működési ideje legalább 1 óra legyen"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.2.34. Az OTSZ 5.2 szerint a biztonsági világítás (mint tűzeseti fogyasztó) KK kockázati osztályú egységben mennyi ideig kell működőképesnek maradnia?",
+      "a": [
+        "a) 30 perc,      ",
+        "b) 60 perc      ",
+        "c) másfél óra"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.2.38. A létesítmény tüzivíz-szivattyú motorjának tápvezetékét honnan kell leágaztatni?",
+      "a": [
+        "a)  nincs erre előírás, a helyi kezelhetőségi körülmények határozzák meg",
+        "b)  a főkapcsoló után, de újabb szakaszoló főkapcsoló beiktatásával",
+        "c)  a főkapcsoló előtt, de a főkapcsolóval azonos helyen szerelt szakasz-kapcsolóval ellátva"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.2.39. A tűzeseti fogyasztók létesítése, beépítése, kialakítása során biztosítani kell, hogy tűz esetén a működőképességüket az előírt időtartamig megtarthassák. A működőképesség-megtartás megvalósul, ha tűz esetén:",
+      "a": [
+        "a) az előírt működési időtartamig a tűzeseti fogyasztó működéséhez szükséges teljesítményű villamos energia rendelkezésre áll",
+        "b) az előírt működési időtartamnak legalább 130%-áig a tápforrás és a tűzeseti fogyasztó közötti energiaátviteli vezetékrendszer tűzhatás elleni védelme biztosított",
+        "c) normál és biztonsági tápforrás együttes alkalmazása esetén a normál tápforrás kiesésekor a biztonsági tápforrásra, legfeljebb 3 percen belül át lehet kapcsolni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.2.40. Kell-e egy lakás részére (tűzvédelmi szempontból) külön kapcsolót szerelni?",
+      "a": [
+        "a) igen, az OTSZ szerint valamennyi tulajdonrészhez kell lekapcsoló",
+        "b) nem szükséges, ha leválasztásra az áram-védőkapcsolót használják",
+        "c) igen szükséges, mivel a létesítési szabvány leválasztást ír elő",
+        "d) egy lakás esetében főkapcsolóként megfelel az áramszolgáltatói kismegszakító"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.2.42. Villamos fűtőberendezést szabad-e felügyelet nélkül üzemeltetni?",
+      "a": [
+        "a) igen                                  ",
+        "b) nem",
+        "c) csak akkor, ha automatikus hőmérséklet-szabályozóval rendelkezik, vagy kifejezetten fűtésre szolgál és nem nyílt rendszerű"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.2.44. Hány évenként kell egy élelmiszeripari üzem (pl. konzervgyár) villamos berendezéseinek szabványossági felülvizsgálatát elvégezni a 2014-es OTSZ szerint ?",
+      "a": [
+        "a) 3 év  ",
+        "b) 6 év   ",
+        "c) 9 év  ",
+        "d) a helyiségekben tárolt robbanásveszélyes anyag mennyiségétől függően"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.2.45. Milyen időközönként kell az OTSZ 5.2 értelmében felülvizsgálni egy helyiség villmos berendezését, ha 150 liternél több robbanásveszélyes anyagot sohasem tárolnak benne?",
+      "a": [
+        "a) 1 év ",
+        "b) 3 év  ",
+        "c) 6 év  ",
+        "d) 9 év"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.46. Előírja-e az OTSZ 5.2 a felülvizsgálat során megállapított hibák, hiányosságok megszüntetését? ",
+      "a": [
+        "a) nem, a hibák, hiányosságok megszüntetését a létesítési szabványok írják elő",
+        "b) az OTSZ az időszakos felülvizsgálat elvégzését és a tapasztalt hiányok megszüntetését írja elő",
+        "c) a hibák, hiányosságok megszüntetéséről a felülvizsgáló a saját hatáskörében felelősen dönt"
+      ],
+      "numOfQs": 3,
+      "gA": 2
     }
   ]
 }
