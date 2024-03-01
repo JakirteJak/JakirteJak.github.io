@@ -2831,6 +2831,132 @@
       ],
       "numOfQs": 5,
       "gA": 4
+    },
+    {
+      "q": "II.1.03. Mit nevezünk alsó éghetőségi határértéknek?",
+      "a": [
+        "a) az a legkisebb hőmérséklet, amelyen az anyag égése már bekövetkezik",
+        "b) az a hőmérséklet, amelyen az anyag meggyújtva önmagától tovább ég",
+        "c) a veszélyes anyag levegőhöz viszonyított legkisebb mennyisége, melynél a gáz, gőz, köd keverék (koncentráció) már gyújtóforrás hatására robbanóképes"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.1.04. Milyen jellemző alapján soroljuk tűzveszélyességi osztályba az éghető anyagokat?",
+      "a": [
+        "a) gyulladási hőmérséklet",
+        "b) aprítottság foka         ",
+        "c) nedvességtartalma"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.1.05. Milyen jellemző alapján sorolunk tűzveszélyességi osztályba egy éghető folyadékot?",
+      "a": [
+        "a) fajsúlya, alsó robbanási határa  ",
+        "b) vegyi összetétele",
+        "c) zárttéri, nyílttéri lobbanáspontja, üzemi hőmérséklete"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.1.06. Milyen jellemzők alapján soroljuk tűzveszélyességi osztályba az éghető gázokat?",
+      "a": [
+        "a) relatív sűrűség",
+        "b) alsó éghetőségi (robbanási) határérték",
+        "c) gyulladási hőmérséklet"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.2.01. Alapvetően ki a felelős egy már üzemben lévő létesítmény villamos berendezésének tűzvédelmi biztonságáért?",
+      "a": [
+        "a) a létesítmény vezetője",
+        "b) karbantartó villanyszerelő",
+        "c) a tűzvédelemmel foglalkozó megbízott",
+        "d) MEO"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.2.02. Egy tűzveszélyességi osztályba sorolás mikor tekinthető hivatalosnak?",
+      "a": [
+        "a)  az üzem felelős vezetője által aláírt besorolás",
+        "b)  az előbbi, amennyiben azt a tűzvédelmi hatóság jóváhagyta",
+        "c)  az előbbiek, a felülvizsgáló részéről ellenőrizve",
+        "d)  a kísérő írásos nyilatkozata szerinti besorolás"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.2.03. Kinek az írásbeli nyilatkozata a döntő egy helyiség tűzveszélyességi besorolása tekintetében?",
+      "a": [
+        "a) a berendezést üzemeltető felelős személy (művezető, csoportvezető) nyilatkozata",
+        "b) a berendezés karbantartásáért felelős villamos szakember nyilatkozata",
+        "c) az üzem felelős vezetője által aláirt besorolás",
+        "d) mint a c) válasz, de ha tűzvédelmi hatóság is jóváhagyta"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.04. Melyik törvény szól a tűz elleni védekezésről, a műszaki mentésről és a tűzoltóságról?",
+      "a": [
+        "a) az 1978.évi IV. törvény",
+        "b) az 1993. évi XCIII. törvény",
+        "c)  az 1996.évi XXXI. törvény",
+        "d) az 1995. évi XXVIII. törvény"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.05. Melyik rendelkezés írja elő a létesítmények, építmények és helyiségek kockázati osztályba sorolását?",
+      "a": [
+        "a) MSZ HD 60364-6:2007    ",
+        "b) 8/2001. (III. 30.) GM rendelet ",
+        "c) 54/2014. (XII. 5.) BM rendelet (OTSZ 5.2)"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.2.06. Melyik rendelet szól a jelenleg hatályos OTSZ 5.2-ről ",
+      "a": [
+        "a) 28/2011. (IX. 6.) BM rendelet",
+        "b) 53/2014. (XII. 5.) BM rendelet",
+        "c) 54/2014. (XII. 5.) BM rendelet ",
+        "d) 9/2015. (III. 25.) BM rendelet"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.2.07. Szabad-e valamely villamos berendezést a létesítése vagy az utolsó általános felújítás idején érvényben volt szabványtól eltekintve a jelenleg érvényes szabványok szerint vizsgálni? (OTSZ 5.2: 277. §)    ",
+      "a": [
+        "a) mindig csak a jelenleg érvényes szabványok szerint szabad a felülvizsgálatot elvégezni",
+        "b) a felülvizsgálatot szabad bármelyik szabvány szerint elvégezni, de a minősítő iratban ezt rögzíteni kell",
+        "c) a villamos berendezések tűzvédelmi felülvizsgálata, a berendezés minősítése a létesítéskor érvényes vonatkozó műszaki követelmények szerint történik"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.2.08. Melyik rendelet írja elő a villamos berendezések időszakos tűzvédelmi felülvizsgálatát?",
+      "a": [
+        "a)  a 115/1996.(VII. 24.) Korm. rendelet",
+        "b) a 10/2016. (IV. 5.) NGM rendelet",
+        "c)  a 54/2014. (XII. 5.) BM rendelet",
+        "d) a 21/2010. (V. 14.) NFGM rendelet"
+      ],
+      "numOfQs": 1,
+      "gA": 3
     }
   ]
 }
