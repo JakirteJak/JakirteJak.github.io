@@ -20,16 +20,20 @@
     font-weight: bolder;
     cursor: pointer;
     border-radius: 2px;    
-    /*box-shadow: 1px 1px 2px black;*/
+    box-shadow: 1px 1px 2px black;
     position: relative;
     margin-bottom: 2px;
   }
   
-.link_button:hover:active {
-    background-color: lawngreen;
+.link_button:hover {
+    background-color: #f8e965
+}
+
+.link_button:hover:active {    
     position: relative;    
     left: 1px;
-    box-shadow: 1px 1px 2px black;
+    top: 1px;
+    box-shadow: 0px 0px 0px black;
 }
 
 .no_link_button{
@@ -152,4 +156,8 @@
     align-items: center;
     justify-content: center;    
     display: flex;
+}
+
+.kiemel2:hover {
+    background-color: rgba(253, 253, 253, 0.616);
 }

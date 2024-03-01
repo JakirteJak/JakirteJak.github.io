@@ -178,7 +178,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border: black;
-    padding: 20px;
+    
 }
 
 .subtitle { 
@@ -230,7 +230,7 @@ h1 {
 }
 
 .shadow01 {
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 1px 1px 3px black;
 }
 
 .vbf_anim path{
