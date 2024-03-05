@@ -3817,6 +3817,212 @@
       ],
       "numOfQs": 3,
       "gA": 2
+    },
+    {
+      "q": "II.6.01. Állandó felügyelet nélkül, folyamatosan üzemeltetett gép, vagy berendezés számára kell-e külön áramkört biztosítani, ha annak terhelése az üzemi áramkör terhelésével megegyezik, vagy azt megközelíti?",
+      "a": [
+        "a) csak javasolt         ",
+        "b) kell         ",
+        "c) nem szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.05. A 10/2016.(IV. 5.) NGM rendelet milyen gyakoriságot ír elő az erősáramú berendezések áramütés elleni védelmének szabványossági felülvizsgálatára, „KK” tűzvédelmi kockázati osztályú ipari és mezőgazdasági üzemeknél?",
+      "a": [
+        "a) 3 évenként            ",
+        "b) 6 évenként              ",
+        "c) 9 évenként"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.06. „AK” besorolású helyiségekben hogyan kell a gyengeáramú berendezéseket (tűzjelző hálózat, hírközlő hálózat stb.) felülvizsgálni?",
+      "a": [
+        "a) a vizsgálat során ezekkel nem kell foglalkozni, mivel nem erősáramúak",
+        "b) csak abból a szempontból szükséges vizsgálni, hogy megvan-e az előirt elkülönítése az erősáramú berendezéstől",
+        "c) a felülvizsgálat során minden villamos berendezést meg kell vizsgálni, feszültségtől és rendeltetéstől függetlenül"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.07. Mikor tekinthető egy épület villamos hálózata feszültségmentesnek?",
+      "a": [
+        "a)  ha az épület főkapcsolóját kikapcsolták",
+        "b)  ha a táphálózat vezetékeit kikapcsolták, ellenőrzés után letiltották és földelve rövidre zárták",
+        "c)  ha az épület tápkábelét a tápponton (főelosztón) kikapcsolták és kiszakaszolták"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.08. A helyszíni vizsgálat alkalmával a felülvizsgáló magatartását melyik előírás szabályozza?",
+      "a": [
+        "a) 54/2014. (XII. 5.) BM rendelet (OTSZ 5.2)                   ",
+        "b) MSZ 1585:2016  jelű szabvány                 ",
+        "c) 40/2017. (XII. 4.) NFM rendelet (VMBSZ)                  ",
+        "d) 45/2011. (XII.7.) BM rendelet"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.6.09. Mikor avatkozhat be a felülvizsgáló az időszakos helyszíni vizsgálat során a villamos berendezés üzemeltetésébe?",
+      "a": [
+        "a)  semmilyen körülmények közt sem",
+        "b)  ha szabványtalan készüléket talál",
+        "c)  súlyos hiányosság (pl.: patkolt biztosító) észlelése esetén",
+        "d)  közvetlen életveszély, baleset elhárítása érdekében"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.11. A felülvizsgáló személy végezhet-e üzemszerű kapcsolásokat?",
+      "a": [
+        "a) igen        ",
+        "b) nem        ",
+        "c) csak kísérő felügyelete mellett végezhet"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.12. Az MSZ 10900:2009 szabvány szerinti szúrópróbák helyét hogyan választja ki? ",
+      "a": [
+        "a) berendezés összefüggései alapján határozza meg",
+        "b) gyanús helyeket kell kiválasztani                ",
+        "c) véletlenszerűen választja ki"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.13. A villamos berendezések VBF felülvizsgálata során kötelező-e a villamos kéziszerszámok szabványos állapotát is felülvizsgálni?",
+      "a": [
+        "a)  igen, és ha nem biztonságos az állapotuk (pl. sérültek) és ezt észrevételeznie kell",
+        "b)  igen, mivel az OTSZ nem tesz különbséget a berendezések között",
+        "c)  nem, mivel a kéziszerszámok gyártmányok, villamos termékek"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.14. Ha a vizsgált helyiségben oda nem tartozó, de ott lévő, hordozható villamos készülék  található, azt is felül kell vizsgálni?",
+      "a": [
+        "a)  nem tartozik a helyiség villamos berendezéséhez, tehát nem kell felülvizsgálni",
+        "b)  felül kell vizsgálni, ha az üzemképessé tehető állapotban van",
+        "c) felül kell vizsgálni, ha a Megrendelő üzem tulajdonát képezi",
+        "d) a gép tulajdonosának engedélye nélkül egyetlen berendezés sem vizsgálható"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.6.15. A tartósan vagy véglegesen használaton kívül helyezett villamos berendezést hogyan vizsgálja?",
+      "a": [
+        "a)  sehogy, csak az üzemelő berendezéseket kell ellenőríni",
+        "b)  üzemelő berendezésként vizsgálom, ha hálózatra kapcsolt, vagy kapcsolható állapotban van (pl. csatlakozó vezetéke van)",
+        "c)  kiderítem, hogy rendeltetésszerűen használják- e még"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.19. A villamos biztonsági felülvizsgálat során kell-e a megmunkáló gépek áramütés elleni védelmét tételesen, műszerrel ellenőrizni?",
+      "a": [
+        "a) nem          ",
+        "b) igen             ",
+        "c) csak szúrópróbaszerűen"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.20. Mekkora távolságot kell legalább megtartani lakószoba földelt fémszerkezete (pl. radiátor) és a dugaszoló alzat között?",
+      "a": [
+        "a) 30 cm           ",
+        "b) 40 cm   ",
+        "c) csak a kezelhetőséghez szükséges távolságot"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.21. Egy munkagép (pl. esztergagép) a gyárilag rászerelt háromsarkú működtető kapcsolójával  (KI-BE kapcsolójával) leválasztható-e a hálózatról?",
+      "a": [
+        "a) igen, ha az alkalmas a névleges terhelő áram megszakítására",
+        "b) nem, mivel az a géplámpát nem kapcsolja ki",
+        "c)  igen, egyébként nem is lenne rá szükség",
+        "d) nem, mivel a gépen lévő kapcsolóig a feszültség megmarad"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.22. Egy állványos köszörűgép túláramvédelmének ellenőrzése során megállapítja, hogy a motor  adattáblája csak a motor kiszerelése után volna leolvasható. Mit javasol?",
+      "a": [
+        "a)  a motor adattábláját le kell szerelni, és a gép külső részén kell elhelyezni",
+        "b)  megbecsüli a motor teljesítményét és a védelmet e szerint minősíti",
+        "c)  javasolja, hogy a motor adattábláját leolvasható helyen ismételjék meg"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.23. Egy védelmi célra létesített 110 V-os akkumulátortelepet megcsapoltan üzemeltetnek. Mi erről a véleménye?",
+      "a": [
+        "a)  csak elzárt villamos kezelőtérben szabad így üzemeltetni",
+        "b)  az egyéb fogyasztót külön túláramvédelemmel ellátva szabad üzemeltetni",
+        "c)  védelmi célú akkumulátor telepet nem szabad így üzemeltetni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.24. Áruház világítási főkapcsolóját el szabad-e látni feszültségcsökkenés elleni védelemmel?",
+      "a": [
+        "a)  igen, minden esetben",
+        "b)  nem, soha",
+        "c)  csak akkor, ha van biztonsági világítás, vagy irányfény világítás",
+        "d)  csak akkor, ha van automatikusan bekapcsoló szükségvilágítás"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.25. Forgógépek hőkésleltetésű (bimetall) túlterhelésvédelmét milyen áramértékre szabad  állítani?",
+      "a": [
+        "a)  indokolt esetben legfeljebb a névleges áram 1,5-szörösére",
+        "b)  az indítási áramlökések értékére (nehéz indítás)",
+        "c)  legfeljebb a motor névleges áramára",
+        "d)  mindenkor csak a névleges áramnál kisebb értékre"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.6.26. Egy 2,5 kW névleges teljesítményű, 230 V feszültségű hordozható készülék ki-be kapcsolására melyik megoldás a megfelelő?",
+      "a": [
+        "a)  a kapcsoláshoz dugós csatlakozót használnak",
+        "b)  a csatlakozó vezetékbe leválasztó kapcsolót (10 A) iktatnak be",
+        "c)  a kapcsolót a készülékre szerelik fel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.27. Egy 36 kVAr teljesítményű, 400 V névleges feszültségű kondenzátortelep zárlatvédelmére milyen jelleggörbéjű és névleges áramerősségű olvadó biztosítót alkalmaz?",
+      "a": [
+        "a) gG 40 A                 ",
+        "b) gM 63 A                ",
+        "c) gL l00 A"
+      ],
+      "numOfQs": 3,
+      "gA": 2
     }
   ]
 }
