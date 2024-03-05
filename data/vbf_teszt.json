@@ -3271,6 +3271,552 @@
       ],
       "numOfQs": 3,
       "gA": 2
+    },
+    {
+      "q": "II.3.01. Milyen feszültségsávba tartozik a közvetlenül földelt rendszerű, 400 V vonali feszültségű hálózat?",
+      "a": [
+        "a) 0. sáv                   ",
+        "b) I. sáv   ",
+        "c) II. sáv                ",
+        "d) III. sáv"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II. Mit nevezünk alapvédelemnek (közvetlen érintés elleni védelemnek)?",
+      "a": [
+        "a) az üzemszerűen feszültség alatt álló részek megérintése elleni védelmet",
+        "b) az üzemszerűen feszültség alatt nem álló fémrészek hiba esetére biztosított védelmét",
+        "c) az elérhető magasságban felszerelt fémrészek megérintés elleni védelmét"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.3.03. Mit nevezünk hibavédelemnek (közvetett érintés elleni védelemnek)?",
+      "a": [
+        "a) az üzemszerűen feszültség alatt álló fémrészek megérintés elleni védelmét",
+        "b) az üzemszerűen feszültség alatt nem álló fémrészek hiba esetére biztosított védelmét",
+        "c) az elérhető magasságban felszerelt fémrészek megérintés elleni védelmét"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.3.04. Hány volt a váltakozó áramú törpefeszültség névleges értékének felső határa?",
+      "a": [
+        "a)  24 V                       ",
+        "b) 42 V              ",
+        "c) 50 V    ",
+        "d) 65 V"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.3.06. Közvetlenül földelt, háromfázisú, TN-rendszerű hálózatrész leválasztása milyen igényt támaszt a közvetlenül földelt nullavezetővel szemben?",
+      "a": [
+        "a)  tilos egyidejűleg a nullavezetőt is megszakítani",
+        "b)  TN-C rendszerben nem szükséges a nullavezető megszakítása",
+        "c)  kötelező a nullavezető egyidejű megszakítása is"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.3.07. A törpefeszültségű hordozható lámpákat milyen transzformátorról szabad csak táplálni?",
+      "a": [
+        "a)  bármilyen leválasztó transzformátorról",
+        "b)  biztonsági elválasztó transzformátorról",
+        "c)  takarék transzformátorról"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.3.09. Villamos elválasztás érintésvédelmi mód esetén milyen tápforrás felel meg?",
+      "a": [
+        "a) biztonsági elválasztó transzformátor",
+        "b) toroid transzformátor",
+        "c) elválasztó transzformátor",
+        "d) erőátviteli transzformátor"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.3.10. Forróvíztároló (bojler) áramkörébe szükséges-e kapcsolót beiktatni, ha igen, milyet? (MSZ 2364-460 szabvány szerint)",
+      "a": [
+        "a) nem szükséges, de célszerű                               ",
+        "b) egysarkú kapcsolót kell felszerelni",
+        "c) leválasztó kapcsoló vagy dugós csatlakozó szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.13. Összeköthető-e a kisfeszültségű hálózat üzemi földelése a tápláló nagyfeszültségű hálózat védőföldelésével? (MSZ HD 60364-4-442 szabvány)",
+      "a": [
+        "a)  korlátozás nélkül",
+        "b)  tilos",
+        "c)  ha a feszültség-emelkedés nem veszélyes mértékű"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.14. Milyen túlfeszültségek ellen szükséges védeni a villamos berendezést? (MSZ HD 602364-4-443 szabvány szerint)",
+      "a": [
+        "a)  kapcsolási túlfeszültségek ellen",
+        "b)  légköri, kapcsolási és kapacitív túlfeszültségek ellen",
+        "c)  légköri és kapcsolási túlfeszültségek ellen"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.15. Milyen módon kell kötni a túlfeszültség elleni védőeszközt a védendő fogyasztóval?",
+      "a": [
+        "a)  sorosan              ",
+        "b) párhuzamosan"
+      ],
+      "numOfQs": 2,
+      "gA": 2
+    },
+    {
+      "q": "II.3.16. Milyen lépcsőzésű a túlfeszültség-védelem?",
+      "a": [
+        "a)  a megszólalási idő lépcsőzött",
+        "b)  a megszólalási hőmérséklet lépcsőzött",
+        "c)  a megszólalási feszültség lépcsőzött"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.17. Mely fogyasztóberendezésekhez szükséges feszültség csökkenés elleni védelem? (MSZ 2364-450 szabvány szerint)",
+      "a": [
+        "a) szükségvilágítás",
+        "b) biztonsági világítás",
+        "c) szerszámgépek"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.18. A leválasztási lehetőséget mivel lehet biztosítani?",
+      "a": [
+        "a) szilárdtest relével",
+        "b) csak kapcsolóval",
+        "c) akár kapcsolóval, akár dugaszolással, akár késes biztosítóval"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.19. A felsoroltak közül mely esetben nem hagyható el a túlterhelés-védelem? (MSZ HD 60364-4-43)",
+      "a": [
+        "a)  robbanásveszélyes környezetben",
+        "b)  távközlési, irányítástechnikai és jelző hálózatoknál",
+        "c)  a tápoldali védőeszköz hatásos túlterhelésvédelmet biztosít",
+        "d)  zárlatvédelem van, leágazások és dugaszoló aljzatok nincsenek"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.3.20. Új berendezésben milyen színűnek kell lennie a szigetelt PEN vezetőnek?",
+      "a": [
+        "a) világoskék, vagy zöld/sárga                    ",
+        "b) a fázisvezetőkkel azonos                ",
+        "c) világoskék vezető, a végén zöld/sárga átjelöléssel, vagy zöld/sárga vezető, a végén világoskék átjelöléssel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.3.21. Mit jelent az EMC rövidítés magyar nyelven?",
+      "a": [
+        "a) Elektrosztatikus Mágneses Componens (EMC)             ",
+        "b) Elektromágneses összeférhetőség (Elektromagnetic Compatibility, EMC)  ",
+        "c) Elektro Motoros Constans érték (EMC)"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.3.22. Új berendezésben milyen színűnek kell lennie a szigetelt üzemi nulla-vezetőnek?",
+      "a": [
+        "a)  piros  ",
+        "b) kék  ",
+        "c) világoskék, vagy zöld/sárga"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.3.24. Nem előregyártott (nem gyártmány) tokozott elosztó-berendezés belső huzalozására milyen legkisebb keresztmetszetű vezetékek használhatók?",
+      "a": [
+        "a)  0,5 mm2 réz, vagy 16,0 mm2 alumínium",
+        "b)  1,5 mm2 réz, vagy 4,0 mm2 alumínium",
+        "c)  1,0 mm2 réz, vagy 4,0 mm2 alumínium",
+        "d)  1,5 mm2 réz, vagy 10,0 mm2 alumínium"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.3.25. Mekkora lehet világítási áramkörben alkalmazott legkisebb vezető keresztmetszet E 40 foglalat alkalmazása esetén? (MSZ 1600-1 sz. 5.5. szakasz)    ",
+      "a": [
+        "a) 0,5 mm2 réz     ",
+        "b) 1,5 mm2 réz     ",
+        "c) 1,0 mm2 réz"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.3.30. Lámpatest tartóelemeknek alapvetően mekkora tömeget kell elbírniuk?",
+      "a": [
+        "a) 1 kg     ",
+        "b) 2 kg",
+        "c) 5 kg",
+        "d) nincs számszerű követelmény"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.3.31. Mi a stroboszkópos hatás?",
+      "a": [
+        "a) az álló gépalkatrészeket forogni látjuk",
+        "b) a forgó gépalkatrészeket állni látjuk",
+        "c) 5 kg  ",
+        "d) nincs számszerű követelmény"
+      ],
+      "numOfQs": 1,
+      "gA": 2
+    },
+    {
+      "q": "II.3.37. Hogyan kell az építési felvonulási szekrény ajtaját lezárni?",
+      "a": [
+        "a) csak különleges szerszámmal (pl.: imbusz-kulccsal) legyen nyitható",
+        "b) a gyártómű által kialakított zárszerkezettel (MSZ EN 61439 szabvány alapján)",
+        "c) biztonsági zárat (lakatot) kell alkalmazni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.01. Melyik szabvány rendelkezik a villamos gyártmányok burkolatai által nyújtott védettségi fokozatokról?",
+      "a": [
+        "a) MSZE 24102",
+        "b) MSZ 60204-1                      ",
+        "c) MSZ EN 60529"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.4.02. Szerelési anyagoknál és háztartási készülékeknél milyen védettséget jelent a háromszögben lévő egy vízcsepp jelzés?",
+      "a": [
+        "a) csepegő víz ellen védett kivitel",
+        "b) freccsenő víz elleni kivitel",
+        "c) víz elleni tömített kivitel"
+      ],
+      "numOfQs": 1,
+      "gA": 2
+    },
+    {
+      "q": "II.4.03. Melyik védelmi fokozatnak felel meg az alábbi feltételeket teljesítő burkolat?\r\n–  védi a személyeket attól, hogy az általuk kezelt 2,5 mm és nagyobb átmérőjű szerszámmal veszélyes részeket érintsenek\r\n–  védi a burkolaton belüli gyártmányt a 2,5 mm és annál nagyobb átmérőjű idegen testek behatolása ellen\r\n–  védi a burkolaton belüli gyártmányt a burkolatra bármely irányból freccsenő vízkárosító  hatása ellen",
+      "a": [
+        "a) IP23",
+        "b) IP34",
+        "c) IP43",
+        "d) IP31"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.4.04. Az általános biztonsági előírásokon túl milyen előírásokat kell még teljesíteni a fogyasztási helyek kisfeszültségű, közcélú elosztóhálózatra történő kapcsolásakor?",
+      "a": [
+        "a) MSZ 2040",
+        "b) MSZ 447",
+        "c) 176/2008. (VI,30,) Korm. r.",
+        "d) MSZ 151"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.4.05. Mire kell méretezni a csatlakozó vezetéket és a fővezetéket? (MSZ 447:2018)",
+      "a": [
+        "a) áramütés elleni védelemre  ",
+        "b) melegedésre ",
+        "c) feszültségesésre",
+        "d) az a), b) és c) válaszokban leírtak mindegyikére"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.4.07. Hová kell beiktatni egy közcélú villamos hálózatra csatlakozó épület – az OTSZ szerint szükséges – tűzvédelmi főkapcsolóját? (MSZ 447 szabvány)",
+      "a": [
+        "a)  akár a mért, akár a méretlen fővezetékbe beiktatható",
+        "b)  a főkapcsoló fogyasztók tulajdona, így kizárólag csak mért fővezetékbe szabad beiktatni",
+        "c)  a főkapcsolónak a mérőberendezést is le kell választania, így csak a méretlen  fővezetékben lehet"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.4.09. A villamos fogyasztásmérő és a „gázóra” között legalább mekkora távolságot kell hagyni?",
+      "a": [
+        "a) 20 cm;    ",
+        "b) 40 cm;        ",
+        "c) 60 cm;    ",
+        "d) amennyi a mérők szereléshez szükséges"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.4.10. A villamos fogyasztásmérő és a „gázóra” között nem tartható az MSZ 447 szabvány által előirt távolság. Mi lehet a megoldás?",
+      "a": [
+        "a) a távolság a szerelhetőség miatt szükséges, így a távolságot be kell tartani",
+        "b) a gázórát villamosan szigetelőanyaggal kell leszigetelni",
+        "c) a fémcsövet járulékos szigeteléssel kell ellátni, vagy a két mérő közé szigetelő lapot kell helyezni úgy, hogy a járulékos szigetelés az alátét-tábla mindkét oldalán 30-30 cm-rel túlnyúljon"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.4.11. Melyik szabvány ír elő az egészségügyi létesítmények villamos berendezésére többletkövetelményeket?",
+      "a": [
+        "a) MSZ EN 60204-1 szabvány",
+        "b) MSZ 1585 szabvány",
+        "c) MSZ 447 szabvány",
+        "d) MSZ HD 60364-7-710 szabvány"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.4.12. Az MSZ 13207 szabvány mivel foglalkozik?",
+      "a": [
+        "a)  1000 V feszültség feletti villamos berendezések felülvizsgálatával",
+        "b)  erősáramú kábelek létesítésével, fektetésével",
+        "c)  árnyékolt gyengeáramú kisfeszültségű kábelek létesítésével"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.17. Melyik szabvány szerint kell a gépek villamos szerkezeteinek biztonságát megvalósítani?",
+      "a": [
+        "a) MSZ HD 60364-7-410",
+        "b) MSZ 172-4",
+        "c) MSZ HD 60364-5-52",
+        "d) MSZ EN 60204-1"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.4.18, Mi a megengedett névleges feszültség, amelyet a munkagépekre szerelt, vagy az azoktól elérhető egy fénycsöves világítás táplálására alkalmazni szabad?",
+      "a": [
+        "a) 250 V                                 ",
+        "b) 42 V                           ",
+        "c) 24 V"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.4.19. Gépi berendezésre szerelt, 230 V feszültségű, védővezetős munkahelyi világítótestet (izzós lámpatest), a gép egy önálló túláramvédelemmel ellátott áramköréről csatlakoztatták. Hogyan minősíti a megoldást?",
+      "a": [
+        "a) megfelelő                           ",
+        "b) nem felel meg "
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "II.4.20. Mennyi lehet transzformátoros táplálás esetén a vezérlőkörök tápfeszültsége? (MSZ 60204-1)",
+      "a": [
+        "a) 24 V ",
+        "b) 50 V ",
+        "c) 250 V",
+        "d) 400 V"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II. A már visszavont MSZ 1610 szabványsorozatnak mi a tárgya? (2013. november1-ig volt érvényben)",
+      "a": [
+        "a)  létesítési biztonsági szabályzat 1000 V-nál nagyobb feszültségű erősáramú villamos berendezések számára",
+        "b)  létesítési biztonsági szabályzat l000 V-nál nem nagyobb feszültségű erősáramú villamos berendezések számára",
+        "c)  érintésvédelmi szabályzat l000 V és nagyobb feszültségű berendezések számára"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.4.24. Mi a kis zárlati áramú berendezés?",
+      "a": [
+        "a) zárlatbiztos kistranszformátor, amelynek szekunder árama 1 A-nél nem emelkedik magasabbra még zárlat esetén sem",
+        "b) kisfeszültségű hálózatról táplált olyan nagyfeszültségű berendezés, amelynek  nagyfeszültségű oldalán zárlat esetén sem alakulhat ki 1 A-nél nagyobb áramerősség",
+        "c) a csengő-reduktor",
+        "d) olyan kisfeszültségű hálózat, amelyen a zárlati áramerősség 1 kA-nál nem nagyobb"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.4.25. A felsoroltak közül jelölje meg a kis zárlati áramú, 1000 V-nál nagyobb feszültségű berendezések létesítési előírásaival foglalkozó szabványt! ",
+      "a": [
+        "a) MSZ 4851-3  ",
+        "b) MSZ 172-4   ",
+        "c) MSZ EN 61140"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.26. Melyik szabvány tartalmazza a feszültség-mentesítés szabályait?",
+      "a": [
+        "a)  az MSZ HD 60364     ",
+        "b) az MSZ 4851     ",
+        "c) az MSZ 1585"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.4.27. Milyen villamos berendezésekre vonatkoznak az MSZ 1585 szabvány előírásai és  követelményei",
+      "a": [
+        "a)  valamennyi villamos berendezésre",
+        "b)  csak az erősáramú villamos berendezésekre",
+        "c)  csak az 1000V-nál nem nagyobb feszültségű berendezésekre"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.28. Melyik szabványban található a kioktatott személy fogalma?",
+      "a": [
+        "a) MSZ 447  ",
+        "b) MSZ 1585  ",
+        "c) MSZ HD 60364"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.29. Milyen főbb előírásokkal foglalkozik az MSZ 1585 szabvány?",
+      "a": [
+        "a)  az erősáramú villamos berendezések kezelésével, feszültség alatt és feszültség közelében végzendő munkával, elsősegélynyújtással áramütéses baleseteknél",
+        "b)  az 1000 V-on aluli berendezések létesítésének biztonsági előírásaival",
+        "c)  erősáramú villamos berendezések mérési módjával és az alkalmazható eljárásokkal"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.4.31. A villamosenergia -fejlesztő, -átalakító, és -elosztó berendezések tűzvédelméről melyik érvényes szabványban található követelmény?",
+      "a": [
+        "a) MSZ 447:2019 ",
+        "b) MSZ EN IEC 61936-1:2022",
+        "c) MSZ HD 60364 sorozat"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.33. Hol használhatók az I. alkalmazási csoportba tartozó gyártmányok?",
+      "a": [
+        "a)  akkumulátor helyiségekben",
+        "b)  gáz fogyasztásmérő (Qmax ≥ 100 m3/h) helyiségekben",
+        "c)  sújtólégveszélyes környezetben"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.4.35. Melyik Ex védelmi módnál kell figyelembe venni a hőmérsékleti osztályt (T1 - T6)?",
+      "a": [
+        "a)  csak az ’e’ fokozott biztonság   ",
+        "b) csak a ’p’ túlnyomásos védelemnél",
+        "c)  csak a ’d’ nyomásálló tokozásnál  ",
+        "d) minden Ex II. készüléknél"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.4.36. Mit értünk az 1-es zóna fogalma alatt?",
+      "a": [
+        "a)  olyan térség, melyben robbanóképes gázközeg folyamatosan vagy hosszú időn át jelen van",
+        "b)  olyan térség, melyben robbanóképes gázközeg normál üzemben várhatóan előfordul",
+        "c)  olyan térség, melyben robbanóképes gázközeg várhatóan nem fordul elő, ha mégis, akkor ritkán és rövid ideig"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.37. Melyik a legveszélyesebb fokozatú kibocsátó forrás?",
+      "a": [
+        "a) elsőrendű",
+        "b) folyamatos",
+        "c) másodrendű"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.4.38. T5 hőmérsékleti osztályú gyártmány megfelelő-e T3 hőmérsékleti osztályú közegben?",
+      "a": [
+        "a)  nem megfelelő, mert csak T3 osztályú gyártmány alkalmazható",
+        "b)  nem megfelelő, mert T1 ... T3 osztályú gyártmány alkalmazható",
+        "c)  megfelelő, mert T3 ... T6 osztályú gyártmány alkalmazható"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.4.39. Melyik felülvizsgálat fajtát nem lehet elvégezni feszültség alatt álló gyártmányon?",
+      "a": [
+        "a) részletes felülvizsgálat             ",
+        "b) közeli felülvizsgálat",
+        "c) szemrevételezés"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.4.40. Gyújtószikramentes áramkör vezetékeit hogyan kell vezetni?",
+      "a": [
+        "a)  egyéb, de a helyiség áramköreivel közösen kell vezetni",
+        "b)  kábel esetén külön kábelen kell vezetni",
+        "c)  vezetékek esetén külön védőcsőben kell vezetni",
+        "d)  b) és c) válasz szerint kell vezetni",
+        "e)  egyéb áramköri vezetékekkel közös csőben, kábelben is szabad is lehet vezetni, ha a mindkét rendszer szigetelése legalább a nagyobb feszültségűvel megegyező"
+      ],
+      "numOfQs": 5,
+      "gA": 4
+    },
+    {
+      "q": "II.4.41. Az MSZ EN 60529 szabvány szerinti IP-védettség milyen kapcsolatban van a robbanás elleni Rb védettséggel?",
+      "a": [
+        "a)  a legmagasabb IP-védettség egyben a legalacsonyabb robbanás-biztos kivitelt jelent",
+        "b)  az IP-védettség és az Rb robbanás elleni védettség két eltérő hatású környezet  jelenlétéből adódó különböző követelmények kielégítését (védelmét) jelenti",
+        "c)  az Rb védettség lényegesen magasabb követelményeket támaszt a villamos berendezéssel szemben, mint az IP-védettség."
+      ],
+      "numOfQs": 3,
+      "gA": 2
     }
   ]
 }

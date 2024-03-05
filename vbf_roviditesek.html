@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgba(255, 255, 255, 0.479);">
+    <div class="centered">
+        <p style="padding-left: 5px;padding-right: 5px;" class="bordered maintitle backGSub01 shadow01">Rövidítések ismertetése</p>
+    </div>
+
+    <div class="centered" >
+    <table class="table-bordered1">
+        <thead>
+            <tr>
+                <td colspan="2" class="tdc" style="background-color: black; color: white;">Rövidítés:
+                </td>
+                <td colspan="2" class="tdc" style="background-color: black; color: white;">
+                    Jelentése, rövid leírás</td>
+            </tr>
+        </thead>                    
+        <tbody style="max-width: 980px; border: 1px solid black;" class="backGSub01" id="tableSigns">
+        </tbody>
+    </table>
+</div>
+    <table>
+        <td>
+            <tr><a class="linker01 centered" href="vbf_elmelet.html">vissza</a></tr>
+        </td>
+    </table>
+    <script src="JS/vbf_table_roviditesek.js"></script>
+</body>
+
+</html>
