@@ -4023,6 +4023,642 @@
       ],
       "numOfQs": 3,
       "gA": 2
+    },
+    {
+      "q": "II.6.28. A háromfázisú áram-védőkapcsoló milyen helyzetben szerelhető, illetve üzemeltethető?",
+      "a": [
+        "a)  csak függőleges helyzetben („állítva”)",
+        "b)  csak vízszintes helyzetben („fektetve”)",
+        "c)  ha a készülék szerelési utasítása erről intézkedik, akkor a szerint kell szerelni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.29. Hogyan ellenőrzi a leválasztási lehetőség meglétét? (MSZ 10900)",
+      "a": [
+        "a) csak kapcsolással  ",
+        "b) csak megtekintéssel",
+        "c) megtekintéssel és esetleg szétszereléssel"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.30. Két fogyasztókészülék közös dugós csatlakozóval csatlakozik. Hogyan minősíti?",
+      "a": [
+        "a)  megfelelő, ha rendeltetésük szerint egyszerre használják",
+        "b)  nem felel meg, mert egy dugaszoló villával csak egy fogyasztó üzemeltethető",
+        "c)  megfelelő, ha a fogyasztó készülékek áramfelvétele 6 A-nál nem nagyobb és a dugaszolóaljzat elé leválasztási célra kismegszakítót szereltek"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.31. A késes biztosítókat ki kezelheti? ",
+      "a": [
+        "a)  az MSZ 1585 szabvány szerinti IV. csoportba tartozó erősáramú képzettségű személy",
+        "b)  az MSZ 1585 szabvány szerinti III. csoportba tartozó kioktatott személy",
+        "c)  nem érintésbiztosak, ezért kioktatott személy csak felügyelettel kezelheti"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.32. Milyen esetben kell az olvadóbiztosító aljzatát figyelmeztető felirattal megjelölni?",
+      "a": [
+        "a)  ha a betétet a vezeték terhelhetősége szerint választották",
+        "b)  ha a betétet érintésvédelmi szempontok alapján választották meg",
+        "c)  ha a betétet tényleges üzemi terhelés szerint választották"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.33. Az időszakos felülvizsgálat során ellenőrizni kell a berendezésekben alkalmazott olvadóbiztosító betéteket. Mit ellenőrzünk?",
+      "a": [
+        "a)  csak a zárlati szilárdságot     ",
+        "b)  csak azt, hogy a biztosítóbetét átkötött-e  ",
+        "c)  csak a névleges áramerősséget              ",
+        "d)  mind a három feltételt"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.34. Mi a feladata az illesztő gyűrűnek a D rendszerű (Diazed) biztosító esetében?",
+      "a": [
+        "a)  nem engedi meg nagyobb áramerősségű betét behelyezését",
+        "b)  vezeti a betétet és megfelelő érintkezési felületet biztosít",
+        "c)  csak egyfajta jelleggörbéjű betét elhelyezését teszi lehetővé"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.35. Egy gabonasiló gépi berendezéseit az I. emeleti vezérlőpultról lehet indítani. Mielőtt egy-egy rendszert (betárolás, kitárolás, áttárolás) elindítanának, minden emeleten 1 percen át kürtjelzés figyelmeztet. Elegendőnek minősíti-e ezt? (MSZ 1600-1:1977 szabvány 4.15. szakasza)",
+      "a": [
+        "a)  nem, mert fény- és hangjelzés szükséges",
+        "b)  igen, mert az indítás a hangjelzéssel történik",
+        "c)  nem, mert visszajelzés (nyugtázás) lehetőségét is biztosítani kell"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.36. „NAK” tűzvédelmi kockázati osztályú, száraz helyiségben lévő egyfázisú 230 V-os irányítástechnikai berendezés (vezérlőpult) tápvezetéke egysarkú kapcsolóról ágazik le. Mi erről a felülvizsgálati minősítése?",
+      "a": [
+        "a) megfelelő       ",
+        "b) nem felel meg"
+      ],
+      "numOfQs": 2,
+      "gA": 2
+    },
+    {
+      "q": "II.6.37. Jelölje meg egy 16 A-es biztosítóval védett rézvezeték keresztmetszetét, ha a leágazás 4,5 LE-s motort táplál és az indítási áramlökés 4...6·In-re tehető!",
+      "a": [
+        "a) 1,5 mm2      ",
+        "b) 2,5 mm2       ",
+        "c) 4 mm2        ",
+        "d) 6 mm2"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.6.38. Szabad-e a nagyteljesítményű, váltakozó áramú hőkemence G típusú 120 mm2 keresztmetszetű tápvezetékeit fázisonként külön-külön fém védőcsőbe húzni?",
+      "a": [
+        "a)  igen, ekkor a terhelt vezetékek nem melegítik egymást, így módosító tényező nagyobb, mint l.",
+        "b)  igen, de a vezetékek védőcső keresztmetszetének legfeljebb 30%-át foglalhatják el",
+        "c)  nem, mivel a védőcsőben a vezetékek közti távolság (legalább D) nem tarható",
+        "d)  nem, mert az egy-fázis mágneses tere által a fémcsőben létrehozott örvényáram a csövet veszélyesen felmelegítheti"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.39. A helyszíni vizsgálatnál megállapítást nyert, hogy hordozható készülék GT csatlakozó vezetékét mechanikai behatás elleni védelem céljából fém gégecsőbe húzták. Elfogadja-e  megoldást?",
+      "a": [
+        "a)  el, ha a gégecső nem hosszabb 2 m-nél",
+        "b)  nem, hordozható készüléknél tilos",
+        "c)  el, ha a gégecsövet az érintésvédelembe szabványosan bekötötték",
+        "d)  igen, ha gégecsőben szigetelő béléscsövet húztak"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.6.40. Legfeljebb milyen hosszban használhatunk rögzítetten szerelt hajlékony fémtömlőt?",
+      "a": [
+        "a) 5,0 m  ",
+        "b) 10,0 m ",
+        "c) 3,0 m  ",
+        "d) 2,0 m"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.42. Melyik szabvány szerint kell a hálózatok szigetelés mérését elvégezni?",
+      "a": [
+        "a) MSZ 4851   ",
+        "b) MSZ HD 60364-6 ",
+        "c) MSZ 4852 ",
+        "d) MSZ l610"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.6.43. Szigetelési ellenállásméréshez hol kell részekre bontani a fogyasztói hálózatot?",
+      "a": [
+        "a)  minden biztosítónál, illetve kapcsolónál",
+        "b)  bármely biztosítónál, kapcsolónál vagy kötésnél, de oly módon, hogy legalább négy csatlakozó hely maradjon a szakaszban",
+        "c)  bármely biztosítónál, kapcsolónál vagy kötésnél, de oly módon, hogy az egyes részek szigetelési ellenállása ne legyen kisebb, mint a megengedett"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.44. Kereszt-tekercses ellenállásmérővel végzett szigetelésmérés feszültség alatt végzett  munkának minősül-e az MSZ 1585 szabvány szerint?",
+      "a": [
+        "a)  igen        ",
+        "b) nem             ",
+        "c) csak akkor, ha közben a hálózat nincs leválasztva"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.45. Felülvizsgálat során elvégzett szigetelésmérésnek ki kell-e terjednie a nulla-vezetőre is?",
+      "a": [
+        "a) TN-C-rendszerű nullázott hálózatnál",
+        "b) nagyteljesítményű hálózatnál",
+        "c) TT-rendszerű védőföldelt hálózatnál"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.46. Állandó szigetelésellenőrző rendszer esetén el kell-e végezni (illetve hogyan kell elvégezni) a kötelező szigetelésméréseket? (MSZ 10900:2009 szabvány 6.8.3. szakasza)",
+      "a": [
+        "a)  a szigetelésellenőrző rendszertől függetlenül mindig kötelező elvégezni a mérést",
+        "b)  a mérés idejére a szigetelésellenőrző rendszert ki kell kapcsolni és le kell választani",
+        "c)  a szigetelésellenőrző rendszer ellenőrzése helyettesítheti a szigetelési ellenállás mérését"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.47. Transzformátor állomás (transzformátorkamrák, kapcsoló- és elosztóberendezések tűzvédelmét milyen előírás alapján ellenőrzi?",
+      "a": [
+        "a) MSZ 25689      ",
+        "b) 54/2014. (XII. 5.) BM r. OTSZ 5.2 alapján",
+        "c) MSZ EN 61936-1 sz. 8.7.alfejezet ",
+        "d) 1996. évi XXXI. törvény a tűz elleni védekezésről ..."
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.6.48. Egy építőipari vállalat poros jellegű cementraktárában lévő tokozott elosztók IP34-es védettsége megfelelő-e?",
+      "a": [
+        "a) megfelelő        ",
+        "b) nem felel meg, mert IP54 szükséges",
+        "c) nem felel meg, IP45 védettség szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.50. A villamos berendezés hány százalékát kell megtekinteni szúrópróbaszerű ellenőrzés során nem robbanásveszélyes, marópárás üzemben? (MSZ 10900:2009)",
+      "a": [
+        "a) 5%     ",
+        "b) 10%        ",
+        "c) 20%        ",
+        "d) 100%"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.6.51. A szabadtéren felszerelt kisfeszültségű villamos berendezéshez mely esetben szükséges a táplálás önműködő lekapcsolása védelmi módú hibavédelmet létesíteni?",
+      "a": [
+        "a)  csak akkor szükséges, ha kézzel elérhető magasságban szerelték (MSZ 1600-1szabvány)",
+        "b)  akkor szükséges, ha alacsonyabban szerelték, mint amit az MSZ 151 szabvány a csupasz légvezetékek minimális magasságára előír",
+        "c)  minden esetben",
+        "d)  nem szükséges"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.6.52. Mekkora legyen legalább a szabadtéri villamos hálózat szigetelési ellenállása szakaszonként az üzembe helyezés alkalmával?",
+      "a": [
+        "a) 0,25 MΩ     ",
+        "b) 0,50 MΩ     ",
+        "c) 1,00 MΩ"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.53. Kábelek esetén, szabályozatlan terepen mennyi az előirt minimális kábelfektetési mélység? (MSZ 13207:2020 szabvány)",
+      "a": [
+        "a) 0,7 m      ",
+        "b) 0,8 m       ",
+        "c) 1,0 m       ",
+        "d) 1,1 m"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.6.54. Az MSZ 10900:2009 szabvány előírása szerint a felülvizsgálat során hogyan kell  ellenőrizni a robbanásbiztos védelmi módok megfelelőségét?",
+      "a": [
+        "a)  a helyiségekben elhelyezett összes villamos szerkezet védettségét ellenőrizni kell",
+        "b)  szúrópróbaszerűen ellenőrzést kell végezni",
+        "c)  csak a kapcsolók és a motorok védettségét kell tételesen is ellenőrizni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.55. A vizsgálat helyén a teremben előforduló gázok relatív sűrűsége dr : 0,7. Hol kell lenniük a ventilátorok elszívó nyílásainak?",
+      "a": [
+        "a)  mindig a terem egyik oldalán alul, a szemben lévő oldalon felül, mert csak így alakul ki hatékony keresztirányú légáramlás",
+        "b)  alul, hogy a nehezebb fajsúlyú légrétegek kiáramlásával eltávozzon a könnyebb gáz is",
+        "c)  felül, ahol a könnyű gáz összegyűlik"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.56. Mi a felsoroltak közül a legfontosabb ellenőrzési feladat, robbanásveszélyes környezetben felszerelt villamos berendezésekre vonatkozóan?",
+      "a": [
+        "a) megállapítani azt, hogy a felszerelt berendezések helye és darabszáma pontosan megfelel-e a terveknek",
+        "b) a dokumentációval összevetni a környezet villamos besorolásainak határait és megvizsgálni, hogy a felszerelt berendezések megfelelnek-e a környezet adta követelményeknek",
+        "c) annak megállapítása, hogy megfelel-e a felszerelt gyártmányok névleges feszültsége, terhelhetősége és IP védettsége az előirt követelményeknek"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.57. Robbanásveszélyes helyiség felülvizsgálatakor egy robbanásbiztos villamos készüléken adattábla nem látható. Hogyan állapítja meg a szükséges védettséget?",
+      "a": [
+        "a)  megjegyzi, hogy annak hiányában nem tud minősíteni",
+        "b)  „A-1” és „A-2” kivételével megengedett a beazonosítás szerinti minősítése",
+        "c)  nem megfelelőnek minősíti és a darabvizsgálat elvégzését, majd műbizonylat és adattábla beszerzését javasolja"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.58. Ha egy robbanásbiztos motoron nyilvánvalóan új burkolati elemet lát, mit fogadna el a robbanás elleni védelem megfelelő bizonyítékaként?",
+      "a": [
+        "a)  a motor adattábláját, ha azon változtatást nem tapasztal",
+        "b)  az üzembentartó villamos próbatermének jegyzőkönyvét",
+        "c)  a feljogosított vizsgáló állomás bizonylatát"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.59. „A-1” villamos besorolású helyiségben nem robbanásbiztos kivitelű háromfázisú dugaszolóaljzatot létesítettek. Tápvezetékben kikapcsolt helyzetében lelakatolt, ólomzárral  ellátott leválasztó kapcsoló van. A karbantartók ezt a robbanásbiztos kivitelű kapcsolót a szolgálati utasításban leírtak szerint helyezhetik üzembe. Minősítse az alkalmazott megoldást!",
+      "a": [
+        "a) megfelelő        ",
+        "b) nem megfelelő"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "II.6.60. Nagyfeszültségű szabadvezeték átvezethető-e „A”, vagy „B” tűzveszélyességi osztályú építmény felett?",
+      "a": [
+        "a)  az MSZ 151 szabvány szerinti, biztonsággal szerelt vezetékek átvezethetők",
+        "b)  az MSZ 151 szabvány szerinti, fokozott biztonsággal szerelt vezetékek átvezethetők",
+        "c)  igen, nincs korlátozás",
+        "d)  tilos"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.61. Mitől függ a robbanásbiztos lámpatestekben alkalmazható izzó teljesítménye?",
+      "a": [
+        "a) a beszerelt foglalat nagysága korlátozza a becsavarható izzó teljesítményét",
+        "b)  a névleges teljesítménytől és a környezetben előforduló gőzök, illetve gázok robbanási osztályától",
+        "c)  a lámpatestre megadott gyúlékonysági csoporttól és a környezetében előforduló gázok, illetve gőzök gyulladási hőmérsékletétől"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.62. Vizsgálata idején a villanyszerelők a robbanásbiztos lámpatestekben cserélik az izzókat. Befolyásolja-e az izzó teljesítménye a robbanásbiztosságot?",
+      "a": [
+        "a)  igen, mert ha a megengedettnél nagyobb teljesítményű az izzó, akkor lámpatest a megengedett hőmérsékletnél nagyobb hőfokra hevülhet",
+        "b)  csak a fokozott biztonságú védelemmel készült lámpatestek esetében kell figyelembe venni, a G1-G5 gyúlékonysági csoportnak megfelelően",
+        "c)  az izzócsere nem befolyásol semmit, ha az elhelyezett izzó foglalata nem nagyobb a gyári adatok szerinti izzó-foglalatnál"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.63. A robbanásbiztos kivitelű villamos berendezéseken speciális fej kiképzésű csavarok(háromszögletű) vannak kiépítve. A felülvizsgálat során milyen szempontból kell ellenőrizni ezeket a csavarokat?",
+      "a": [
+        "a) csak azt, hogy sértetlenek-e (csavarhúzóhoz réselés nem készítettek-e)",
+        "b) csak azt, hogy kellő módon meg vannak-e húzva",
+        "c) csak azt, hogy hiánytalanul meg vannak-e",
+        "d) a fentiek mindegyikét ellenőrizni kell"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.6.64. „A” tűzveszélyességi osztályú xilolt használó, nyitott technológiai berendezés felett 0,5 m-re egy IP54 védettségű világítótest van. Véleménye szerint:",
+      "a": [
+        "a)  a lámpatest megfelel",
+        "b)  a lámpatestet le kell cserélni, pl. nyomásálló tokozásúra",
+        "c)  csak akkor felel meg a lámpatest, ha a készülék fölé külön elszívót szerelnek"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.6.65. Egy nyomásálló tokozásban az eredetileg beszerelt megszakító helyett kisebb teljesítményű és a tokozásban az előbbi kapcsoló kb. ötödrésznyi helyét elfoglaló mágneskapcsolót talál. Befolyásolja-e ez a robbanásbiztosságot? Szükséges-e valamilyen intézkedést tenni?",
+      "a": [
+        "a)  igen, mégpedig kedvezően, mert a teljesítmény kisebb lett, a felületi hőmérséklet csökken; intézkedni nem szükséges.",
+        "b)  nem; amennyiben a nyomásálló tokozáson változtatás nem történt, akkor mindegy, hogy abban milyen készüléket szereltek, nincs teendő.",
+        "c)  igen, mert a tokozás belsejében lévő szabad légtérfogat jelentősen megnőtt. A berendezésen újabb vizsgálatot (dinamikus nyomáspróbát) kell végezni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.66. Mit csinál, ha Rb készülék hiányos, sérült adattábláján nem látható a készülék gyúlékonysági csoportja, és az a műbizonylatokból sem tisztázható?",
+      "a": [
+        "a)  a gyúlékonysági csoport ismerete hiányában a készüléket nem megfelelőnek kell minősíteni, soron kívül javítandó hibaként szerepeltetni",
+        "b)  nem tulajdonít a dolognak jelentőséget, ha a készülékekről nyilvánvaló, hogy  robbanásbiztosak",
+        "c)  a dokumentációban ezt a tényt hiányosságként tünteti fel, felhívja a figyelmet, hogy a hiányosság pótlásáig az üzemeltető nem tett maradéktalanul eleget felülvizsgálati kötelességének"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.6.67. Egy fokozottan tűz- és robbanásveszélyes helyiségben táskarádión labdarúgó mérkőzés közvetítését hallgatják a dolgozók. Van-e ennek valamilyen veszélye?",
+      "a": [
+        "a)  igen, mert ilyen veszélyes helyen fokozott figyelem szükséges",
+        "b)  nem; ha legalább egy dolgozó figyeli a műszereket, és az üzem vezetője nem kifogásolja, akkor csupán felülvizsgálati szempontból nincs jogunk ezt vitatni.",
+        "c)  igen; a táskarádió energiája általában nagyobb, mint a jelenlévő anyagok minimális gyújtási energiája."
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.6.68. Robbanásveszélyes helyiségben alkalmazható-e olyan villamos készülék, amelynek adattábláján sújtólégbiztos (Sb) minősítő adat van feltüntetve?",
+      "a": [
+        "a)  igen, korlátlanul alkalmazható    ",
+        "b)  csak korlátozott követelmények teljesítésére alkalmas",
+        "c)  tilos Rb helyett Sb készüléket alkalmazni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.01. Mit értünk a villamos berendezés névleges áramerőssége alatt?",
+      "a": [
+        "a) a berendezés gyártója által meghatározott áramerősség, amellyel a berendezés folyamatos üzemben károsodás, túlmelegedés nélkül terhelhető",
+        "b)  azt az áramerősséget, amellyel 1 órán át táplálva a berendezést, még nem történik benne károsodás",
+        "c)  azt az áramerősséget, amellyel a környezettől függetlenül, üzemszerűen terhelhetik"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.7.02. Mit értünk túláram alatt?",
+      "a": [
+        "a)  azt az áramot, amely a villamos berendezések zárlata folyamán fellép",
+        "b)  minden, a villamos berendezések névleges áramánál nagyobb áramerősséget",
+        "c)  azt az áramot, amely a készülékek tartós túlmelegedését, így azok meghibásodását okozzák"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.03. Mi a zárlati áram?",
+      "a": [
+        "a)  az a túláram, amely helytelen üzemeltetés miatt lép fel",
+        "b)  az a túláram, amely a berendezés üzemszerű, de a megengedettnél nagyobb igénybevételéből keletkezik",
+        "c)  különböző potenciálon lévő két pont között létrejövő elhanyagolható impedanciájú hiba következtében fellépő túláram",
+        "d)  az a túláram, amely a névleges áram ötszörösét is meghaladhatja"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.04. Mi a túlterhelési áram?",
+      "a": [
+        "a)  az a túláram, amely nem nagyobb a névleges áram kétszeresénél",
+        "b)  az a túláram, amely a villamos készülék szigetelési hibája miatt lép fel",
+        "c)  villamosan ép áramkörben, a berendezés üzem közbeni, a megengedettnél nagyobb igénybevételéből keletkező túláram",
+        "d)  a készülék névleges áramánál jelentősen nagyobb áramerősség"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.05. Miért veszélyes a zárlati áram?",
+      "a": [
+        "a) csak az igen nagy dinamikus hatás miatt",
+        "b) csak a nagyon nagy hőhatás miatt",
+        "c) az előzőek együtt jelentkeznek"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.06. Mit értünk a túláramvédelem kiválasztó képessége (szelektivitása) alatt?",
+      "a": [
+        "a) a védelemnek azt a képességét, amellyel a túláramokat megkülönbözteti a testzárlati áramoktól",
+        "b) a túláramvédelemnek a folyamatos, nem lépcsőzött, finom beállítási lehetőségét",
+        "c) a hibahelyhez, illetve a túlterhelt berendezéshez legközelebbi védőkészülék működik",
+        "d) a túláramvédelem szelektíven, csak a beállított áramra működik, ennél nagyobb vagy kisebb áramokra érzéketlen"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.07. Milyen berendezéseket kell kötelezően ellátni zárlatvédelemmel?",
+      "a": [
+        "a) általában (néhány kivétellel) minden villamos berendezést",
+        "b) csak azokat, amelyek zárlatakor igen nagy zárlati áram vagy baleset keletkezhet",
+        "c) csak amelyek névleges árama nagyobb, mint 6 A"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.7.09. Mitől függ a fogyasztói berendezésekben fellépő zárlati áram, zárlati teljesítmény nagysága?",
+      "a": [
+        "a)  a fogyasztói berendezés teljesítményétől",
+        "b)  a táptranszformátor zárlati teljesítményétől és a tápponttól a hibahelyig terjedő hálózat impedanciájától",
+        "c)  a táptranszformátor és a fogyasztói berendezés együttes teljesítményétől"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.10. Mi a zárlati megszakító-képesség?",
+      "a": [
+        "a)  a megszakító névleges áramerőssége",
+        "b)  a megszakítóba épített „megszakító relé” névleges áramerőssége",
+        "c)  annak az áramnak (független zárlati áramnak) az értéke, amelyet a kérdéses kapcsoló készülék meghibásodás nélkül még meg tud szakítani",
+        "d)  a kérdéses készülék után felléphető zárlati áram maximális értéke"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.11. Ha a túlterhelés- és a zárlatvédelmet külön-külön készülék biztosítja, milyen alapvető követelményt kell kielégíteni?",
+      "a": [
+        "a)  a túlterhelés-védelem és a zárlatvédelem egymástól függetlenül működjön",
+        "b)  a túlterhelés-védelem a zárlatvédelemmel egyidőben működjön",
+        "c)  zárlat esetén a zárlatvédelem a túlterhelés-védelemnél korábban működjön"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.15. A kettősfém (bimetall) hőkioldóval rendelkező kapcsolókészülék alkalmas-e túlterhelés, ill. zárlatvédelem biztosítására?",
+      "a": [
+        "a) mindkét célra alkalmas",
+        "b) csak kisteljesítményű berendezéseknél alkalmazható",
+        "c) csak zárlatvédelemre alkalmas",
+        "d) csak túlterhelés-védelemre alkalmas"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.7.17. Mennyi egy 16 A-es biztosítóbetét határárama (amelynél a kiolvadása bekövetkezik)?",
+      "a": [
+        "a) 11...15 A ",
+        "b) 12...21 A      ",
+        "c) 21...27 A    ",
+        "d) 25...35 A"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.18. Mekkora áramtartományban olvad ki a 10 A névleges áramerősségű olvadóbiztosító?",
+      "a": [
+        "a) 8...11 A                  ",
+        "b) 12...16 A                ",
+        "c) 15...19 A"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.19. A Do I, illetve Dol II típusú olvadóbiztosítók milyen nagyságú zárlati áram megszakítására képesek?",
+      "a": [
+        "a) 1 kA                        ",
+        "b) 10 kA                     ",
+        "c) 16 kA"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.20. Az olvadóbiztosítók milyen túláramvédelmi feladatok ellátására alkalmazhatók?",
+      "a": [
+        "a) kizárólag zárlatvédelemre",
+        "b) zárlatvédelemre és kisigényű túlterhelés-védelemre (pl. vezetékek)",
+        "c) zárlat- és túlterhelés-védelemre is korlátlanul használható"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.21. Zárlat elleni védelemre lehetőség szerint milyen jellegű olvadó biztosítót kell alkalmazni?",
+      "a": [
+        "a) gyorskioldásút",
+        "b) lassú (lomha) kioldásút",
+        "c) zárlat elleni védelemre teljesen mindegy, a megszakító képességet kell csak figyelembe venni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.7.23. Elosztó berendezésben az egyik leágazás zárlatvédelmére NT1-100 típusú 100 A-es biztosítóbetétet alkalmaznak. A zárlati igénybevétel számítások szerint 20 kA. Megfelelő-e  a leágazás túláramvédelme független zárlati áram szempontjából?",
+      "a": [
+        "a) igen                        ",
+        "b) nem"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "II.7.24. Melyik képlettel számolja ki egy háromfázisú aszinkronmotor névleges áramát?",
+      "a": [
+        "a) In = P / Uv · cosφ              ",
+        "b) In = P / Uv · R · cosφ                ",
+        "c) In = P / 1,73 · Uv · cosφ ∙η"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.25. Lehet-e egy motor teljes túláramvédelmét kettősfém (bimetall) hőkioldóval megoldani?",
+      "a": [
+        "a)  csak a zárlatvédelmét lehet",
+        "b)  csak a túlfeszültség védelmét lehet",
+        "c)  csak a túlterhelés-védelmét lehet",
+        "d)  csak akkor, ha a kettősfém védelem a motor névleges áramára beállítható"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.26. Hogyan kell általában megoldani egy motorvédő kapcsolóval védett motor zárlatvédelmét?",
+      "a": [
+        "a)  a motorvédő kapcsolóba beépített megszakítóval",
+        "b)  külön olvadóbiztosítók létesítésével",
+        "c)  olyan kivitelű motorvédő kapcsolóval, amely önmagában is meg felel a zárlati követelményeknek"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II. Egy fogyasztókészülék B3 jelű zárlatvédelmi olvadóbiztosítójának névleges árama 6 A és lomha kioldású. Az áramkörben lévő, ezt megelőző B2 és B1 biztosítókat milyen értékűre választaná csupán a szelektivitás figyelembevételével?          ",
+      "a": [
+        "a) B2 biztosító: 10 A, B1 biztosító: 16 A",
+        "b) B2 biztosító: 16 A, B1 biztosító: 25 A",
+        "c) B2 biztosító: 20 A, B1 biztosító: 30 A"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.28. Mennyi egy háromfázisú fogyasztó névleges áramerőssége, ha az adattábla adatai: P: 12 kW (villamos teljesítmény); Uv : 400 V; cos φ: 0,9",
+      "a": [
+        "a) 15,41 A                        ",
+        "b) 17,34 A                        ",
+        "c) 19,26 A"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.30. Egy 1600 kVA-es teljesítményű olajtranszformátornak legalább milyen védelmének kell  lennie? ",
+      "a": [
+        "a) csak zárlatvédelem szükséges",
+        "b) zárlat- és túláramvédelem",
+        "c) zárlatvédelem, túlterhelésvédelem és Buchholz-védelem"
+      ],
+      "numOfQs": 3,
+      "gA": 3
     }
   ]
 }

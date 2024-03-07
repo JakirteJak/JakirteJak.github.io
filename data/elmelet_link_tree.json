@@ -1,0 +1,19 @@
+[
+    {
+        "Villamos rendszerek": "x_villrendszerek.html",
+        "childs": [
+            { "TN": "teszt.html" },
+            { "TT": "tetelek.html" },
+            { "IT": "water.html"}
+        ]
+    },
+    {
+        "Érintésvédelmi osztályok": "linkEV",
+        "childs": [
+            { "I." : "linkI" },
+            { "II." : "linkII" },
+            { "III." : "linkIII"}
+        ]
+
+    }
+]

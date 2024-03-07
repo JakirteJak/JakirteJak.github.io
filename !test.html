@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fix Panel és Dinamikusan Méretezett Rész</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .header {
+        height: 200px;
+        background-color: lightgray;
+    }
+
+    .container {
+        display: flex;
+        height: calc(100% - 200px); /* A felső panel magasságának levonása a teljes magasságból */
+    }
+
+    .left {
+        flex: none;
+        width: 300px;
+        background-color: lightblue;
+        overflow: auto;
+    }
+
+    .right {
+        flex: 1;
+        background-color: lightgreen;
+        overflow: auto;
+    }
+
+    .resizer {
+        width: 10px;
+        height: 100%;
+        background-color: gray;
+        cursor: ew-resize;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">Fix Panel</div>
+
+<div class="container">
+    <div class="left" id="leftPanel">Bal oldali fix panel</div>
+    <div class="resizer" id="resizer"></div>
+    <div class="right">Jobb oldali dinamikusan változó panel</div>
+</div>
+
+<script>
+    const resizer = document.getElementById('resizer');
+    const leftPanel = document.getElementById('leftPanel');
+    const container = document.querySelector('.container');
+
+    resizer.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        let prevX = e.clientX;
+
+        document.addEventListener('mousemove', resize);
+
+        document.addEventListener('mouseup', function() {
+            document.removeEventListener('mousemove', resize);
+        });
+
+        function resize(e) {
+            const rect = container.getBoundingClientRect();
+            const newWidth = e.clientX - rect.left;
+
+            const minWidth = 100;
+            const maxWidth = rect.width - minWidth;
+
+            if (newWidth > minWidth && newWidth < maxWidth) {
+                leftPanel.style.width = newWidth + 'px';
+            }
+            prevX = e.clientX;
+        }
+    });
+</script>
+
+</body>
+</html>

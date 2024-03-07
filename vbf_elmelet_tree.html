@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Villamos rendszerek és Érintésvédelmi osztályok</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .header {
+        height: 200px;
+        background-color: lightgray;
+    }
+
+    .container {
+        display: flex;
+        height: calc(100% - 200px); /* A felső panel magasságának levonása a teljes magasságból */
+    }
+
+    .left {
+        flex: none;
+        width: 300px;
+        background-color: lightblue;
+        overflow: auto;
+    }
+
+    .right {
+        flex: 1;
+        background-color: lightgreen;
+        overflow: auto;
+    }
+
+    .resizer {
+        width: 10px;
+        height: 100%;
+        background-color: gray;
+        cursor: ew-resize;
+    }
+
+    .link {
+        display: block;
+        margin-bottom: 10px;
+        color: blue;
+        text-decoration: none;
+        cursor: pointer; /* Nyíl kurzor */
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
+    .node {
+        display: none; /* Alapértelmezetten a gyermek elemek el vannak rejtve */
+        margin-left: 20px;
+    }
+
+    .node-parent {
+        cursor: pointer; /* Nyíl kurzor */
+    }
+</style>
+</head>
+<body>
+
+<div class="header">Fix Panel</div>
+
+<div class="container">
+    <div class="left" id="leftPanel"></div>
+    <div class="resizer" id="resizer"></div>
+    <div class="right"></div>
+</div>
+
+<script>
+    const resizer = document.getElementById('resizer');
+    const leftPanel = document.getElementById('leftPanel');
+    const rightPanel = document.querySelector('.right');
+    const container = document.querySelector('.container');
+
+    const data = [
+        {
+            "Villamos rendszerek": "x_villrendszerek.html",
+            "childs": [
+                { "TN": "teszt.html" },
+                { "TT": "tetelek.html" },
+                { "IT": "water.html"}
+            ]
+        },
+        {
+            "Érintésvédelmi osztályok": "",
+            "childs": [
+                { "I." : "linkI" },
+                { "II." : "linkII" },
+                { "III." : "linkIII"}
+            ]
+        }
+    ];
+
+    // Bal oldali panel feltöltése adatokkal
+    data.forEach(item => {
+        const mainLink = Object.values(item)[0];
+        if (mainLink != ""){
+            mainLinkElement = document.createElement('a'); // A szülő elemek linkként kerülnek megjelenítésre
+            mainLinkElement.classList.add('link', 'node-parent');
+        }
+        else{
+            mainLinkElement = document.createElement('div'); // A szülő elemek linkként kerülnek megjelenítésre
+            mainLinkElement.classList.add('node-parent');
+        }
+
+        mainLinkElement.textContent = Object.keys(item)[0];
+        mainLinkElement.href = mainLink; // Frissítve: valós linkeket használunk
+        mainLinkElement.dataset.childVisible = 'false'; // Hozzáadva: alapértelmezett érték hozzáadása
+        leftPanel.appendChild(mainLinkElement);
+
+        item.childs.forEach(child => {
+            const childKey = Object.keys(child)[0];
+            const childLink = child[childKey];
+
+            const linkElement = document.createElement('a');
+            linkElement.textContent = childKey;
+            linkElement.href = childLink; // Frissítve: valós linkeket használunk
+            linkElement.classList.add('link', 'node');
+            linkElement.target = "_blank"; // Az új ablakban való megnyitáshoz
+
+            mainLinkElement.appendChild(linkElement); // A gyermek elemeket hozzá kell adni a fő elemhez
+        });
+    });
+
+    resizer.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        let prevX = e.clientX;
+
+        document.addEventListener('mousemove', resize);
+
+        document.addEventListener('mouseup', function() {
+            document.removeEventListener('mousemove', resize);
+        });
+
+        function resize(e) {
+            const rect = container.getBoundingClientRect();
+            const newWidth = e.clientX - rect.left;
+
+            const minWidth = 100;
+            const maxWidth = rect.width - minWidth;
+
+            if (newWidth > minWidth && newWidth < maxWidth) {
+                leftPanel.style.width = newWidth + 'px';
+            }
+            prevX = e.clientX;
+        }
+    });
+
+    // Bal oldali panel tartalmának kezelése kattintáskor
+    leftPanel.addEventListener('click', function(e) {
+    const target = e.target;
+
+    if (target.classList.contains('node-parent')) {
+        e.preventDefault(); // Az alapértelmezett esemény letiltása
+
+        // Ha a kattintott elem egy fő elem, akkor jelenítsük meg vagy rejtjük el a gyermek elemeket
+        const childNodes = Array.from(target.getElementsByClassName('node'));
+        if (target.dataset.childVisible === 'false') {
+            childNodes.forEach(child => {
+                child.style.display = 'block';
+            });
+            target.dataset.childVisible = 'true';
+        } else {
+            childNodes.forEach(child => {
+                child.style.display = 'none';
+            });
+            target.dataset.childVisible = 'false';        
+        }
+
+        if (target.classList.contains('link')) {
+            e.preventDefault(); // Az alapértelmezett esemény letiltása
+
+            // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
+            const targetHref = target.getAttribute('href');
+            const contentElement = document.querySelector('.right');
+            contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
+        }
+    } else if (target.classList.contains('link')) {
+        e.preventDefault(); // Az alapértelmezett esemény letiltása
+
+        // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
+        const targetHref = target.getAttribute('href');
+        const contentElement = document.querySelector('.right');
+        contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
+    }
+});  
+</script>
+
+</body>
+</html>            
