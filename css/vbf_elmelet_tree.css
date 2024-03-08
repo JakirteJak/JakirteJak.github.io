@@ -1,0 +1,53 @@
+.div_header {
+    height: 200px;
+    /*background-color: lightgray;*/
+}
+
+.div_container {
+    display: flex;
+    height: calc(100% - 200px); /* A felső panel magasságának levonása a teljes magasságból */
+}
+
+.div_left {
+    flex: none;
+    width: 300px;
+    /*background-color: lightblue;*/
+    overflow: auto;
+}
+
+.div_right {
+    flex: 1;
+    /*background-color: lightgreen;*/
+    overflow: auto;        
+}
+
+.div_resizer {
+    width: 10px;
+    height: 100%;
+    /*background-color: gray;*/
+    cursor: ew-resize;
+}
+
+.backG02 {
+    background-image: url('/img/backG02.jpg');
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+
+    background-attachment: fixed;
+    
+    height: 100%;
+}
+
+.mainNodeBordered {
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.mainNodeBordered:nth-child(even) {
+    background-color: rgba(68, 0, 255, 0.432);
+}
+
+.mainNodeBordered:nth-child(odd) {
+    background-color: rgba(76, 0, 253, 0.089);
+}

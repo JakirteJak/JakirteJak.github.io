@@ -4,46 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Villamos rendszerek és Érintésvédelmi osztályok</title>
+<link rel="stylesheet" href="css/vbf_elmelet_tree.css">
 <style>
     body, html {
         margin: 0;
         padding: 0;
         height: 100%;
-    }
-
-    .header {
-        height: 200px;
-        background-color: lightgray;
-    }
-
-    .container {
-        display: flex;
-        height: calc(100% - 200px); /* A felső panel magasságának levonása a teljes magasságból */
-    }
-
-    .left {
-        flex: none;
-        width: 300px;
-        background-color: lightblue;
-        overflow: auto;
-    }
-
-    .right {
-        flex: 1;
-        background-color: lightgreen;
-        overflow: auto;
-    }
-
-    .resizer {
-        width: 10px;
-        height: 100%;
-        background-color: gray;
-        cursor: ew-resize;
+        /*background-size: cover; /* Háttérkép teljes területet kitöltő beállítása */
+        /*background-position: center; /* Háttérkép középre igazítása */
+        /*background-repeat: no-repeat; /* Háttérkép ne ismétlődjön */                        
     }
 
     .link {
         display: block;
-        margin-bottom: 10px;
+        /*margin-bottom: 10px;*/
         color: blue;
         text-decoration: none;
         cursor: pointer; /* Nyíl kurzor */
@@ -63,15 +37,13 @@
     }
 </style>
 </head>
-<body>
-
-<div class="header">Fix Panel</div>
-
-<div class="container">
-    <div class="left" id="leftPanel"></div>
-    <div class="resizer" id="resizer"></div>
-    <div class="right"></div>
-</div>
+<body class="backG02">
+    <div class="div_header">Fix Panel</div>
+    <div class="div_container">
+        <div class="div_left" id="leftPanel"></div>
+        <div class="div_resizer" id="resizer"></div>
+        <div class="div_right"></div>
+    </div>
 
 <script>
     const resizer = document.getElementById('resizer');
@@ -83,9 +55,12 @@
         {
             "Villamos rendszerek": "x_villrendszerek.html",
             "childs": [
-                { "TN": "teszt.html" },
-                { "TT": "tetelek.html" },
-                { "IT": "water.html"}
+                { "TT": "x_villrendszerek.html#TT" },
+                { "TN": "x_villrendszerek.html#TN" },
+                { "TN-C": "x_villrendszerek.html#TN-C" },
+                { "TN-S": "x_villrendszerek.html#TN-S" },
+                { "TN-C-S": "x_villrendszerek.html#TN-C-S" },
+                { "IT": "x_villrendszerek.html#IT"}
             ]
         },
         {
@@ -103,11 +78,11 @@
         const mainLink = Object.values(item)[0];
         if (mainLink != ""){
             mainLinkElement = document.createElement('a'); // A szülő elemek linkként kerülnek megjelenítésre
-            mainLinkElement.classList.add('link', 'node-parent');
+            mainLinkElement.classList.add('link', 'node-parent', 'mainNodeBordered');
         }
         else{
             mainLinkElement = document.createElement('div'); // A szülő elemek linkként kerülnek megjelenítésre
-            mainLinkElement.classList.add('node-parent');
+            mainLinkElement.classList.add('node-parent', 'mainNodeBordered');
         }
 
         mainLinkElement.textContent = Object.keys(item)[0];
@@ -129,30 +104,31 @@
         });
     });
 
+    let isResizing = false; // Változó, hogy jelzi, hogy éppen átméretezés folyamatban van-e
+
     resizer.addEventListener('mousedown', function(e) {
-        e.preventDefault();
-        let prevX = e.clientX;
+        isResizing = true; // Átméretezés megkezdése
 
-        document.addEventListener('mousemove', resize);
+        // Az egérmozgás figyelése
+        window.addEventListener('mousemove', resizePanel);
+    });
 
-        document.addEventListener('mouseup', function() {
-            document.removeEventListener('mousemove', resize);
-        });
+    window.addEventListener('mouseup', function(e) {        
+        if (isResizing) {
+            isResizing = false; // Átméretezés befejezése
 
-        function resize(e) {
-            const rect = container.getBoundingClientRect();
-            const newWidth = e.clientX - rect.left;
-
-            const minWidth = 100;
-            const maxWidth = rect.width - minWidth;
-
-            if (newWidth > minWidth && newWidth < maxWidth) {
-                leftPanel.style.width = newWidth + 'px';
-            }
-            prevX = e.clientX;
+            // Az egérmozgás figyelésének leállítása
+            window.removeEventListener('mousemove', resizePanel);
         }
     });
 
+    function resizePanel(e) {
+        if (isResizing) {
+            const panelWidth = e.clientX;
+            leftPanel.style.width = `${panelWidth}px`; // Bal oldali panel átméretezése
+        }
+    }
+   
     // Bal oldali panel tartalmának kezelése kattintáskor
     leftPanel.addEventListener('click', function(e) {
     const target = e.target;
@@ -179,7 +155,7 @@
 
             // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
             const targetHref = target.getAttribute('href');
-            const contentElement = document.querySelector('.right');
+            const contentElement = document.querySelector('.div_right');
             contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
         }
     } else if (target.classList.contains('link')) {
@@ -187,7 +163,7 @@
 
         // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
         const targetHref = target.getAttribute('href');
-        const contentElement = document.querySelector('.right');
+        const contentElement = document.querySelector('.div_right');
         contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
     }
 });  

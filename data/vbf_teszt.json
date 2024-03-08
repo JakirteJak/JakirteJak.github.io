@@ -4659,6 +4659,58 @@
       ],
       "numOfQs": 3,
       "gA": 3
+    },
+    {
+      "q": "II.7.31. Valamely transzformátor szekunder gyűjtősínén a szimmetrikus háromfázisú zárlati áram effektív értéke 37,5 kA, az egyik közvetlen leágazásba MK 601 típusú megszakító van beépítve, amelynek zárlati megszakító képessége 20 kA. A rövidzárlati gyorskioldó beállítási értéke: 2000 A, a hőkioldók beállítása: 400 A. Megfelel-e a beépített megszakító, illetve annak beállítása?",
+      "a": [
+        "a) igen                       ",
+        "b) nem                    ",
+        "c) még éppen elfogadható"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.33. Hőfejlesztő, forróvíz és gőztermelő készülékek jelző és működtető vezetékeinél milyen túláramvédelmet kell alkalmazni?",
+      "a": [
+        "a) csak túlterhelésvédelmet",
+        "b) csak zárlatvédelmet",
+        "c) mindkettőt",
+        "d)  tilos bármilyen túláramvédelem alkalmazása, mivel annak működése veszélyt  jelentene"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.7.34. P: 2,2 kW névleges teljesítményű 3 fázisú 400 V névleges feszültségű szivattyúmotor  túláramvédelmére milyen védelmet kötelező létesíteni?",
+      "a": [
+        "a) csak zárlatvédelmet",
+        "b) csak túlterhelés elleni védelmet",
+        "c) túlterhelés és zárlat elleni védelmet   ",
+        "d) csak feszültségcsökkenés elleni védelmet"
+      ],
+      "numOfQs": 1,
+      "gA": 1
+    },
+    {
+      "q": "II.7.35. A háromfázisú aszinkronmotor túlterhelés elleni védelmére beépített hőkioldóját milyen értékre kell beállítani?",
+      "a": [
+        "a) legfeljebb a motor névleges áramára",
+        "b) a motor névleges áramának maximum 1,2-szeresére",
+        "c) csak a motor zárlatvédelmi beállításánál kisebb értékre"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.7.36. Egy 1,1 kW-os 400/230 V-os motor túlterhelésvédelmét 1,8 A-re állítva üzemeltetik. Minősítheti-e megfelelőnek, ha cos φ:0,81 és a hatásfok η: 74%? ",
+      "a": [
+        "a)  nem, mert 2,6 A szükséges ",
+        "b)  nem, mert így a motor védelme indokolatlanul lekapcsolhat",
+        "c)  igen, mert a névleges áramnál kisebb értékre állítást a névlegesnél kisebb leadott teljesítmény indokolja"
+      ],
+      "numOfQs": 3,
+      "gA": 3
     }
   ]
 }
