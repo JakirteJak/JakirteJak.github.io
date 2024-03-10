@@ -4711,6 +4711,437 @@
       ],
       "numOfQs": 3,
       "gA": 3
+    },
+    {
+      "q": "II.7.37. Egy háromfázisú 400/230 V-os aszinkron motorral hajtott gép motorjának teljesítménye 5,5 kW, névleges árama 11,3 A, a cos φ:0,82 és a hatásfok η: 86%. Határozza meg, hogy a motorvédő kapcsoló hőkioldóját mekkora áramerősségre kell beállítani és mekkora értékű olvadóbiztosító szükséges a zárlatvédelem helyes működéséhez?",
+      "a": [
+        "a) biztosító értéke: 10A, hőkioldó beállítása: 8A",
+        "b) biztosító értéke: 20A, hőkioldó beállítása: 10A",
+        "c) biztosító értéke: 25A, hőkioldó beállítása: 11,3A",
+        "d) biztosító értéke: 35A, hőkioldó beállítása: 15A"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.7.38. Általában mi ellen kell az akkumulátorokat védeni?",
+      "a": [
+        "a) túlfeszültség és túltöltés ellen",
+        "b) zárlat ellen",
+        "c) zárlat és túlterhelés ellen"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.7.39. Ipari üzemben világítási áramkörről táplált lámpatestek közös túláramvédelmére legfeljebb hány amperes olvadóbiztosító betétet szabad alkalmazni, ha a lámpafoglalatok E27 (normál)  méretűek?",
+      "a": [
+        "a) 10 A                          ",
+        "b) 25 A                        ",
+        "c) 35 A"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.40. Gyári műhely mennyezeti lámpatesteit két világítási áramkör táplálja. A 40 W-os fénycsőarmatúrák áramkörének túláramvédelmére 20 A-es olvadóbiztosító, az E40 (Góliát)  foglalatos lámpatestek áramkörének túláramvédelmére 35 A-es olvadóbiztosító szolgál. Minősítse a közös túláramvédelmeket! (MSZ 1600-1 szabvány 3.672. szakasz)",
+      "a": [
+        "a)  egyik védelem sem megfelelő",
+        "b)  mindkét védelem megfelelő",
+        "c)  csak a fénycsőarmatúrák közös túláramvédelme megfelelő"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.7.42. Egy 50 mm2 keresztmetszetű, réz erű szigetelt vezeték alapterhelése 210 A. Kétféle módosító tényezőt kell figyelembe venni (k1 : 0,4 és k2 : 0,5) Mekkora így a vezeték megengedett árama?",
+      "a": [
+        "a) 42 A",
+        "b) 63 A",
+        "c) 80 A"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.7.43. Legfeljebb 12 A megengedett terhelhetőségű vezeték túlterhelésvédelmére milyen áramerősségű olvadóbiztosítót fogadna el még megfelelőnek?",
+      "a": [
+        "a) 6 A",
+        "b) 10 A",
+        "c) 15 A",
+        "d) 20 A"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.7.44. Vezérlőáramköröket el kell-e látni túláramvédelemmel?",
+      "a": [
+        "a) zárlatvédelem áram-védőkapcsoló esetén nem szükséges",
+        "b) nem szükséges túláramvédelem, mivel a vezérlőkörök általában kis zárlati áramúak",
+        "c) zárlat- és túlterhelésvédelem egyaránt kötelező",
+        "d) zárlatvédelem kötelező, túlterhelés védelem akkor megengedett, ha annak működése nem okoz veszélyhelyzetet (Pl.: vészleállító, hőkorlátozó)"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.8.02. Az VBF időszakos felülvizsgálat alkalmával hány csoportba kell sorolni a feltárt hiányosságokat, veszélyesség szempontjából?",
+      "a": [
+        "a) 4                           ",
+        "b) 5                         ",
+        "c) 6"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.8.05. A vizsgált berendezés rajzai közül melyiket kell elkészíteni, illetve hivatkozni rá a minősítő  iratban?",
+      "a": [
+        "a) működési kapcsolási rajz",
+        "b) szerelési kapcsolási rajz",
+        "c) egyvonalas kapcsolási rajz ",
+        "d) a hálózat nyomvonalrajza"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.8.06. A felülvizsgálat során a kisebb hiányosságokat a kísérő azonnal meg is szüntette. A  felülvizsgálati dokumentációban hogyan jelzi ezt?",
+      "a": [
+        "a) sehogy, a már megszüntetett hiányosságokkal nem kell tovább foglalkozni",
+        "b) az összefoglaló részben felsorolja, hogy az üzem vezetőjének a felülvizsgálat előtti állapotokról tiszta képe legyen",
+        "c) minden észlelt hiányosságot fel kell sorolni, de meg kell jelölni a megszüntetett a hiányosságokat",
+        "d) a későbbi pénzügyi és jogi vita elkerülése érdekében kötelező valamennyi észlelt hiányosság felsorolása"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.8.07. A minősítő iratban mi módon közli a közvetlen életveszélyt jelentő hiányosságot? (A hibás berendezést azonnal feszültségmentesítették)",
+      "a": [
+        "a)  a szöveges részben kiemelten kell leírni",
+        "b)  felújítás esetén a hibás berendezést le kell szerelni",
+        "c)  a hibát elhárították, nem szükséges leírni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.8.08. Egy iskolaépületben a teljes felújítás során a világítási és dugaszoló áramköreinek túláramvédelmét ellátó olvadóbiztosítóit változatlanul meghagyták. Mit javasol?",
+      "a": [
+        "a) rendszeresen kell ellenőrizni a megengedettnél nagyobb betét behelyezését megakadályozó illesztőgyűrű meglétét és épségét",
+        "b) túláramvédelmi szempontból megfelelő, az érintésvédelmi felülvizsgálatig nincs teendő",
+        "c) nem megfelelő, az olvadóbiztosítókat kismegszakítókra kell kicserélni",
+        "d) a dugaszolók áramkörében kötelező, a világítási áramkörökben célszerű áram- védőkapcsolót alkalmazni"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.8.09. Egy irodai asztali lámpa eltört csatlakozódugója helyett két banándugót szereltek. Mit ír erről a vizsgálatról készített dokumentációban?",
+      "a": [
+        "a) semmit, a készülékeket nem kell felülvizsgálni",
+        "b) megfelelőnek minősíti, ha meggyőződik arról, hogy a banándugók erősáramúak",
+        "c) a minősítő iratban csak a súlyosabb hiányosságokat kell szerepeltetni ",
+        "d) szabványos csatlakozó-dugóval történő soronkívüli javítását írja elő"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.8.10. Felülvizsgálata során megállapítja, hogy a vizsgált berendezés egyvonalas kapcsolási rajza a tervezett, és nem a kivitelezett (tényleges) állapotot mutatja, lényeges eltérésekkel",
+      "a": [
+        "a) nem törődik vele, ha az üzemben ismerik a berendezést",
+        "b) felülvizsgálati dokumentációjában észrevételezi ezt, és fázisonként ≥32 A feletti  áramkörökről elkészíti a rajzokat",
+        "c) előírja az üzemeltetőnek a tényleges helyzetnek megfelelő rajzok elkészítését"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.8.11. Földelt csillagpontú hálózatról táplált, 400 V névleges feszültségű villamos berendezésre a következő szövegű figyelmeztető tábla van elhelyezve: Vigyázz! Nagyfeszültség Életveszély! Mit ír erről a felülvizsgálati dokumentációban?",
+      "a": [
+        "a) semmit, mivel a felirat csak fokozott figyelem felhívást jelent",
+        "b) nem alkalmazható, a tényleges feszültségszintet kell feltüntetni",
+        "c) három fázis esetén megfelelő, egy fázis esetén nem"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.8.12. Mi írja elő a nagyfeszültségű berendezések (Un >1000 V) áramütés elleni védelmének és szabványos állapotának (tűzvédelmi jellegű) villamos biztonsági felülvizsgálatát?",
+      "a": [
+        "a) erre nincs jogszabályi előírás",
+        "b) 23/2016. (VII. 7.) NGM rendelet",
+        "c) 54/2014. (XII. 5.) BM rendelet (OTSZ)",
+        "d)  módosított 40/2017. (XII. 4.) NGM rendelet (VMBSZ)"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.9.03. Milyen hatással van az ipari frekvenciájú áram az izmok működésére?",
+      "a": [
+        "a) összehúzza az izmokat      ",
+        "b) elernyeszti az izmokat     ",
+        "c) rezgésbe hozza az izmokat"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.9.04. Melyik frekvenciájú váltakozó áram legveszélyesebb az emberi szervezetre?",
+      "a": [
+        "a) 10 Hz alatti             ",
+        "b) 50-1000 Hz          ",
+        "c) 1-10 kHz            ",
+        "d) 10 kHz feletti"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.9.05. A vázizom-rendszer melyik részének görcse a legveszélyesebb, halálos kimenetelű?",
+      "a": [
+        "a) a végtagok izomzatának görcse",
+        "b) a mellkas izomzatának görcse",
+        "c) a hasi és nyaki izmok görcse"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.9.06. Mi a különbség a klinikai és biológiai halál között?",
+      "a": [
+        "a) a klinikai halál állapotában légzés nincs, a biológiai halál esetén sem légzés, sem vérkeringés nincs",
+        "b) a klinikai halál esetében a balesetes megmenthető, a biológiai halál állapotában újraélesztésre nincs lehetőség",
+        "c) a klinikai halálból nincs, a biológiai halálból van remény az életbe való visszatérésre"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.9.09. Hogyan állapítja meg az eszméletlen balesetes vérkeringésének meglétét vagy megszűnését?",
+      "a": [
+        "a) fülét a mellkasra helyezve szívhangokat figyeli          ",
+        "b) a nyaki ütőeret tapintja  ",
+        "c) a csuklón tapintja a verőeret",
+        "d) a légzés megszűnése feltételezi a keringés megszűnését; mindkettőt pótolni kell"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.9.10. Hogyan állapítja meg az eszméletlen balesetes légzésének meglétét vagy megszűnését?",
+      "a": [
+        "a) tükröt tart a szája elé és figyel, hogy az bepárásodik-e",
+        "b) hallgatózással próbálja a légzést megállapítani",
+        "c) a szegycsont magasságába hajtott fejjel a mellkas és a gyomortájék emelkedését, süllyedését figyeli",
+        "d) a balesetes orra elé tollpihét tartva, annak lebegését figyeli"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.9.11. Mikor kell a befújásos lélegeztetést és a szívmasszást (felváltva) együttesen alkalmazni?",
+      "a": [
+        " a)  ha az áramütött nincs eszméleténél",
+        "b)  ha két elsősegélynyújtó van jelen",
+        "c)  ha a sérültnek sem légzése sem vérkeringése nincs"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.9.12. Üzemi épület alagsorában, az elektromos berendezések felülvizsgálata közben üzemi  kísérőjét áramütés éri. Eszméletét vesztve a földre zuhan, esésével az áramkörből is  kiszabadul. Pillanatok múlva magához tér, másodlagos sérülése nincs. Arca sápadt, az ijedtségen kívül látszólag semmi baja nincs. Ketten vannak a helyiségben, a közelben nincsenek dolgozók. Jelölje meg, hogy Önnek ilyenkor mit kell tennie!",
+      "a": [
+        "a) az áramütöttet leültetem és orvost hívok",
+        "b) az áramütöttel együtt elindulok telefont vagy segítőtársat keresni",
+        "c) az áramütöttet orvoshoz küldöm, a felülvizsgálatot tovább folytatom",
+        "d) az áramütöttet nyugalomba helyezem, mellette maradok és lehetséges módon (pl.: kiabálással, mobiltelefonnal) hívok segítséget",
+        "e) az áramütöttet hátára fektetem és feletteséhez megyek az áramütést bejelenteni, a balesetet kivizsgáltatni"
+      ],
+      "numOfQs": 5,
+      "gA": 4
+    },
+    {
+      "q": "II.10.01. Ki jogosult villamos berendezések VB Felülvizsgálatát elvégezni és a felülvizsgálati dokumentációt (minősítő iratot) kiállítani?",
+      "a": [
+        "a) 34/2021. (VII.26.) ITM rendelet szerinti szakképesítéssel rendelkező személyek",
+        "b) mérnök kamarai névjegyzékbe felvett személyek ",
+        "c) vezető tervezői jogosultsággal rendelkező személyek",
+        "d) ipari szakértői engedéllyel rendelkező személyek"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.10.02. Kik végezhetik el az erősáramú villamos berendezések időszakos VBF felülvizsgálatát?",
+      "a": [
+        "a) csak magánszemély, illetve vállalkozó",
+        "b) az üzemeltető, vagy egy általa megbízott szolgáltató",
+        "c) csak az erre jogosított szolgáltató vállalat",
+        "d) a fentiek bármelyike, ha rendelkezik az 34/2021. (VII.26.) ITM rendeletben előírt  szakképesítéssel"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.10.03. A jelen szakképesítés (VBF) megszerzését igazoló bizonyítvány meddig érvényes? (módosított VMBSZ)",
+      "a": [
+        "a) kiállításától számított 5 évig, majd 5 évente kötelező továbbképzés",
+        "b) kiállításától számított 10 évig, de ajánlott az ismeret felújítás                       ",
+        "c) visszavonásig, ha folyamatosan felülvizsgálói munkakört tölt be"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.10.04. Különböző rendeletek és szabványok eltérő szigorúságú követelményeket rögzítenek egy villamos berendezésre. Mi ilyenkor a teendő?",
+      "a": [
+        "a) mindig a legszigorúbb előírást kell alkalmazni",
+        "b) csak a kötelező rendeletek előírásának teljesülését kell vizsgálni",
+        "c) a tűzvédelmi hatóság véleménye szerint kell eljárni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.10.05. Felülvizsgálata során figyelembe kell-e venni az üzem saját munkavédelmi szabályzatának villamos jellegű előírásait?",
+      "a": [
+        "a) nem kötelező, de célszerű",
+        "b) igen, a tevékenységünk során kötelező a szabályzat előírásait betartani ",
+        "c) nem, mert magatartási szabályokat és nem létesítési, üzemviteli szabályokat tartalmaznak"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.10.07. Egy új létesítmény villamos berendezéseinek első felülvizsgálatát mikor kell elvégezni?",
+      "a": [
+        "a) a szerelési munkák elvégzése során",
+        "b) az üzemszerű használatbavétel előtt",
+        "c) az átadástól számított 1 éves időszakon belül"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.10.08. A megbízásból eljáró, megfelelő jogosultsággal rendelkező felülvizsgáló minek minősül?",
+      "a": [
+        "a) hatóság",
+        "b) hatósági szolgáltató",
+        "c) szolgáltató",
+        "d) tűzvédelmi szakellenőr"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.10.09. Kötelező-e a nemzeti szabványok betartása?",
+      "a": [
+        "a) a szabványokat mindenkor kötelező betartani",
+        "b) a nemzeti szabványok alkalmazása önkéntes, biztonsági szintjük betartása kötlező",
+        "c) a nemzeti szabványjellel (MSZ) megjelölt szabványok mindig kötelező   ",
+        "d) csak akkor, ha a kötelező jelleg a szabványon fel van tüntetve"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.10.13. A VMBSZ szerint a VBF felülvizsgálóknak kötelező-e továbbképzés? ",
+      "a": [
+        "a) igen, mert jelentős munkakörnek tekinti, 5 évenként kötelező",
+        "b) nem ",
+        "c) csak ismeretfelújítás ajánlott"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.10.14. A VMBSZ szerint mi az egyenértékűségi nyilatkozat?",
+      "a": [
+        "a) a felhasználó nyilatkozata arról, hogy berendezéseit az engedélyes előírásaival azonos módon (azokkal egyenértékűen) üzemelteti",
+        "b) a felülvizsgáló nyilatkozata arról, hogy berendezéseket a szabványokkal egyenértékű módon ellenőrizte",
+        "c) a villamos tervező nyilatkozata arról, hogy a tervben a szabványok előírásaitól eltérő megoldások biztonsági és műszaki szempontból a szabvány követelményeivel egyenértékűek"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.10.15. A VMBSZ 1.13.4. pontja szerint mely szabványok szerint minősítjük a villamos berendezést? ",
+      "a": [
+        "a) a létesítésekor érvényben volt szabványok szerint ",
+        "b) a jelenleg érvényben levő szabványok szerint",
+        "c) a) és b) közül mindig a szigorúbb szerint",
+        "d) a) és b) közül mindig az enyhébb szerint"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.10.16. A VMBSZ szerint milyen gyakorisággal szükséges az áram-védőkapcsolók ellenőrzése? ",
+      "a": [
+        "a) havonta, a létesítésekor érvényben volt szabványok szerint ",
+        "b) hat havonta",
+        "c) a kéziszerszámok és biztonsági transzformátorokkal azonos gyakorisággal, tehát 1 évente.",
+        "d) 3 évente, az érintésvédelmi szabványossági felülvizsgálat keretében."
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.10.18. A VMBSZ szerint a nagyfeszültségű berendezéseket milyen időközönként kell ellenőrizni?",
+      "a": [
+        "a) 1 évente              ",
+        "b) 2 évente             ",
+        "c) 3 évente            ",
+        "d) 6 évente            ",
+        "e) 9 évente"
+      ],
+      "numOfQs": 5,
+      "gA": 3
+    },
+    {
+      "q": "II.10.21. Melyik a nagyfeszültségű berendezésekre vonatkozó érvényes alapszabvány, amelyen a  felülvizsgálatok is alapulnak?",
+      "a": [
+        "a) MSZ 1610 szabványsorozat",
+        "b) MSZ EN 62271-200 szabványsorozat",
+        "c) MSZ EN IEC 61936-1:2022 szabvány"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.10.22. A VMBSZ szerint mikor hagyható el a lakóépületek áramütés elleni védelmének szabványossági felülvizsgálata? ",
+      "a": [
+        "a) fázisonként Ib ≤ 32 A túláramvédelemmel és I∆ ≤ 30 mA áram-védőkapcsolóval védett felhasználói berendezések esetén",
+        "b) soha sem hagyható el a felhasználói berendezések felülvizsgálata",
+        "c) a közös képviselő kérelme esetén, ha egyenértékűségi nyilatkozatot ad"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.10.23. A VMBSZ szerint mi a határideje az időszakos szabványossági felülvizsgálatnak?",
+      "a": [
+        "a) nincs határideje, nem értelmezhető",
+        "b) a felülvizsgáló és az üzemeltető együtt állapítja meg az üzemi viszonyoknak megfelelően, figyelembe véve a technológiát és más üzemi kötöttségeket",
+        "c) a felülvizsgálat határideje az előző felülvizsgálatról szóló minősítő irat naptári napjának megfelelő napon jár le, a felülvizsgálat esedékességének évében"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.10.24. A VMBSZ szerint kinek a feladata feszültségmentesítés és a feszültségmentesített munkaterület átadása?",
+      "a": [
+        "a) a feszültségmentesítés és a feszültségmentesített munkaterület átadása az épületvillamossági berendezések esetében a felhasználó feladata",
+        "b) a feszültségmentesítés és a feszültségmentesített munkaterület átadása – az  épületvillamossági berendezések kivételével – az üzemeltető feladata",
+        "c) a feszültségmentesítés és a feszültségmentesített munkaterület átadása mindig a kivitelező felelős villamos szakági vezetőjének a feladata"
+      ],
+      "numOfQs": 3,
+      "gA": 2
     }
   ]
 }

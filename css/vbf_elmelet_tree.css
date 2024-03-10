@@ -45,9 +45,18 @@
 }
 
 .mainNodeBordered:nth-child(even) {
-    background-color: rgba(68, 0, 255, 0.432);
+    background-color: #eec78d63;
 }
 
 .mainNodeBordered:nth-child(odd) {
-    background-color: rgba(76, 0, 253, 0.089);
+    background-color: #866f2f70;
+}
+
+.allNode {
+    font-size: 18px;
+    color: black;    
+}
+
+.allNode:hover {    
+    font-weight: bold;
 }

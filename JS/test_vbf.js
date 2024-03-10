@@ -1,10 +1,10 @@
 // Rövid leírás:
 // Az "inputMaxQNum" input mezőben megadott számú, véletlenszerű kérdést generáló teszprogram.
-// A teszt indítását követően,a felkínált válaszok egyikére klikkelve elérhetővé váli a következő kérdés gomb.
-// Az útolsó késdés után a válaszok kiértékelése következik.
+// A teszt indítását követően,a felkínált válaszok egyikére klikkelve elérhetővé válik a következő kérdés gomb.
+// Az útolsó kérdés után a válaszok kiértékelése következik.
 // Működés:
 // Egy JSON adatbázisból olvassa be a szükséges adatokat. (ReadDataFromJson();)
-// A válaszokat a myAnswers tömmbe gyűjti. (saveActAnswers();)
+// A válaszokat a myAnswers tömbbe gyűjti. (saveActAnswers();)
 // Ennek alapján értékeli ki a tsztet a végén.
 let myAnswers = [];         // A kérdésekre adott válaszok tömbje
 let maxQuestionsNum = document.getElementById("inputMaxQNum").value; // Maximális kérdésszám

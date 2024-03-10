@@ -17,14 +17,14 @@
 
     .link {
         display: block;
-        /*margin-bottom: 10px;*/
-        color: blue;
+        /*margin-bottom: 10px;*/        
         text-decoration: none;
         cursor: pointer; /* Nyíl kurzor */
+        
     }
 
     .link:hover {
-        text-decoration: underline;
+        
     }
 
     .node {
@@ -32,13 +32,26 @@
         margin-left: 20px;
     }
 
+    .node:hover {
+        background-color: rgba(106, 252, 77, 0.555);
+    }
+
     .node-parent {
+        padding: 3px 2px 2px 2px;
         cursor: pointer; /* Nyíl kurzor */
+        margin-left: 3px;
+        margin-bottom: -1px;
+        border: 1px black solid;
+
+    }
+
+    .node-parent:hover {
+        background-color: rgba(106, 252, 77, 0.377);
     }
 </style>
 </head>
 <body class="backG02">
-    <div class="div_header">Fix Panel</div>
+    <div id="topDiv" class="div_header">Fix Panel</div>
     <div class="div_container">
         <div class="div_left" id="leftPanel"></div>
         <div class="div_resizer" id="resizer"></div>
@@ -53,6 +66,26 @@
 
     const data = [
         {
+            "Érintésvédelmi osztályok": "x_erintesvedelmi_o.html",
+            "childs": [
+                { "I."   : "x_erintesvedelmi_o.html#I" },
+                { "II."  : "x_erintesvedelmi_o.html#II" },
+                { "III." : "x_erintesvedelmi_o.html#III" }
+            ]
+        },
+        {
+            "Mértékegységek" : "x_mertekegysegek.html",
+            "childs" :[]
+        },
+        {
+            "Ohm törvénye" : "x_ohm_torvenye.html",
+            "childs" :[]
+        },
+        {
+            "Rövidítések" : "vbf_roviditesek.html",
+            "childs" :[]
+        },
+        {
             "Villamos rendszerek": "x_villrendszerek.html",
             "childs": [
                 { "TT": "x_villrendszerek.html#TT" },
@@ -62,30 +95,27 @@
                 { "TN-C-S": "x_villrendszerek.html#TN-C-S" },
                 { "IT": "x_villrendszerek.html#IT"}
             ]
-        },
-        {
-            "Érintésvédelmi osztályok": "",
-            "childs": [
-                { "I." : "linkI" },
-                { "II." : "linkII" },
-                { "III." : "linkIII"}
-            ]
         }
     ];
 
     // Bal oldali panel feltöltése adatokkal
     data.forEach(item => {
-        const mainLink = Object.values(item)[0];
+        const mainLink = Object.values(item)[0];        
         if (mainLink != ""){
             mainLinkElement = document.createElement('a'); // A szülő elemek linkként kerülnek megjelenítésre
-            mainLinkElement.classList.add('link', 'node-parent', 'mainNodeBordered');
+            mainLinkElement.classList.add('link', 'node-parent', 'mainNodeBordered', 'allNode');
         }
         else{
             mainLinkElement = document.createElement('div'); // A szülő elemek linkként kerülnek megjelenítésre
-            mainLinkElement.classList.add('node-parent', 'mainNodeBordered');
+            mainLinkElement.classList.add('node-parent', 'mainNodeBordered', 'allNode');
         }
-
+        
         mainLinkElement.textContent = Object.keys(item)[0];
+        if (item.childs && item.childs.length > 0)
+            mainLinkElement.textContent += " ➤";            
+        else
+            mainLinkElement.classList.add('no-child'); // ha nincs gyermek objektum
+
         mainLinkElement.href = mainLink; // Frissítve: valós linkeket használunk
         mainLinkElement.dataset.childVisible = 'false'; // Hozzáadva: alapértelmezett érték hozzáadása
         leftPanel.appendChild(mainLinkElement);
@@ -97,7 +127,7 @@
             const linkElement = document.createElement('a');
             linkElement.textContent = childKey;
             linkElement.href = childLink; // Frissítve: valós linkeket használunk
-            linkElement.classList.add('link', 'node');
+            linkElement.classList.add('link', 'node', 'allNode');
             linkElement.target = "_blank"; // Az új ablakban való megnyitáshoz
 
             mainLinkElement.appendChild(linkElement); // A gyermek elemeket hozzá kell adni a fő elemhez
@@ -128,29 +158,51 @@
             leftPanel.style.width = `${panelWidth}px`; // Bal oldali panel átméretezése
         }
     }
-   
+       
     // Bal oldali panel tartalmának kezelése kattintáskor
     leftPanel.addEventListener('click', function(e) {
-    const target = e.target;
+        const target = e.target;
 
-    if (target.classList.contains('node-parent')) {
-        e.preventDefault(); // Az alapértelmezett esemény letiltása
+        if (target.classList.contains('node-parent')) {
+            e.preventDefault(); // Az alapértelmezett esemény letiltása
 
-        // Ha a kattintott elem egy fő elem, akkor jelenítsük meg vagy rejtjük el a gyermek elemeket
-        const childNodes = Array.from(target.getElementsByClassName('node'));
-        if (target.dataset.childVisible === 'false') {
-            childNodes.forEach(child => {
-                child.style.display = 'block';
-            });
-            target.dataset.childVisible = 'true';
-        } else {
-            childNodes.forEach(child => {
-                child.style.display = 'none';
-            });
-            target.dataset.childVisible = 'false';        
-        }
+            // Ha a kattintott elem egy fő elem, akkor jelenítsük meg vagy rejtjük el a gyermek elemeket
+            const childNodes = Array.from(target.getElementsByClassName('node'));
 
-        if (target.classList.contains('link')) {
+            if (target.dataset.childVisible === 'false') {
+                childNodes.forEach(child => {
+                    child.style.display = 'block';
+                });
+                target.dataset.childVisible = 'true';
+
+                if (!target.classList.contains('no-child')){
+                    arrowIndex = target.innerHTML.indexOf('➤');
+                    newIH = target.innerHTML.substring(0, arrowIndex) + '▼' + target.innerHTML.substring(arrowIndex + 1);
+                    target.innerHTML = newIH;
+                }
+            } 
+            else {
+                childNodes.forEach(child => {
+                    child.style.display = 'none';
+                });
+                target.dataset.childVisible = 'false';
+
+                if (!target.classList.contains('no-child')){
+                    arrowIndex = target.innerHTML.indexOf('▼');
+                    newIH = target.innerHTML.substring(0, arrowIndex) + '➤' + target.innerHTML.substring(arrowIndex + 1);
+                    target.innerHTML = newIH;
+                }
+            }
+
+            if (target.classList.contains('link')) {
+                e.preventDefault(); // Az alapértelmezett esemény letiltása
+
+                // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
+                const targetHref = target.getAttribute('href');
+                const contentElement = document.querySelector('.div_right');
+                contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
+            }
+        } else if (target.classList.contains('link')) {
             e.preventDefault(); // Az alapértelmezett esemény letiltása
 
             // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
@@ -158,15 +210,7 @@
             const contentElement = document.querySelector('.div_right');
             contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
         }
-    } else if (target.classList.contains('link')) {
-        e.preventDefault(); // Az alapértelmezett esemény letiltása
-
-        // Ha a kattintott elem link, akkor frissítsük a jobb oldali panel tartalmát
-        const targetHref = target.getAttribute('href');
-        const contentElement = document.querySelector('.div_right');
-        contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
-    }
-});  
+    });  
 </script>
 
 </body>
