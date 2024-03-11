@@ -40,6 +40,18 @@
     height: 100%;
 }
 
+.backG03 {
+    background-image: url('/img/backg/ebg001.jpg');
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: lighten;
+
+    background-attachment: fixed;
+    
+    height: 100%;
+}
+
 .mainNodeBordered {
     color: rgba(255, 255, 255, 0.486);
 }
