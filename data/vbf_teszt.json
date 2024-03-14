@@ -3525,7 +3525,7 @@
         "b) freccsenő víz elleni kivitel",
         "c) víz elleni tömített kivitel"
       ],
-      "numOfQs": 1,
+      "numOfQs": 2,
       "gA": 2
     },
     {
@@ -5418,6 +5418,205 @@
         "c) 2,5 ... 6m"
       ],
       "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.31. Szabad-e hordozható készülékek csatlakozó vezetékeit fém gégecsőbe (fémtömlőbe) húzni?",
+      "a": [
+        "a)  igen, amennyiben megfelelő érintésvédelemmel ellátták",
+        "b)  nincs egyértelmű szabványelőírás a tiltásra, de alkalmazását kerülni kell",
+        "c)  nem szabad"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.33. Száraz, szigetelő padlójú helyiségben lévő fémtartályban használt hordozható lámpatestet legfeljebb mekkora névleges feszültségre szabad kapcsolni? (MSZ 1600-1 szabvány)",
+      "a": [
+        "a) 250 V            ",
+        "b) 50 V           ",
+        "c) 42 V           ",
+        "d) 25 V           ",
+        "e) 12 V"
+      ],
+      "numOfQs": 5,
+      "gA": 4
+    },
+    {
+      "q": "II.5.34. Egy 0,5 A névleges áramú, egy fázisú védővezetős érintésvédelmű, hordozható fogyasztókészülék csatlakozó vezetékébe milyen kapcsoló iktatható?",
+      "a": [
+        "a)  kizárólag háromsarkú leválasztó kapcsoló alkalmazható",
+        "b)  elég a háromsarkú nem-leválasztó kapcsoló alkalmazása is",
+        "c)  a védővezetőbe semmilyen kapcsolót nem szabad beiktatni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.35. 1,5 kW névleges teljesítményű, 230 V feszültségű, kettős szigetelésű hordozható fogyasztó  készülék csatlakozó vezetékébe szabad-e kapcsolót beszerelni?",
+      "a": [
+        "a)  szabad, mert az áramfelvétele 6 A-nál nem nagyobb",
+        "b)  szabad, mert az áramfelvétele 10 A-nál nem nagyobb",
+        "c)  nem szabad, mert az áramfelvétele 6 A-nál nagyobb",
+        "d)  nem szabad, mert az áramfelvétele 10 A-nál nagyobb"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.36. Szándékos érintés ellen védettnek lehet-e tekinteni a becsavarható biztosítókat és a  lámpafoglalatokat?",
+      "a": [
+        "a) igen, de csak becsavart biztosító-fej, illetve izzó esetén",
+        "b) nem, itt csak véletlen érintés elleni védelem értelmezhető",
+        "c) csak az elzárt helyen lévő becsavarható biztosítót lehet szándékos érintés ellen védettnek tekinteni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.37. Kisfeszültségű kapcsoló- és elosztó-berendezések fém ajtói és levehető burkolatai, és az üzemszerűen feszültség alatt álló részek között mekkora távolságot kell biztosítani? (MSZ 1600-1 szabvány 6.813. szakasza)",
+      "a": [
+        "a) 1,5 cm                    ",
+        "b) 2,0 cm                       ",
+        "c) 4,0 cm ",
+        "d) 10,0 cm"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.38. Egy tokozott alumínium elosztó fedelére jelzőlámpákat szereltek. Milyen megoldás  fogadható el a fedél rögzítésére?",
+      "a": [
+        "a) a felerősítő csavarok közül 2 db végére hajlékony huzalt (bowdent) és a csavar kiesését megakadályozó „diót” hegesztünk",
+        "b) a szekrényt és a fedelet együtt átfúrjuk és a furatokba megfelelő méretű „kulcskarikát”  füzünk",
+        "c) csak a nyitható (sarokpántos) fedélre szabad szerelvényeket szerelni"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.39. Irányítástechnikai berendezések törpefeszültségű működtető transzformátorát más célra fel szabad-e használni?",
+      "a": [
+        "a)  nem, mert rontja a működtető körök üzembiztonságát",
+        "b)  igen, de csak a hordozható törpefeszültségű kéziszerszámok dugaszolóaljzata részére használható fel",
+        "c)  igen, de csak a munkahelyi világítás céljára használható fel, ha a biztonsági  transzformátor teljesítménye erre lehetőséget ad"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.40. Mekkora legkisebb vezeték-keresztmetszet engedhető meg nem előregyártott (nem termék!)  villamos elosztó-, vezérlő- és szabályozó berendezések belső huzalozásánál réz, illetve alumínium vezető esetén?",
+      "a": [
+        "a)  réz esetében: 4,0 mm2; alumínium esetében: 6,0 mm2",
+        "b)  réz esetében: 2,4 mm2; alumínium estében: 16 mm2",
+        "c)  réz esetében: 0,5 mm2; alumínium estében: 16 mm2"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.42. MM-fal jelű, falba helyezhető műanyag vezeték szerelhető- e falfelületre?",
+      "a": [
+        "a)  igen, rögzítetten elhelyezve            ",
+        "b)  nem, csak falhoronyba fektetve",
+        "c)  akár rögzítés nélkül és bárhogy szerelhető"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.43. Egy lakás villamos hálózatát MM-fal vezetékekkel alakították ki. Az alternatív (váltó) kapcsolókhoz 3 x 2,5 mm2 (fekete - kék - zöld/sárga) vezetéket használtak Hogyan lehet szabványos szerelésként ezt elfogadni?",
+      "a": [
+        "a) ha a két kapcsolót összekötő szál a kék és a zöld/sárga, úgy megfelelő",
+        "b) a vezetékek kapcsolónál lévő kék és zöld/sárga végeit utólagos tartós fekete színjelzéssel (pl. szigetelő szalag betekeréssel) kell ellátni",
+        "c) új berendezéseknél az utólagos színjelzés nem megengedhető, csak korábbi szabványok szerint létesített hálózatoknál és csak felújításig lehet alkalmazni",
+        "d) nem fogadható el, mert a zöld/sárga színezésű vezetéket nem védővezető céljára még átjelöléssel sem lehet alkalmazni"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.44. Régi berendezésben milyen színű lehet a szigetelt vezetékkel készített védővezető? (MSZ 1600-1:1977 szabvány, 7.52. szakasza)",
+      "a": [
+        "a) kék vagy szürke ",
+        "b) piros vagy zöld/sárga",
+        "c) csak zöld/sárga ",
+        "d) vörös vagy fekete, vagy zöld/sárga "
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.5.45. Tömör erű vezetőt hány mm2 keresztmetszetig szabad a készülékhez hajlított szemmel is csatlakoztatni?",
+      "a": [
+        "a) 6 mm2",
+        "b) 10 mm2",
+        "c) 16 mm2",
+        "d) nincs erre szabványelőírás"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.5.46. Szabad-e vékonyfalú műanyag csövet (Mü-III) aljzatbetonba fektetve elhelyezni? (MSZ 1600-1 szabvány, 8.11. szakasza)",
+      "a": [
+        "a) szabad",
+        "b) nincs erre előírás                       ",
+        "c) nem szabad "
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.47. Milyen módszerrel létesíthetők vezetékkötések és csatlakozások!",
+      "a": [
+        "a) forrasztással",
+        "b) összekötő szerelvénnyel, sajtolással",
+        "c) egyszerű összesodrással"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.49. Milyen előírás vonatkozik a fém gégecsövekre?",
+      "a": [
+        "a) védővezetőül is felhasználhatók, ha méréssel bizonyítottan jó a vezető képességük",
+        "b) érintésvédelmi vezetékül fel nem használható, de az érintésvédelmi rendszerbe be kell vonni",
+        "c) nem kell az érintésvédelembe bevonni, ha szigetelt béléscsöveik vannak"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.50. Milyen padlószint feletti magasság alatt nem szabad pattintható fedelű elágazó-dobozokat szerelni?",
+      "a": [
+        "a) nincs ilyen előírás                     ",
+        "b) 2,5 m                   ",
+        "c) 2,8 m"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.52. Szénporral szennyezett helyiségben egy hordozható készülék vezetékének mechanikai védelmére fém gégecsövet alkalmaztak. Minősítse ezt a megoldást!",
+      "a": [
+        "a) a szerelés megfelelő, ha a gégecsövet tömítetten csatlakoztatták",
+        "b) a szerelés legfeljebb 2,0 m hosszig megfelelő, ha szabványos érintésvédelemmel ellátták",
+        "c) a szerelés csak akkor felel meg, ha a vezetékre a gégecsövön belül külön hajlékony  műanyag csövet (pl. PVC csövet) húztak és azt tömítetten csatlakoztatták",
+        "d) nem felel meg, mivel a fém gégecső hordozható készülékhez nem használható!"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.53. Poros helyiségek villamos berendezésének vizsgálatánál milyen védettséget kell biztosítani helyhez kötött villamos forgógépek esetében?",
+      "a": [
+        "a)  legalább IP42 védettséget",
+        "b)  legalább IP54 védettséget",
+        "c)  az MSZ 1600-1 szabvány 4.1. szakasz, „Villamos forgógépek” szerinti védettséget",
+        "d) az MSZ EN 60034-1 „Villamos forgógépek” szabványa szerinti védettséget"
+      ],
+      "numOfQs": 4,
       "gA": 2
     }
   ]
