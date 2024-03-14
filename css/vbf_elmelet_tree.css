@@ -1,74 +1,69 @@
-.div_header {
-    height: 200px;
-    /*background-color: lightgray;*/
-}
+/* Panelek tulajdonságai */
+.div_header    { height: 100px; }
+.div_container { display: flex; height: calc(100% - 100px);/* A felső panel magasságának levonása a teljes magasságból */}
+.div_left      { flex: none; width: 300px; overflow: auto; }
+.div_right     { flex: 1; overflow: auto; }
+.div_resizer   { width: 10px; height: 100%; cursor: ew-resize; }
 
-.div_container {
-    display: flex;
-    height: calc(100% - 200px); /* A felső panel magasságának levonása a teljes magasságból */
-}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
 
-.div_left {
-    flex: none;
-    width: 300px;
-    /*background-color: lightblue;*/
-    overflow: auto;
-}
+/* Felső menü gombjai */
+.menu_button {
+    display: inline-block;
+    background-color: #5050507c;
+    border: 1px solid rgb(179, 179, 179);
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;    
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 2px;        
+    position: relative;
+    margin-bottom: 2px; 
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none; /* Firefox */}  
+.menu_button:hover        { background-color: #b9b9b9dc; color: black; border: 1px solid rgb(255, 255, 255);}
+.menu_button:hover:active {    
+    position: relative;    
+    left: 1px;
+    top: 1px;
+    box-shadow: 0px 0px 0px black;}
+.inactive { pointer-events: none; /* kattintásokat és egérmozgást kikapcsol */
+            cursor: not-allowed; /* kurzor jelzése, hogy nem engedélyezett */
+            opacity: 0.5; /* csökkentett átlátszóság */}
 
-.div_right {
-    flex: 1;
-    /*background-color: lightgreen;*/
-    overflow: auto;        
-}
-
-.div_resizer {
-    width: 10px;
-    height: 100%;
-    /*background-color: gray;*/
-    cursor: ew-resize;
-}
-
-.backG02 {
-    background-image: url('/img/backG02.jpg');
-    background-size: cover;
-    background-position: top;
-    background-color: rgba(255,255,255,0.3);
-    background-blend-mode: lighten;
-
-    background-attachment: fixed;
-    
-    height: 100%;
-}
-
+/* Háttér */
 .backG03 {
-    background-image: url('/img/backg/ebg001.jpg');
+    background-image: url('/img/backg/ebg002.jpg');
     background-size: cover;
     background-position: top;
-    background-color: rgb(0, 0, 0);
-    background-blend-mode: lighten;
+    background-color: rgba(0, 0, 0, 0.527);
+    background-blend-mode: color;
+    background-attachment: fixed;    
+    height: 100%; }
 
-    background-attachment: fixed;
-    
-    height: 100%;
-}
+/* Nodeok */
+.allNode       { font-size: 18px; color: white; user-select: none;
+                -webkit-user-select: none; 
+                -moz-user-select: none; /* Firefox */}
+.allNode:hover { font-weight: bold; color: rgb(85, 245, 120); }
+.node          { margin-left: 10px; }
+.node:hover    { background-color: rgba(117, 117, 117, 0.719); }
+.node-parent   { padding: 3px 2px 2px 6px;
+                 cursor: pointer; /* Nyíl kurzor */
+                 margin-left: 3px;
+                 margin-bottom: -1px;
+                 border: 1px black solid; }
+.node-parent:nth-child(even) { background-color: #83838359; }
+.node-parent:nth-child(odd)  { background-color: #7777779d; }
 
-.mainNodeBordered {
-    color: rgba(255, 255, 255, 0.486);
-}
-
-.mainNodeBordered:nth-child(even) {
-    background-color: #eec78d63;
-}
-
-.mainNodeBordered:nth-child(odd) {
-    background-color: #866f2f70;
-}
-
-.allNode {
-    font-size: 18px;
-    color: black;    
-}
-
-.allNode:hover {    
-    font-weight: bold;
-}
+.link {
+    display: block;     
+    text-decoration: none;
+    cursor: pointer; /* Nyíl kurzor */ }

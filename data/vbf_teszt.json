@@ -5142,6 +5142,283 @@
       ],
       "numOfQs": 3,
       "gA": 2
+    },
+    {
+      "q": "II.5.01. Mit tartalmaz az MSZ 1600 szabványsorozat?",
+      "a": [
+        "a) a kisfeszültségű villamos berendezések üzemeltetési szabályait",
+        "b) a kisfeszültségű villamos berendezések létesítési és üzemeltetési szabályait",
+        "c) a kisfeszültségű villamos berendezések létesítési szabályait"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.02. A betonkeverő milyen villamos készüléknek minősül?",
+      "a": [
+        "a) helyhez kötött",
+        "b) hordozható",
+        "c) ideiglenes",
+        "d) helyváltoztató",
+        "e) rögzített"
+      ],
+      "numOfQs": 5,
+      "gA": 1
+    },
+    {
+      "q": "II.5.03. 3 x 400 V, 50 Hz névleges feszültségű, de védőelválasztó transzformátorról táplált villamos berendezés milyen feszültségszintű?",
+      "a": [
+        "a) kisfeszültségű",
+        "b) nagyfeszültségű",
+        "c) feszültségszint itt nem értelmezhető"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.04. Mekkora az egyenáramú törpefeszültségű hálózat legnagyobb névleges feszültsége?",
+      "a": [
+        "a) 24 V",
+        "b) 42 V",
+        "c) 120 V",
+        "d) 65 V"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.05. Mit kell érteni hordozható villamos berendezés alatt?",
+      "a": [
+        "a) amelyet a használat közben kézben tartanak",
+        "b) amelyet hálózatra kapcsolt állapotában is megengedett áthelyezni",
+        "c) amelyet ilyennek minősítenek az üzemeltetők",
+        "d) amely dugaszolós csatlakozású"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.5.06. Mit értünk az MSZ 1600-1 szabvány szerint szabadtér fogalma alatt?",
+      "a": [
+        "a) a közútnak, közterületnek azt a részét, amely szabadon van, és ki van téve az időjárás viszontagságainak",
+        "b) az épület határvonalain kívül eső területrészt",
+        "c) a térség, és a térségnek az a része, ahol a villamos berendezések az időjárás hatásainak (eső, szél, napsütés stb.) vannak kitéve."
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.07. Mit értünk a közterület fogalma alatt?",
+      "a": [
+        "a) azt a területet, amelyen az illetékes hatóság közforgalmat engedélyez gyalogosok, illetve járművek számára",
+        "b) valamely intézmény, vállalat stb. által kezelt állami terület",
+        "c) a járművek részére szolgáló úttest és tér"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.08. Mi ellen véd az IP jelű védettségi fokozat?",
+      "a": [
+        "a) robbanás, és víz behatolása ellen",
+        "b) tűz és mechanikai sérülés ellen",
+        "c) személyek, tárgyak, por, illetve víz behatolása ellen",
+        "d) illetéktelen személyek beavatkozása ellen"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.09. Egy dugós csatlakozású, időnként különböző helyiségekben üzemeltetett hűtőszekrény milyen jellegű?",
+      "a": [
+        "a) helyhez kötött                    ",
+        "b) hordozható                 ",
+        "c) helyváltoztató"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.10. Milyen távolságon belül minősül segédeszköz nélkül elérhetőnek a villamos berendezés?",
+      "a": [
+        "felfelé (m): 2,2; oldalirányban (m): 0,8; lefelé (m): 1",
+        "felfelé (m): 2,4; oldalirányban (m): 1; lefelé (m): 0,8",
+        "felfelé (m): 2,5; oldalirányban (m): 1,25; lefelé (m): 1,25"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.11. Az MSZ 1600-1 szabvány 3.11. szakasza szerinti kötelező leválasztási lehetőséget mivel lehet biztosítani?",
+      "a": [
+        "a) csak kapcsolóval               ",
+        "b)csak kapcsolóval vagy dugaszolóval",
+        "c) akár kapcsolóval, akár dugaszolóval, akár késes biztosítóval"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.12. Mely esetben szükséges a villamos fogyasztókészülékek leválasztásáról gondoskodni? (MSZ 1600-1)",
+      "a": [
+        "a) világítási berendezések kivételével minden helyhez-kötött villamos gép- és fogyasztókészülékeknél",
+        "b) csak abban az esetben, ha a helyiség jellege, illetve a tűzveszélyességi osztálya  megköveteli",
+        "c) csak ha nincs magán a gépen főkapcsoló"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.13. Hány amperig alkalmas a D-rendszerű biztosító, terhelés megszakítására alkalmas kapcsoló nélkül is váltakozó áramú hálózatról való leválasztásra? (MSZ 1600-1:1977; 3.122. szakasz)",
+      "a": [
+        "a) 10 A                              ",
+        "b) 25 A                         ",
+        "c) 16 A"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.14. Egy esztergagép a beépített háromsarkú főkapcsolójával leválasztható-e a hálózatról?",
+      "a": [
+        "a) nem, a leválasztó-kapcsolót a gép csatlakozó vezetékébe kell beépíteni",
+        "b) igen, a kapcsoló is alkalmas a gép leválasztására",
+        "c) nem, mivel a gépen lévő kapcsolók kikapcsolt állapotukban nem lelakatolhatók"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.15. Száraz helyiségben lévő egyfázisú, helyhez kötött ventillátor elé beépített kapcsoló céljára szükséges-e kétsarkú leválasztó kapcsolót felszerelni?",
+      "a": [
+        "a) igen, minden helyhez kötött erőátviteli berendezéshez szükséges",
+        "b) a leválasztásról gondoskodni kell, de nem feltétlenül kapcsolóval",
+        "c) száraz helyiségben nem szükséges kétsarkú kapcsoló"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.16. Mely villamos berendezéseknél nem kell védekezni az üzemszerűen feszültség alatt álló részek érintése ellen?",
+      "a": [
+        "a) ilyen erősáramú villamos berendezés nincs",
+        "b) azoknál, amelyeket legalább IP1X védettségű fokozatnak megfelelő (szerszámmal nyitható) burkolattal látnak el",
+        "c) a legfeljebb 25 V névleges feszültségű, érintésvédelmi törpefeszültségű berendezéseknél, normál körülmények között"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.17. Forróvíztároló (bojler) áramkörébe szükséges-e kapcsolót beiktatni, ha igen, milyet? (MSZ 1600-1 szabvány 3.12. szakasz)",
+      "a": [
+        "a) nem szükséges, de célszerű                ",
+        "b) egysarkú kapcsolót kell felszerelni",
+        "c) leválasztó kapcsoló, vagy dugós csatlakozó szükséges"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.20. Szabad-e feszültségcsökkenési védelemmel ellátott hálózatról üzemi világítást táplálni?",
+      "a": [
+        "a) mindig tiltott   ",
+        "b) megengedett, ha a helyiségnek 2-nél több bejárata van",
+        "c) tiltott, kivéve, ha feszültség kimaradáskor a szükségvilágítás automatikusan indul"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.22. Egy keverőtartály 400 V-os hajtómotorja és a 24 V-os működtető áramkör ajtóreteszelő helyzetkapcsolója közös, 7 x 4 mm2 SZAMKM-J kábellel van szerelve. Megengedhető-e?",
+      "a": [
+        "a) igen, ha a kábel szigetelése 1 kV-os",
+        "b) igen, mert ugyanahhoz a rendszerhez tartoznak",
+        "c) csak akkor, ha az a) és b) válaszban foglaltak egyidejűleg teljesülnek",
+        "d) nem, mert különböző feszültségűek"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.23. Egy 400 V-os motorhoz és a 42 V-os működető áramkör ajtóreteszelő helyzetkapcsolójához falra szerelt rendezőszekrényből rövid szakaszon MÜ-I csőbe húzott 4 db 4mm2 MA-1 kV  (erőátvitel) és 3 db 2,5 mm2 MA-400 V (működtetés) vezeték van felszerelve. Megfelelő-e?",
+      "a": [
+        "a  igen, mert mindegyik vezeték a saját feszültségének megfelelő",
+        "b) igen, mert ugyanahhoz a rendszerhez tartoznak",
+        "c) nem, mert különböző feszültségű vezetékek haladnak közös csőben",
+        "d) nem, mert különböző névleges szigetelésűek a közös csőbe húzott vezetékek"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.24. Megengedett-e üzemi és üzemi tartalék célokat szolgáló erőátviteli, vagy világítási vezetékek ugyanazon kábelben, vagy csőben való vezetése?",
+      "a": [
+        "a) igen, ha mindkét rendszer kisfeszültségű    ",
+        "b) nincs megengedve ",
+        "c) csak a szükségvilágítás áramköreit kell külön csőben (kábelben) vezetni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.25. A telefonvezetéket az erősáramú berendezés 35 A névleges áramerősségű  túláramvédelemmel védett vezetékeivel közös csőbe húzták. Az együttvezetés nyomvonal hossza 20 m. Mit ír erről a minősítő iratba?",
+      "a": [
+        "a) a MSZ l600-1 szabványnak követelményeit kielégíti, megfelelő",
+        "b) nem felel meg, külön-külön védőcső szükséges",
+        "c) a telefon vezetékkel nem kell foglalkozni, mivel az nem erősáramú"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.26. Helyhez kötött transzformátor elé szükséges-e leválasztási lehetőséget biztosítani?",
+      "a": [
+        "a) a leválaszthatóságot biztosítani kell",
+        "b) a leválaszthatóság céljából kapcsolót kell beépíteni",
+        "c) nem kötelező biztosítani a leválaszthatóságot"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.27. Hány fogyasztót szabad egy törpefeszültségű transzformátorra rákapcsolni?",
+      "a": [
+        "a) mindig csak egyet",
+        "b) akármennyit, amennyi nem terheli túl a transzformátort",
+        "c) egynél többet csak akkor, ha közös fémszerkezetre vannak szerelve"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.28. Egy 630 VA teljesítményű 230/24 V feszültség áttételű transzformátor szekunder oldalán visszatáplálás lehetséges. Kell-e a 24 V-os oldalon túláramvédelmet biztosítani? (MSZ 1600-1 szabvány 4.25. szakasza)",
+      "a": [
+        "a) nem kötelező, de javasolt",
+        "b) csak akkor, ha a túlterhelés veszélye is fennáll",
+        "c) kötelező"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.29. Mekkora az alábbi adatokkal meghatározott kondenzátortelep névleges áramerőssége? Qn : 100 kVAr; Uv : 3x400 V; f: 50 Hz.",
+      "a": [
+        "a) 145 A                                 ",
+        "b) 0,11 kA                          ",
+        "c) 190 A"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.30. A hordozható készülékekre lehetőleg milyen hosszú csatlakozóvezetéket kell szerelni? (MSZ 1600-1 szabvány 4.75. szakasza)",
+      "a": [
+        "a) 1,0 ... 1,5m                         ",
+        "b) 1,5 ... 5m                          ",
+        "c) 2,5 ... 6m"
+      ],
+      "numOfQs": 3,
+      "gA": 2
     }
   ]
 }

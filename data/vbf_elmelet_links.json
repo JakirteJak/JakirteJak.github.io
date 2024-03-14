@@ -1,0 +1,29 @@
+[
+    {
+        "Érintésvédelmi osztályok": "x_erintesvedelmi_o.html",
+        "childs": [
+            { "I."   : "x_erintesvedelmi_o.html#I" },
+            { "II."  : "x_erintesvedelmi_o.html#II" },
+            { "III." : "x_erintesvedelmi_o.html#III" }
+        ]
+    },
+    {
+        "Mértékegységek" : "x_mertekegysegek.html",
+        "childs" :[]
+    },
+    {
+        "Ohm törvénye" : "x_ohm_torvenye.html",
+        "childs" :[]
+    },
+    {
+        "Villamos rendszerek": "x_villrendszerek.html",
+        "childs": [
+            { "TT": "x_villrendszerek.html#TT" },
+            { "TN": "x_villrendszerek.html#TN" },
+            { "TN-C": "x_villrendszerek.html#TN-C" },
+            { "TN-S": "x_villrendszerek.html#TN-S" },
+            { "TN-C-S": "x_villrendszerek.html#TN-C-S" },
+            { "IT": "x_villrendszerek.html#IT"}
+        ]
+    }
+]

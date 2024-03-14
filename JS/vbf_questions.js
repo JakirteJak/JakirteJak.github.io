@@ -31,7 +31,7 @@ function MakeTableFromDatabase(){
             if (pLine){
                 pLine.classList.add("goodAnswer");
                 pLine.classList.add("mouseOverModifier");
-                pLine.classList.remove("gA");
+                pLine.classList.remove("gA");                
             } 
         });
 

@@ -5,60 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Villamos rendszerek és Érintésvédelmi osztályok</title>
 <link rel="stylesheet" href="css/vbf_elmelet_tree.css">
-<style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        /*background-size: cover; /* Háttérkép teljes területet kitöltő beállítása */
-        /*background-position: center; /* Háttérkép középre igazítása */
-        /*background-repeat: no-repeat; /* Háttérkép ne ismétlődjön */                        
-    }
 
-    .link {
-        display: block;
-        /*margin-bottom: 10px;*/        
-        text-decoration: none;
-        cursor: pointer; /* Nyíl kurzor */
-        
-    }
-
-    .link:hover {
-        
-    }
-
-    .node {
-        display: none; /* Alapértelmezetten a gyermek elemek el vannak rejtve */
-        margin-left: 20px;
-    }
-
-    .node:hover {
-        background-color: rgba(106, 252, 77, 0.555);
-    }
-
-    .node-parent {
-        padding: 3px 2px 2px 2px;
-        cursor: pointer; /* Nyíl kurzor */
-        margin-left: 3px;
-        margin-bottom: -1px;
-        border: 1px black solid;
-
-    }
-
-    .node-parent:hover {
-        background-color: rgba(106, 252, 77, 0.377);
-    }
-</style>
 </head>
 <body class="backG03">
-    <div id="topDiv" class="div_header">Fix Panel</div>
-    <div class="div_container">
+    <div id="topPanel" class="div_header">
+        <p style="color: white; text-align: center; margin-top: 0px; margin-bottom: 0px; font-size: xx-large;font-family: 'Times New Roman', Times, serif;font-weight: bold;white-space: nowrap;" 
+        class="centered"><span class="textbold">Villamos biztonsági felülvizsgáló tesztsor, elmélet</p>            
+
+        <a id="btnQs"         class="menu_button" title="Vizsga tesztkérdéseinek listája" 
+           style="margin-right: 0px; margin-left: 5px;" href="vbf_questions2.html" target="main">Tesztkérdések</a>
+        <a id="btnElmelet"    class="menu_button" title="Elméleti témakörök" 
+           style="margin-right: 0px; margin-left: 5px;" href="" target="main">Elmélet</a>
+        <a id="btnSzabvanyok" class="menu_button inactive" title="Vizsga tesztkérdéseinek listája" 
+           style="margin-right: 0px; margin-left: 5px;" href="" target="main">Szabványok</a>
+    </div>
+    <div class="div_container" style="overflow: hidden;">
         <div class="div_left" id="leftPanel"></div>
         <div class="div_resizer" id="resizer"></div>
-        <div class="div_right"></div>
+        <div class="div_right" id="mainPanel" style="overflow: hidden;"></div>
     </div>
 
+<!--
 <script>
+    const topPanel = document.getElementById('topPanel');
+    const mainPanel = document.getElementById('mainPanel');
     const resizer = document.getElementById('resizer');
     const leftPanel = document.getElementById('leftPanel');
     const rightPanel = document.querySelector('.right');
@@ -79,10 +49,6 @@
         },
         {
             "Ohm törvénye" : "x_ohm_torvenye.html",
-            "childs" :[]
-        },
-        {
-            "Rövidítések" : "vbf_roviditesek.html",
             "childs" :[]
         },
         {
@@ -125,7 +91,7 @@
             const childLink = child[childKey];
 
             const linkElement = document.createElement('a');
-            linkElement.textContent = childKey;
+            linkElement.textContent = '• ' + childKey;
             linkElement.href = childLink; // Frissítve: valós linkeket használunk
             linkElement.classList.add('link', 'node', 'allNode');
             linkElement.target = "_blank"; // Az új ablakban való megnyitáshoz
@@ -159,6 +125,25 @@
         }
     }
        
+    // Felső panel klikk esemény
+    topPanel.addEventListener('click', function(e) {
+        const target = e.target;
+        e.preventDefault(); // Az alapértelmezett esemény letiltása        
+        const targetHref = target.getAttribute('href');
+        const contentElement = document.querySelector('.div_right');
+
+        if (target.id == 'btnQs'){
+            leftPanel.style.display = 'none';
+            resizer.style.display = 'none';
+        }
+        else if (target.id = 'btnElmelet'){
+            leftPanel.style.display = 'block';
+            resizer.style.display = 'block';
+        }
+
+        contentElement.innerHTML = `<iframe src="${targetHref}" style="width:100%; height:100%; border:none;"></iframe>`;
+    });
+
     // Bal oldali panel tartalmának kezelése kattintáskor
     leftPanel.addEventListener('click', function(e) {
         const target = e.target;
@@ -212,6 +197,7 @@
         }
     });  
 </script>
-
+-->
+    <script src="JS/vbf_elmelet_tree.js"></script> 
 </body>
 </html>            
