@@ -5618,6 +5618,586 @@
       ],
       "numOfQs": 4,
       "gA": 2
+    },
+    {
+      "q": "II.5.54. Poros jellegű helyiségben elvakolt MM-fal vezeték alkalmazható-e?",
+      "a": [
+        "a)  alkalmazható, ha a dobozokban vezetékkötés nincs",
+        "b)  alkalmazható, tömített dobozokkal és szerelvényekkel",
+        "c)  nem alkalmazható MM-fal vezeték"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.55. Poros helyiségben minimálisan milyen távolságot kell megtartani a védőcsövek, kábelek és a falsík között?",
+      "a": [
+        "a) 1 cm                              ",
+        "b) 2 cm                            ",
+        "c) 3 cm "
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.57. Időszakosan nedves helyiségekben legalább milyen védettségűnek kell lennie a villamos berendezéseknek és a szerelési anyagoknak, és a háztartási készülékeknek?",
+      "a": [
+        "a) IP32 vagy víz ellen tömített             ",
+        "b) IP42 vagy csepegő víz ellen védett",
+        "c) IP21 vagy csepegő víz ellen védett"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.61. Szabad-e zuhanyzófülkében kapcsolót elhelyezni?",
+      "a": [
+        "a)  csak akkor, ha az teljesen vízmentes kivitelű, leválasztó kapcsoló",
+        "b)  szabad, ha megfelelő magasságban szerelik, vízmentesen, leválasztó és érinthető részei nem nedvszívó anyagból készültek",
+        "c) nem szabad"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.62. Milyen távolságot kell tartani a lakások fürdőszobájában lévő vízcsap és a dugaszolóaljzatok között?",
+      "a": [
+        "a)  legalább 40 cm-t",
+        "b) legalább 60 cm-t",
+        "c)  a 3-as sávban bárhol szerelhető"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.64. Mikor kell egy helyiséget nedvesnek besorolni?",
+      "a": [
+        "a)  csak akkor, ha a falakat és a padlót rendszeres folyóvízzel (slaggal) mossák",
+        "b)  ha a levegő relatív nedvességtartalma tartósan meghaladja a 75%-ot",
+        "c)  akkor, ha az üzem felelős vezetője nedvesnek minősíti"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.66. Nedves helyiségben legalább milyen védettségűnek kell lennie a villamos szerelési anyagoknak és tokozásoknak, ha folyóvízzel való mosás is van?",
+      "a": [
+        "a)  IPX2 vagy esővíz ellen védettnek  ",
+        "b) IPX3 vagy víz ellen tömítettnek ",
+        "c)  IPX4 vagy freccsenő víz ellen védettnek"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.67. Szabad-e zsinór-függesztéket vagy húzólámpát alkalmazni nedves helyiségekben? (MSZ 1600-4 szabvány, 5.2. szakasza)",
+      "a": [
+        "a)  tilos                    ",
+        "b)  tömített csatlakozású tömlővezetékkel megengedett",
+        "c)  vízmentesen zárt lámpatesttel megengedett"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.68. Mosókonyhában olyan ipari védett fénycsőarmatúra van felszerelve, amelyben a fénycsövet nem védi külön üveglap, de a behelyezett fénycsövön és a foglalaton közös gumiharisnyát  alkalmaztak. Véleménye szerint melyik álláspont a helyes?",
+      "a": [
+        "a)  a lámpatest akkor felel meg, ha a szerelvények IP54 védettségű burkolatban vannak",
+        "b)  csak IP67 védettségű lámpatest felel meg ilyen helyen",
+        "c)  elégséges IP54 védettségű lámpatest, de a fénycsövet tömített, törhetetlen üvegburával vagy tömített üvegburával és védőráccsal kell védeni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.69. Milyen legyen a nedves helyiségben alkalmazott világítási kapcsoló?",
+      "a": [
+        "a)  leválasztó",
+        "b)  helyiségen kívül elhelyezett",
+        "c)  egysarkú, de tömített megfelel"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.70. Nedves helyiségben legalább milyen távolságra kell elhelyezni a dobozkapcsolót a legközelebbi érinthető földelt tárgytól?",
+      "a": [
+        "a) 2,50 m         ",
+        "b) 1,50 m         ",
+        "c) 1,25 m"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.71. Nedves helyiségben hogyan kell szabadon szerelt MBA kiskábelt géphez, készülékhez csatlakoztatni?",
+      "a": [
+        "a)  tömítetten",
+        "b)  mechanikailag védetten",
+        "c)  szabadon szerelt vezetéket nem szabad nedves helyen elhelyezni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.72. Nedves helyiségekben hogyan kell az MM-fal vezetéket szerelni?",
+      "a": [
+        "a)  falon kívüli védőcsőben",
+        "b)  falba süllyesztve és elvakolva",
+        "c)  falba süllyesztve és freccsenő víz elleni tömített szerelési anyaggal.",
+        "d) semmiképpen sem szabad itt MM-fal vezetéket alkalmazni"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.5.74. Falon kívüli szerelésnél, nedves helyiségben a védőcső a falsíktól legalább mekkora távolságra legyen?",
+      "a": [
+        "a) 3 cm                               ",
+        "b) 2 cm                            ",
+        "c) 1 cm"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.76. Marópárás helyiségekben a szerelési anyagok védettségére vonatkozóan mit fogad el?",
+      "a": [
+        "a) fröccsenő víz ellen védett, IP33           ",
+        "b) tömített, IP54              ",
+        "c) IP22"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.76. Marópárás helyiségekben használható-e védőcső nélküli falba fektetett MM-fal vezeték?",
+      "a": [
+        "a)  igen, ha vezetékkötéseket nem alkalmaznak",
+        "b)  nem alkalmazható",
+        "c)  igen, ha a kötései tömített szerelvényekben vannak"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.77. Sütőkemencéhez használt hordozható lámpatest egy 230/230 V-os feszültség-áttételű elválasztó transzformátorról kap táplálást. Megfelelő-e? (MSZ 1600-1:1977. sz 5.43.sz.)",
+      "a": [
+        "a)  megfelelő, ha zárt műanyag lámpatestet használnak",
+        "b)  megfelelő, ha leválasztó kapcsolóval van ellátva",
+        "c)  a hordozható kézilámpák csak törpefeszültségre kapcsolhatók"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.78. Meleg helyiségben elhelyezett villamos berendezés kettősfém túláramvédelmének beállítása során figyelembe kell-e venni a szokásosnál nagyobb környezeti hőmérsékletet?",
+      "a": [
+        "a)  igen, a nagyobb környezeti hőmérséklet miatt a védett berendezés terhelhetősége kisebb lehet, minta névleges     ",
+        "b)  nem",
+        "c)  nincs erre vonatkozó előírás"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.79. Meleg helyiségben süllyesztett szerelést alkalmaztak, amelynél a védőcsövek: acélpáncél védőcsövek. Mi erről a felülvizsgálati minősítése?",
+      "a": [
+        "a) megfelelő         ",
+        "b) nem felel meg"
+      ],
+      "numOfQs": 2,
+      "gA": 1
+    },
+    {
+      "q": "II.5.80. Szabadtéren a tokozott villamos berendezéshez legalább milyen védettségű tokozást használ? (MSZ 1600-7 szabvány, 3.3.2. szakasz)",
+      "a": [
+        "a) IP31                      ",
+        "b) IP34                           ",
+        "c) IP43                              ",
+        "d) IP54"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.5.81. Lakás bejárati ajtaja felett szabadtéren elhelyezett lámpatest alternatív (váltó) kapcsolóit úgy helyezték el, hogy a lámpát kívülről és belülről egyaránt működtetni lehessen. Milyen kapcsolót kell alkalmazni?",
+      "a": [
+        "a)  mindkét kapcsolónak leválasztó alternatív kapcsolónak kell lennie",
+        "b)  a lakáson belüli kapcsoló lehet egysarkú is",
+        "c)  váltókapcsolásnál nem szükséges kétsarkú leválasztás, mivel az mindig a fázisvezetőt szakítja meg"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.82. Szabad-e szabadtéren üzemeltetett kisfeszültségű hordozható villamos berendezés csatlakozó vezetékeként 400 V-os GT-P vagy MT típusú tömlővezetéket használni?",
+      "a": [
+        "a)  igen, ha még mechanikai védelemmel is el van látva",
+        "b)  csak akkor, ha megfelelően felfüggesztett és rögzítetten szerelt",
+        "c)  tiltott, csak 1 kV-os feszültségre készült tömlővezeték használható",
+        "d)  400 V-os GT-P vagy MT típusú vezeték használata megengedett",
+        "e)  csak törpefeszültségű berendezések (pl. kézilámpa) esetén használható"
+      ],
+      "numOfQs": 5,
+      "gA": 4
+    },
+    {
+      "q": "II.5.83. Éghető gáz, gőz veszélyességi övezetnek határát mi alapján határozzuk meg?",
+      "a": [
+        "a)  a gyúlékonysági csoport (G)",
+        "b)  a robbanási koncentráció határértéke (térfogat%)",
+        "c)  a robbanásveszélyes közeg relatív sűrűsége (dr )",
+        "d) a szellőztetés milyensége és mértéke",
+        "e) a fentiek együttesen határozzák meg"
+      ],
+      "numOfQs": 5,
+      "gA": 3
+    },
+    {
+      "q": "II.5.84. Honnan kell számítani veszélyességi övezet kiterjedését?",
+      "a": [
+        "a)  a robbanásveszélyes gáz, gőz, folyadék kilépési helyétől",
+        "b)  a villamos berendezések külső felületétől",
+        "c)  az illetéktelenek távoltartására szolgáló kerítéstől",
+        "d)  mindenkor a veszélyes helyiséget határoló falaktól"
+      ],
+      "numOfQs": 4,
+      "gA": 1
+    },
+    {
+      "q": "II.5.85. Az „A” és „B” tűzveszélyességi osztályon belül milyen szempont határozza meg a villamos veszélyességi fokozat megválasztását? (MSZ 1600-8 szerint)",
+      "a": [
+        "a)  a robbanásveszélyes anyag előfordulásának a valószínűsége",
+        "b)  a robbanás által okozható károk gazdaságossági mérlegelése",
+        "c)  a hivatalos Tűzvédelmi Utasítás besorolása"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.87. Hogyan kell megállapítani a villamos besorolást robbanásveszélyes („A” és „B”) gáz, gőz, köd és por együttes jelenléte esetén? (MSZ 1600-8 szerint)",
+      "a": [
+        "a)  a villamos besorolást csak a robbanásveszélyes gáz, gőz, köd tulajdonságai (éghetőségi  határérték és relatív sűrűség) határozzák meg",
+        "b)  a villamos besorolást csak a por robbanóképessége és mennyisége határozza meg",
+        "c)  általános elv, hogy mindig a veszélyesebb anyagot kell figyelembe venni",
+        "d)  mind a gáz, gőz, mind a por szempontjából külön-külön kell a villamos besorolást megállapítani és a villamos berendezéseknek mindkét besorolásnak meg kell felelniük"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.88. Milyen villamos besorolásba tartozik az a helyiség, amelynek légterében üzemszerűen „B” tűzveszélyességi osztályú por veszélyes mértékű jelenlétével kell számolni?",
+      "a": [
+        "a) „B-1”",
+        "b) „A-2”",
+        "c) „B-2”",
+        "d) „B-3”"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.89. Szabadtéri robbanásveszélyes technológiánál a veszélyességi övezeten belül „A-2” villamos besorolást határoztak meg. Milyennek minősül a veszélyességi övezeten kívül lévő szabadtér az MSZ l600-8 szerint?",
+      "a": [
+        "a)  a villamos besorolás egy fokozattal enyhébb, tehát „A-2” lesz",
+        "b)  szabadtéren az övezethatár a veszélyesség határa is, ezen túl „A-5”",
+        "c)  az övezeten kívül üzemelő villamos berendezések Rb védettségétől függően lehet „A-2”, vagy „A-3”, de hatékony szellőzés esetén akár „A-5” is!"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.91. „A” tűzveszélyességi osztályú helyiséget szellőztető, befúvó ventilátor elhelyezésére szolgáló zárt kamra milyen besorolásúnak minősül, ha a nyomóvezetékbe visszaáramlást gátló szerkezet van beépítve?",
+      "a": [
+        "a)  „A” tűzveszélyességi osztályúnak",
+        "b)  „B” tűzveszélyességi osztályúnak",
+        "c)  nem minősül „A” vagy „B” tűzveszélyességi osztályúnak"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.92. „A-1” villamos besorolású helyiségtől nyílás nélküli, gáztömör fallal van a szomszédos helyiség elválasztva. Mi a szomszédos helyiség villamos besorolása, ha a gáz relatív sűrűsége: dr : 0,87?",
+      "a": [
+        "a) „A-2”          ",
+        "b) nem veszélyes, független az A-1 helyiségtől          ",
+        "c) „A-3”"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.94. Kazánházban felszerelt gáznyomjelző által működtetett leválasztó kapcsoló által ki nem kapcsolt vész-szellőző ventillátoroknak milyen védettségűnek kell lenniük?",
+      "a": [
+        "a)  csak az adott gázra megfelelő robbanásbiztos kivitelűek lehetnek",
+        "b)  bármilyen robbanásbiztos védelmi mód alkalmazható",
+        "c)  mivel a ventillátor már az ARH 20%-nál indul így IP54 már megfelelő"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.95. Cseppfolyós szénhidrogéneket tároló tartályok tetején nyomáscsökkentő szelepek vannak. Van-e valami villamos vonatkozású előírás ezekkel kapcsolatban?",
+      "a": [
+        "a)  igen, a nyomáscsökkentő szelepeket jól meg kell világítani, hogy mindig ellenőrizhetők legyenek",
+        "b)  igen, a nyomáscsökkentő szelepek csak SELV törpefeszültségre köthetők",
+        "c)  igen, meg kell határozni a villamos veszélyességi fokozatot és a veszélyességi övezet kiterjedését és csak annak megfelelő villamos berendezés alkalmazható"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.96. Milyen tulajdonságuk határozza meg a robbanásbiztos villamos gyártmányok alkalmazhatóságát?",
+      "a": [
+        "a)  IP-védettség és a robbanás elleni védelmi mód",
+        "b)  az Rb védelmi mód, a lobbanáspont és a terhelhetőség",
+        "c)  az Rb védelmi mód, hőmérsékleti osztály, illetve az alkalmazási csoport"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.97. Bizonytalan eredetű robbanásbiztos készülék milyen esetben alkalmazható?",
+      "a": [
+        "a)  ha láthatóan megfelel Rb feltételeknek (csavarjai háromszögletű kulccsal nyithatók)",
+        "b)  ha rendelkezik a 35/2016.(IX.27.) NGM r. szerinti EU-Megfelelőségi tanúsítványnyal",
+        "c)  ha fel van rajta tüntetve a CE-jel ",
+        "d) ha az adattábla műszaki adatai alapján a megfelelőség egyértelműen eldönthető"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.5.98. Robbanásveszélyes helyiségben, ha megengedett nem robbanásbiztos motor alkalmazása, akkor annak túlterhelés-védelmét legfeljebb milyen értékre szabad beállítani? (MSZ 1600-8 szabvány 4.12. szakasza)",
+      "a": [
+        "a)  legfeljebb a motor névleges áramerősségére",
+        "b)  legfeljebb a motor névleges áramerősségének 90%-ára",
+        "c)  tilos minden „A” és „B” tűzveszélyességi osztályú helyen nem Rb védettségű motor alkalmazása"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.99. Robbanásveszélyes helyiségben a helyhez-kötött, törpefeszültségű világítási berendezés áramköri kapcsolói egysarkúan vannak bekötve. Mi erről a felülvizsgálati minősítése?",
+      "a": [
+        "a)  megfelelő, mert a törpefeszültségű világításhoz nem szükséges leválasztó kapcsoló",
+        "b)  nem felel meg, mert a helyhez-kötött világításhoz a feszültségszinttől függetlenül leválasztó kapcsolóval kell létesíteni",
+        "c)  nem felel meg, mert a robbanásveszélyes helyen tilos a világítás kapcsolóját elhelyezni"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.100. Rb-n védettségű világítótestek fényforrásának teljesítménye tetszőleges nagyságú lehet?",
+      "a": [
+        "a)  csak a robbanási osztálynak megfelelő teljesítményű lehet",
+        "b)  a foglalat és a lámpatest mérete meghatározza a teljesítmény nagyságát",
+        "c)  csak a veszélyt okozó anyag gyúlékonysági csoportjának megfelelő teljesítményű fényforrás lehet",
+        "d) a tápvezeték terhelhetősége határozza meg az izzó teljesítményét"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.101. „A-1” és „B-1” villamos besorolású helyen milyen hordozható lámpák alkalmazhatók?",
+      "a": [
+        "a) „A-1” és „B-1” besorolású helyen nem alkalmazhatók a hordozható kézilámpák ",
+        "b) csak 230/230 V-os elválasztó transzformátorról üzemeltethetők a kézilámpák",
+        "c) ahol megengedett: csak robbanás-biztos kivitelű törpefeszültségű kézilámpák",
+        "d) csak sújtólégbiztos készülékek"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.102. „A-1” villamos veszélyességi fokozatba tartozó helyiségekben megengedett-e „normál” kivitelű villamos műszer alkalmazása?",
+      "a": [
+        "a)  nincs megengedve",
+        "b)  megengedett de csak hordozható „kéziműszer” esetén",
+        "c)  csak akkor megengedett, ha gyújtószikra-mentes áramkörrel működik"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.103. „A” vagy „B” tűzveszélyességi osztályba sorolt helyen milyen típusú vezetékeket szabad rögzítetten, szabadon szerelve alkalmazni?",
+      "a": [
+        "a)  „B-1” besorolás esetében megengedett a 16 mm2-nél kisebb keresztmetszetű alumínium kábelek használata is ",
+        "b)  „A-2” besorolás esetében vakolat alatt megengedett az MM-fal vezeték alkalmazása is",
+        "c)  mechanikai sérülés ellen védett, vagy védetten szerelt kábeleket",
+        "d)  bármilyen típusú szigetelt vezetéket is, ha nincs rajta kötés és megfelelő mechanikai védelme biztosított"
+      ],
+      "numOfQs": 4,
+      "gA": 3
+    },
+    {
+      "q": "II.5.104. Olyan készülékek helyiségében, amelyekben „B” tűzveszélyességi osztályba tartozó gáz  fejlődik, és amelyet időnként mintavételezés miatt ki kell nyitni, egy 0,6 kW-os motor 4 x 2,5 mm2-es alumínium vezetékkel van bekötve. Véleménye szerint a szerelés:",
+      "a": [
+        "a)  megfelel, mert ipari üzemekben háromfázisú motorok bekötésére nem használunk  4 x 2,5 mm2 keresztmetszetű vezetéknél kisebb keresztmetszetet",
+        "b)  megfelelne 4 x l,5 mm2 keresztmetszetű alumínium vezeték is, tehát a szerelés jó",
+        "c)  nem felel meg, mert „B-l” villamos besorolású helyiségben csak 16 mm2 keresztmetszet felett alkalmazható alumínium vezeték"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.105. „A-3” villamos besorolású helyiségben 2,5 mm2 keresztmetszetű alumínium kábeleket szereltek a világítási berendezés részére. Mi erről a felülvizsgálati minősítése? (1600-8 sz. 7. fejezet)  ",
+      "a": [
+        "a)  megfelelő, mert csak az „A-1”, „B-1” és „A-2” besorolású helyeken kötelező 16 mm2 vezeték keresztmetszet alatt réz vezetékek alkalmazása",
+        "b)  nem felel meg, mert 4 mm2-nél kisebb keresztmetszetű alumínium vezeték robbanásveszélyes helyen sehol sem alkalmazható",
+        "c)  nem felel meg, mert robbanás-veszélyes helyén tilos bármely alumínium vezeték alkalmazása"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.106. „A-2” villamos besorolású helyiségben tömített MÜ-I jelű védőcsőben MA 4 mm2 alumínium vezetéket alkalmaznak. Hogyan minősíti?",
+      "a": [
+        "a) nem felel meg               ",
+        "b) megfelelő               ",
+        "c) csak rézvezető esetén felel meg"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.107. Melyik védőcsövet szabad alkalmazni robbanásveszélyes helyen?",
+      "a": [
+        "a) tömített acélpáncél védőcső    ",
+        "b) MÜ-I (vastag falú) műanyag védőcső   ",
+        "c) eternit védőcső     ",
+        "d) tömített acél-védőcső (gázcső)",
+        "e) fém-gégecső",
+        "f) vastag-falú műanyag gégecs"
+      ],
+      "numOfQs": 6,
+      "gA": 4
+    },
+    {
+      "q": "II.5.108. Ha a „C” tűzveszélyességi besorolású helyiség egyidejűleg marópárás is, melyik szabvány alapján kell a villamos berendezést szerelni?",
+      "a": [
+        "a)  csak az MSZ 1600-5",
+        "b)  csak az MSZ 1600-9",
+        "c)  azt az előírást kell alapul venni, amely a szigorúbb követelményeket támasztja"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.109. Tűzveszélyes helyiségben és szabadtéren milyen hőfejlesztő berendezés alkalmazható? (MSZ 1600-9 szabvány 4.41. szakasza)",
+      "a": [
+        "a)  csak állandó felügyelet mellett alkalmazható bármilyen hőfejlesztő berendezés",
+        "b)  csak olyan, melynek a „fix” bekötési helyén a bekapcsolt állapotot jelzőlámpa jelzi",
+        "c)  általában olyan, melynek a környező levegővel érintkező felületének hőmérséklete nem haladja meg a tűzveszélyt okozó anyag gyulladási hőmérsékletének kétharmadát"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.110. „C” tűzveszélyességi osztályú helyiségben páncélozatlan itatott papír-szigetelésű tápkábelt alkalmaznak. Szabad-e?",
+      "a": [
+        "a)  igen, ha nincs éghető jutaborítása",
+        "b)  nem, a papír-kábel mechanikailag sérülékeny, így csak páncélozott kivitelben alkalmazható",
+        "c)  csak akkor szabad, ha külön mechanikai védelemmel is ellátják",
+        "d) nem alkalmazható"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.111. Szabadon szerelt szigetelt vezetékként milyen vezetékek alkalmazhatók „C” tűzveszélyességi osztályú helyiségben, szabadtéren?",
+      "a": [
+        "a)  kizárólag csak kábelek",
+        "b) kábelek és kábelszerű vezetékek",
+        "c) MM-fal és MT vezetékek ",
+        "d) az előzőek bármelyike"
+      ],
+      "numOfQs": 4,
+      "gA": 2
+    },
+    {
+      "q": "II.5.113. Istállóban használható, hordozható villamos készülék csatlakozó vezetéke milyen hoszszú lehet?",
+      "a": [
+        "a) legfeljebb: 5 m              ",
+        "b) legfeljebb: 6 m                    ",
+        "c) legfeljebb: 10 m"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.114. Hogyan szabad hordozható berendezések csatlakozó vezetéket megtoldani istállókban és egyéb mezőgazdasági színekben?",
+      "a": [
+        "a)  csak kereskedelmi forgalomban beszerzett „hosszabbítóval”",
+        "b)  csak vízmentes műanyag dobozban szabad vezetéket toldani",
+        "c)  ilyen helyen vezetéket bármilyen módon toldani tilos"
+      ],
+      "numOfQs": 3,
+      "gA": 3
+    },
+    {
+      "q": "II.5.117. Közterületi villamos berendezést hogyan kell létesíteni?",
+      "a": [
+        "a)  műanyag burkolattal a színesfémlopások miatt",
+        "b)  úgy, hogy az üzemszerűen feszültség alatt álló részei segédeszköz nélkül vagy egyszerű szerszám (pl. csavarhúzó) segítségével ne legyenek megérinthetők",
+        "c)  csak egységlakattal való lezárás fogadható el"
+      ],
+      "numOfQs": 3,
+      "gA": 2
+    },
+    {
+      "q": "II.5.118. Hogyan kell faszerkezetű épületben villamos gépet, készüléket felszerelni?",
+      "a": [
+        "a) a gép, készülék és a fal között minimum 60 cm távolságot kell megtartani",
+        "b) a gép és az épület éghető fala közé szigetelőlemezt kell tenni",
+        "c) faszerkezetű épületben csak olyan gép használata megengedett, melynek gépkönyve (kezelési utasítása) erre engedélyt ad",
+        "d) úgy, hogy a gép a környezetére gyújtási veszélyt ne jelentsen"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.119. Szabad-e fa épületszerkezeten süllyesztett kapcsolókat és dugaszolóaljzatokat és egyéb  szerelvényeket (nyomógombok) elhelyezni?",
+      "a": [
+        "a) igen, ha a kivitelük és szerelésük kielégíti az MSZ 1600-15 előírásait ",
+        "b) nem, csak falon kívüli szerelvényeket, nem éghető hőszigetelő alátéttel ellátva",
+        "c) tilos, minden szerelvényt fém dobozban kell elhelyezni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.120. Milyen jellegűek és villamos besorolásúak a helyhez kötött, biztonsági dugós akkumulátor  telepeket tartalmazó hatékony szellőztetésű helyiségek?",
+      "a": [
+        "a) marópárás, elzárt kezelőhelyiség, „A-3” villamos besorolású",
+        "b) nedves, marópárás, „B-3” villamos besorolású",
+        "c) elzárt kezelőhelyiség, „A-5” villamos besorolású",
+        "d) száraz helyiség, „D” besorolással"
+      ],
+      "numOfQs": 4,
+      "gA": 4
+    },
+    {
+      "q": "II.5.121. Ólomakkumulátor helyiség szellőző ventilátor elszívó nyílásai a mennyezet alatt vannak. Helyes-e az elrendezése?",
+      "a": [
+        "a)  igen, mert a képződő hidrogén a mennyezet felé száll",
+        "b)  nem, mert az elszívók egy részét alul kell elhelyezni, ugyanis az emberi szervezetre veszélyes ólomgőz a helyiség alsó részét tölti ki",
+        "c)  nem, mert a hatékony szellőzés érdekében a mesterséges légáramlatot a természetes levegőmozgással ellentétes irányban kell létrehozni"
+      ],
+      "numOfQs": 3,
+      "gA": 1
+    },
+    {
+      "q": "II.5.122. Ólomakkumulátor töltőhelyiségeknél milyen szellőzést nem szabad alkalmazni?",
+      "a": [
+        "a)  csak természetes szellőztetést",
+        "b)  csak mesterséges szellőztetést",
+        "c)  mesterséges és természetes szellőzést együttesen",
+        "d)  túlnyomásos mesterséges szellőztetést"
+      ],
+      "numOfQs": 4,
+      "gA": 4
     }
   ]
 }
