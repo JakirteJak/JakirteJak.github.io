@@ -245,7 +245,7 @@
     {
       "q": "I.2.02. Mit nevezünk testzárlatnak?",
       "a": [
-        "az üzemszerűen feszültség alatt álló fémrészek érin tkezé se az emberi testtel",
+        "az üzemszerűen feszültség alatt álló fémrészek érintkezése az emberi testtel",
         "az aktív rész és test fémes érintkezése",
         " az üzemszerűen feszültség alatt nem álló fémrészek érin tkezé se a földdel"
       ],
@@ -319,9 +319,9 @@
       "q": "I.2.09. Mit értünk „helyi egyenpotenciálú összekötésen”? (MSZ 172-1:1986 sz. 3.6. szakasza)",
       "a": [
         "a nulla- és nullázó vezetékek hálózatát",
-        "valamennyi, egyidejűleg érinthető villamosan vezető rész (test és idegen fémszer kezetek) összekötését",
+        "valamennyi, egyidejűleg érinthető villamosan vezető rész (test és idegen fémszerkezetek) összekötését",
         "olyan védővezetők hálózatát, melyeket az épületi becsatlakozásnál egy helyen össze kötöttek az épület csővezetékeivel és fémszerkezetével",
-        "a kapcsolóterek celláin elhelyezett, a véletlen érintés elleni védelem céljára alkal mazott védőhálót"
+        "a kapcsolóterek celláin elhelyezett, a véletlen érintés elleni védelem céljára alkalmazott védőhálót"
       ],
       "numOfQs": 4,
       "gA": 2
@@ -339,9 +339,9 @@
     {
       "q": "I.2.12. Hogyan működnek a védővezető nélküli hibavédelmi módok?",
       "a": [
-        "hiba (testzárlat) esetén nem avat koz nak be aktívan, hanem csak figyelmeztető jelzést adnak",
-        "a villamos berendezések hibás részeit lekap csolják a táphálózatról",
-        "megakadályozzák, hogy a meghi bá so dott készülékeken a megengedettnél nagyobb érintési feszültség alakuljon ki, illetve legyen érinthető"
+        "hiba (testzárlat) esetén nem avatkoz nak be aktívan, hanem csak figyelmeztető jelzést adnak",
+        "a villamos berendezések hibás részeit lekapcsolják a táphálózatról",
+        "megakadályozzák, hogy a meghibásodott készülékeken a megengedettnél nagyobb érintési feszültség alakuljon ki, illetve legyen érinthető"
       ],
       "numOfQs": 3,
       "gA": 3
@@ -956,7 +956,7 @@
       "gA": 3
     },
     {
-      "q": "I.2,82, A villamos elválasztó transzformátorról táplált egy hordozható fogyasztókészülék csatlakozó vezetékének mekkora a megengedett legnagyobb hosszúsága?",
+      "q": "I.2.82. A villamos elválasztó transzformátorról táplált, hordozható fogyasztókészülék csatlakozó vezetékének mekkora a megengedett legnagyobb hosszúsága?",
       "a": [
         "3 m",
         "6 m",
@@ -967,7 +967,7 @@
       "gA": 4
     },
     {
-      "q": "I.2,83, Hány fogyasztót szabad egy törpefeszültségű transzformátorra rákapcsolni?",
+      "q": "I.2.83. Hány fogyasztót szabad egy törpefeszültségű transzformátorra rákapcsolni?",
       "a": [
         "csak egyet",
         "akármennyit, amennyi nem terheli túl a transzformátort",
@@ -1020,7 +1020,7 @@
       "gA": 3
     },
     {
-      "q": "I.2,90. Szükséges-e védővezető kiépítése a helyiség oldalfalára szerelt lámpatesthez?  ",
+      "q": "I.2.90. Szükséges-e védővezető kiépítése a helyiség oldalfalára szerelt lámpatesthez?  ",
       "a": [
         "minden esetben szükséges",
         "nem szükséges, ha a lámpatest II. Év. osztályú",
@@ -1052,7 +1052,7 @@
       "gA": 3
     },
     {
-      "q": "I.3.03. Melyik védelmi módot alkalmazzák általánosan a 6 kV-os beren de zé sek nél ?",
+      "q": "I.3.03. Melyik védelmi módot alkalmazzák általánosan a 6 kV-os berendezéseknél?",
       "a": [
         "nullázás",
         "elkerítés",
@@ -1261,7 +1261,7 @@
       "gA": 1
     },
     {
-      "q": "I.3.25. Milyen potenciálra kerül egy 5000 V névleges feszültségű testzárlatos kis zárlati áramú villamos szerkezet fémteste, ha védővezetőjének ellenállása 0,5 Ω; a testzár latiáram 0,8 A? (MSZ 172-4)",
+      "q": "I.3.25. Milyen potenciálra kerül egy 5000 V névleges feszültségű testzárlatos kis zárlati áramú villamos szerkezet fémteste, ha védővezetőjének ellenállása 0,5 Ω; a testzárlati áram 0,8 A? (MSZ 172-4)",
       "a": [
         "5000 V",
         "50 V",
@@ -1594,7 +1594,7 @@
         "10 %",
         "25 %",
         "30 %",
-        "30 %"
+        "50 %"
       ],
       "numOfQs": 5,
       "gA": 4
@@ -1757,7 +1757,7 @@
       "gA": 2
     },
     {
-      "q": "I.4.50. A földeletlen egyenpotenciálú összekötés védelmi mód szabványossági felül vizsgálata során hogyan kell meggyőződni arról, hogy az egyenpotenciálú összekötő vezeték földeletlen-e?",
+      "q": "I.4.50. A földeletlen egyenpotenciálú összekötés védelmi mód szabványossági felülvizsgálata során hogyan kell meggyőződni arról, hogy az egyenpotenciálú összekötő vezeték földeletlen-e?",
       "a": [
         "a)  szemrevételezéssel      ",
         "b) földelési ellenállás-méréssel",
