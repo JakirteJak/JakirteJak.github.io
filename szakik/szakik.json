@@ -1,0 +1,14 @@
+[
+      {
+        "nev": "Balogh Gábor",
+        "telefon": "+36305465723",
+        "email": "bg.a1977@gmail.com",
+        "szakteruletek": [2, 6]
+      },
+      {
+        "nev": "Korcsek Dániel",
+        "telefon": "+36",
+        "email": "blabla",
+        "szakteruletek": [1, 7]
+      }
+]

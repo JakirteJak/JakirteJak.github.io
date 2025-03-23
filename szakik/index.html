@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szakember Kereső</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: auto; }
+        .talalat { cursor: pointer; padding: 5px; border-bottom: 1px solid #ccc; }
+        .talalat:hover { background-color: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Szakember kereső</h2>
+        <div>
+            <input type="text" id="nevKeres" placeholder="Név szerint">
+            <input type="text" id="szakmaKeres" placeholder="Szakma szerint">
+            <button onclick="kereses()">Keresés</button>
+        </div>
+        <h3>Találatok:</h3>
+        <div id="talalatok"></div>
+        <h3>Részletek:</h3>
+        <div id="reszletek"></div>
+    </div>
+
+    <script>
+        let szakmak = {};
+        let szakemberek = [];
+        const reszletekDiv = document.getElementById("reszletek");
+
+        async function betoltAdatok() {
+            try {
+                const szakmakResponse = await fetch('szakmak.json');
+                if (!szakmakResponse.ok) throw new Error("Nem sikerült betölteni a szakmak.json fájlt");
+                szakmak = await szakmakResponse.json();
+
+                const szakikResponse = await fetch('szakik.json');
+                if (!szakikResponse.ok) throw new Error("Nem sikerült betölteni a szakik.json fájlt");
+                const data = await szakikResponse.json();
+
+                if (!Array.isArray(data)) throw new Error("A szakik.json nem megfelelő formátumú");
+                szakemberek = data;
+
+                console.log("Adatok betöltve:", { szakmak, szakemberek });
+            } catch (error) {
+                console.error("Hiba történt az adatok betöltésekor:", error);
+                alert("Nem sikerült betölteni az adatokat. Nézd meg a konzolt (F12) a részletekért.");
+            }
+        }
+
+        async function kereses() {
+            if (szakemberek.length === 0) await betoltAdatok();
+            const nevInput = document.getElementById("nevKeres").value.toLowerCase();
+            const szakmaInput = document.getElementById("szakmaKeres").value.toLowerCase();
+            const talalatokDiv = document.getElementById("talalatok");
+            reszletekDiv.innerHTML = "";
+            talalatokDiv.innerHTML = "";
+
+            const talalatok = szakemberek.filter(szakember => 
+                (nevInput === "" || szakember.nev.toLowerCase().includes(nevInput)) &&
+                (szakmaInput === "" || szakember.szakteruletek.some(id => szakmak[id]?.toLowerCase().includes(szakmaInput)))
+            );
+
+            talalatok.forEach((szakember, index) => {
+                const div = document.createElement("div");
+                div.className = "talalat";
+                div.innerText = szakember.nev;
+                div.onclick = () => megjelenitReszletek(index);
+                talalatokDiv.appendChild(div);
+            });
+        }
+
+        function megjelenitReszletek(index) {
+            const szakember = szakemberek[index];            
+            reszletekDiv.innerHTML = `
+                <p><strong>Név:</strong> ${szakember.nev}</p>
+                <p><strong>Telefon:</strong> ${szakember.telefon}</p>
+                <p><strong>Email:</strong> <a href="mailto:${szakember.email}">${szakember.email}</a></p>
+                <p><strong>Szakterületek:</strong> ${szakember.szakteruletek.map(id => szakmak[id] || "Ismeretlen szakma").join(", ")}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
