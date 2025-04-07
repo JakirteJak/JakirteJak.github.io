@@ -10,5 +10,17 @@
         "telefon": "+36",
         "email": "blabla",
         "szakteruletek": [1, 7]
+      },
+      {
+        "nev": "Debreczenyi Gábor",
+        "telefon": "+36",
+        "email": "blabla",
+        "szakteruletek": [8]
+      },
+      {
+        "nev": "Szűcs László",
+        "telefon": "+36",
+        "email": "blabla",
+        "szakteruletek": [3]
       }
 ]
