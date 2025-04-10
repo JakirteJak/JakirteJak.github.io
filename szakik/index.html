@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Szakember Kereső</title>
     <link rel="stylesheet" href="css/szakik_main.css">
-    <style>
-        body { font-family: Arial, sans-serif; }       
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+    <div class="csikok"></div>
     <div id="menu" style="display: flex; justify-content: center; margin-top: 10px; 
                           background-color: rgba(159, 245, 137, 0.6); height: 25px;">
-        <button class="menuitem" onclick="betolt('kezdolap.html')">Szakember lista</button>
-        <button class="menuitem" onclick="betolt('rolunk.html')">Szakember kereső</button>
-        <button class="menuitem" onclick="betolt('kapcsolat.html')">Kapcsolat</button>
+        <button class="menuitem" id="menuSzakiLista"><i class="fa fa-users" style="color: blue;"></i> Szakember lista</button>
+        <button class="menuitem" id="menuSzakiKereso"><i class="fa-thin fa-solid fa-magnifying-glass" style="color: blue;"></i> Szakember kereső</button>
+        <button class="menuitem" id="menuKapcsolat"><i class="fa fa-phone" style="color: blue;"></i></i> Kapcsolat</button>
     </div>
     <div id="tartalom">
         <h2>Szakember kereső</h2>
@@ -32,9 +31,6 @@
         <div id="reszletek"></div>
     </div>
 
-    <script>
-  
-    </script>
     <script src="js/szakik_main.js"></script>
 </body>
 </html>

@@ -5,6 +5,9 @@ document.getElementById("nevKeres").addEventListener("input", kereses);
 document.getElementById("szakmaKeres").addEventListener("input", kereses);
 document.getElementById("btnNevTorol").addEventListener("click", nevTorol);
 document.getElementById("btnSzakmaTorol").addEventListener("click", szakmaTorol);
+document.getElementById("menuSzakiLista").addEventListener("click", betolt(""));
+document.getElementById("menuSzakiKereso").addEventListener("click", betolt(""));
+document.getElementById("menuKapcsolat").addEventListener("click", betolt(""));
 kereses();
 
 async function betoltAdatok() {
