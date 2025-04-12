@@ -68,7 +68,7 @@ async function kereses() {
     );
 
     const tabla = document.createElement("table");
-    tabla.className = "szakember-reszletek";
+    tabla.className = "szakember-reszletek div_max";
     tabla.id = "szakember-talalatok";
     talalatok.forEach((szakember, index) => {
         const sor = tabla.insertRow(); // Új sor létrehozása
@@ -99,7 +99,7 @@ function megjelenitReszletek(index) {
     `;
     
     reszletekDiv.innerHTML = `
-        <table class="szakember-reszletek">
+        <table class="szakember-reszletek div_max">
         <tr>
         <td><strong>Név:</strong></td>
         <td>${szakember.nev}</td>

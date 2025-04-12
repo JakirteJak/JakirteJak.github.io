@@ -4,37 +4,14 @@ body {
     background-position: center;  /* Középre igazítás */
     background-attachment: fixed; /* Görgetésnél fixen marad */
     background-repeat: no-repeat;
-
-#tartalom {
-    margin: 0 auto;        /* vízszintesen középre */
-    max-width: 500px;      /* opcionális: ne legyen túl széles nagy képernyőn */
-    padding: 20px;         /* szellősebb lesz */
 }
 
-.searchitem {
-    background-color: rgba(249, 249, 199, 0.6); /* Világos szürke 80%-os átlátszósággal */
-    border: 1px solid #ccc; /* Szürke keret */
-    padding: 4px;
-    border-radius: 4px; /* Lekerekített sarkok */
-    font-size: 16px;
-    width: 300px; /* Alap szélesség */
-    transition: background-color 0.3s, border-color 0.3s;
-    box-shadow: 1px 1px 4px black;
-    
-    margin: 0px; /* Eltávolítja az alsó margót */    
-    vertical-align: top; /* Igazítja az elemeket a sor tetejére (fontos!) */
-}
-
-.searchitem:focus {    
-    background-color: rgba(255, 255, 124, 0.8); /* Világos szürke 80%-os átlátszósággal */    
-    border: 1px solid #ccc; /* Szürke keret */
-    box-shadow: 3px 3px 6px black; }
-
+/* Menü */
 .menuitem {
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    width: 230px; /* Alap szélesség */
+    width: 120px; /* Alap szélesség */
     border: 0px;
     background-color:  rgba(0, 0, 0, 0);  
 }
@@ -45,8 +22,55 @@ body {
     background-color:  rgba(248, 235, 51, 0.5);  
 }
 
+
+#tartalom {
+    margin: 0 auto;        /* vízszintesen középre */
+    /*max-width: 450px;      /* opcionális: ne legyen túl széles nagy képernyőn */
+    padding: 5px;         /* szellősebb lesz */        
+}
+
+/* Headlines */
+.headline01 {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    margin-bottom: 5px;
+}
+
+/* Search items*/
+.searchline_div{
+    display: flex;
+    width: 100%;
+    gap: 5px; /* ha szeretnél kis távolságot közéjük */    
+}
+
+.searchitem {
+    box-sizing: border-box; /* fontos, hogy a padding ne torzítsa a méretet */
+    height: 26px;
+
+    background-color: rgba(249, 249, 199, 0.6); /* Világos szürke 80%-os átlátszósággal */
+    border: 1px solid #ccc; /* Szürke keret */
+    padding: 3px;
+    border-radius: 4px; /* Lekerekített sarkok */
+    font-size: 16px;
+    /*display: auto;  */ 
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 1px 1px 4px black;
+    
+    margin: 0px; /* Eltávolítja az alsó margót */    
+    vertical-align: top; /* Igazítja az elemeket a sor tetejére (fontos!) */
+}
+
+#nevKeres, #szakmaKeres {
+    flex : 1;
+}
+.searchitem:focus {    
+    background-color: rgba(255, 255, 124, 0.8); /* Világos szürke 80%-os átlátszósággal */    
+    border: 1px solid #ccc; /* Szürke keret */
+    box-shadow: 3px 3px 6px black; }
+
+/* Results */
 .talalat {
-    width: 370px; /* Alap szélesség */ 
+    /*width: 370px; /* Alap szélesség */ 
     cursor: pointer; 
     margin: 5px; 
     border-bottom: 1px solid #ccc;
@@ -62,7 +86,7 @@ body {
     width: 300px; /* Alap szélesség */ }
 
 .szakember-reszletek {
-    width: 370px;
+    box-shadow: 1px 1px 4px gray;
     border-collapse: collapse;
     margin-bottom: 20px;
     border: 2px solid #000000; }
@@ -82,7 +106,7 @@ body {
       
 .szakember-reszletek tr:hover {
     background-color: rgba(176, 247, 135, 1);
-    font-weight: bold; }
+    }
 
 .szakember-reszletek tr:nth-child(odd):hover {
     background-color: rgba(211, 253, 218, 1); }
