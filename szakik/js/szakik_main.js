@@ -1,36 +1,65 @@
 let szakmak = {};
 let szakemberek = [];
 const reszletekDiv = document.getElementById("reszletek");
+// Menüelemek
+document.getElementById("menuSzakiLista").addEventListener("click", SzakiListaAktivalas);
+document.getElementById("menuSzakiKereso").addEventListener("click", kereses);
+document.getElementById("menuKapcsolat").addEventListener("click", betolt(""));
+// Kereső mezők, és törlőgombok
 document.getElementById("nevKeres").addEventListener("input", kereses);
 document.getElementById("szakmaKeres").addEventListener("input", kereses);
 document.getElementById("btnNevTorol").addEventListener("click", nevTorol);
 document.getElementById("btnSzakmaTorol").addEventListener("click", szakmaTorol);
-document.getElementById("menuSzakiLista").addEventListener("click", betolt(""));
-document.getElementById("menuSzakiKereso").addEventListener("click", betolt(""));
-document.getElementById("menuKapcsolat").addEventListener("click", betolt(""));
+// Fő tartalmak div -jei
+let div_kereso     = document.getElementById("div_kereso");
+/*let div_szakilista = document.getElementById("div_szakilista");*/
+
 kereses();
+
+function SzakiListaAktivalas(){
+    div_kereso.style.display = "none";
+    div_szakilista.style.display = "block";
+
+    const tabla = document.createElement("table");
+    tabla.className = "szakember-reszletek div_max";
+    tabla.id = "szakember-talalatok";
+    
+    szakemberek.forEach((szakember, index) => {
+        const sor = tabla.insertRow(); // Új sor létrehozása    
+        const nevCella = sor.insertCell(); // Cella a névnek
+        nevCella.innerText = szakember.nev;
+        //nevCella.onclick = () => megjelenitReszletek(index); // Kattintásra részletek megjelenítése
+        //nevCella.style.cursor = "pointer";  //Mutató kéz a cellára    
+      });
+    
+      div_szakilista.innerHTML = "";
+      div_szakilista.appendChild(tabla);
+}
 
 async function betoltAdatok() {
     try {
         // Szakmák adatainak betöltése
         const szakmakResponse = await fetch('data/szakmak.json');
         if (!szakmakResponse.ok) throw new Error("Nem sikerült betölteni a szakmak.json fájlt");
-        szakmak = await szakmakResponse.json();
+        szakmak = await szakmakResponse.json();        
 
         const szakmaLista = document.getElementById("szakmaLista");
         szakmaLista.innerHTML = ""; // Tisztítás
+        
+        const rendezettSzakmak = Object.values(szakmak).sort((a, b) => a.localeCompare(b, 'hu')); // Betűrendbe rendezés
 
-        Object.values(szakmak).forEach(szakma => {
+        rendezettSzakmak.forEach(szakma => {
             const option = document.createElement("option");
             option.value = szakma;
-            szakmaLista.appendChild(option);
+            szakmaLista.appendChild(option);            
         });
-
+       
         // Szakemberek adatainak betöltése
         const szakikResponse = await fetch('data/szakik.json');
         if (!szakikResponse.ok) throw new Error("Nem sikerült betölteni a szakik.json fájlt");
         const data = await szakikResponse.json();
         szakemberek = data;
+        szakemberek.sort((a, b) => a.nev.localeCompare(b.nev)); // Névszerint rendezés
 
         const szakemberNevLista = document.getElementById("szakemberNevLista");
         szakemberNevLista.innerHTML = ""; // Tisztítás
@@ -49,7 +78,10 @@ async function betoltAdatok() {
 
 let talalatok = [];
 
-async function kereses() {    
+async function kereses() {
+    div_kereso.style.display = "block";
+    div_szakilista.style.display = "none";
+
     if (szakemberek.length === 0) await betoltAdatok();
     const nevInput = document.getElementById("nevKeres").value.toLowerCase();
     const szakmaInput = document.getElementById("szakmaKeres").value.toLowerCase();
@@ -65,7 +97,7 @@ async function kereses() {
     talalatok = szakemberek.filter(szakember => 
         (nevInput === "" || szakember.nev.toLowerCase().includes(nevInput)) &&
         (szakmaInput === "" || szakember.szakteruletek.some(id => szakmak[id]?.toLowerCase().includes(szakmaInput)))
-    );
+    );    
 
     const tabla = document.createElement("table");
     tabla.className = "szakember-reszletek div_max";
@@ -79,7 +111,7 @@ async function kereses() {
         nevCella.style.cursor = "pointer";  //Mutató kéz a cellára    
       });
     
-      talalatokDiv.appendChild(tabla);
+    talalatokDiv.appendChild(tabla);
     /*talalatok.forEach((szakember, index) => {
         const div = document.createElement("div");
         div.className = "talalat";

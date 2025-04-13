@@ -3,45 +3,36 @@ body {
     background-size: contain;       /* Teljes kitöltés */
     background-position: center;  /* Középre igazítás */
     background-attachment: fixed; /* Görgetésnél fixen marad */
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat; }
 
 /* Menü */
 .menuitem {
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    width: 120px; /* Alap szélesség */
+    width: 100px; /* Alap szélesség */
     border: 0px;
-    background-color:  rgba(0, 0, 0, 0);  
-}
+    background-color:  rgba(0, 0, 0, 0); 
+    text-shadow: 1px 1px 4px yellow; }
 
 .menuitem:hover {
-    color: blue;
+    color: white;
     font-size: 21px;
-    background-color:  rgba(248, 235, 51, 0.5);  
-}
-
-
-#tartalom {
-    margin: 0 auto;        /* vízszintesen középre */
-    /*max-width: 450px;      /* opcionális: ne legyen túl széles nagy képernyőn */
-    padding: 5px;         /* szellősebb lesz */        
-}
+    background-color:  rgba(248, 235, 51, 0.5);
+    text-shadow: 1px 1px 4px black; }
 
 /* Headlines */
 .headline01 {
     color: white;
     text-shadow: 1px 1px 4px black;
     margin-bottom: 5px;
-}
+    margin-top: 5px; }
 
 /* Search items*/
 .searchline_div{
     display: flex;
     width: 100%;
-    gap: 5px; /* ha szeretnél kis távolságot közéjük */    
-}
+    gap: 5px; /* ha szeretnél kis távolságot közéjük */ }
 
 .searchitem {
     box-sizing: border-box; /* fontos, hogy a padding ne torzítsa a méretet */
@@ -57,8 +48,7 @@ body {
     box-shadow: 1px 1px 4px black;
     
     margin: 0px; /* Eltávolítja az alsó margót */    
-    vertical-align: top; /* Igazítja az elemeket a sor tetejére (fontos!) */
-}
+    vertical-align: top; /* Igazítja az elemeket a sor tetejére (fontos!) */ }
 
 #nevKeres, #szakmaKeres {
     flex : 1;
@@ -83,7 +73,9 @@ body {
     background-color: rgba(179, 182, 184, 0.8); }
 
 .div_max {
-    width: 300px; /* Alap szélesség */ }
+    width: 300px; /* Alap szélesség */ 
+    margin: 0 auto;        /* vízszintesen középre */    
+    padding: 0px;         /* szellősebb lesz */      }    
 
 .szakember-reszletek {
     box-shadow: 1px 1px 4px gray;
@@ -144,7 +136,7 @@ body {
     background-color: rgba(0, 128, 0, 0.219);
 }
 
-#tartalom, #menu {
+#div_kereso, #div_szakilista, #menu {
     position: relative;
     z-index: 1;  /* legelöl */        
 }
