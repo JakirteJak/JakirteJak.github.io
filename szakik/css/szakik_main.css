@@ -7,7 +7,7 @@ body {
 
 /* Menü */
 .menuitem {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     width: 100px; /* Alap szélesség */
@@ -17,7 +17,7 @@ body {
 
 .menuitem:hover {
     color: white;
-    font-size: 21px;
+    font-size: 27px;
     background-color:  rgba(248, 235, 51, 0.5);
     text-shadow: 1px 1px 4px black; }
 
@@ -51,8 +51,7 @@ body {
     vertical-align: top; /* Igazítja az elemeket a sor tetejére (fontos!) */ }
 
 #nevKeres, #szakmaKeres {
-    flex : 1;
-}
+    flex : 1; }
 .searchitem:focus {    
     background-color: rgba(255, 255, 124, 0.8); /* Világos szürke 80%-os átlátszósággal */    
     border: 1px solid #ccc; /* Szürke keret */
@@ -73,20 +72,22 @@ body {
     background-color: rgba(179, 182, 184, 0.8); }
 
 .div_max {
-    width: 300px; /* Alap szélesség */ 
+    width: 500px; /* Alap szélesség */ 
     margin: 0 auto;        /* vízszintesen középre */    
     padding: 0px;         /* szellősebb lesz */      }    
 
 .szakember-reszletek {
     box-shadow: 1px 1px 4px gray;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 2px solid #000000; }
 
 .szakember-reszletek td {
     padding: 3px;
+    padding-left: 5px;
     border-bottom: 1px solid #ddd;
-    text-align: left;
+    border-right: 1px solid #ddd;
+    /*text-align: left;*/
     vertical-align: middle; /* Függőlegesen középre igazítva */
     }
 
@@ -139,4 +140,21 @@ body {
 #div_kereso, #div_szakilista, #menu {
     position: relative;
     z-index: 1;  /* legelöl */        
+}
+
+.sorszamok {    
+    font-weight: bold; /* Félkövér betűstílus */    
+    width: 35px;
+    text-align: right; /* Szöveg jobbra igazítása */
+}
+
+.cimke {    
+    margin-left: 5px;
+    margin-bottom: 2px;
+    line-height: 5px;
+}
+
+.adat {
+    margin-left: 5px;
+    font-weight: bold; /* Címke félkövér stílusa */
 }

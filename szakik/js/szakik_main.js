@@ -12,29 +12,10 @@ document.getElementById("btnNevTorol").addEventListener("click", nevTorol);
 document.getElementById("btnSzakmaTorol").addEventListener("click", szakmaTorol);
 // Fő tartalmak div -jei
 let div_kereso     = document.getElementById("div_kereso");
-/*let div_szakilista = document.getElementById("div_szakilista");*/
+let div_szakilista = document.getElementById("div_szakilista");
+let talalatok = [];
 
 kereses();
-
-function SzakiListaAktivalas(){
-    div_kereso.style.display = "none";
-    div_szakilista.style.display = "block";
-
-    const tabla = document.createElement("table");
-    tabla.className = "szakember-reszletek div_max";
-    tabla.id = "szakember-talalatok";
-    
-    szakemberek.forEach((szakember, index) => {
-        const sor = tabla.insertRow(); // Új sor létrehozása    
-        const nevCella = sor.insertCell(); // Cella a névnek
-        nevCella.innerText = szakember.nev;
-        //nevCella.onclick = () => megjelenitReszletek(index); // Kattintásra részletek megjelenítése
-        //nevCella.style.cursor = "pointer";  //Mutató kéz a cellára    
-      });
-    
-      div_szakilista.innerHTML = "";
-      div_szakilista.appendChild(tabla);
-}
 
 async function betoltAdatok() {
     try {
@@ -74,9 +55,9 @@ async function betoltAdatok() {
         console.error("Hiba történt az adatok betöltésekor:", error);
         alert("Nem sikerült betölteni az adatokat. Nézd meg a konzolt (F12) a részletekért.");
     }
-}
 
-let talalatok = [];
+    SzakilistaFeltoltes();
+}
 
 async function kereses() {
     div_kereso.style.display = "block";
@@ -169,4 +150,65 @@ function nevTorol(){
 function szakmaTorol(){
     document.getElementById("szakmaKeres").value = "";
     kereses();
+}
+
+function SzakiListaAktivalas(){
+    div_kereso.style.display = "none";
+    div_szakilista.style.display = "block";
+}
+
+function SzakilistaFeltoltes(){
+    const tabla = document.createElement("table");
+    tabla.className = "szakember-reszletek div_max";
+    tabla.id = "szakember-talalatok";
+    
+    szakemberek.forEach((szakember, index) => {
+        const sor = tabla.insertRow(); // Új sor létrehozása
+        const sorszamCella = sor.insertCell(); // Cella a sorszámnak
+        const nevCella = sor.insertCell(); // Cella a névnek
+
+        sorszamCella.classList.add("sorszamok");
+        sorszamCella.innerText = index + 1;
+        nevCella.innerText = szakember.nev;
+
+        // Szakterületek lekérdezése és formázása
+        let szakteruletekSzoveg = "";
+        if (szakember.szakteruletek && szakember.szakteruletek.length > 0) {
+            szakteruletekSzoveg = szakember.szakteruletek
+              .map(szakteruletId => szakmak[szakteruletId] || "Ismeretlen szakterület")
+              .join(", ");
+          } else {
+            szakteruletekSzoveg = "Nincs megadva";
+          }
+
+        let reszletekSor = null; // Ide kerül majd a reszletek sor
+        nevCella.onclick = () => { // Kattintásra részletek megjelenítése, vagy elrejtése
+            if (reszletekSor){ // Ha a részletek sor már létezik, akkor töröljük
+                tabla.deleteRow(reszletekSor.rowIndex);
+                reszletekSor = null;
+            }
+            else
+            { // Ha a részletek sor még nem létezik, akkor létrehozzuk
+                reszletekSor = tabla.insertRow(sor.rowIndex + 1); // A név alatti sorba szúrjuk be
+                const reszletekCella = reszletekSor.insertCell();
+                reszletekCella.colSpan = 2; // Összefogjuk a két oszlopot
+
+                reszletekCella.innerHTML = `
+                    <div class="szakember-reszletek-container">
+                        <p class="cimke"><span class="cimke">Telefon:</span><span class="adat">${szakember.telefon || 'Nincs megadva'}</span></p>
+                        <p class="cimke"><span class="cimke">Email:</span> <span class="adat">${szakember.email || 'Nincs megadva'}</span></p>
+                        <p class="cimke"><span class="cimke">Adószám:</span> <span class="adat">${szakember.adoszam || 'Nincs megadva'}</span></p>
+                        <p class="cimke"><span class="cimke">Szakterületek:</span> <span class="adat">${szakteruletekSzoveg}</span></p>
+                        <p></p>
+                    </div>`;                    
+            }
+            
+        }        
+      });
+    
+      div_szakilista.querySelector("#szakilista_tartalom").innerHTML = "";
+      div_szakilista.querySelector("#szakilista_tartalom").appendChild(tabla);
+
+      document.getElementById("span_szakik_szama").innerHTML = 
+        "<span style='color: lightgreen;'>" + szakemberek.length + "</span>" + "<span style='color: white;'> fő</span>";
 }

@@ -3,24 +3,84 @@
         "nev": "Balogh Gábor",
         "telefon": "+36305465723",
         "email": "bg.a1977@gmail.com",
+        "adoszam": "000",
         "szakteruletek": [2, 6]
       },
       {
         "nev": "Korcsek Dániel",
         "telefon": "+36",
         "email": "blabla",
+        "adoszam": "000",
         "szakteruletek": [1, 7]
       },
       {
         "nev": "Debreczenyi Gábor",
         "telefon": "+36",
         "email": "blabla",
+        "adoszam": "000",
         "szakteruletek": [8]
       },
       {
         "nev": "Szűcs László",
         "telefon": "+36",
         "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla001",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla002",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla003",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla004",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla005",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla006",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla007",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
+        "szakteruletek": [3]
+      },
+      {
+        "nev": "blabla008",
+        "telefon": "+36",
+        "email": "blabla",
+        "adoszam": "000",
         "szakteruletek": [3]
       }
 ]
